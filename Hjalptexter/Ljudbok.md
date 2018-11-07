@@ -130,7 +130,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
- ```Exempel: The Beguiledh```  
+ ```Exempel: Rescuers```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: The Beguiledh, fileringsvärde: 4```  
  Se exempel i formathandboken för Libris/Voyager: 
@@ -139,16 +139,18 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: en dokumentärfilm om konstnärsparet Jockum Nordström och Karin "Mamma" Andersson ```
+```Exempel: stories of courage```
+```Exempel: mer om modelljärnvägar : allt samlaren behöver veta```  
   
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel   
 Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se Librispraxis http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html. Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
+
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
   Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: Hur många lingon finns det i världen```   
+  ```Exempel: Hierarchy in organizations```   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
@@ -189,7 +191,7 @@ Skriv in uppgiften under Delbeteckning.
 Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - Lägg till egenskaper under: Titel, välj Har del).   Under Har del, skapa Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.)   
 Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Deltitel (partName)).   
 Skriv in uppgiften under Deltitel.  
-```Exempel: Träd och växter som resurs```  
+```Exempel: Stark rygg & god hållning```  
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
 
 #### Titel - alternativ stavning
@@ -205,15 +207,16 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
 Välj först Har titel, välj sedan typ Parallelltitel.      
 Skriv in uppgiften under Huvudtitel.     
-  ```Exempel: The Great Northern War explained```  
+  ```Exempel: Räddarna```  
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
-  ```Exempel: Charles XII and the ideological address```  
+  ```Exempel: berättelser om mod```  
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
   Skriv in uppgiften.  
-  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
+  ```Exempel: written, produced and directed by Hilary Ng'weno```
+  ```Exempel: written, produced and directed by Hilary Ng'weno```
 
 #### Identifikator 
 * Identifikator (identifiedBy)  
