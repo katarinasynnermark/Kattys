@@ -228,9 +228,11 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   Skriv in uppgiften.  
   ```Exempel: NF780```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)
+ 
   ```Exempel: Njutafilms```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
+  
   ```Exempel: (skiva 1)```
 
 * Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
