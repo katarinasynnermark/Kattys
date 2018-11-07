@@ -139,8 +139,9 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: stories of courage```
-```Exempel: mer om modelljärnvägar : allt samlaren behöver veta```  
+<br/>```Exempel:```
+* ```stories of courage```
+* ```mer om modelljärnvägar : allt samlaren behöver veta```  
   
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
@@ -214,9 +215,10 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
-  Skriv in uppgiften.  
-  ```Exempel: written, produced and directed by Hilary Ng'weno```
-  ```Exempel: written, produced and directed by Hilary Ng'weno```
+  Skriv in uppgiften. 
+  <br/>```Exempel:```
+  * ```written, produced and directed by Hilary Ng'weno```
+  * ```written, produced and directed by Hilary Ng'weno```
 
 #### Identifikator 
 * Identifikator (identifiedBy)  
