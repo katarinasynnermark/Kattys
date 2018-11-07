@@ -234,7 +234,8 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   ```Exempel: (skiva 1)```
 
 * Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
- ```Exempel: 3700173222052```
+  ```Exempel: 3700173222052```
+ 
  <br/>För ogiltiga Identifikatorer, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde (marc:hiddenValue) under Identifikator.  
   
 #### Upplageuppgift
