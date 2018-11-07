@@ -225,7 +225,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   Välj typ från lista.  
   ```Exempel: Utgivningsnummer (videoinspelning)```
 * Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)  
-  Skriv in uppgiften.  
+  <br/>Skriv in uppgiften.  
   ```Exempel: NF780```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b) 
   Skriv in uppgiften.
