@@ -218,31 +218,24 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   Skriv in uppgiften. 
   <br/>```Exempel:```
   * ```written, produced and directed by Hilary Ng'weno```
-  * ```written, produced and directed by Hilary Ng'weno```
+  * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
 
 #### Identifikator 
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
-  ```Exempel: ISBN```
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
+  ```Exempel: Utgivningsnummer (videoinspelning)```
+* Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)  
   Skriv in uppgiften.  
-  ```Exempel: 9789188107213```
+  ```Exempel: NF780```
+* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)
+  ```Exempel: Njutafilms
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: inbunden```
-<br/>För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
-  
-#### Indirekt identifierad av  
-Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
-* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
-  Välj typ från lista.  
-  ```Exempel: ISBN```
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 97891881072```
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: inbunden```  
+  ```Exempel: (skiva 1)```
+<br/>För ogiltiga Identifikatorer, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde (marc:hiddenValue) under Identifikator.  
+
+* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
+ ```Exempel: 3700173222052```
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
