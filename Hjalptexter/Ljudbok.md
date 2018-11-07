@@ -232,10 +232,10 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
   ```Exempel: (skiva 1)```
-<br/>För ogiltiga Identifikatorer, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde (marc:hiddenValue) under Identifikator.  
 
 * Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
  ```Exempel: 3700173222052```
+ <br/>För ogiltiga Identifikatorer, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde (marc:hiddenValue) under Identifikator.  
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
