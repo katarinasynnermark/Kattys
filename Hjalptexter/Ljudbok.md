@@ -227,7 +227,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 * Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: NF780```
-* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)
+* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b) 
   Skriv in uppgiften.
   ```Exempel: Njutafilms```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
@@ -235,6 +235,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   ```Exempel: (skiva 1)```
 
 * Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
+  Skriv in uppgiften.
   ```Exempel: 3700173222052```
  <br/>För ogiltiga Identifikatorer, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde (marc:hiddenValue) under Identifikator.  
   
