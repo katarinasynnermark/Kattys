@@ -143,7 +143,7 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
  * ```stories of courage```
  * ```mer om modelljärnvägar : allt samlaren behöver veta```
   
-  För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
+  För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel   
 Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se Librispraxis http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html. Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
@@ -165,19 +165,13 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 ##### Omslagstitel   
 * Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
  Skriv in uppgiften under huvudtitel.      
- ```Exempel: Bergens väktare```  
+ ```Exempel: Home again```  
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
 För att lägga till Övrig titelinformation, klicka på plustecknet vid Omslagstitel (Lägg till egenskaper under: Omslagstitel), välj Övrig titelinformation (= subtitle).  
 Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: Djingis Khan – historiens störste erövrare```
-
-  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
-  Skriv in uppgiften.
-  <br/>```Exempel:```
-  * ```Typanmärkning (246 ‡i): Skyddsomslag:```
-  * ```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```
-  * ```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
+```Exempel:kärleken flyttar in``` 
+För typer av varianttitlar som inte är specificerade, ange variantititeln i Varianttitel och specificera typen i en Typanmärkning enligt anvisningen ovan för felaktigheter i titeln.
     
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
