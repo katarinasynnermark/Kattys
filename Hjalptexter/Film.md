@@ -249,7 +249,7 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: [Göteborg]```  
+  ```Exempel: [Stockholm]```  
   
 ##### Utgivningsland  
 * Land (country = 008/15-17)  
@@ -260,7 +260,7 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
   Skriv in uppgiften under Benämning.  
-  ```Exempel: NoNa```   
+  ```Exempel: Njutafilms```   
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
@@ -282,7 +282,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     * ```[mellan 1863 och 1866?]```
   
 * Flera år (flerbandsverk)  
-  Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
+  Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg   till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
  <br/>```Exempel:```
   * ```Startår: 1999```
   * ```Slutår: 2017```
@@ -290,69 +290,53 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
    
-#### Tillverkning 
-* Tillverkning (manufacture)  
-
-##### Tillverkningsplats (Tillverkningsort) 
-* Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
-  ```Exempel: Falun```  
-##### Tillverkningsnamn  
-* Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
-  Skriv in uppgiften.   
-  ```Exempel: Scandbook```   
-##### Tillverkningstid   
-* Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
-  Skriv in uppgiften. Klamra vid behov.
-  <br/>```Exempel:```
-  * ```2017```
-  * ```[2017]```
-  
-#### Copyrightar   
+#### Copyright 
+För film anges alltid copyrightår, även om det sammanfaller med utgivningsår. 
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
+
+#### Produktionsland
+Produktionsland anges tills vidare i Anmärkning.
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
+<BR/>```Exempel: Produktionsland: Frankrike```  
    
-#### Omfang   
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 319 sidor```  
+#### Omfang  
+Ange antal enheter samt typ av enhet. 
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
+  ```Exempel: 1 DVD-video``` 
+Efter omfång anges tills vidare även speltid (inom parentes) när uppgiften är lätt åtkomlig.
+   ```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
   Skriv in uppgiften.  
-  ```Exempel: illustrationer```
-
-#### Matt 
-* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
-  Skriv in uppgiften.  
-  ```Exempel: 24 cm``` 
+  ```Exempel: ljud, färg```
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Post och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
 Skriv in uppgiften.  
-  ```Exempel: 10 mönsterark```  
+  ```Exempel: 1 häfte```  
 
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: n (= omedierad)```
+  ```Exempel: v (= video)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: nc (= volym)```  
+  ```Exempel: vd (= videoskiva)```  
 
 #### Seriemedlemskap
+För att lägga till seriemedlemskap, klicka på plustecknet Lägg till egenskaper under: Instans.
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt följande instruktion.  
-  *Nytt 2018-10-04:*   
   * Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
   * Vid export till marc21 skapas både 490 och 830 (800/810) från Seriemedlemskap som saknar Serieuppgift (t ex gamla 440-fält). OBS. Hanteringen klarar de flesta fall bra, men det finns serier med deltitlar/delserier som kommer att exporteras fel (fel ordning mellan Delbeteckning och Deltitel, fel interpunktion). Om man stöter på sådana, och anser felet besvärande, får man gå in i posten och lägga till en korrekt Serieuppgift i rätt Seriemedlemskap. Då kommer 490 att skapas från det. (Finns det flera Seriemedlemskap behöver man komplettera alla, annars skapas bara 490 för den serien som har en ifylld Serieuppgift).  
-  * Import: matchning av 490 + 830 (800/810) vid import via tratten och vid manuell import från Andra källor. Om fälten matchar läggs båda fältens data i samma Seriemedlemskap. Annars skapas ett Seriemedlemskap per fält. OBS. Behöver kontrolleras vid katalogisering:  
-ISSN (dubbleras om det finns på båda fälten),  
-volymbeteckning (dubbleras om det inte står exakt likadant)  
+
 Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
      
 ##### Seriens titel (auktoriserad sökingång för serie)  
@@ -501,9 +485,9 @@ För översättningar i flera led, länka först till det mellanliggande språke
   För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk/Text (se Språk ovan). Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk - Lägg till egenskap under: Text och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
  Lägg sedan till Har del under Instans av Verk/Text. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
   
-##### Parallelltext    
+##### Anmärkning om språk    
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
-  ```Exempel: Parallelltext på svenska och engelska```  
+  ```Exempel: Tal på svenska, textad på finska och på svenska för hörselskadade```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
   
 #### Medverkan och funktion  
