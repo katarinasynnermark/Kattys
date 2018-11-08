@@ -306,7 +306,7 @@ Produktionsland anges tills vidare i Anmärkning.
 Ange antal enheter samt typ av enhet. 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
   ```Exempel: 1 DVD-video``` 
-Efter omfång anges tills vidare även speltid (inom parentes) när uppgiften är lätt åtkomlig.
+<BR/>Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
    ```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
   
 #### Ovriga fysiska detaljer   
