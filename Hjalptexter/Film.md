@@ -138,7 +138,7 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
   <br/>```Exempel:```
- * ```stories of courage```
+  * ```stories of courage```
   * ```mer om modelljärnvägar : allt samlaren behöver veta```
   
   För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
