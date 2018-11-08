@@ -43,7 +43,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
   För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
-  Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek). Skriv in uppgiften.     
+  Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek).      
   ```Exempel: S```  
 
 #### Katalogiserande instans
@@ -127,8 +127,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
-  Skriv in uppgiften.    
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").     
  ```Exempel: Rescuers```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: The Beguiledh, fileringsvärde: 4```  
@@ -138,7 +137,6 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
-  Skriv in uppgiften.
   <br/>```Exempel:```
  * ```stories of courage```
  * ```mer om modelljärnvägar : allt samlaren behöver veta```
@@ -156,7 +154,6 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
-  Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```   
   
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
@@ -171,7 +168,7 @@ För att lägga till Övrig titelinformation, klicka på plustecknet vid Omslags
 Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel:kärleken flyttar in``` 
-För typer av varianttitlar som inte är specificerade, ange variantititeln i Varianttitel och specificera typen i en Typanmärkning enligt anvisningen ovan för felaktigheter i titeln.
+<br/>För andra typer av varianttitlar, som inte är specificerade i verktyget, ange varianttiteln i Varianttitel och specificera typen i en Typanmärkning enligt anvisningen ovan om felaktigheter i titeln.
     
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
@@ -209,7 +206,6 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
-  Skriv in uppgiften. 
   <br/>```Exempel:```
   * ```written, produced and directed by Hilary Ng'weno```
   * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
