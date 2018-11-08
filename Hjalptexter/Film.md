@@ -209,8 +209,8 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)
   För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Instans.
   <BR/>```Exempel:```
-  * ```written, produced and directed by Hilary Ng'weno```
-  * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
+          * ```written, produced and directed by Hilary Ng'weno```
+          * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
 
 #### Identifikator 
 * Identifikator (identifiedBy)  
