@@ -322,8 +322,8 @@ Skriv in uppgiften.
   ```Exempel: 1 häfte``` 
 
 #### Videokaraktaristika
-* Videokaraktäristika (videoCharacteristics = 007
-
+* Videokaraktäristika (videoCharacteristics = 007/04)
+  Länka till entitet. Här anges format, antingen DVD eller Blu-ray Disc. 
 
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
