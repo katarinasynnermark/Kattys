@@ -231,8 +231,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 
 * Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
   <br/>Skriv in uppgiften.
-  <br/>```Exempel: 3700173222052```
-  
+  <br/>```Exempel: 3700173222052```  
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
@@ -411,7 +410,7 @@ Tillägget inom parentes (tv-serie) görs för att skilja filmen Gomorra från f
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
 Skriv in uppgiften.  
-```Exempel: ```
+```Exempel: Quest for the spear```
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning  
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
@@ -426,11 +425,9 @@ För en film som är dubbad ska/kan språk anges för den dubbade versionen. Om 
 
 ##### Verkets titel
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
-  "Originaltitel" för ett verk med primär medverkan anger du här.  
-  Skriv in uppgiften.  
-  ```Exempel: Soldier spy```  
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
+  Föredragen titel för ett verk med primär medverkan anger du här.  Obs! Det är ovanligt att film har primär medverkande. För att en    agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
+
+  För att ange föredragen titel för ett verk med primär medverkande, motsvarande fält 240, se [Hälptext Tryckt monografi] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#verkets-titel)
 
 ##### Verkets titel - analytisk sökingång  
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
