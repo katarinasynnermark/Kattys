@@ -277,16 +277,16 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, använd endast År.  
   Skriv in uppgiften.
-  <br/>```Exempel:```
-   * ```[2017]```
-   * ```[mellan 2003 och 2007?]```
+ <br/>```Exempel:```
+  * ```[2017]```
+  * ```[mellan 2003 och 2007?]```
   
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg   till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
- <br/>```Exempel:```
-  * ```Startår: 2015```
-  * ```Slutår: 2017```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+<br/>```Exempel:```
+ * ```Startår: 2015```
+ * ```Slutår: 2017```
+ * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
    
