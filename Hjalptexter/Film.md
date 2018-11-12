@@ -430,8 +430,10 @@ För en film som är dubbad ska/kan språk anges för den dubbade versionen. Om 
   För att ange föredragen titel för ett verk med primär medverkande, motsvarande fält 240, se[Hälptext Tryckt monografi (https://libris.kb.se/katalogisering/help/workflow-print-monograph#verkets-titel)
 
 ##### Verkets titel - analytisk sökingång  
-För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
+För att ange verk utan primär medverkande som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
 Under Instans av Verk/Text, klicka på plustecknet vid Verk (lägg till egenskaper under: Verk) och välj Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
+
+För att ange verk med primär medverkande som ingår i det beskrivna verket, motsvarande fält 700 0/2 (analytisk sökingång) i marc
 
 ##### Verkets titel - relaterade verk  
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
