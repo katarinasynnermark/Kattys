@@ -405,19 +405,24 @@ Filmer har sällan en primär medverkande och verkets föredragna titel ska då 
 Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften under Huvudtitel.  
-```Exempel: Gommorra (film)```
-Tillägget inom parentes (film) görs för att skilja filmen Gomorra från tv-serien Gomorra. Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk)i Anvisningar för katalogisering (RDA)
+```Exempel: Gommorra (tv-serie)```
+Tillägget inom parentes (tv-serie) görs för att skilja filmen Gomorra från filmen Gomorra. Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk)i Anvisningar för katalogisering (RDA)
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
 Skriv in uppgiften.  
-```Exempel: Quest for the spear```
+```Exempel: ```
+*	Uttryck av/Verk/Har titel/Titel/Delbeteckning  
+(expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
+Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
+Skriv in uppgiften.  
+```Exempel: Säsong 2 ```
 *	Uttryck av/Verk/Språk/Språk/Benämning  
 (expressionOf/Work/language/Language/label = 130 ‡l)  
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
 Skriv in uppgiften.  
 ```Exempel: Svenska```
-För en film som är dubbad ska/kan språk anges för den dubbade versionen. Om både originalversionen och den dubbade versionen finns anges dessa enligt instruktionerna under Verkets titel - relaterade verk (länk). Om det finns olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
+För en film som är dubbad ska/kan språk anges för den dubbade versionen. Om både originalversionen och den dubbade versionen finns anges dessa enligt instruktionerna under Verkets titel - relaterade verk (länk). Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
 
 ##### Verkets titel
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
