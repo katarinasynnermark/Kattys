@@ -427,7 +427,7 @@ För en film som är dubbad ska/kan språk anges för den dubbade versionen. Om 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
   Föredragen titel för ett verk med primär medverkan anger du här.  Obs! Det är ovanligt att film har primär medverkande. För att en    agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
 
-  För att ange föredragen titel för ett verk med primär medverkande, motsvarande fält 240, se [Hälptext Tryckt monografi] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#verkets-titel)
+  För att ange föredragen titel för ett verk med primär medverkande, motsvarande fält 240, se [Hälptext Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#verkets-titel)
 
 ##### Verkets titel - analytisk sökingång  
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
