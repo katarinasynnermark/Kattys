@@ -76,7 +76,7 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
-  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post.  
+  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Instans.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
