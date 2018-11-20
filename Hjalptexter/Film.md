@@ -128,7 +128,7 @@ Allmän medieterm (= Medieterm)(marc:mediaTerm = 245 #h) som finns i beskrivning
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Återge huvudtiteln från så som den förekommer i källan, se [Librispraxis för 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, se [Librispraxis 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
+  Återge huvudtiteln från så som den förekommer i källan, se [Librispraxis 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, se [Librispraxis 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
  ```Exempel: Rescuers```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: The Beguiledh, fileringsvärde: 4```  
