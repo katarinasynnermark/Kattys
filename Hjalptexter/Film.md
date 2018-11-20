@@ -422,31 +422,25 @@ Skriv in uppgiften.
 För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under Verkets titel - analytisk sökingång. Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
 
 ##### Verkets titel - verk med primär medverkande
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
-  Föredragen titel för ett verk med primär medverkan anger du här.  Obs! Det är ovanligt att film har primär medverkande. För att en    agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
-
-  För att ange föredragen titel för ett verk med primär medverkande, motsvarande fält 240, se[Hälptext Tryckt monografi (https://libris.kb.se/katalogisering/help/workflow-print-monograph#verkets-titel)
-
+Föredragen titel för ett verk med primär medverkan anger du enligt nedan.  Obs! Det är ovanligt att film har primär medverkande. För att en    agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a) 
+Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
+  
 ##### Verkets titel - analytisk sökingång  
-För att ange verk utan primär medverkande som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
-Under Instans av Verk/Text, klicka på plustecknet vid Verk (lägg till egenskaper under: Verk) och välj Har del.
+För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 0/2 (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 (analytisk sökingång för verk utan primär medverkande) i marc:  
+Under Instans av Verk/Projicerad bild, klicka på plustecknet vid Verk (lägg till egenskaper under: Verk) och välj Har del.
 Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Har del. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation. Ange föredragen titel i Huvudtitel.  
-
-För att ange verk med primär medverkande som ingår i det beskrivna verket, motsvarande fält 700 1/2 (analytisk sökingång) i marc:
-Under Instans av Verk/Text, klicka på plustecknet vid Verk (lägg till egenskaper under: Verk) och välj Har del.
-Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Har del. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation. Ange föredragen titel i Huvudtitel. 
-Lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under Medverkan och funktion.   
+För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under Medverkan och funktion. 
 
 ##### Verkets titel - relaterade verk  
-För att ange verk utan primär medverkande som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc: 
-Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Följ sedan stegen ovan för verk utan primär medverkan från ”Välj Skapa verk somlokal entitet”.  
-
-För att ange verk med primär medverkande som ingår i det beskrivna verket, motsvarande fält 700 1/2 (analytisk sökingång) i marc:
-Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Följ sedan stegen ovan för verk med primär medverkan från ”Välj Skapa verk som lokal entitet”.  
+För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 0/_ (icke-analytisk sökingingång för verk med primär medverkande) eller 730 0/_ (icke-analytisk sökingång för verk utan primär medverkande) i marc: 
+Under Instans av Verk/Projicerad bild, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Projicerad bild) och välj Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). 
+För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under Medverkan och funktion. 
 
 #### Sprak 
 * Språk (language = 008/35-37)  
-  Ange textens språk. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+  Ange det talade eller sjungna språket här. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
   För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
