@@ -418,6 +418,7 @@ Skriv in uppgiften.
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
 Skriv in uppgiften.  
 ```Exempel: Svenska```
+
 För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under Verkets titel - analytisk sökingång. Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
 
 ##### Verkets titel - verk med primär medverkande
