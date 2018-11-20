@@ -82,14 +82,14 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post.   
+  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Instans.   
   För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
+För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Instans.   
 I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
 I mallar är Miniminivå förvalt. Ändra vid behov.  
   Välj från lista.    
@@ -127,7 +127,7 @@ Allmän medieterm (= Medieterm)(marc:mediaTerm = 245 #h) som finns i beskrivning
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
+För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").     
  ```Exempel: Rescuers```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
