@@ -123,7 +123,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   ```Exempel: Monografisk resurs```
   
 #### Titel  
-Allmän medieterm (= Medieterm)(marc:mediaTerm = 245 #h) som finns i beskrivningar gjorda enligt KRS/AACR2 ska tas bort i beskrivningsr som görs enligt RDA. 
+Allmän medieterm (= Medieterm)(marc:mediaTerm = 245 #h) som finns i beskrivningar gjorda enligt KRS/AACR2 ska tas bort i beskrivningar som görs enligt RDA. 
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
