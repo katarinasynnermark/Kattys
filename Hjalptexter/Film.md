@@ -238,7 +238,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Utgivning  
 * Utgivning (publication)  
-  Välj typ från lista. För monografier, använd Primär utgivning.  
+  Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
 NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
  
@@ -286,9 +286,9 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
-   
+  
 #### Copyright 
-För film anges alltid copyrightår, även om det sammanfaller med utgivningsår. 
+För film anges alltid copyrightår, även om det sammanfaller med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
@@ -300,7 +300,7 @@ Produktionsland anges tills vidare i Anmärkning.
 <BR/>```Exempel: Produktionsland: Frankrike```  
    
 #### Omfang  
-Ange antal enheter samt typ av enhet. 
+Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för alternativet](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html)
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
   ```Exempel: 1 DVD-video``` 
 <BR/>Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
@@ -376,7 +376,7 @@ Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga 
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här. Här anges produktionsland (länk).   
+  Skriv in allmänna anmärkningar här. Här anges [produktionsland](#produktionsland).   
   Skriv in uppgiften under Benämning.  
   
 #### Anmarkning om systemkrav och mediespecifika uppgifter
