@@ -33,19 +33,19 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | | [Annat bärarformat](#annat-bararformat) | | 
 
 
-### Adminmetadata
+## Adminmetadata
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
-### Kontrollnummer
+#### Kontrollnummer
 * Kontrollnummer (controlNumber = 001)
   Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast   siffror. Läs mer om [Nya ID i Libris](https://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/)
 
-### Skapad av  
+#### Skapad av  
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```
   
-### Uppgraderad eller importerad av  
+#### Uppgraderad eller importerad av  
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften. 
   För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
@@ -53,11 +53,11 @@ För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i re
   ```Exempel: S```
   Det går för närvarande inte att repetera Uppgraderad eller importerad av. Låt uppgiften var kvar oförändrad.
 
-### Entry map
+#### Entry map
 * Entry map (marc:entryMap = 000/20-23)
 I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.
 
-### Katalogiserande instans
+#### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
   Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
  (marc/CooperativeCatalogingProgram).   
@@ -67,7 +67,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
   ```Exempel: Annan verksamhet```  
 
-### Bibliografikod
+#### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
   För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).   
@@ -77,7 +77,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   * ```NB```
   * ```SAMB```
   
-### Systemnummer  
+#### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
   ```Exempel: (BOKR)9789188107213```  
@@ -127,7 +127,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
  * Anmärkning om katalogiseringskälla  
  
 
-### Instans
+## Instans
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
