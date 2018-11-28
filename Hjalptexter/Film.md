@@ -320,13 +320,13 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: Utgivningsnummer (videoinspelning)```
-* Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)
+* Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)<br/>
   Ange identifikator.
   ```Exempel: NF780```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)<br/> 
   Ange utgivarens namn.<br/>
   ```Exempel: Njutafilms```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q<br/>  
   Ange en bestämning.
   ```Exempel: (skiva 1)``` <br/>
 
