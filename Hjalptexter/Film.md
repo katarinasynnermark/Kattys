@@ -83,7 +83,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
  <br/>```Exempel:```
   * ```(BOKR)9789188107213```
   * ```(OCoLC)on1042213159```
-<br/>För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.
+  <br/>För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg  till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.
 <br/>```Exempel: (DIVA)urn:nbn:se:su:diva-83163``` 
   
 #### Katalogiseringssprak  
