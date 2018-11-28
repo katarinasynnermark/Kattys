@@ -33,7 +33,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | | [Annat bärarformat](#annat-bararformat) | | 
 
 
-## Adminmetadata
+### Adminmetadata
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 #### Kontrollnummer
@@ -120,6 +120,10 @@ Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då
   
   * ```Ny post```
   * ```Rättad eller reviderad post```
+  
+#### Translitterering
+* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
+   Sigel för det bibliotek som translittererat posten till maskinläsbar form. Låt det vara kvar oförändrat.  
  
 #### Systemteknisk anmarkning  
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
@@ -132,10 +136,11 @@ Låt anmärkning om postimport ligga kvar.
  
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
  * Katalogisatörens anmärkning  
- * Anmärkning om katalogiseringskälla  
- 
+ * Anmärkning om katalogiseringskälla   
 
-## Instans
+### Instans
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
