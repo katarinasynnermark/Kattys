@@ -385,8 +385,9 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
   
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här. Här anges [produktionsland](#produktionsland).   
-  Skriv in uppgiften under Benämning.  
+  Skriv in allmänna anmärkningar här. Här anges [Produktionsland](#produktionsland). 
+  För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen - Lägg till egenskaper under: Instans) och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.  
+  Skriv in uppgiften under Benämning.    
   
 ### Verk   
 
