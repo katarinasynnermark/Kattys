@@ -220,25 +220,6 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   <BR/>```Exempel:```
   * ```written, produced and directed by Hilary Ng'weno```
   * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
-
-#### Identifikator 
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: Utgivningsnummer (videoinspelning)```
-* Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: NF780```
-* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)<br/> 
-  Skriv in uppgiften.<br/>
-  ```Exempel: Njutafilms```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.
-  <br/>```Exempel: (skiva 1)```
-  
-
-* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
-  <br/>Skriv in uppgiften.
-  <br/>```Exempel: 3700173222052```  
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
@@ -304,6 +285,25 @@ För film anges alltid copyrightår, även om det sammanfaller med utgivningsår
   Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
 
+#### Identifikator 
+* Identifikator (identifiedBy)  
+  Välj typ från lista.  
+  ```Exempel: Utgivningsnummer (videoinspelning)```
+* Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: NF780```
+* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)<br/> 
+  Skriv in uppgiften.<br/>
+  ```Exempel: Njutafilms```
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
+  Skriv in uppgiften.
+  <br/>```Exempel: (skiva 1)```
+  
+
+* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
+  <br/>Skriv in uppgiften.
+  <br/>```Exempel: 3700173222052```  
+
 #### Produktionsland
 Produktionsland anges tills vidare i Anmärkning.
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
@@ -356,15 +356,15 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   Skriv in uppgiften.  
   ```Exempel: 0```   
   Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
-  ```Exempel: 1```     
-  
+  ```Exempel: 1```  
+
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
 För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
 ```Exempel: Barntillåten```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
-   
+
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.     
@@ -373,16 +373,16 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
 För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift.  
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).
-
-#### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här. Här anges [produktionsland](#produktionsland).   
-  Skriv in uppgiften under Benämning.  
   
 #### Anmarkning om systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen.
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)
   </BR>```Exempel: Systemkrav: Region 2 ; bildformat: 16:9 (2.35:1 ); ljudformat: Dolby digital 5.1```
+  
+#### Anmarkning
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
+  Skriv in allmänna anmärkningar här. Här anges [produktionsland](#produktionsland).   
+  Skriv in uppgiften under Benämning.  
   
 ### Verk   
 
