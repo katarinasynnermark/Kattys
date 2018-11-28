@@ -338,12 +338,9 @@ Produktionsland anges tills vidare i Anmärkning.
 <BR/>```Exempel: Produktionsland: Frankrike```  
    
 #### Omfang  
-Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html)
+Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
-  ```Exempel: 1 DVD-video``` 
-
-Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.<br/>
-   ```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
+  ```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
