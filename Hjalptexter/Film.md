@@ -326,7 +326,7 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)<br/> 
   Ange utgivarens namn.<br/>
   ```Exempel: Njutafilms```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q 
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)<br/>
   Ange en bestämning.<br/>
   ```Exempel: (skiva 1)``` <br/>
 
