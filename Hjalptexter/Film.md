@@ -251,7 +251,6 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
   Skriv in upplagebeteckning här. För att lägga till upplagebeteckning, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Upplageuppgift. 
- <br/>Skriv in uppgiften.
  <br/>```Exempel: Limited edition```  
   
 #### Utgivning  
