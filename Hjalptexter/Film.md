@@ -107,9 +107,9 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Instans.   
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
-I mallar är Miniminivå förvalt. Ändra vid behov.  
+För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
+I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
+Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
   
