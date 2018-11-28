@@ -330,7 +330,7 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
   Ange en bestämning.
   ```Exempel: (skiva 1)``` <br/>
 
-För anvisningar om hur man anger ogiltiga ISBN, se hjälptexten [Tryckt mnografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
+För anvisningar om hur man anger ogiltiga ISBN, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
 
 #### Produktionsland
 Produktionsland anges tills vidare i Anmärkning.
