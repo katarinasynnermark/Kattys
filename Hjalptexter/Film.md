@@ -74,6 +74,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   Skriv in uppgiften under Sigel.  
   För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
  <br/>```Exempel:```
+ 
   * ```NB```
   * ```SAMB```
   
