@@ -313,9 +313,10 @@ För film anges alltid copyright- eller produktionsår, även om det sammanfalle
 <br/>```Exempel:```
  
     * ```©2017```
-    * ```©2017``` 
+    * ```℗2017``` 
     
-#### Identifikator 
+#### Identifikator
+Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för film är Utgivningsnummer (videoinspelning) och EAN förvalda.
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: Utgivningsnummer (videoinspelning)```
