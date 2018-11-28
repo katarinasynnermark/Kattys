@@ -77,14 +77,19 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   * ```NB```
   * ```SAMB```
   
-#### Systemnummer
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)
-  <br/>Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums    systemnummer, låt det vara kvar oförändrat. 
- <br/>```Exempel:```
+#### Systemnummer  
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
+  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
+<br/>```Exempel:```
   * ```(BOKR)9789188107213```
-  * ```(OCoLC)on1042213159```
-  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg  till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.
-<br/>```Exempel: (DIVA)urn:nbn:se:su:diva-83163``` 
+  * ```(OCoLC)on1042213159```  
+  
+  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
+  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
+  
+Vid kopiering av post, ta bort den kopierade postens systemnummer.  
+
+För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
