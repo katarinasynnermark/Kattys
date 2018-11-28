@@ -329,6 +329,7 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Ange en bestämning.
   ```Exempel: (skiva 1)``` <br/>
+
 För anvisningar om hur man anger ogiltiga ISBN, se hjälptexten [Tryckt mnografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
 
 #### Produktionsland
