@@ -121,6 +121,16 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
+
+#### Medietyp
+* Medietyp (mediaType/Mediatype = 337 ‡b)  
+  Länka till entitet.  
+  ```Exempel: v (= video)```
+  
+#### Barartyp
+* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+  Länka till entitet.  
+  ```Exempel: vd (= videoskiva)```  
   
 #### Titel  
 Allmän medieterm (= Medieterm)(marc:mediaTerm = 245 #h) som finns i beskrivningar gjorda enligt KRS/AACR2 ska tas bort i beskrivningar som görs enligt RDA. 
@@ -321,16 +331,6 @@ Skriv in uppgiften.
 * Videokaraktäristika (videoCharacteristics = 007/04)
   <BR/>Länka till entitet. 
   Här anges format, antingen DVD eller Blu-ray Disc. 
-
-#### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```Exempel: v (= video)```
-  
-#### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
-  ```Exempel: vd (= videoskiva)```  
 
 #### Seriemedlemskap
 För att lägga till Seriemedlemskap, klicka på plustecknet Lägg till egenskaper under: Instans.
