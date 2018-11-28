@@ -321,13 +321,13 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
   Välj typ från lista.  
   ```Exempel: Utgivningsnummer (videoinspelning)```
 * Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)<br/>
-  Ange identifikator.
+  Ange identifikator.<br/>
   ```Exempel: NF780```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)<br/> 
   Ange utgivarens namn.<br/>
   ```Exempel: Njutafilms```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q<br/>  
-  Ange en bestämning.
+  Ange en bestämning.<br/>
   ```Exempel: (skiva 1)``` <br/>
 
 För anvisningar om hur man anger ogiltiga ISBN, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
