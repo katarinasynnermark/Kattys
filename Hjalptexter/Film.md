@@ -339,7 +339,8 @@ Produktionsland anges tills vidare i Anmärkning.
    
 #### Omfang  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)
+Skriv in uppgiften under Benämning.
   ```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
   
 #### Ovriga fysiska detaljer   
@@ -348,7 +349,8 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
+För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans). 
+Skriv in uppgiften under Benämning.
   ```Exempel: 1 häfte``` 
 
 #### Videokaraktaristika
@@ -357,35 +359,13 @@ För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskap
   Här anges format, antingen DVD eller Blu-ray Disc. 
 
 #### Seriemedlemskap
-För att lägga till Seriemedlemskap, klicka på plustecknet Lägg till egenskaper under: Instans.
-* Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
-  Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt nedanstående instruktion.  
-Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)      
-##### Seriens titel (auktoriserad sökingång för serie)  
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
-  Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.    
-  ```Exempel: Disney klassiker```  
-##### ISSN  
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
-  ```Exempel: 1103-498X```     
-##### Serieuppgift  
-* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
-   ```Exempel: Disney's klassiker```   
-##### Numrering inom serie  
-* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)    
-  ```Exempel: 43```  
-##### Indikator för seriebiuppslag   
-* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
-  Skriv in uppgiften.  
-  ```Exempel: 0```   
-  Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
-  ```Exempel: 1```  
+För anvisningar om hur man anger seriemedlemsskap, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap): Seriemedlemskap. 
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
 För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
-Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
+Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). 
+Skriv in uppgiften under Benämning.  
 ```Exempel: Barntillåten```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
 
