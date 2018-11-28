@@ -329,6 +329,7 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
   Ange en bestämning.
   ```Exempel: (skiva 1)``` <br/>
   
+  
 * Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 3_ ‡a) 
   <br/>Skriv in uppgiften.
   <br/>```Exempel: 3700173222052```  
