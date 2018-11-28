@@ -38,7 +38,7 @@ För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i re
 
 ### Kontrollnummer
 * Kontrollnummer (controlNumber = 001)
-  Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast   siffror. Läs mer om [Nya ID i Libris] (https://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/)
+  Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast   siffror. Läs mer om [Nya ID i Libris](https://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/)
 
 #### Skapad av  
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
