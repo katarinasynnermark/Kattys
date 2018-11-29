@@ -396,8 +396,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
-#### Verkets titel
- 
+#### Verkets titel 
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
 
 ##### Verkets titel - verk utan primär medverkande
@@ -424,7 +423,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
 Skriv in uppgiften.  
 ```Exempel: Svenska```
 
-För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under [Verkets titel - analytisk sökingång](#Verkets titel analytisk sökingång) . Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
+För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under Verkets titel - analytisk sökingång]. Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
 
 ##### Verkets titel - verk med primär medverkande
 Föredragen titel för ett verk med primär medverkan anger du enligt nedan.  Obs! Det är ovanligt att film har primär medverkande. För att en    agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
