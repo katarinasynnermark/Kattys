@@ -467,8 +467,10 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   ```Exempel: relator/drt (= regissör)```    
 
 #### Sprak 
-* Språk (language = 008/35-37)  
-  Ange det talade eller sjungna språket här. För film som saknar ljudinnehåll (eller med ljud men utan språkligt innehåll) ange "icke-språkligt medium". För en film som är dubbad ange dubbningens språk här. Om resursen innehåller både originalversionen och dubbad version/dubbade versioner ange originalversionens språk först och sedan språk/språken för dubbningen/dubbningarna. Ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket. För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter)
+* Språk (language = 008/35-37)
+Länka till entitet.  
+  ```Exempel: engelska (eng)``` 
+  Ange det talade eller sjungna språket här. För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) ange "icke-språkligt medium". För en film som är dubbad ange dubbningens språk här. Om resursen innehåller både originalversionen och dubbad version/dubbade versioner, ange originalversionens språk först och sedan språk/språken för dubbningen/dubbningarna. Ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket. För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter)
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
  
@@ -640,8 +642,12 @@ Läs mer:
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
-  ```Exempel: j (= barn- och ungdom, 0-16 år)```  
-  
+  ```Exempel: j (= barn- och ungdom, 0-16 år)```
+
+#### Bild- och filmtexter 
+ * Bild- och filmtexter (marc:subtitlesOrCaptions/marc:SubtitlesOrCaptions/language)
+ 
+ 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
