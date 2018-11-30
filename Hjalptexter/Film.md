@@ -477,7 +477,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
-  </BR>För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter)
+ </BR>För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter)
  
 ##### Översättning  
 För en film som innehåller en översättning, t.ex. en dubbad version, lägg till:  
