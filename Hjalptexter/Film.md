@@ -634,8 +634,8 @@ Läs mer:
  
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
-  Länka till entitet.  
- <br/>```Exempel:```
+  Länka till entitet.</BR>
+  ```Exempel:```
   * ```tvådimensionell rörlig bild (tdi)```
   * ```tredimensionell rörlig bild (tdm)```  
   
