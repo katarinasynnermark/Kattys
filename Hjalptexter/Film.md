@@ -493,10 +493,6 @@ För en film som innehåller en översättning, t.ex. en dubbad version, lägg t
   Klicka på Lägg till egenskaper under: Projicerad bild, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```   
   
-##### Anmärkning om språk    
-* Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
-  ```Exempel: Tal på engelska. Dubbad till svenska, finska, norska. Textad på engelska, svenska, finska och norska```  
-  
 #### Genre  
  Länka till entitet. 
 För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet (längst upp i sidorutan till höger), välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
@@ -639,5 +635,16 @@ Läs mer:
   * ```tvådimensionell rörlig bild (tdi)```
   * ```tredimensionell rörlig bild (tdm)```  
   
+#### Anmärkningar
+### Anmärkning om språk
+* Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+  ```Exempel: Tal på engelska. Dubbad till svenska, finska, norska. Textad på engelska, svenska, finska och norska```  
+
+### Anmärkning om medverkande
+* Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
+  ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
   
+#### Sammanfattning av innehåll
+* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)
+  ```Exempel: Innan begreppet roadmovie ens var uppfunnit gjorde Bergman sitt mästerverk om den gamle professorn som under en resa till Lund upplever minnen, ljusa och mörka, från sitt långa liv och konfronteras med sina innersta känslor på färden genom det svenska landskapet. Här visar Bergman att han behärskar filmens alla konstnärliga uttrycksmöjligheter till fullo och Smultronstället belönades bland annat med Guldbjörnen vid filmfestivalen i Berlin. ```
 
