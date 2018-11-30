@@ -469,9 +469,10 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Sprak 
 * Språk (language = 008/35-37)  
-  Ange det talade eller sjungna språket här. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+  Ange det talade eller sjungna språket här. För film som saknar ljudinnehåll (eller med ljud men utan språkligt innehåll) anges "icke-språkligt medium".  
   Länka till entitet.  
-  ```Exempel: svenska (swe)```  
+  ```Exempel: engelska (eng)``` 
+  För dubbad film
   För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
   
 ##### Översättning  
