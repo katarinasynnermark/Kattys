@@ -626,7 +626,7 @@ Läs mer:
 
 #### Bild- och filmtexter 
  * Bild- och filmtexter (marc:subtitlesOrCaptions/marc:SubtitlesOrCaptions/language = 041 ‡j)</BR>
- Ange språk i eventuella bild- och filmtexter.
+ Ange språk i eventuella bild- och filmtexter.</BR>
    ```Exempel: svenska (swe)``` 
  Ange ytterligare språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.
  Länka till entitet.   
