@@ -474,7 +474,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   För en film som är dubbad ange dubbningens språk här. Om resursen innehåller både originalversionen och dubbad version/dubbade versioner, ange originalversionens språk först och sedan språk/språken för dubbningen/dubbningarna.</BR>
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
-  Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
+  </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
   </BR>För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter)
