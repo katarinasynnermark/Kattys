@@ -645,6 +645,6 @@ Läs mer:
   ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
   
 #### Sammanfattning av innehåll
-* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)
+* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
   ```Exempel: Innan begreppet roadmovie ens var uppfunnit gjorde Bergman sitt mästerverk om den gamle professorn som under en resa till Lund upplever minnen, ljusa och mörka, från sitt långa liv och konfronteras med sina innersta känslor på färden genom det svenska landskapet. Här visar Bergman att han behärskar filmens alla konstnärliga uttrycksmöjligheter till fullo och Smultronstället belönades bland annat med Guldbjörnen vid filmfestivalen i Berlin. ```
 
