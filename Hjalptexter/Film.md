@@ -464,23 +464,16 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
-  ```Exempel: relator/drt (= regissör)```  
-  
+  ```Exempel: relator/drt (= regissör)```    
 
 #### Sprak 
 * Språk (language = 008/35-37)  
-  Ange det talade eller sjungna språket här. För film som saknar ljudinnehåll (eller med ljud men utan språkligt innehåll) anges "icke-språkligt medium".  
+  Ange det talade eller sjungna språket här. För film som saknar ljudinnehåll (eller med ljud men utan språkligt innehåll) ange "icke-språkligt medium". För en film som är dubbad ange dubbningens språk här. Om resursen innehåller både originalversionen och dubbad version/dubbade versioner ange originalversionens språk först och sedan språk/språken för dubbningen/dubbningarna. Ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket. För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter)
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
-  För dubbad film
-  För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
-  
+ 
 ##### Översättning  
-För en översättning, ange även:  
-* Språk/Språk/Benämning (Language/label = 240 ‡l)  
-  Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
-  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
-  ```Exempel: Svenska```  
+För en film som innehåller eller är en översättning, t.ex. en dubbad version, lägg till:  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
@@ -488,25 +481,14 @@ För en översättning, ange även:
   ```Exempel: objektet är/innehåller översättning```  
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
-  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
+  Ange originalspråk för en dubbad film här. För en japansk film som är dubbad till svenska, ange japanska här.   
   Klicka på Lägg till egenskaper under: Text, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
-  ```Exempel: engelska (eng)```  
-För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
-  
-###### Texten delvis översatt  
-(041 0/- #a + 041 1/- #a #h)  
-* Språk (language = 008/35-37) +
-   Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
-* Har del/Verk/Språk (hasPart/Work/language = 041 ‡a) +  
-  Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
-  Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h)  
-  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk/Text (se Språk ovan). Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk - Lägg till egenskap under: Text och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
- Lägg sedan till Har del under Instans av Verk/Text. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
+  ```Exempel: engelska (eng)```   
   
 ##### Anmärkning om språk    
-* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
-  ```Exempel: Tal på svenska, textad på finska och på svenska för hörselskadade```  
-  Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
+* Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+  ```Exempel: Tal på engelska, textad på svenska, finska och norska```  
+  ```Exempel: Dubbad till svenska, finska och norska```
   
 #### Genre 
 ##### Saogf-termer  
