@@ -625,19 +625,19 @@ Läs mer:
   ```Exempel: j (= barn- och ungdom, 0-16 år)```
 
 #### Bild- och filmtexter 
- * Bild- och filmtexter (marc:subtitlesOrCaptions/marc:SubtitlesOrCaptions/language = 041 ‡j)
+ * Bild- och filmtexter (marc:subtitlesOrCaptions/marc:SubtitlesOrCaptions/language = 041 ‡j)</BR>
  Ange språk i eventuella bild- och filmtexter.
-  ```Exempel: svenska (swe)``` 
+   ```Exempel: svenska (swe)``` 
  Ange ytterligare språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.
  Länka till entitet.   
- ```Exempel: engelska (eng)``` 
+   ```Exempel: engelska (eng)``` 
  
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
  <br/>```Exempel:```
- * ```tvådimensionell rörlig bild (tdi)```
- * ```tredimensionell rörlig bild (tdm)```  
+  * ```tvådimensionell rörlig bild (tdi)```
+  * ```tredimensionell rörlig bild (tdm)```  
   
   
 
