@@ -14,24 +14,21 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | ------ | ----------- |  ----------- |
 | [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Entry map](#entry-map) | [Titel](#titel) | [Genre](#genre) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| [Bibliografikod](#bibliografikod) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Copyright eller produktionsår](#copyright-eller-produktionsår) | [Bild- och filmtexter](#bild-och-filmtexter) |
-| [K](#katalogiseringsspråk) | [Omfång](#omfang) | |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| | [Mått](#matt) | |
-| | [Bilagor](#bilagor) | |
-| | [Medietyp](#medietyp) | |
-| | [Bärartyp](#barartyp) | |
-|  | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) | |
-|  | [Innehållsanmärkning](#innehallsanmarkning) | |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Bibliografikod](#bibliografikod) | [Titel](#titel) | [Genre](#genre) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Poststatus](#poststatus) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Copyright- eller produktionsår](#copyright-eller-produktionsår) | [Bild- och filmtexter](#bild-och-filmtexter) |
+| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
+| [Entry map](#Entry-map) | [Omfång](#omfang) | [Anmärkningar] (#anmarkningar) |
+| [Systemnummer](#systemnummer)| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall |
+| [Translitterering] (#translitterering)| [Bilagor](#bilagor) | |
+| [Systemteknisk anmärkning](#systemtekninsk-anmarkning)| [Videokarakteristika](#videokarakteristika) | |
+| | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | | 
-
+| | [Anmärkning om systemkrav och mediespecifika uppgifter](#anmarkning-om-systemkrav-och-mediespecifika-uppgifter) | |
+|  | [Anmärkning](#anmarkning) | |
 
 ### Adminmetadata
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
@@ -637,11 +634,11 @@ Läs mer:
   * ```tredimensionell rörlig bild (tdm)```  
   
 #### Anmärkningar
-### Anmärkning om språk
+##### Anmärkning om språk
 * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Tal på engelska. Dubbad till svenska, finska, norska. Textad på engelska, svenska, finska och norska```  
 
-### Anmärkning om medverkande
+##### Anmärkning om medverkande
 * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
   ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
   
