@@ -639,7 +639,7 @@ Läs mer:
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.</BR>
   ```Exempel:```
-  * ```tdi (= tvådimensionelll rörlig bild)```
+  * ```tdi (= tvådimensionell rörlig bild)```
   * ```tdm (= tredimensionell rörlig bild)```  
   
 #### Anmarkningar
