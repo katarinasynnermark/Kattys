@@ -634,7 +634,7 @@ Läs mer:
   * ```tvådimensionell rörlig bild (tdi)```
   * ```tredimensionell rörlig bild (tdm)```  
   
-#### Anmärkningar
+#### Anmarkningar
 ##### Anmärkning om språk
 * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Tal på engelska. Dubbad till svenska, finska, norska. Textad på engelska, svenska, finska och norska```  
