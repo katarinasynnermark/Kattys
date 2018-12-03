@@ -156,7 +156,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: vd (= videoskiva)```  
   
 #### Titel  
-Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) som finns i beskrivningar gjorda enligt KRS/AACR2 ska tas bort i beskrivningar som görs enligt RDA. 
+Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskrivningar som görs enligt RDA. 
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
