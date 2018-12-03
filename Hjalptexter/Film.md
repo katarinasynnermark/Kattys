@@ -392,7 +392,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 #### Tillhorande media
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)
   Länka till annan resurs här.
-  För att lägga till Tillhörande media, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillhörande media. (associatedMedia). Klicka på plustecknet framför Tillhörande media (Lägg till mediaobjekt), välj Skapa lokal entitet i sidorutan Lägg till entitet. Klicka på plustecknet för Mediaobjekt och välj egenskapen Offentlig anmärkning. 
+  För att lägga till Tillhörande media, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillhörande media (associatedMedia). Klicka på plustecknet framför Tillhörande media (Lägg till mediaobjekt), välj Skapa lokal entitet i sidorutan Lägg till entitet. Klicka på plustecknet för Mediaobjekt och välj egenskapen Offentlig anmärkning. 
 I rutan under Offentlig anmärkning kan valfri text skrivas in, t.ex. ”Fritt tillgänglig via Kungliga biblioteket”.
 Klicka igen på plustecknet för Mediaobjekt och välj egenskapen URI. Klistra in aktuell uri i rutan under egenskapen. 
   
