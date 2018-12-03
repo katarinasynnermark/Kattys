@@ -30,6 +30,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | | [Innehållsanmärkning](#innehallsanmarkning) | |
 | | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 | | [Anmärkning](#anmarkning) | |
+| | [Tillhörande media](#tillhorande-media) | |
 
 ### Adminmetadata
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
@@ -373,7 +374,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Videoinspelning). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.     
   ```Exempel: Adjö Puh! -- Var är Nasse? -- Fiskar på land -- Himlen trillar ner! -- Nasses ballongspel```  
   
-* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
+* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 t‡, ‡r)  
 För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Videoinspelning). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift.  
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).
   
@@ -385,8 +386,15 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. Här anges också [Produktionsland](#produktionsland). 
-  </BR>För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen - Lägg till egenskaper under: Instans) och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
-  Skriv in uppgiften under Benämning.    
+  </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
+  Skriv in uppgiften under Benämning.   
+
+#### Tillhorande media
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)
+  Länka till annan resurs här.
+  För att lägga till Tillhörande media, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillhörande media. (associatedMedia). Klicka på plustecknet framför Tillhörande media (Lägg till mediaobjekt), välj Skapa lokal entitet i sidorutan Lägg till entitet. Klicka på plustecknet för Mediaobjekt och välj egenskapen Offentlig anmärkning. 
+I rutan under Offentlig anmärkning kan valfri text skrivas in, t.ex. ”Fritt tillgänglig via Kungliga biblioteket”.
+Klicka igen på plustecknet för Mediaobjekt och välj egenskapen URI. Klistra in aktuell uri i rutan under egenskapen. 
   
 ### Verk   
 
