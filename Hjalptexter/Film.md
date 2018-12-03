@@ -19,7 +19,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Poststatus](#poststatus) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Copyright eller produktionsår](#copyright-eller-produktionsar) | [Bild- och filmtexter](#bild-och-filmtexter) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Bild- och filmtexter](#bild-och-filmtexter) |
 | [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
 | [Entry map](#Entry-map) | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | [Systemnummer](#systemnummer)| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
@@ -304,7 +304,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
-#### Copyright eller produktionsår
+#### Copyright- eller produktionsår
 För film anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
