@@ -304,7 +304,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
-#### Copyright eller produktionsår
+#### Copyright- eller produktionsår
 För film anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
@@ -352,8 +352,8 @@ För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskap
 Skriv in uppgiften under Benämning.
   ```Exempel: 1 häfte``` 
 
-#### Videokaraktaristika
-* Videokaraktäristika (videoCharacteristics = 007/04)
+#### Videokarakteristika
+* Videokarakteristika (videoCharacteristics = 007/04)
   <BR/>Länka till entitet. 
   Här anges format, antingen DVD eller Blu-ray Disc. 
 
