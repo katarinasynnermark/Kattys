@@ -13,14 +13,14 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Skapad av](#skapad-av) | [Titel](#titel) | [Språk](#sprak) |
-| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Entry map](#entry-map) | [Identifikator](#identifikator) | [Genre](#genre) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Poststatus](#poststatus) | [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Translitterering](#translitterering) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Systemnummer](#systemnummer) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Omfång](#omfang) | |
+| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Entry map](#entry-map) | [Titel](#titel) | [Genre](#genre) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
+| [Bibliografikod](#bibliografikod) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Copyright eller produktionsår](#copyright-eller-produktionsår) | [Bild- och filmtexter](#bild-och-filmtexter) |
+| [K](#katalogiseringsspråk) | [Omfång](#omfang) | |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
@@ -44,29 +44,14 @@ För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i re
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```
+
+#### Katalogiseringsregler  
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
+  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Instans.   
+  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
+  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
+  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
-#### Uppgraderad eller importerad av  
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften. 
-  För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
-  Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek).      
-  ```Exempel: S```
-  Det går för närvarande inte att repetera Uppgraderad eller importerad av. Låt uppgiften var kvar oförändrad.
-
-#### Entry map
-* Entry map (marc:entryMap = 000/20-23)
-I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.
-
-#### Katalogiserande instans
-* Katalogiserande instans (marc:catalogingSource = 008/39)  
-  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
- (marc/CooperativeCatalogingProgram).   
-  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
-  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
-  ```Exempel: Nationalbibliografi```   
-  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
-  ```Exempel: Annan verksamhet```  
-
 #### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
@@ -77,33 +62,12 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
  
   * ```NB```
   * ```SAMB```
-  
-#### Systemnummer  
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
-<br/>```Exempel:```
-  * ```(BOKR)978918810721```
-  * ```(OCoLC)on1042213159```
- 
-  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
-  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
-  
-Vid kopiering av post, ta bort den kopierade postens systemnummer.  
 
-För ISBN, se [Identifikator](#identifikator) under Instans.
-  
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Instans.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
-  
-#### Katalogiseringsregler  
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Instans.   
-  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
@@ -120,6 +84,42 @@ Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då
   
   * ```Ny post```
   * ```Rättad eller reviderad post```
+  
+#### Katalogiserande instans
+* Katalogiserande instans (marc:catalogingSource = 008/39)  
+  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
+ (marc/CooperativeCatalogingProgram).   
+  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
+  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
+  ```Exempel: Nationalbibliografi```   
+  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
+  ```Exempel: Annan verksamhet```  
+  
+#### Uppgraderad eller importerad av  
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
+  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften. 
+  För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
+  Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek).      
+  ```Exempel: S```
+  Det går för närvarande inte att repetera Uppgraderad eller importerad av. Låt uppgiften var kvar oförändrad.
+
+#### Entry map
+* Entry map (marc:entryMap = 000/20-23)
+I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.
+
+#### Systemnummer  
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
+  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
+<br/>```Exempel:```
+  * ```(BOKR)978918810721```
+  * ```(OCoLC)on1042213159```
+ 
+  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
+  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
+  
+Vid kopiering av post, ta bort den kopierade postens systemnummer.  
+
+För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Translitterering
 * Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
@@ -249,7 +249,8 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
   
 #### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 ‡a)  
+* Upplageuppgift (editionStatement = 250 ‡a)
+  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.
   Skriv in upplagebeteckning här. 
  <br/>```Exempel: Limited edition```  
   
@@ -305,7 +306,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
-#### Copyright 
+#### Copyright eller produktionsår
 För film anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
@@ -314,6 +315,11 @@ För film anges alltid copyright- eller produktionsår, även om det sammanfalle
  
     * ```©2017```
     * ```℗2017``` 
+    
+#### Produktionsland
+Produktionsland anges tills vidare i [Anmärkning](#anmarkning).
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
+<BR/>```Exempel: Produktionsland: Frankrike```  
     
 #### Identifikator
 Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för film är Utgivningsnummer (videoinspelning) och EAN förvalda.
@@ -331,11 +337,6 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
   ```Exempel: (skiva 1)``` <br/>
 
 För anvisningar om hur man anger ogiltiga ISBN, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
-
-#### Produktionsland
-Produktionsland anges tills vidare i Anmärkning.
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
-<BR/>```Exempel: Produktionsland: Frankrike```  
    
 #### Omfang  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
