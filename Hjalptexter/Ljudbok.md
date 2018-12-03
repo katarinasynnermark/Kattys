@@ -1,6 +1,6 @@
-## Ljudbok - ljudinspelning
+## Ljudbok - ljudinspelning 
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
+Denna hjälptext beskriver ett antal för ljudböcker (tillgängliga på CD eller MP3-CD) vanligt förekommande egenskaper, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Ljudbok - ljudinspelning, andra kan behöva läggas till. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
@@ -202,12 +202,7 @@ För att lägga till Övrig titelinformation, klicka på plustecknet vid Omslags
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
-  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
-  Skriv in uppgiften.
-  <br/>```Exempel:```
-  * ```Typanmärkning (246 ‡i): Skyddsomslag:```
-  * ```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```
-  * ```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
+För andra typer av varianttitlar, som inte är specificerade i verktyget, ange varianttiteln i Varianttitel och specificera typen i en Typanmärkning enligt anvisningen ovan om felaktigheter i titeln. 
     
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
