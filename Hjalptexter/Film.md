@@ -27,8 +27,9 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Systemteknisk anmärkning](#systemtekninsk-anmarkning)| [Videokarakteristika](#videokarakteristika) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Innehållsanmärkning](#innehallsanmarkning) | |
 | | [Anmärkning om systemkrav och mediespecifika uppgifter](#anmarkning-om-systemkrav-och-mediespecifika-uppgifter) | |
-|  | [Anmärkning](#anmarkning) | |
+| | [Anmärkning](#anmarkning) | |
 
 ### Adminmetadata
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
