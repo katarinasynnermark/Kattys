@@ -639,8 +639,8 @@ Läs mer:
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.</BR>
   ```Exempel:```
-  * ```tvådimensionell rörlig bild (tdi)```
-  * ```tredimensionell rörlig bild (tdm)```  
+  * ```tdi (= tvådimensionelll rörlig bild)```
+  * ```tdm (= tredimensionell rörlig bild)```  
   
 #### Anmarkningar
 ##### Anmärkning om språk
