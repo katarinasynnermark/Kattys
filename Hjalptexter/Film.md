@@ -23,7 +23,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
 | [Entry map](#Entry-map) | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | [Systemnummer](#systemnummer)| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Translitterering] (#translitterering)| [Bilagor](#bilagor) | |
+| [Translitterering](#translitterering)| [Bilagor](#bilagor) | |
 | [Systemteknisk anmärkning](#systemtekninsk-anmarkning)| [Videokarakteristika](#videokarakteristika) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
