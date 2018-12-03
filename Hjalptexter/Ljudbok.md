@@ -151,18 +151,20 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: n (= omedierad)```
+  ```Exempel: s (= audio)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: nc (= volym)``
+  ```Exempel: sd (= ljudskiva)``
  
-#### Titel  
+#### Titel
+Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskrivningar som görs enligt RDA.
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-  Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html).  
+  Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). 
+  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
@@ -175,16 +177,13 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
   
-  För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
+  För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel   
-Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
-För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
+Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Hierarchy in organizations```   
-* Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
-  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
@@ -737,7 +736,7 @@ Läs mer:
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
-  ```Exempel: text (txt)```  
+  ```Exempel: spw (= tal)```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.
   
 #### Sammanfattning av innehall    
