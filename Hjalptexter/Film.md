@@ -24,7 +24,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Entry map](#Entry-map) | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | [Systemnummer](#systemnummer)| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Translitterering](#translitterering)| [Bilagor](#bilagor) | |
-| [Systemteknisk anmärkning](#systemtekninsk-anmarkning)| [Videokarakteristika](#videokarakteristika) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning)| [Videokarakteristika](#videokarakteristika) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Innehållsanmärkning](#innehallsanmarkning) | |
