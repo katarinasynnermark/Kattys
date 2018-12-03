@@ -19,7 +19,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Poststatus](#poststatus) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Bild- och filmtexter](#bild-och-filmtexter) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Copyright eller produktionsår](#copyright-eller-produktionsar) | [Bild- och filmtexter](#bild-och-filmtexter) |
 | [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
 | [Entry map](#Entry-map) | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | [Systemnummer](#systemnummer)| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
