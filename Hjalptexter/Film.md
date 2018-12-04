@@ -178,12 +178,13 @@ Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskr
 För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel
-En varianttitel är en titel som hör samman med resursen och som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). 
-Om huvudtiteln är felstavad i källan kan en korrekt form av titeln anges som varianttitel, om det är viktigt för identifikation eller åtkomst. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
+En varianttitel är en titel som hör samman med resursen och som skiljer sig från den titel som angivits som huvudtitel,</BR> 
+se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
   Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: Teenage mutant hero turtles``` 
+  ```Exempel: Cool girls``` 
+<br/>Om huvudtiteln är felstavad i källan kan en korrekt form av titeln anges som varianttitel, om det är viktigt för identifikation eller åtkomst. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
 <br/>För att lägga till en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning.    
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
    ```Exempel: Titeln felstavad, korrekt titel:```   
