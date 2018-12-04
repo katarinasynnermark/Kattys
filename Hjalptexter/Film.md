@@ -178,7 +178,7 @@ Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskr
 För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel
-En varianttitel är en titel som hör samman med resursen och som skiljer sig från den titel som angivits som huvudtitel, [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). 
+En varianttitel är en titel som hör samman med resursen och som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). 
 Om huvudtiteln är felstavad i källan kan en korrekt form av titeln anges som varianttitel, om det är viktigt för identifikation eller åtkomst. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
