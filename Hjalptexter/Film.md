@@ -178,29 +178,24 @@ Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskr
 För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel
-En varianttitel är en titel som hör samman med resursen och som skiljer sig från den titel som angivits som huvudtitel. Ange varianttitlar som bedöms vara viktiga för identifikation och åtkomst. Varianttitlar kan hämtas från vilken källa som helst.
-Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel. <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
+En varianttitel är en titel som hör samman med resursen och som skiljer sig från den titel som angivits som huvudtitel, [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). 
+Om huvudtiteln är felstavad i källan kan en korrekt form av titeln anges som varianttitel, om det är viktigt för identifikation eller åtkomst. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
+<br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
+  Skriv in uppgiften under Huvudtitel.    
+  ```Exempel: Teenage mutant hero turtles``` 
+<br/>För att lägga till en , klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.    
+* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
+  ```Exempel: Titeln felstavad, korrekt titel:```   
+   
+Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. Notera att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel. <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Teenage mutant hero turtles```    
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   ```Exempel: Titeln felstavad, korrekt titel:```   
-  
-##### Omslagstitel, Ryggtitel, Rubriktitel  
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
-
-##### Omslagstitel   
-* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
- Skriv in uppgiften under huvudtitel.      
- ```Exempel: Home again```  
-* Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
-För att lägga till Övrig titelinformation, klicka på plustecknet vid Omslagstitel (Lägg till egenskaper under: Omslagstitel), välj Övrig titelinformation (= subtitle).  
-Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
-  Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: kärleken flyttar in``` 
-
-För andra typer av varianttitlar, som inte är specificerade i verktyget, ange varianttiteln i Varianttitel och specificera typen i en Typanmärkning enligt anvisningen ovan om felaktigheter i titeln.
    
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
