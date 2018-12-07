@@ -292,9 +292,14 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
     * ```Startår: 2015```
     * ```Slutår: 2017```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```</BR>
+     ```Exempel:```
+    * ```Startår: 2006```
+    * ```Slutår: 2010```
+   * ```Datum: [2006?]-2010```
+   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
- Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
+Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
 #### Copyright- eller produktionsar
 För film anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
