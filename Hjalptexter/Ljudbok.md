@@ -303,10 +303,10 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   
  <br/>```Exempel:```
  
-  * ```Startår: 2006```
-  * ```Slutår: 2010```
-  * ```Datum: [2006?]-2010```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+   * ```Startår: 2006```
+   * ```Slutår: 2010```
+   * ```Datum: [2006?]-2010```
+   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
