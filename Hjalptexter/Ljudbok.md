@@ -312,7 +312,9 @@ För ljudböcker anges alltid copyright- eller produktionsår, även om det samm
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  ```Exempel: ©2017``` 
+ <br/>```Exempel:```
+    * ```©2017```
+    * ```℗2017```  
   
 #### Identifikator 
 * Identifikator (identifiedBy)  
