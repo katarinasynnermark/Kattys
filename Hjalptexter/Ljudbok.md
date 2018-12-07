@@ -176,7 +176,7 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: C-byråns kvinnliga agenter under andra världskriget : en dokumentär spionberättelse```
+ ```Exempel: C-byråns kvinnliga agenter under andra världskriget : en dokumentär spionberättelse```
   
 För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
@@ -185,7 +185,8 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
 För att lägga till varianttitel, klicka på plusteknet vid Har titel (lägg till titel) och välj typ Varanttitel.
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
   Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: Hierarchy in organizations```</BR>   
+ ```Exempel: Hierarchy in organizations```  
+
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel)
 
 Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en varianttitel. Notera dock att för utgivna fysiska fonogram är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis 2.2.2.4.1](#http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
