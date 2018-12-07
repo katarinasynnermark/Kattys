@@ -289,17 +289,20 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   För att ange ett år utan klamrar eller andra tecken, använd endast År.  
   Skriv in uppgiften.
   <br/>```Exempel:```
+  
     * ```[2017]```
     * ```[mellan 2003 och 2005?]```
   
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
  <br/>```Exempel:```
+ 
   * ```Startår: 2006```
   * ```Slutår: 2017```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
  <br/>```Exempel:```
+ 
   * ```Startår: 2006```
   * ```Slutår: 2010```
   * ```Datum: [2006?]-2010```
@@ -307,12 +310,13 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
-#### Copyright- eller produktionsår
+#### Copyright- eller produktionsar
 För ljudböcker anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
  <br/>```Exempel:```
+ 
     * ```©2017```
     * ```℗2017```  
   
