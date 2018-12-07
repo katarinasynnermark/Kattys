@@ -168,16 +168,16 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). 
   
   Skriv in uppgiften.    
- ```Exempel: En arbetsdag i skriftsamhället```  
+ ```Exempel: Den frusna elden```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
- ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
+ ```Exempel: Huvudtitel: Den frusna elden, fileringsvärde: 4```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
+```Exempel: C-byråns kvinnliga agenter under andra världskriget : en dokumentär spionberättelse```
   
 För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
