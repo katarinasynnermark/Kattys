@@ -187,29 +187,14 @@ För att lägga till varianttitel, klicka på plusteknet vid Har titel (lägg ti
   Skriv in uppgiften under Huvudtitel.    
  ```Exempel: Hierarchy in organizations```  
 
-För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel)
+För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).
 
-Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en varianttitel. Notera dock att för utgivna fysiska fonogram är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis 2.2.2.4.1](#http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
+Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en varianttitel. Notera dock att för utgivna fysiska fonogram är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varanttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning.
 
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
   ```Exempel: Titeln felstavad, korrekt titel:```   
-  
-##### Omslagstitel, Ryggtitel, Rubriktitel  
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
-
-##### Omslagstitel   
-* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
- Skriv in uppgiften under huvudtitel.      
- ```Exempel: Bergens väktare```  
-* Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
-För att lägga till Övrig titelinformation, klicka på plustecknet vid Omslagstitel (Lägg till egenskaper under: Omslagstitel), välj Övrig titelinformation (= subtitle).  
-Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: Djingis Khan – historiens störste erövrare```
-
-För andra typer av varianttitlar, som inte är specificerade i verktyget, ange varianttiteln i Varianttitel och specificera typen i en Typanmärkning enligt anvisningen ovan om felaktigheter i titeln. 
     
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
@@ -227,7 +212,7 @@ Skriv in uppgiften under Deltitel.
 ```Exempel: Träd och växter som resurs```  
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
 
-#### Titel - alternativ stavning
+##### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
 (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
@@ -275,7 +260,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: [Göteborg]```  
+  ```Exempel: Malmö```  
   
 ##### Utgivningsland  
 * Land (country = 008/15-17)  
@@ -286,7 +271,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
   Skriv in uppgiften under Benämning.  
-  ```Exempel: NoNa```   
+  ```Exempel: Bokfabriken```   
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
@@ -305,41 +290,25 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```[2017]```
-    * ```[mellan 1863 och 1866?]```
+    * ```[mellan 2003 och 2005?]```
   
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
  <br/>```Exempel:```
-  * ```Startår: 1999```
+  * ```Startår: 2006```
   * ```Slutår: 2017```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
  <br/>```Exempel:```
-  * ```Startår: 1753```
-  * ```Slutår: 1756```
-  * ```Datum: [1732?]-1756```
+  * ```Startår: 2006```
+  * ```Slutår: 2010```
+  * ```Datum: [2006?]-2010```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
-   
-#### Tillverkning 
-* Tillverkning (manufacture)  
-
-##### Tillverkningsplats (Tillverkningsort) 
-* Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
-  ```Exempel: Falun```  
-##### Tillverkningsnamn  
-* Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
-  Skriv in uppgiften.   
-  ```Exempel: Scandbook```   
-##### Tillverkningstid   
-* Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
-  Skriv in uppgiften. Klamra vid behov.
-  <br/>```Exempel:```
-  * ```2017```
-  * ```[2017]```
   
-#### Copyrightar   
+#### Copyright- eller produktionsår
+För ljudböcker anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
