@@ -321,6 +321,18 @@ För ljudböcker anges alltid copyright- eller produktionsår, även om det samm
     * ```℗2017```  
   
 #### Identifikator 
+Flera typer av identifikatorer kan finnas på ljudispelningar. I mallen för ljudböcker är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
+* Identifikator (identifiedBy)
+  Välj typ från lista.
+  ```Exempel: Utgivningsnummer (ljudinspelning)```
+* Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 ‡a)
+  Ange identifikator.
+  ```Exempel: NA242512```
+* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b
+  Ange utgivarens namn.
+  ```Exempel: Naxos AudioBooks```
+  
+
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: ISBN```
@@ -329,7 +341,7 @@ För ljudböcker anges alltid copyright- eller produktionsår, även om det samm
   ```Exempel: 9789188107213```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: inbunden```  
+  ```Exempel: ?```  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
   
