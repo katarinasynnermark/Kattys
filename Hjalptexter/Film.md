@@ -271,7 +271,7 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom 
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
-##### År och datum 
+##### Ar och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
