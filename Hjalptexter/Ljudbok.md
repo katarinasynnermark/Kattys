@@ -151,13 +151,15 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: s (= audio)```
+  ```Exempel: term/rda/Audio```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: sd (= ljudskiva)```
- 
+  ```Exempel: term/rda/AudioDisc```
+  Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka även till entiteten marc/SoundDisc.
+  ```Exempel: marc/SoundDisc```
+  
 #### Titel
 Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskrivningar som görs enligt RDA.
 
@@ -731,7 +733,7 @@ Läs mer:
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
-  ```Exempel: spw (= tal)```  
+  ```Exempel: term/rda/SpokenWord```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.
   
 #### Sammanfattning av innehall    
