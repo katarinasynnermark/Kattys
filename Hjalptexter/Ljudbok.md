@@ -156,7 +156,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: sd (= ljudskiva)``
+  ```Exempel: sd (= ljudskiva)```
  
 #### Titel
 Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskrivningar som görs enligt RDA.
