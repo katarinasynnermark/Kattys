@@ -161,7 +161,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: marc/SoundDisc```
   
 #### Titel
-Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskrivningar som görs enligt RDA.
+Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
