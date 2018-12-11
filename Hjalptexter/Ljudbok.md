@@ -322,6 +322,7 @@ För ljudböcker anges alltid copyright- eller produktionsår, även om det samm
   
 #### Identifikator 
 Flera typer av identifikatorer kan finnas på ljudispelningar. I mallen för ljudböcker är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
+##### Utgivningsnummer (ljudinspelning)
 * Identifikator (identifiedBy)<br/>
   Välj typ från lista.
   <br/>```Exempel: Utgivningsnummer (ljudinspelning)```
@@ -330,9 +331,9 @@ Flera typer av identifikatorer kan finnas på ljudispelningar. I mallen för lju
   <br/>```Exempel: NA242512```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
   Ange utgivarens namn.
-  <br/>```Exempel: Naxos AudioBooks``<br/>
+  <br/>```Exempel: Naxos AudioBooks```<br/>
   
-
+##### ISBN
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: ISBN```
