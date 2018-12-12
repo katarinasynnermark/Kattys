@@ -646,22 +646,28 @@ Läs mer:
    ```Exempel: engelska (eng)``` 
  
 #### Innehallstyp
-* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
+ * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.</BR>
   ```Exempel:```
+  
   * ```two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
   * ```three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
   
 #### Anmarkningar
 ##### Anmärkning om språk
-* Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+ * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Tal på engelska. Dubbad till svenska, finska, norska. Textad på engelska, svenska, finska och norska```  
 
 ##### Anmärkning om medverkande
-* Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
+ * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
   ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
   
 #### Sammanfattning av innehall
-* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
-  ```Exempel: Innan begreppet roadmovie ens var uppfunnit gjorde Bergman sitt mästerverk om den gamle professorn som under en resa till Lund upplever minnen, ljusa och mörka, från sitt långa liv och konfronteras med sina innersta känslor på färden genom det svenska landskapet. Här visar Bergman att han behärskar filmens alla konstnärliga uttrycksmöjligheter till fullo och Smultronstället belönades bland annat med Guldbjörnen vid filmfestivalen i Berlin. ```
-
+ * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
+För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
+ Skriv in uppgiften under Benämning.  
+     
+ * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
+ Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
+ ```Exempel: Ej preciserad```  
+     
