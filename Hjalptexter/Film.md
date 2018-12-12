@@ -360,7 +360,7 @@ Skriv in uppgiften under Benämning.
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans). 
 Skriv in uppgiften under Benämning.
-  ```Exempel: 1 häfte``` 
+<br/>```Exempel: 1 häfte``` 
 
 #### Videokarakteristika
 * Videokarakteristika (videoCharacteristics = 007/04)
@@ -368,7 +368,7 @@ Skriv in uppgiften under Benämning.
   Här anges format, antingen DVD eller Blu-ray Disc. 
 
 #### Seriemedlemskap
-För anvisningar om hur man anger Seriemedlemsskap, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap): Seriemedlemskap. 
+För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap): Seriemedlemskap. 
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
@@ -414,12 +414,12 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 För att lägga till egenskaper under Instans av Verk/Projicerad bild, klicka på plustecknet vid Instans av Verk/Projicerad bild - Lägg till egenskaper under: Projicerad bild. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 #### Verkets titel 
-Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
+Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
 
 ##### Verkets titel - verk utan primär medverkande
 Filmer har sällan en primär medverkande och verkets föredragna titel ska då anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. Om den föredragna titeln är densamma som den titel som angetts som huvudtitel under Instans, behöver denna egenskap inte läggas till.
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
-Under Instans av Verk/Projicerrad bild, lägg till Uttryck av (plustecknet vid Instans av Verk/Projicerad bild - Lägg till egenskaper under: Projicerad bild, välj Uttryck av).  
+Under Instans av Verk/Projicerad bild, lägg till Uttryck av (plustecknet vid Instans av Verk/Projicerad bild - Lägg till egenskaper under: Projicerad bild, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Gommorra (tv-serie)```
@@ -440,10 +440,10 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
 Skriv in uppgiften.  
 ```Exempel: Svenska```
 
-För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under Verkets titel - analytisk sökingång. Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
+För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under [Verkets titel - analytisk sökingång](#Verkets-titel---analytisk-sökingång. Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
 
 ##### Verkets titel - verk med primär medverkande
-Föredragen titel för ett verk med primär medverkan anger du enligt nedan.  Obs! Det är ovanligt att film har primär medverkande. För att en    agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
+Föredragen titel för ett verk med primär medverkan anger du enligt nedan.  Obs! Det är ovanligt att film har primär medverkande. För att en agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a) 
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
