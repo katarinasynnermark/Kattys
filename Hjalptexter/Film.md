@@ -650,8 +650,8 @@ Läs mer:
   Länka till entitet.</BR>
   ```Exempel:```
   
-  * ```two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
-  * ```three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
+   * ```two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
+   * ```three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
   
 #### Anmarkningar
 ##### Anmärkning om språk
