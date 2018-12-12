@@ -120,6 +120,7 @@ Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då
 * Poststatus (recordStatus = 000/05)  
   Uppdateras automatiskt. Ändra inte.
   <br/>```Exempel:```
+  
   * ```Ny post```
   * ```Rättad eller reviderad post```
   
