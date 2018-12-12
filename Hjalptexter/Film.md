@@ -1,5 +1,5 @@
 ## Film - videoinspelning
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Film - videoinspelning, andra kan behöva läggas till. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/).
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av film på DVD eller Blu-ray, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Film - videoinspelning, andra kan behöva läggas till. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
@@ -138,7 +138,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
  * Anmärkning om katalogiseringskälla   
 
 ### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under Videoinspelning: ). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Videoinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)  
@@ -148,20 +148,20 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: v (= video)```
+  ```Exempel: video, v```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: vd (= videoskiva)```  
+  ```Exempel: videodisc, vd```  
   
 #### Titel  
-Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) ska inte ingå i beskrivningar som görs enligt RDA. 
+Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). 
-  <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, se [Librispraxis 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
+  <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, se [RDA 2.3.2.4](http://access.rdatoolkit.org/rdachp2_rda2-3375.html) samt [Librispraxis för RDA 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
  ```Exempel: Rescuers```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: The Beguiledh, fileringsvärde: 4```  
@@ -186,7 +186,7 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
 
-Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för AV-medier är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
+Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för utgivna rörliga bilder är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)<br/> 
@@ -208,7 +208,7 @@ Skriv in uppgiften under Deltitel.
 ```Exempel: Stark rygg & god hållning```  
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
 
-#### Titel - alternativ stavning
+##### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
 (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
@@ -254,7 +254,7 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: [Stockholm]```  
+  ```Exempel: Stockholm```  
   
 ##### Utgivningsland  
 * Land (country = 008/15-17)  
@@ -285,7 +285,8 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  <br/>```Exempel:```
  
     * ```[2017]```
-    * ```[mellan 2003 och 2007?]``` 
+    * ```[mellan 2003 och 2007?]```
+    
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg   till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
 <br/>```Exempel:```
@@ -306,8 +307,8 @@ Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsa
 #### Copyright- eller produktionsar
 För film anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
-  Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det. 
+  Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+  Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). 
 <br/>```Exempel:```
  
     * ```©2017```
@@ -320,6 +321,8 @@ Produktionsland anges tills vidare i [Anmärkning](#anmarkning).
     
 #### Identifikator
 Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för film är Utgivningsnummer (videoinspelning) och EAN förvalda.
+
+##### Utgivningsnummer (videoinspelning)
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: Utgivningsnummer (videoinspelning)```
@@ -331,15 +334,23 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
   ```Exempel: Njutafilms```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)<br/>
   Ange en bestämning.<br/>
-  ```Exempel: (skiva 1)``` <br/>
+  ```Exempel: skiva 1``` <br/>
+  
+##### EAN
+* Identifikator (identifiedBy)  
+  Välj typ från lista.  
+  ```Exempel: EAN```
+* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 ‡a)<br/>
+  Ange identifikator.<br/>
+  ```Exempel: 5705535059701```
 
-För anvisningar om hur man anger ogiltiga ISBN, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
+För anvisningar om hur man anger ISBN, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
    
 #### Omfang  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
-  ```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
+ <br/>```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
@@ -637,8 +648,8 @@ Läs mer:
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.</BR>
   ```Exempel:```
-  * ```tdi (= tvådimensionell rörlig bild)```
-  * ```tdm (= tredimensionell rörlig bild)```  
+  * ```two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
+  * ```three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
   
 #### Anmarkningar
 ##### Anmärkning om språk
