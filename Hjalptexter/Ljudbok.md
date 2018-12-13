@@ -60,16 +60,6 @@ Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skap
 * Entry map (marc:entryMap = 000/20-23)  
 I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.  
 
-#### Katalogiserande instans
-* Katalogiserande instans (marc:catalogingSource = 008/39)  
-  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
- (marc/CooperativeCatalogingProgram).   
-  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
-  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
-  ```Exempel: Nationalbibliografi```   
-  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
-  ```Exempel: Annan verksamhet```  
-
 #### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
@@ -123,6 +113,16 @@ Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då
   
   * ```Ny post```
   * ```Rättad eller reviderad post```
+  
+#### Katalogiserande instans
+* Katalogiserande instans (marc:catalogingSource = 008/39)  
+  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
+ (marc/CooperativeCatalogingProgram).   
+  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
+  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
+  ```Exempel: Nationalbibliografi```   
+  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
+  ```Exempel: Annan verksamhet```  
   
 #### Translitterering
 * Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
