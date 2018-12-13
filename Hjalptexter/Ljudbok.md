@@ -19,20 +19,15 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Genre](#genre) |
 | [Entry map](#enty-map) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
 | [Bibliografikod](#bibliografikod) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#translitterering) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-|  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | |
-| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | | 
-| | [Bilagor](#bilagor) | | 
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Anmarkning om medverkande](#anmarkning-om-medverkande) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| [Translitterering](#translitterering) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bilagor](#bilagor) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Anmärkning](#anmarkning) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | |
-
+| | [Innehållsanmärkning](#innehallsanmarkning) | | 
+| | [Anmarkning](#anmarkning) | | 
 
 ### Adminmetadata  
 
