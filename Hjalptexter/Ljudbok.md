@@ -47,6 +47,13 @@ Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skap
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```  
   Vid postimport: för närvarande hamnar det importerande bibliotekets sigel här. Detta kommer att ses över.  
+
+#### Katalogiseringsregler  
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
+  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post.   
+  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
+  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
+  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
 #### Uppgraderad eller importerad av  
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
@@ -91,12 +98,6 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
-#### Katalogiseringsregler  
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post.   
-  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
