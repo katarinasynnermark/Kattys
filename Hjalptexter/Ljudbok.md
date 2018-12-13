@@ -15,12 +15,12 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | ------ | ----------- |  ----------- |
 | [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Entry map](#entry-map) | [Titel](#titel) | [Genre](#genre) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
-| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Genre](#genre) |
+| [Entry map](#enty-map) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
+| [Bibliografikod](#bibliografikod) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Katalogiseringsspråk](#translitterering) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Innehållstyp](#innehallstyp) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 |  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | |
