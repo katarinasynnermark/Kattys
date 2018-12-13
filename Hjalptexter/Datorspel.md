@@ -99,7 +99,7 @@ Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften. 
   För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
   Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek).      
-  ```Exempel: S```
+  ```Exempel: S```<br/>
   Det går för närvarande inte att repetera Uppgraderad eller importerad av. Låt uppgiften var kvar oförändrad.
 
 #### Entry map
