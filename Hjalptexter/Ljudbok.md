@@ -21,7 +21,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Bibliografikod](#bibliografikod) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Innehållstyp](#innehallstyp) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Anmarkning om medverkande](#anmarkning-om-medverkande) |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Translitterering](#translitterering) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bilagor](#bilagor) | |
@@ -514,21 +514,6 @@ Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICv
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Välj Biografiskt material i listan över typer. Länka till entitet.  
   ```Exempel: a (= självbiografi)```  
-    
- ##### Festskrift     
-* Genre/form – festskrift (genreForm = 008/30)  
-  Välj Festskrift i listan över typer. Länka till entitet.    
-  ```Exempel: Ja, resursen är en festskrift```    
-    
- ##### Konferenspublikation       
-* Genre/form – konferenspublikation (genreForm = 008/29)  
-  Välj Konferenspublikation i listan över typer. Länka till entitet.         
-  ```Exempel: Ja, resursen härrör från konferens```   
-     
-##### Akademisk avhandling      
-* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
-  ```Exempel: Akademisk avhandling```     
 
 #### Klassifikation  
 * DDK-klassifikation  
@@ -649,7 +634,7 @@ Läs mer:
   ```Exempel: term/rda/SpokenWord```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.
 
-#### Anmärkning om medverkande
+#### Anmarkning om medverkande
  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
   ```Exempel: Inläsare: Gunilla Röör```
   
