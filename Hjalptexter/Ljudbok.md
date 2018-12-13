@@ -17,7 +17,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Genre](#genre) |
-| [Entry map](#enty-map) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
+| [Entry map](#entry-map) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
 | [Bibliografikod](#bibliografikod) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Innehållstyp](#innehallstyp) |
