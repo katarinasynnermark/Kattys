@@ -161,9 +161,9 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). 
-   ```Exempel: Snoopy's grand adventure```  
+   ```Exempel: The Avengers: battle for earth```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
- ```Exempel: Huvudtitel: The sims 4, fileringsvärde: 4```  
+ ```Exempel: Huvudtitel: The Avengers: battle for earth, fileringsvärde: 4```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
@@ -179,7 +179,7 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
  Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: Cool girls```<br/>
+  ```Exempel: Battle for earth```<br/>
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
 
@@ -230,10 +230,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)
   För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.
-  <BR/>```Exempel:```
-  
-  * ```written, produced and directed by Hilary Ng'weno```
-  * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
+  <BR/>```Exempel: developed by Revolution Software```
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)
