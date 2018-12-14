@@ -170,10 +170,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
-  <br/>```Exempel:```
-  
-  * ```stories of courage```
-  * ```mer om modelljärnvägar : allt samlaren behöver veta```
+  ```Exempel: pro evolution soccer ```
   
 För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
