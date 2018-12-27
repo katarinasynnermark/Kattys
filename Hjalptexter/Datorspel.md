@@ -166,7 +166,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). 
   </BR>```Exempel: SimCity 4 - rush hour expansion```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
-  ```Exempel: Huvudtitel: The Avengers - battle for earth, fileringsvärde: 4```  
+  ```Exempel: Huvudtitel: The hip hop dance experience, fileringsvärde: 4```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
@@ -182,7 +182,7 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
  Skriv in uppgiften under Huvudtitel.    
-```Exempel: Pro ecolution soccer 2014```
+```Exempel: Pro evoolution soccer 2014```
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
 
@@ -193,20 +193,8 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
    ```Exempel: Titeln felstavad, korrekt titel:```   
    
 ##### Delbeteckning
-* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
-Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Har del).  
-Under Har del, skapa Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.)   
-Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Delbeteckning (partNumber)).   
-Skriv in uppgiften under Delbeteckning.  
-```Exempel: 1```   
+För anvisningar om hur man anger Delbeteckning och Deltitel, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#titel): Titel. 
 
-##### Deltitel  
-* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)  
-Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - Lägg till egenskaper under: Titel, välj Har del).   Under Har del, skapa Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.)   
-Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Deltitel (partName)).   
-Skriv in uppgiften under Deltitel.  
-```Exempel: Stark rygg & god hållning```  
-För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
 
 ##### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
@@ -225,11 +213,10 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
 Välj först Har titel, välj sedan typ Parallelltitel.      
 Skriv in uppgiften under Huvudtitel.     
-  ```Exempel: Räddarna```  
+  
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
-  ```Exempel: berättelser om mod```  
-  
+     
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)
   För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.
@@ -239,7 +226,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 * Upplageuppgift (editionStatement = 250 ‡a)
   För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.
   Skriv in upplagebeteckning här. 
- <br/>```Exempel: Limited edition```  
+ <br/>```Exempel: Version 1.2```  
   
 #### Utgivning  
 * Utgivning (publication)  
@@ -251,18 +238,18 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: Stockholm```  
+  ```Exempel: Burbank, California```  
   
 ##### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
-  ```Exempel: Sverige (sw)``` 
+  ```Exempel: Förenta staterna (xxu)``` 
   
 ##### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
   Skriv in uppgiften under Benämning.  
-  ```Exempel: Njutafilms```   
+  ```Exempel: Insomniac Games```   
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
@@ -273,7 +260,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
-  ```Exempel: 2017```  
+  ```Exempel: [2017]```  
 * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
@@ -301,37 +288,28 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
 Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
-#### Copyright- eller produktionsar
-För film anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
+#### Copyrightar
+För datorspel anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+  Skriv in uppgiften. För att få fram © eller, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). 
-<br/>```Exempel:```
- 
-    * ```©2017```
-    * ```℗2017``` 
-    
-#### Produktionsland
-Produktionsland anges tills vidare i [Anmärkning](#anmarkning).
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
-<BR/>```Exempel: Produktionsland: Frankrike```  
+<br/>```Exempel: ©2017```
     
 #### Identifikator
-Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för film är Utgivningsnummer (videoinspelning) och EAN förvalda.
+Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivningsnummer (annat) och EAN förvalda.
 
-##### Utgivningsnummer (videoinspelning)
+##### Utgivningsnummer (annat)
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
-  ```Exempel: Utgivningsnummer (videoinspelning)```
-* Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)<br/>
+  ```Exempel: Utgivningsnummer (annat)```
+* Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 5/1 ‡a)<br/>
   Ange identifikator.<br/>
-  ```Exempel: NF780```
-* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)<br/> 
+  ```Exempel: 7303903501```
+* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 5/1 ‡b)<br/> 
   Ange utgivarens namn.<br/>
-  ```Exempel: Njutafilms```
+  ```Exempel: Electronic Arts```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)<br/>
   Ange en bestämning.<br/>
-  ```Exempel: skiva 1``` <br/>
   
 ##### EAN
 * Identifikator (identifiedBy)  
@@ -344,10 +322,10 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
 För anvisningar om hur man anger ISBN, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
    
 #### Omfang  
-Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
+Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
- <br/>```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
+ <br/>```Exempel: 1 DVD-ROM``` 
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
@@ -357,50 +335,38 @@ Skriv in uppgiften under Benämning.
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans). 
 Skriv in uppgiften under Benämning.
-<br/>```Exempel: 1 häfte``` 
-
-#### Videokarakteristika
-* Videokarakteristika (videoCharacteristics = 007/04)
-  <BR/>Länka till entitet. 
-  Här anges format, antingen DVD eller Blu-ray Disc. 
+<br/>```Exempel: 1 handledning (36 sidor)``` 
 
 #### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap): Seriemedlemskap. 
+Notera att franchisenamn inte ska anges som en serieuppgift.
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
-För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Målgrupp.  
+För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Målgrupp.  
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det).<BR/>
 Skriv in uppgiften under Benämning.  
-```Exempel: Barntillåten```  
+```Exempel: PEGI 12```  
+Om så önskas kan åldersnivån precisera enligt [PEGI](https://pegi.info), Pan European Game Information.  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
 
-#### Innehallsanmarkning  
-* Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Videoinspelning). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.     
-  ```Exempel: Adjö Puh! -- Var är Nasse? -- Fiskar på land -- Himlen trillar ner! -- Nasses ballongspel```  
-  
-* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 t‡, ‡r)  
-För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Videoinspelning). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift.  
-Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).
+#### Systemkrav
+Här anges uppgift om konsol. 
+* Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label)
+Skriv in uppgiften under Benämning.  
+```Exempel: XBox 360```  
   
 #### Systemkrav och mediespecifika uppgifter
-Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen.
+Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen. Notera att konsol anges i egenskapen [Systemkrav](#Systemkrav]
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)
-  </BR>```Exempel: Systemkrav: Region 2 ; bildformat: 16:9 (2.35:1 ); ljudformat: Dolby digital 5.1```
+För att lägga till anmärkning om systemkrav och mediespecifika uppgifter, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Har anmärkning: Systemkrav och mediespecifika uppgifter. Klicka på plustecknet Lägg till egenskaper under: Anmärkning: Systemkrav och mediespecifika uppgifter, välj Anmärkningstext (marc/systemDetailsNote).
+Skriv in uppgiften.
   
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här. Här anges också [Produktionsland](#produktionsland). 
+  Skriv in allmänna anmärkningar här. 
   </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
   Skriv in uppgiften under Benämning.   
-
-#### Tillhorande media
-* Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)
-  Länka till annan resurs här.
-  För att lägga till Tillhörande media, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillhörande media (associatedMedia). Klicka på plustecknet framför Tillhörande media (Lägg till mediaobjekt), välj Skapa lokal entitet i sidorutan Lägg till entitet. Klicka på plustecknet för Mediaobjekt och välj egenskapen Offentlig anmärkning. 
-I rutan under Offentlig anmärkning kan valfri text skrivas in, t.ex. ”Fritt tillgänglig via Kungliga biblioteket”.
-Klicka igen på plustecknet för Mediaobjekt och välj egenskapen URI. Klistra in aktuell uri i rutan under egenskapen. 
   
 ### Verk   
 
