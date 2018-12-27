@@ -157,7 +157,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
 #### Titel 
 Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franshisenamn följt av ett nummer och/eller en annan titel. Vanligtvis anges den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3.](http://access.rdatoolkit.org/rdachp1_rda1-808.html). Ange en endast en titel som undertitel om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
-  <BR/>```Exempel:```
+   <BR/>```Exempel:```
   * ```Need for speed - undercover```
   * ```SimCity 4 - rush hour expansion pack```
   
