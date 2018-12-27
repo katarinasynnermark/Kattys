@@ -158,15 +158,8 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Titel 
 Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franshisenamn följt av ett nummer och/eller en annan titel. Vanligtvis anges den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3.](http://access.rdatoolkit.org/rdachp1_rda1-808.html). Ange en endast en titel som undertitel om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
 <br/>```Exempel:```
-  
   * ```Need for speed - undercover```
   * ```SimCity 4 - rush hour expansion```
-  
-  
-  
-  <BR/>```Exempel:```
-  * ```Need for speed undercover```
-  * ```SimCity 4 - rush hour expansion pack```
   
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
 
@@ -191,11 +184,11 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
  Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: The division 2```<br/>
+```Exempel: Pro ecolution soccer 2014```
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
 
-Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för utgivna rörliga bilder är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
+Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för datorspel är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)<br/> 
