@@ -364,15 +364,15 @@ Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala sys
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. 
   </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
-  Skriv in uppgiften under Benämning.   
+  Skriv in uppgiften under Benämning. 
+```Exempel: Avsett för 1-7 spelare, 1-2 spelare i nätverk```  
   
 #### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen. Notera att uppgift om konsol anges i egenskapen [Systemkrav](#Systemkrav). 
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)
 För att lägga till anmärkning om systemkrav och mediespecifika uppgifter, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Har anmärkning: Systemkrav och mediespecifika uppgifter. Klicka på plustecknet Lägg till egenskaper under: Anmärkning: Systemkrav och mediespecifika uppgifter, välj Anmärkningstext (marc/systemDetailsNote).
 Skriv in uppgiften.
-  
-  
+    
 ### Verk   
 
 #### Instans av Verk/Projicerad bild
@@ -456,31 +456,24 @@ Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ga
 ```Exempel: Spelutvecklare```
   
 #### Sprak 
+Ange språk här.
 * Språk (language = 008/35-37)</BR>
-  Ange det talade eller sjungna språket här.</BR>
-  För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) ange "icke-språkligt medium".</BR>
-  För en film som är dubbad ange dubbningens språk här. Om resursen innehåller både originalversionen och dubbad version/dubbade versioner, ange originalversionens språk först och sedan språk/språken för dubbningen/dubbningarna.</BR>
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
-  </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
+  </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram entitet för språket.</BR>
   Länka till entitet.  
-  ```Exempel: engelska (eng)``` </BR>
-
-För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter)
- 
+  
 ##### Översättning  
-För en film som innehåller en översättning, t.ex. en dubbad version, lägg till:  
-
+För datorspel som innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Projicerad bild och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller översättning```  
-  
+  ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
-  Filmens originalspråk anges här. För en japansk film som är dubbad till svenska, ange japanska här.   
+  Ange originalspråk här.  
   Klicka på Lägg till egenskaper under: Projicerad bild, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
-  ```Exempel: engelska (eng)```   
-  
+  ```Exempel: engelska (eng)```  
+   
 #### Genre  
  Länka till entitet. 
 För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet (längst upp i sidorutan till höger), välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
@@ -489,150 +482,34 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
  Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
-```Exempel:```
-
-   * ```Spelfilmer```
-   * ```Dokumentärfilmer```</BR>
+<BR/>```Exempel: Datorspel```
 
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
-  
+
+Här anges även typ av fil 008/26. Datorspel ska ha koden g (dataspel). Länka till entitet.
+  ```Exempel: marc/ComputerTypeOfFileType-g```
+ 
 #### Klassifikation  
-* DDK-klassifikation  
-  För att lägga till DDK-klassifikation:  
-  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Projicerad bild (Lägg till egenskaper under: Projicerad bild). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
-   Skriv in uppgiften under Kod.  
-
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 791.4372```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
-  ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
-  ```Exempel: 23/swe```  
-  
-##### Sekundär DDK-klassifikation  
-Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Projicerad bild (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
-Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
-* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 791.4372```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-  (classification/ClassificationDdc/edition = 083 ‡2)  
-  ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
- (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
-  ```Exempel: 23/swe``` 
-   
-##### SAB-klassifikation  
-* SAB-klassifikation  
-  För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Projicerad bild (Lägg till egenskaper under: Projicerad bild). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
-   Skriv in uppgiften under Kod.   
-* Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
-     Skriv in uppgiften.  
-  ```Exempel: Ijb/VC```   
-* Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
- ```Exempel: kssb```  
-* Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
- ```Exempel: 8``` 
+För anvisningar om hur man anger klassifikation, se hjälptexten [Tryckt monografi: Klassifikation.](https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)
  
-#### Amne  
-* Ämne  
-  Läs mer:  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
-  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled)
-
-##### Allmänt ämnesord  
-* Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet.  
-  ```Exempel: Musikbranschen```
-
-##### Allmänt ämnesord med underindelning   
-Länka i första hand till färdiga sammansatta termer som entiteter. I övriga fall, skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
-  ```Exempel: sao```   
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
- (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
-  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)      
-  ```Exempel: Varumärken```    
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
- (subject/ComplexSubject/termComponentList = 650 ‡x)   
-  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Underindelning för allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)  
-  ```Exempel: juridik och lagstiftning```   
-  
-##### Geografiska ämnesord  
-* Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  Sök fram och länka till entitet.  
-  ```Exempel: Sverige```
-  
-##### Geografiskt ämnesord med geografisk underindelning  
-Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
-  ```Exempel: sao```  
-* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
- (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
- Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
-  ```Exempel: Tyskland```  
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning   
- (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
-  Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
-  ```Exempel: Bonn``` 
-   
-##### Kronologiskt ämnesord
-* Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
-Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
- ```Exempel: 1800-talet```  
-  
-##### Ämnesord Person  
-* Ämne/Agent/Person (subject = 600 1/4- ‡a)      
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan till höger).  
-```Exempel: Lindgren, Astrid, 1907-2002```  
-Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
- 
-##### Ämnesord Organisation  
-* Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan till höger).    
-```Exempel: ABBA (musikgrupp)```  
-Läs mer:  
-  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)       
+#### Amne 
+För anvisningar om hur man anger ämne, se hjälptexten [Tryckt monografi: Ämne](https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne). 
  
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
   ```Exempel: j (= barn- och ungdom, 0-16 år)```
-
-#### Bild- och filmtexter 
- * Bild- och filmtexter (marc:subtitlesOrCaptions/marc:SubtitlesOrCaptions/language = 041 ‡j)</BR>
- Ange språk i eventuella bild- och filmtexter.</BR>
-   ```Exempel: svenska (swe)```</BR> 
- Ange ytterligare språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
- Länka till entitet.   
-   ```Exempel: engelska (eng)``` 
  
 #### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.</BR>
-  ```Exempel:```
-  
-   * ```two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
-   * ```three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
+  ```Exempel: computer program, cop```
   
 #### Anmarkningar
 ##### Anmärkning om språk
  * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
-  ```Exempel: Tal på engelska. Dubbad till svenska, finska, norska. Textad på engelska, svenska, finska och norska```  
-
-##### Anmärkning om medverkande
- * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
-  ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
+  ```Exempel: Tal och text på svenska, danska, norska, finska. Manual på engelska.```  
   
 #### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
