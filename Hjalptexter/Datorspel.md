@@ -26,7 +26,6 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| [Innehållsanmärkning](#innehallsanmarkning) | |
 | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 | [Anmärkning](#anmarkning) | |
 
