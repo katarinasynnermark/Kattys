@@ -19,10 +19,10 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyrightår](#copyrightar) | |
-| [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
-| [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
-| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
+| [Identifikator](#identifikator) |  [Anmärkningar](#anmarkningar) |
+| [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | |
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
