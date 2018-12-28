@@ -27,7 +27,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | [Bilagor](#bilagor) | |
-| [Seriemedlemskap](#seriemedlemskap| | 
+| [Seriemedlemskap](#seriemedlemskap) | | 
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
 | [Anmarkning](#anmarkning) | | 
 
