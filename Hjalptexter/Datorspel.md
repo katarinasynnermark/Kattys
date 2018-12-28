@@ -29,7 +29,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Innehållsanmärkning](#innehallsanmarkning) | |
 | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 | [Anmärkning](#anmarkning) | |
-| [Tillhörande media](#tillhorande-media) | |
+
 
 ### Adminmetadata
 För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph)
