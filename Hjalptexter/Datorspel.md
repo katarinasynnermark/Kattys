@@ -10,132 +10,30 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Innehåll  
 
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ------ | ----------- |  ----------- |
-| [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Bibliografikod](#bibliografikod) | [Titel](#titel) | [Genre](#genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Poststatus](#poststatus) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Bild- och filmtexter](#bild--och-filmtexter) |
-| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
-| [Entry map](#Entry-map) | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
-| [Systemnummer](#systemnummer) | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Translitterering](#translitterering)| [Bilagor](#bilagor) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning)| [Videokarakteristika](#videokarakteristika) | |
-| | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
-| | [Anmärkning](#anmarkning) | |
-| | [Tillhörande media](#tillhorande-media) | |
+| [Instans](#instans) | [Verk](#verk) | 
+| ----------- |  ----------- |
+| [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Titel](#titel) | [Genre](#genre) |
+| [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
+| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Bild- och filmtexter](#bild--och-filmtexter) |
+| [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
+| [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
+| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| [Bilagor](#bilagor) | |
+| [Videokarakteristika](#videokarakteristika) | |
+| [Seriemedlemskap](#seriemedlemskap) | |
+| [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| [Innehållsanmärkning](#innehallsanmarkning) | |
+| [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
+| [Anmärkning](#anmarkning) | |
+| [Tillhörande media](#tillhorande-media) | |
 
 ### Adminmetadata
-För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
-
-#### Kontrollnummer
-* Kontrollnummer (controlNumber = 001)
-  Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast   siffror. Läs mer om [Nya ID i Libris](https://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/)
-
-#### Skapad av  
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: BOKR```
-
-#### Katalogiseringsregler  
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post
-  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
-  
-#### Bibliografikod
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
-  Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
-  För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).   
-  Skriv in uppgiften under Sigel.  
-  För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
- <br/>```Exempel:```
- 
-  * ```NB```
-  * ```SAMB```
-
-#### Katalogiseringssprak  
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
-  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post
-  Länka till entitet.  
-  ```Exempel: svenska (swe)```
-  
-#### Beskrivningsniva  
-* Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
-Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
-  Välj från lista.    
-  ```Exempel: Biblioteksnivå```
-  
-#### Poststatus     
-* Poststatus (recordStatus = 000/05)  
-  Uppdateras automatiskt. Ändra inte.
-  <br/>```Exempel:```
-  
-  * ```Ny post```
-  * ```Rättad eller reviderad post```
-  
-#### Katalogiserande instans
-* Katalogiserande instans (marc:catalogingSource = 008/39)  
-  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
- (marc/CooperativeCatalogingProgram).   
-  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
-  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
-  ```Exempel: Nationalbibliografi```   
-  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
-  ```Exempel: Annan verksamhet```  
-  
-#### Uppgraderad eller importerad av  
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften. 
-  För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
-  Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek).      
-  ```Exempel: S```<br/>
-  Det går för närvarande inte att repetera Uppgraderad eller importerad av. Låt uppgiften var kvar oförändrad.
-
-#### Entry map
-* Entry map (marc:entryMap = 000/20-23)
-I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.
-
-#### Systemnummer  
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
-<br/>```Exempel:```
-  * ```(BOKR)978918810721```
-  * ```(OCoLC)on1042213159```
- 
-  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
-  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
-  
-Vid kopiering av post, ta bort den kopierade postens systemnummer.  
-
-För ISBN, se [Identifikator](#identifikator) under Instans.
-  
-#### Translitterering
-* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
-   Sigel för det bibliotek som translittererat posten till maskinläsbar form. Låt det vara kvar oförändrat.  
- 
-#### Systemteknisk anmarkning  
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
-För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
-Låt anmärkning om postimport ligga kvar.  
-```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
-
-  I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll:  
-```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```   
- 
-Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
- * Katalogisatörens anmärkning  
- * Anmärkning om katalogiseringskälla   
+För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph)
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -341,7 +239,7 @@ Skriv in uppgiften under Benämning.
 <br/>```Exempel: 1 handledning (36 sidor)``` 
 
 #### Seriemedlemskap
-För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap): Seriemedlemskap. 
+För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi: Seriemedlemskap](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap).
 Notera att franchisenamn inte ska anges som en serieuppgift.
 
 #### Malgruppsanmarkning  
