@@ -31,7 +31,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 
 ### Adminmetadata
-För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph)
+För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph).
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
