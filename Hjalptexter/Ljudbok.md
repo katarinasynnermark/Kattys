@@ -15,7 +15,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 
 | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- |
-| [Verkets titel](#verkets-titel) |
+| [Utgivningssätt](#utgivningssatt) [Verkets titel](#verkets-titel) |
 | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | [Titel](#titel) | [Genre](#genre) |
