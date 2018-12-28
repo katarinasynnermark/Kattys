@@ -219,12 +219,12 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
      
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)
-  För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.
+  För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
   <BR/>```Exempel: developed by Revolution Software```
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)
-  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.
+  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
   Skriv in upplagebeteckning här. 
  <br/>```Exempel: Version 1.2```  
   
@@ -302,7 +302,7 @@ Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivnings
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: Utgivningsnummer (annat)```
-* Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 5/1 ‡a)<br/>
+* Identifikator/Utgivningsnummer (annat)/Värde (identifiedBy/VideoRecordingNumber/value = 028 5/1 ‡a)<br/>
   Ange identifikator.<br/>
   ```Exempel: 7303903501```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 5/1 ‡b)<br/> 
@@ -336,7 +336,7 @@ Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#syst
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans). 
+För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans). 
 Skriv in uppgiften under Benämning.
 <br/>```Exempel: 1 handledning (36 sidor)``` 
 
@@ -363,7 +363,7 @@ Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala sys
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. 
-  </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
+  </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
   Skriv in uppgiften under Benämning. 
 ```Exempel: Avsett för 1-7 spelare, 1-2 spelare i nätverk```  
   
