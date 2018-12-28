@@ -419,112 +419,11 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
   
-#### Klassifikation  
-* DDK-klassifikation  
-  För att lägga till DDK-klassifikation:  
-  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Projicerad bild (Lägg till egenskaper under: Projicerad bild). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
-   Skriv in uppgiften under Kod.  
-
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 791.4372```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
-  ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
-  ```Exempel: 23/swe```  
-  
-##### Sekundär DDK-klassifikation  
-Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Projicerad bild (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
-Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
-* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 791.4372```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-  (classification/ClassificationDdc/edition = 083 ‡2)  
-  ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
- (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
-  ```Exempel: 23/swe``` 
-   
-##### SAB-klassifikation  
-* SAB-klassifikation  
-  För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Projicerad bild (Lägg till egenskaper under: Projicerad bild). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
-   Skriv in uppgiften under Kod.   
-* Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
-     Skriv in uppgiften.  
-  ```Exempel: Ijb/VC```   
-* Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
- ```Exempel: kssb```  
-* Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
- ```Exempel: 8``` 
+#### Klassifikation
+För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi: Klassifikation] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation).
  
-#### Amne  
-* Ämne  
-  Läs mer:  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
-  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled)
-
-##### Allmänt ämnesord  
-* Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet.  
-  ```Exempel: Musikbranschen```
-
-##### Allmänt ämnesord med underindelning   
-Länka i första hand till färdiga sammansatta termer som entiteter. I övriga fall, skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
-  ```Exempel: sao```   
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
- (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
-  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)      
-  ```Exempel: Varumärken```    
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
- (subject/ComplexSubject/termComponentList = 650 ‡x)   
-  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Underindelning för allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)  
-  ```Exempel: juridik och lagstiftning```   
-  
-##### Geografiska ämnesord  
-* Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  Sök fram och länka till entitet.  
-  ```Exempel: Sverige```
-  
-##### Geografiskt ämnesord med geografisk underindelning  
-Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
-  ```Exempel: sao```  
-* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
- (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
- Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
-  ```Exempel: Tyskland```  
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning   
- (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
-  Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
-  ```Exempel: Bonn``` 
-   
-##### Kronologiskt ämnesord
-* Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
-Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
- ```Exempel: 1800-talet```  
-  
-##### Ämnesord Person  
-* Ämne/Agent/Person (subject = 600 1/4- ‡a)      
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan till höger).  
-```Exempel: Lindgren, Astrid, 1907-2002```  
-Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
- 
-##### Ämnesord Organisation  
-* Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan till höger).    
-```Exempel: ABBA (musikgrupp)```  
-Läs mer:  
-  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)       
+#### Amne 
+För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi: Ämne] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne).
  
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
