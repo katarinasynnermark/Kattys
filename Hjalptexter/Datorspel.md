@@ -24,7 +24,6 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Bilagor](#bilagor) | |
-| [Videokarakteristika](#videokarakteristika) | |
 | [Seriemedlemskap](#seriemedlemskap) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | [Innehållsanmärkning](#innehallsanmarkning) | |
