@@ -19,7 +19,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyrightår](#copyrightar) | [Bild- och filmtexter](#bild--och-filmtexter) |
+| [Copyrightår](#copyrightar) | |
 | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
 | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
