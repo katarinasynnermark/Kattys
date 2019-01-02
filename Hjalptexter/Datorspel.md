@@ -228,7 +228,7 @@ Skriv in uppgiften under Benämning.
 
 #### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi: Seriemedlemskap](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap).
-Notera att franchisenamn inte ska anges som en serieuppgift.
+Franchisenamn ska inte anges som serieuppgift, se [Titel](#titel).
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
