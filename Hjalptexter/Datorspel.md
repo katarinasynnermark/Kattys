@@ -250,22 +250,23 @@ Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala sys
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. 
   </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
-  Skriv in uppgiften under Benämning. 
+  Skriv in uppgiften under Benämning.<BR/>
 ```Exempel: Avsett för 1-7 spelare, 1-2 spelare i nätverk```  
   
 #### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen. Notera att uppgift om konsol anges i egenskapen [Systemkrav](#Systemkrav). 
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)
 För att lägga till anmärkning om systemkrav och mediespecifika uppgifter, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Har anmärkning: Systemkrav och mediespecifika uppgifter. Klicka på plustecknet Lägg till egenskaper under: Anmärkning: Systemkrav och mediespecifika uppgifter, välj Anmärkningstext (marc/systemDetailsNote).
-Skriv in uppgiften.
-    
+Skriv in uppgiften.</BR>
+```Exempel: Systemkrav: 50 GB minimum på hårddisken ; dualshok 4 ; stöd för remote play```  
+
 ### Verk   
 
-#### Instans av Verk/Projicerad bild
-* Instans av Verk/Projicerad bild (instanceOf/Work/ProjectedImage)  
+#### Instans av Verk/Multimedia
+* Instans av Verk/Multimedia (instanceOf/Work/Multimedia)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Projicerad bild.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
-För att lägga till egenskaper under Instans av Verk/Projicerad bild, klicka på plustecknet vid Instans av Verk/Projicerad bild - Lägg till egenskaper under: Projicerad bild. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
+För att lägga till egenskaper under Instans av Verk/Multimedia, klicka på plustecknet vid Instans av Verk/Multimedia - Lägg till egenskaper under: Multimedia. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 #### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
@@ -277,7 +278,8 @@ Under Instans av Verk/Multimedia, lägg till Uttryck av (plustecknet vid Instans
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel:  Prototype (datorspel)```
-</BR>Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype. Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).
+</BR>Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype.</BR>
+Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning). 
 *	Uttryck av/Verk/Språk/Språk/Benämning  
