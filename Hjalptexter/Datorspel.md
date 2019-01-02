@@ -20,7 +20,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyright- eller produktionsår](#copyright-- eller produktionsar) | [Innehållstyp](#innehallstyp) |
+| [Copyright- eller produktionsår](#copyright--eller produktionsar) | [Innehållstyp](#innehallstyp) |
 | [Identifikator](#identifikator) |  [Anmärkningar](#anmarkningar) |
 | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | |
@@ -176,7 +176,7 @@ För datorspel anges alltid copyright- eller produktionsår, även om det samman
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram © eller, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). 
-<br/>```Exempel: 
+<br/>```Exempel:``` 
 
    * ```©2017```
    * ```℗2017```
