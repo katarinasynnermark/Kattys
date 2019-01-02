@@ -179,7 +179,7 @@ För datorspel anges alltid copyright- eller produktionsår, även om det samman
 <br/>```Exempel: 
 
    * ```©2017```
-   * ``` 2017```
+   * ```℗2017```
     
 #### Identifikator
 Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivningsnummer (annat) och EAN förvalda.
