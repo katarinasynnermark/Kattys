@@ -227,7 +227,7 @@ Skriv in uppgiften under Benämning.
 <br/>```Exempel: 1 handledning (36 sidor)``` 
 
 #### Seriemedlemskap
-För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi: Seriemedlemskap](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap).
+För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi: Seriemedlemskap](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap).<br/>
 Franchisenamn ska inte anges som serieuppgift, se [Titel](#titel).
 
 #### Malgruppsanmarkning  
