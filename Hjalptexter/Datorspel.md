@@ -20,7 +20,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
+| [Copyright- eller produktionsår](#copyright-- eller produktionsar) | [Innehållstyp](#innehallstyp) |
 | [Identifikator](#identifikator) |  [Anmärkningar](#anmarkningar) |
 | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | |
@@ -46,10 +46,10 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: videodisc, vd```  
+  ```Exempel: computer disc, cd```  
   
 #### Titel 
-Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franshisenamn följt av ett nummer och/eller en annan titel. Vanligtvis anges den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3.](http://access.rdatoolkit.org/rdachp1_rda1-808.html). Ange en endast en titel som undertitel om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
+Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franshisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3.](http://access.rdatoolkit.org/rdachp1_rda1-808.html). Ange en endast en titel som undertitel om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
 <br/>```Exempel: Need for speed - undercover```
   
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
@@ -85,8 +85,8 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)<br/> 
    ```Exempel: Titeln felstavad, korrekt titel:```   
    
-##### Delbeteckning
-För anvisningar om hur man anger Delbeteckning och Deltitel, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#titel): Titel. 
+##### Delbeteckning och deltitel
+För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#titel): Titel. 
 
 
 ##### Titel - alternativ stavning
@@ -94,7 +94,7 @@ För anvisningar om hur man anger Delbeteckning och Deltitel, se hjälptexten [T
 (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
 
-  För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Instans och välj Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Projicerad bild). 
+  För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Relation. Välj sedan typ: Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
 Skriv in uppgiften under Huvudtitel.  
 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
@@ -111,14 +111,14 @@ Skriv in uppgiften under Huvudtitel.
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
      
 #### Upphovsuppgift
-* Upphovsuppgift (responsibilityStatement = 245 ‡c)
+* Upphovsuppgift (responsibilityStatement = 245 ‡c)<BR/>
   För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
   <BR/>```Exempel: developed by Revolution Software```
   
 #### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 ‡a)
+* Upplageuppgift (editionStatement = 250 ‡a)<BR/>
   För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
-  Skriv in upplagebeteckning här. 
+  <BR/>Skriv in upplagebeteckning här. 
  <br/>```Exempel: Version 1.2```  
   
 #### Utgivning  
