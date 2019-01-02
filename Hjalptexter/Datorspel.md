@@ -236,14 +236,14 @@ För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till eg
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det).<BR/>
 Skriv in uppgiften under Benämning. Åldersnivån kan om så önskas, preciseras enligt [PEGI](https://pegi.info), Pan European Game Information.<BR/>
 ```Exempel: PEGI 12```  
-Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
+Observera att kodning av målgrupp, motsvarande 008/22, ska anges under Instans av Verk/Genre. 
 
 #### Systemkrav
 Det är obligatoriskt i Libris att ange konsol här. 
 * Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label)
 Skriv in uppgiften under Benämning.  
-```Exempel: XBox 360```
-Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala system, anges inom parentes efter [omfång] (#omfang).
+```Exempel: XBox 360```<BR/>
+Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala system, anges inom parentes efter [omfång](#omfang).
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
