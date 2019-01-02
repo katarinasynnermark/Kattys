@@ -27,7 +27,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| [Systemkrav](#systemkrav)
+| [Systemkrav](#systemkrav) | |
 | [Anmärkning](#anmarkning) | |
 | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 
