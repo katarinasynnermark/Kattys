@@ -20,7 +20,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyright- eller produktionsår](#copyright--eller produktionsar) | [Innehållstyp](#innehallstyp) |
+| [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Innehållstyp](#innehallstyp) |
 | [Identifikator](#identifikator) |  [Anmärkningar](#anmarkningar) |
 | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | |
@@ -212,9 +212,9 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
  <br/>```Exempel: 1 DVD-ROM``` 
-Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
+<br/>Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
  <br/>```Exempel: 1 DVD-ROM (Xbox 360)```
-Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
+<br/>Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
