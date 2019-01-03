@@ -418,10 +418,10 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
   
 #### Klassifikation
-För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi: Klassifikation (https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation).
+För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation) Klassifikation .
  
 #### Amne 
-För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi: Ämne](https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne).
+För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne) Ämne.
  
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
