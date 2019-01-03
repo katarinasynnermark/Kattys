@@ -136,7 +136,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)</BR>
-  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.
+  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.</BR>
   Skriv in upplagebeteckning här. 
  <br/>```Exempel: Limited edition```  
   
@@ -186,19 +186,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     * ```[mellan 2003 och 2007?]```
     
 * Flera år (flerbandsverk)  
-  Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg   till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
-<br/>```Exempel:```
-
-    * ```Startår: 2015```
-    * ```Slutår: 2017```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```</BR>
-    
-     ```Exempel:```
- 
-    * ```Startår: 2006```
-    * ```Slutår: 2010```
-    * ```Datum: [2006?]-2010```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+   För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning.
 
 Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
@@ -294,7 +282,8 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. Här anges också [Produktionsland](#produktionsland). 
   </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
-  Skriv in uppgiften under Benämning.   
+  Skriv in uppgiften under Benämning.  
+   ```Exempel: Produktionsland: Frankrike```  
 
 #### Tillhorande media
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)
