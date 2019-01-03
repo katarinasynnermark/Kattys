@@ -456,7 +456,7 @@ För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:](htt
   
 #### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
-För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
+För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Projicerad bild - Lägg till egenskaper under: Projicerad bild. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
  Skriv in uppgiften under Benämning.  
      
  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
