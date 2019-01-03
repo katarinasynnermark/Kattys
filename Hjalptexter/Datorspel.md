@@ -383,7 +383,8 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
-Här anges även typ av fil 008/26. Datorspel ska ha koden g (dataspel). Länka till entitet.</BR>
+Här anges även typ av fil (marc/ComputerTypeOfFileType = 008/26). Datorspel ska ha koden g (dataspel).</BR>
+Länka till entitet.</BR>
   ```Exempel: marc/ComputerTypeOfFileType-g```
  
 #### Klassifikation  
@@ -410,8 +411,8 @@ För anvisningar om hur man anger ämne, se hjälptexten [Tryckt monografi: Ämn
   
 #### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
-För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
- Skriv in uppgiften under Benämning.  
+För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Multimedia - Lägg till egenskaper under: Multimedia. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
+ Skriv in uppgiften under Benämning.
      
  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
