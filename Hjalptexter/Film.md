@@ -388,16 +388,14 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
   Länka till entitet.  
 
-För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter)
+För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).
  
 ##### Översättning  
 För en film som innehåller en översättning, t.ex. en dubbad version, lägg till:  
-
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Projicerad bild och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller översättning```  
-  
+  ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Filmens originalspråk anges här. För en japansk film som är dubbad till svenska, ange japanska här.   
   Klicka på Lägg till egenskaper under: Projicerad bild, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
@@ -410,7 +408,8 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
  Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
- Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
+ Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe.</BR> 
+ Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
 ```Exempel:```
 
    * ```Spelfilmer```
@@ -419,10 +418,10 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
   
 #### Klassifikation
-För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi: Klassifikation] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation).
+För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi: Klassifikation (https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation).
  
 #### Amne 
-För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi: Ämne] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne).
+För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi: Ämne](https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne).
  
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
