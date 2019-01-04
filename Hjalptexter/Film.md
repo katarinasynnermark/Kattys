@@ -186,7 +186,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     * ```[mellan 2003 och 2007?]```
     
 * Flera år (flerbandsverk)  
-   För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning.
+  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning. 
 
 Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
