@@ -76,7 +76,7 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
  Skriv in uppgiften under Huvudtitel.    
-```Exempel: Pro evoolution soccer 2014```
+```Exempel: Pro evolution soccer 2014```
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
 
