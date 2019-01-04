@@ -338,7 +338,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
  
 En utgivare är enligt RDA en agent som har en relation till manifestationen men i Libris anges utgivare i Instans av verk. För kommersiella utgivare räcker det tills vidare att skapa lokal entitet.
 * Medverkan och funktion/Medverkan/Agent/Organisation/Namn (contribution/agent/organisation/name = 710 1/- ‡a)  
-  Skriv in uppgiften efter Namn. 
+  Skriv in uppgiften efter Namn.</BR> 
   ```Exempel: Ubisoft Entertainment```  
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 710 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
