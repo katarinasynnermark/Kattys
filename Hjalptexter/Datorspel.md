@@ -378,8 +378,8 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
  Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
   ```Exempel:```
   
-     ```Datorspel```
-     ```First-person shooter (datorspel)```
+     * ```Datorspel```
+     * ```First-person shooter (datorspel)```
 
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
