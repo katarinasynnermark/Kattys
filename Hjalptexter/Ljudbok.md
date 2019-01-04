@@ -107,9 +107,8 @@ För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en del
 (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
 
-  För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Instans och välj Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
-Skriv in uppgiften under Huvudtitel.  
-```Exempel: Commentarii fratrum arvalium qui supersunt```  
+  För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Ljudinspelning och välj Relation. Välj typ Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
+Skriv in uppgiften under Huvudtitel.   
 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
@@ -134,13 +133,14 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
   
 #### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 ‡a)  
+* Upplageuppgift (editionStatement = 250 ‡a)</BR>
+  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
   
 #### Utgivning  
 * Utgivning (publication)  
-  Välj typ från lista. För monografier, använd Primär utgivning.  
+  Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
 NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
   Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.      
@@ -172,7 +172,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
-  ```Exempel: 2017```  
+  ```Exempel: [2017]```  
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
@@ -184,19 +184,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     * ```[mellan 2003 och 2005?]```
   
 * Flera år (flerbandsverk)  
-  Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
-<br/>```Exempel:```
-
-    * ```Startår: 2015```
-    * ```Slutår: 2017```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```</BR>
-    
-     ```Exempel:```
- 
-    * ```Startår: 2006```
-    * ```Slutår: 2010```
-    * ```Datum: [2006?]-2010```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+ För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning. 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
@@ -205,7 +193,7 @@ För ljudböcker anges alltid copyright- eller produktionsår, även om det samm
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
- <br/>```Exempel:```
+ ```Exempel:```
  
     * ```©2017```
     * ```℗2017```  
