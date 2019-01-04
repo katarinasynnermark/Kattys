@@ -199,7 +199,7 @@ För ljudböcker anges alltid copyright- eller produktionsår, även om det samm
     * ```℗2017```  
   
 #### Identifikator 
-Flera typer av identifikatorer kan finnas på ljudispelningar. I mallen för ljudböcker är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
+Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för ljudböcker är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
 ##### Utgivningsnummer (ljudinspelning)
 * Identifikator (identifiedBy)<br/>
   Välj typ från lista.
@@ -210,16 +210,19 @@ Flera typer av identifikatorer kan finnas på ljudispelningar. I mallen för lju
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
   Ange utgivarens namn.
   <br/>```Exempel: Naxos AudioBooks```<br/>
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
+  Ange bestämning.  
+  ```Exempel: MP3-CD```  
   
 ##### ISBN
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: ISBN```
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
+  Ange identifikator.  
   ```Exempel: 9789188107213```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
+  Ange bestämning.  
   ```Exempel: MP3-CD```  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
@@ -250,8 +253,8 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Ljudinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
-Skriv in uppgiften.  
-  <br/>```Exempel:```
+Skriv in uppgiften i Benämning.  
+ ```Exempel:```
  
     * ```1 MP3-CD```
     * ```1 häfte```  
