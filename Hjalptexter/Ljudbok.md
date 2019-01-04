@@ -376,12 +376,12 @@ För en översättning, ange även:
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Text och välj Anmärkning: Språk. Välj fras från lista.  
+  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Ljudmaterial och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```  
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på Lägg till egenskaper under: Text, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
+  Klicka på Lägg till egenskaper under: Ljudmaterial, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
@@ -411,10 +411,10 @@ Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICv
   ```Exempel: a (= självbiografi)```  
 
 #### Klassifikation  
-För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi: Klassifikation] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation).
+För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation) Klassifikation.
    
 #### Amne
-För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi: Ämne] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne).
+För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne) Ämne.
 
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
