@@ -217,7 +217,7 @@ Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för f
   Ange utgivarens namn.<br/>
   ```Exempel: Njutafilms```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)<br/>
-  Ange en bestämning.<br/>
+  Ange bestämning.<br/>
   ```Exempel: skiva 1``` <br/>
   
 ##### EAN
