@@ -426,15 +426,14 @@ För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:](htt
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
   ```Exempel: term/rda/SpokenWord```  
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.
-
+  
 #### Anmarkning om medverkande
  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
   ```Exempel: Inläsare: Gunilla Röör```
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
-För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
+För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Ljudmaterial - Lägg till egenskaper under: Ljudmaterial. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
  Skriv in uppgiften under Benämning.  
      
  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
