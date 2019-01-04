@@ -287,8 +287,6 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
 *	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 ‡l)  
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
-Ange språket i klartext.  
-```Exempel: Svenska```
 
 ##### Verkets titel - verk med primär medverkande
 Föredragen titel för ett verk med primär medverkan anges här. Obs! Det är ovanligt att datorspel har primär medverkande. För att en agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet.
