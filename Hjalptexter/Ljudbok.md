@@ -414,7 +414,7 @@ Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICv
 För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation) Klassifikation.
    
 #### Amne
-För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:] (https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne) Ämne.
+För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne) Ämne.
 
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
