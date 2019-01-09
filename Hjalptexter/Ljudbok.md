@@ -22,7 +22,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Innehållstyp](#innehallstyp) |
+| [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
 | [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
@@ -188,16 +188,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
-#### Copyright- eller produktionsar
-För ljudböcker anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
+#### Copyrightår
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
- ```Exempel:```
- 
-    * ```©2017```
-    * ```℗2017```  
-  
+ ```Exempel: ©2017```
+     
 #### Identifikator 
 Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för ljudböcker är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
 ##### Utgivningsnummer (ljudinspelning)
