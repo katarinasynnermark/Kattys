@@ -20,7 +20,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyright- eller produktionsår](#copyright--eller-produktionsar) | [Bild- och filmtexter](#bild--och-filmtexter) |
+| [Copyrightar](#copyrightar) | [Bild- och filmtexter](#bild--och-filmtexter) |
 | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
 | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
