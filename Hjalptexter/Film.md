@@ -304,7 +304,7 @@ Film har sällan en primär medverkande och verkets föredragna titel ska då an
 Under Instans av Verk/Projicerad bild, lägg till Uttryck av (plustecknet vid Instans av Verk/Projicerad bild - Lägg till egenskaper under: Projicerad bild, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften under Huvudtitel.  
-<br/>```Exempel:```
+```Exempel:```
 
       * ```Gomorra (film)```
       * ```Gomorra (tv-serie)```    
