@@ -190,16 +190,13 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
 Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
-#### Copyright- eller produktionsar
-För film anges alltid copyright- eller produktionsår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
+#### Copyrightar
+För film anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html)
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+  Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). 
-<br/>```Exempel:```
- 
-    * ```©2017```
-    * ```℗2017``` 
-    
+<br/>```Exempel: ©2017```
+       
 #### Produktionsland
 Produktionsland anges tills vidare i [Anmärkning](#anmarkning).
     
