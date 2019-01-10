@@ -307,7 +307,7 @@ Skriv in uppgiften under Huvudtitel.
 ```Exempel:```
 
       * ```Gomorra (film)```
-      * ```Gomorra (tv-serie)```    
+      * ```Gomorra (tv-serie)```<br/>    
 Tillägget inom parentes (tv-serie) görs för att skilja tv-serien Gomorra från filmen Gomorra.</BR> 
 Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA)
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
