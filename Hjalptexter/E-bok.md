@@ -53,7 +53,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: marc/Online```</BR>
   Marc-koden behövs tills vidare för att genrera .... i Webbsök eller kan behövas i lokala sysem?</BR>
   
-  Länka även till entiteten marc/OnlineResource för att lägga till Marc-koden "o" (= onlineutgåva) i 008/23 (= form för manifestationen.</BR>
+  Länka till entiteten marc/OnlineResource för att lägga till Marc-koden "o" (= onlineutgåva) i 008/23 (= form för manifestationen.</BR>
   ```Exempel: marc/OnlineResource```</BR>
   Marc-koden behövs tills vidare för att genrera .... i Webbsök eller kan behövas i lokala sysem?
     
