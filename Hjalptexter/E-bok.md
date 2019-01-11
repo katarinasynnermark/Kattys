@@ -228,7 +228,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   Skriv in uppgiften.  
   ```Exempel: Print``` 
   
-#####URN
+##### URN
 * Identifikator/Identifikator/Benämning (identifiedBy/Identifier/value = 024 7/- ‡a</BR>
   För att lägga till URN, klicka på plustecknet vid Identifikator (Lägg till identifikator) och välj typ Identifikator.</BR>
   Skriv in uppgiften under Värde.</BR>
