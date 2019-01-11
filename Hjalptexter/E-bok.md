@@ -203,31 +203,16 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  ```Exempel: ©2017```
      
 #### Identifikator 
-Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för ljudböcker är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
-##### Utgivningsnummer (ljudinspelning)
-* Identifikator (identifiedBy)<br/>
-  Välj typ från lista.
-  <br/>```Exempel: Utgivningsnummer (ljudinspelning)```
-* Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 ‡a)<br/>
-  Ange identifikator.
-  <br/>```Exempel: NA242512```
-* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
-  Ange utgivarens namn.
-  <br/>```Exempel: Naxos AudioBooks```<br/>
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Ange bestämning.  
-  ```Exempel: MP3-CD```  
-  
 ##### ISBN
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: ISBN```
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
-  Ange identifikator.  
+  Skriv in uppgiften.  
   ```Exempel: 9789188107213```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Ange bestämning.  
-  ```Exempel: MP3-CD```  
+  Skriv in uppgiften.  
+  ```Exempel: inbunden```  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
   
@@ -241,7 +226,8 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: MP3-CD```  
+  ```Exempel: inbunden```  
+
   
 #### Omfang
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
