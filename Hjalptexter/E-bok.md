@@ -212,7 +212,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   ```Exempel: 9789188107213```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: inbunden```  
+  ```Exempel: PDF```  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
   
@@ -226,14 +226,23 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: inbunden```  
-
+  ```Exempel: Print``` 
   
+#####URN
+* Identifikator/Identifikator/Benämning (identifiedBy/Identifier/value = 024 7/- ‡a</BR>
+  För att lägga till URN, klicka på plustecknet vid Identifikator (Lägg till identifikator) och välj typ Identifikator.</BR>
+  Skriv in uppgiften under Värde.</BR>
+  ```Exempel: urn:nbn:se:su:diva-83163``` 
+* Identifikator/Identifikator/Typanmärkning (identifiedBy/Identifier/typeNote = 024 7/- ‡2)</BR>
+  För att specificera typ av standardnummer eller standardkod, lägg till Typanmärkning.</BR>
+  Skriv in uppgiften.</br>
+  ```Exempel: urn```
+ 
 #### Omfang
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 11 CD (13 tim, 30 min.) ```  
+  ```Exempel:  ```  
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)     
