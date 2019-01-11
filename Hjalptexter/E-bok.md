@@ -48,10 +48,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
   ```Exempel: online resource, cr```</BR>
-  Lägg till till Marc-koden "r" (= fjärranslutning) i 007/01 (= särskild bärarbeteckning) genom att länka till entiteten marc/Online.</BR>
-  ```Exempel: marc/Online```
-  Lägg även till Marc-koden "o" (= onlineutgåva) i 008/23 (= form för manifestationen) genom att länka till entiteten marc/OnlineResource.</BR>
-  ```Exempel: marc/OnlineResource```
+  Länka till entiteten  marc/Online för att lägga till Marc-koden "r" (= fjärranslutning) i 007/01 (= särskild bärarbeteckning).</BR>
+  ```Exempel: marc/Online```</BR>
+  Marc-koden behövs tills vidare för att genrera .... i Webbsök eller kan behövas i lokala sysem?
+  Lägg även till entiteten marc/OnlineResource för att lägga till Marc-koden "o" (= onlineutgåva) i 008/23 (= form för manifestationen.</BR>
+  ```Exempel: marc/OnlineResource```</BR>
+  Marc-koden behövs tills vidare för att genrera .... i Webbsök eller kan behövas i lokala sysem?
     
 #### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
