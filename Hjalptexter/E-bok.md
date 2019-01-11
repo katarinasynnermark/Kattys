@@ -1,6 +1,6 @@
 ## E-bok
 
-Denna hjälptext beskriver ett antal för e-böcker (tillgängliga på CD eller MP3-CD) vanligt förekommande egenskaper, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
+Denna hjälptext beskriver ett antal för e-böcker vanligt förekommande egenskaper, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
@@ -42,15 +42,17 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: audio, s```
+  ```Exempel: computer, c```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: audio disc, sd```</BR>
-  Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka även till entiteten marc/SoundDisc.</BR>
-  ```Exempel: marc/SoundDisc```
-  
+  ```Exempel: online resource, cr```</BR>
+  Lägg till till Marc-koden "r" (= fjärranslutning) i 007/01 (= särskild bärarbeteckning) genom att länka till entiteten marc/Online.</BR>
+  ```Exempel: marc/Online```
+  Lägg även till Marc-koden "o" (= onlineutgåva) i 008/23 (= form för manifestationen) genom att länka till entiteten marc/OnlineResource.</BR>
+  ```Exempel: marc/OnlineResource```
+    
 #### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
