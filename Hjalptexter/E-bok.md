@@ -157,8 +157,8 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
 ##### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
-  Skriv in uppgiften under Benämning.  
-  ```Exempel: Malmö```  
+  Skriv in uppgiften under Benämning. Klamra vid behov.
+  ```Exempel: [Malmö]```  
   
 ##### Utgivningsland  
 * Land (country = 008/15-17)  
