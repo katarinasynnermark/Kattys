@@ -251,7 +251,7 @@ Ange antal enheter samt typ av enhet. Ange även antal underenheter, t.ex. sidor
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)     
   Skriv in uppgiften.  
-  ```Exempel: stereo```
+  ```Exempel: illustrationer```
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
@@ -263,7 +263,55 @@ Skriv in uppgiften under Benämning.
     * ```1 häfte```  
     
 #### Seriemedlemskap
-För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap): Seriemedlemskap.
+* Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
+  Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt följande instruktion.  
+  *Nytt 2018-10-04:*   
+  * Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
+  * Vid export till marc21 skapas både 490 och 830 (800/810) från Seriemedlemskap som saknar Serieuppgift (t ex gamla 440-fält). OBS. Hanteringen klarar de flesta fall bra, men det finns serier med deltitlar/delserier som kommer att exporteras fel (fel ordning mellan Delbeteckning och Deltitel, fel interpunktion). Om man stöter på sådana, och anser felet besvärande, får man gå in i posten och lägga till en korrekt Serieuppgift i rätt Seriemedlemskap. Då kommer 490 att skapas från det. (Finns det flera Seriemedlemskap behöver man komplettera alla, annars skapas bara 490 för den serien som har en ifylld Serieuppgift).  
+  
+Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
+     
+##### Seriens titel (auktoriserad sökingång för serie)  
+* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
+  Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
+  Skriv in uppgiften.   
+  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
+##### ISSN  
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x) 
+  Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.  
+  Skriv in uppgiften.  
+  ```Exempel: 1103-498X```     
+##### Serieuppgift  
+* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
+  Skriv in uppgiften.  
+   ```Exempel: Årstasällskapets skriftserie```   
+##### Numrering inom serie  
+* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
+  Skriv in uppgiften.  
+  ```Exempel: 8```  
+##### Indikator för seriebiuppslag   
+* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
+  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
+  Skriv in uppgiften.  
+  ```Exempel: 0```   
+  Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
+  ```Exempel: 1```   
+ 
+##### Författarserie
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
+(seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
+  ```Exempel: Millenium```   
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 ‡a)  
+Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent (plustecknet vid Primär medverkan - Lägg till egenskaper under: Primär medverkan). Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.    
+ ```Exempel: Larsson, Stieg, 1954-2004```  
+* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
+  Skriv in uppgiften.  
+  ```Exempel: 1```  
+
+*Seriemedlemskap, vid postimport:* Om fält 490 ‡a och 830 ‡a matchar, läggs de vid import i samma Seriemedlemskap. Om de inte matchar, skapas två Seriemedlemskap: ett med Seriemedlemskap/Serieuppgift och ett med Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
+När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett genom att lägga till Serieuppgift och Indikator för seriebiuppslag i det Seriemedlemskap som innehåller Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
+Om man försöker göra tvärt om och lägga till Instans av Verk i ett Seriemedlemskap så orsakar en bugg att detta kopplas till Instans av Verk/Text (överst i beskrivningen) och det går sedan inte att ändra. I dessa fall måste Seriemedlemskapet tas bort i sin helhet och ett nytt läggas till och fyllas i.  
+OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
    
 #### Innehallsanmarkning  
 För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#innehallsanmarkning)
@@ -273,7 +321,10 @@ För anvisningar om hur man lägger till olika typer av innehållsanmärkningar,
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen - Lägg till egenskaper under: Ljudinspelning) och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.  
   Skriv in uppgiften under Benämning.</BR> 
-  ```Exempel: Inläst ur: Stockholm : Bonnier, 2012. ISBN 978-91-0-012761-9```
+  
+#### Digital karaktaristika
+* Digital karaktärisitika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347 ‡b)
+  Ange kodningsformat här, se [RDA 3.19.3.3] (http://access.rdatoolkit.org/rdachp3_rda3-5264.html). Använd i första hand term från lista, se Librispraxis [3.19.3.3] (http://access.rdatoolkit.org/kbspchp3_kbsp3-1193.html).
   
 ### Verk   
 
