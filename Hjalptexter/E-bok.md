@@ -228,15 +228,19 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   Skriv in uppgiften.  
   ```Exempel: Print``` 
   
-##### URN
+##### URN, DOI, handle
 * Identifikator/Identifikator/Benämning (identifiedBy/Identifier/value = 024 7/- ‡a</BR>
-  För att lägga till URN, klicka på plustecknet vid Identifikator (Lägg till identifikator) och välj typ Identifikator.</BR>
+  För att lägga till URN, DOI, handle klicka på plustecknet vid Identifikator (Lägg till identifikator) och välj typ Identifikator.</BR>
   Skriv in uppgiften under Värde.</BR>
   ```Exempel: urn:nbn:se:su:diva-83163``` 
 * Identifikator/Identifikator/Typanmärkning (identifiedBy/Identifier/typeNote = 024 7/- ‡2)</BR>
   För att specificera typ av standardnummer eller standardkod, lägg till Typanmärkning.</BR>
-  Skriv in uppgiften.</br>
-  ```Exempel: urn```
+  Skriv in uppgiften.
+  <br/>```Exempel:```
+  
+    * ```urn```
+    * ```doi```
+    * ```hdl```
  
 #### Omfang
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
