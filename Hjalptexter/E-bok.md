@@ -214,7 +214,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Skriv in uppgiften.  
   ```Exempel: PDF```  
 
-För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
+För ogiltiga ISBN, t.ex. ett ISBN som hör till en tryckt instans av samma verk, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
   
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
@@ -228,7 +228,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   Skriv in uppgiften.  
   ```Exempel: Print``` 
   
-##### URN, DOI, handle
+##### URN, DOI, handle?
 * Identifikator/Identifikator/Benämning (identifiedBy/Identifier/value = 024 7/- ‡a</BR>
   För att lägga till URN, DOI, handle klicka på plustecknet vid Identifikator (Lägg till identifikator) och välj typ Identifikator.</BR>
   Skriv in uppgiften under Värde.</BR>
