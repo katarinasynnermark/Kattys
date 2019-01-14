@@ -327,6 +327,23 @@ För anvisningar om hur man lägger till olika typer av innehållsanmärkningar,
   Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5264.html). Använd i första hand term från lista, se Librispraxis [3.19.3.3](http://access.rdatoolkit.org/kbspchp3_kbsp3-1193.html).</BR>
   Skriv in uppgiften under Benämning.</BR>
   ```Exempel: PDF```
+
+#### Tillhorande media
+
+#### Annat bararformat
+* Annat bärarformat (otherPhysicalFormat = 776)  
+  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
+* Annat bärarformat/Typanmärkning (776 ‡i)  
+  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
+* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
+  
+#### Malgruppsanmarkning ? 
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
+För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
+Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
+```Exempel: För årskurs 1```  
+Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.   
   
 ### Verk   
 
