@@ -323,8 +323,7 @@ Skriv in uppgiften.
 ```Exempel: Säsong 2 ```
 *	Uttryck av/Verk/Språk/Språk/Benämning  
 (expressionOf/Work/language/Language/label = 130 ‡l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
-Ange språket i klartext.  
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l. 
 ```Exempel: Svenska```
 
 För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under [Verkets titel - analytisk sökingång](#Verkets-titel---analytisk-sökingång). Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
@@ -338,7 +337,7 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
 * Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.</BR>
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.
 Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.
   
 ##### Verkets titel - verk som ingår i det beskrivna verket
