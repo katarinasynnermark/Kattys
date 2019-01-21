@@ -395,7 +395,7 @@ För en film som innehåller en översättning, t.ex. en dubbad version, lägg t
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Projicerad bild och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
-  Filmens originalspråk anges här. För en japansk film som är dubbad till svenska, ange japanska här.   
+  Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
   Klicka på Lägg till egenskaper under: Projicerad bild, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```   
   
