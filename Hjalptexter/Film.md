@@ -280,12 +280,10 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
   Skriv in uppgiften under Benämning.  
    ```Exempel: Produktionsland: Frankrike```  
 
-#### Tillhorande media
-* Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)
-  Länka till annan resurs här.
-  För att lägga till Tillhörande media, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillhörande media (associatedMedia). Klicka på plustecknet framför Tillhörande media (Lägg till mediaobjekt), välj Skapa lokal entitet i sidorutan Lägg till entitet. Klicka på plustecknet för Mediaobjekt och välj egenskapen Offentlig anmärkning. 
-I rutan under Offentlig anmärkning kan valfri text skrivas in, t.ex. ”Fritt tillgänglig via Kungliga biblioteket”.
-Klicka igen på plustecknet för Mediaobjekt och välj egenskapen URI. Klistra in aktuell uri i rutan under egenskapen. 
+#### Relaterad beskrivning eller innehåll
+* Relaterad beskrivning eller innehåll/Dokument/URI (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)
+  Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs här.
+  För att lägga till Relaterad beskrivning eller innehåll, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Relaterad beskrivning eller innehåll (isPrimaryTopicOf). Klicka på plustecknet framför Relaterad beskrivning eller innehåll (Lägg till dokument), välj Skapa lokal entitet i sidorutan Lägg till entitet. Välj Dokument och lägg till egenskapen URI. Klistra in aktuell uri i rutan under egenskapen. 
   
 ### Verk   
 
