@@ -31,7 +31,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Innehållsanmärkning](#innehallsanmarkning) | |
 | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 | [Anmärkning](#anmarkning) | |
-| [Tillhörande media](#tillhorande-media) | |
+| [Relaterad beskrivning eller innehåll](#relaterad beskrivning eller innehall) | |
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Videoinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -280,7 +280,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
   Skriv in uppgiften under Benämning.  
    ```Exempel: Produktionsland: Frankrike```  
 
-#### Relaterad beskrivning eller innehåll
+#### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/URI (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)
   Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs här.
   För att lägga till Relaterad beskrivning eller innehåll, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Relaterad beskrivning eller innehåll (isPrimaryTopicOf). Klicka på plustecknet framför Relaterad beskrivning eller innehåll (Lägg till dokument), välj Skapa lokal entitet i sidorutan Lägg till entitet. Välj Dokument och lägg till egenskapen URI. Klistra in aktuell uri i rutan under egenskapen. 
