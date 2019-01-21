@@ -281,10 +281,10 @@ Föredragen titel ska anges för översättningar och för verk som har givits u
 
 ##### Verkets titel - verk med primär medverkande
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
-  Ange den föredragna titeln för ett verk med primär medverkande här.
+  Ange den föredragna titeln för ett verk med primär medverkande här.</BR>
   ```Exempel: Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```
+  ```Exempel: Huvudtitel: En äkta man, fileringsvärde: 3```
 * Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).</BR>
   ```Exempel:  Tankenötter```
