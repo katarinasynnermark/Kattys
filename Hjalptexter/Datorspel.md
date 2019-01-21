@@ -191,7 +191,7 @@ Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivnings
   Ange utgivarens namn.<br/>
   ```Exempel: Electronic Arts```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)<br/>
-  Ange bestämning.<br/>
+  Ange eventuell bestämning.<br/>
   
 ##### EAN
 * Identifikator (identifiedBy)  
