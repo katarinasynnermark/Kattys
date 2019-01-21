@@ -332,7 +332,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 ```Exempel: Röst, tal, spk```  
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/) 
  
-En utgivare är enligt RDA en agent som har en relation till manifestationen men i Libris anges utgivare i Instans av verk. För kommersiella utgivare räcker det tills vidare att skapa lokal entitet.
+Under Medverkan och funktion/Medverkan/Agent/Organisation kan utgivare anges om så önskas. En utgivare är enligt RDA en agent som har en relation till manifestationen men i Libris anges utgivare i Instans av verk. För kommersiella utgivare räcker det tills vidare att skapa lokal entitet.
 * Medverkan och funktion/Medverkan/Agent/Organisation/Namn (contribution/agent/organisation/name = 710 1/- ‡a)  
   Skriv in uppgiften efter Namn.</BR> 
   ```Exempel: Ubisoft Entertainment```  
