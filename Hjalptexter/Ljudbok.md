@@ -207,8 +207,7 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för lj
   Ange utgivarens namn.
   <br/>```Exempel: Naxos AudioBooks```<br/>
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Ange bestämning.  
-  ```Exempel: MP3-CD```  
+  Ange eventuell bestämning.    
   
 ##### ISBN
 * Identifikator (identifiedBy)  
@@ -218,8 +217,7 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för lj
   Ange identifikator.  
   ```Exempel: 9789188107213```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Ange bestämning.  
-  ```Exempel: MP3-CD```  
+  Ange eventuell bestämning.  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
   
@@ -232,9 +230,8 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: MP3-CD```  
-  
+  Ange eventuell bestämning.  
+    
 #### Omfang
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
