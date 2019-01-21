@@ -238,7 +238,7 @@ Skriv in uppgiften under Benämning.
   ```Exempel: ljud, färg```
   
 #### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
+* Tillsammans med/Instans/Benämning (accompaniedBy/Instance/label = 300 ‡e)   
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).</BR> 
 Skriv in uppgiften under Benämning.
 <br/>```Exempel: 1 häfte``` 
