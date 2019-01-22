@@ -275,7 +275,7 @@ Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, väl
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel:  Prototype (datorspel)```
 
-</BR>Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype.</BR>
+Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype.</BR>
 Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).
 
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
