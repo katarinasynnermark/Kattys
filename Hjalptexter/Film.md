@@ -323,10 +323,10 @@ Skriv in uppgiften.
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.</BR> 
 ```Exempel: Svenska```
 
-För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under [Verkets titel - analytisk sökingång](#Verkets-titel---analytisk-sökingång). Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
+För en film som är dubbad anges dubbningens språk här. Om resursen innehåller både originalversionen och den dubbade versionen anges dessa enligt instruktionerna under [Verkets titel - verk som ingår i det beskrivna verket](#Verkets-titel---verk-som-ingar-det-beskrivna-verket). Om det finns flera olika dubbningar på samma resurs kan samtliga anges med språktillägg.  
 
 ##### Verkets titel - verk med primär medverkande
-Föredragen titel för ett verk med primär medverkan anges här. Obs! Det är ovanligt att film har primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
+Det är ovanligt att film har primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
 Ange den föredragna titeln.
 * Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
