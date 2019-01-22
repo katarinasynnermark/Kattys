@@ -236,7 +236,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska anges under Instans 
 
 #### Systemkrav
 Det är obligatoriskt i Libris att ange konsol här. 
-* Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label)
+* Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label)</BR>
 Skriv in uppgiften under Benämning.  
 ```Exempel: XBox 360```<BR/>
 Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala system, anges inom parentes efter [omfång](#omfang) eller i egenskapen [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter).
@@ -250,7 +250,7 @@ Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala sys
   
 #### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen. Notera att uppgift om konsol anges i egenskapen [Systemkrav](#Systemkrav). 
-* Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)
+* Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)</BR>
 För att lägga till anmärkning om systemkrav och mediespecifika uppgifter, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Har anmärkning: Systemkrav och mediespecifika uppgifter. Klicka på plustecknet Lägg till egenskaper under: Anmärkning: Systemkrav och mediespecifika uppgifter, välj Anmärkningstext (marc/systemDetailsNote).
 Skriv in uppgiften.</BR>
 ```Exempel: Systemkrav: 50 GB minimum på hårddisken ; dualshok 4 ; stöd för remote play```  
