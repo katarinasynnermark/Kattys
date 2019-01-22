@@ -239,7 +239,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 11 CD (13 tim, 30 min.) ```  
+  ```Exempel: 11 CD (13 tim., 30 min.) ```  
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)     
