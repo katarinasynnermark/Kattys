@@ -213,7 +213,6 @@ Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnumm
   ```Exempel: Njutafilms```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)<br/>
   Ange eventuell bestämning.<br/>
-  ```Exempel: skiva 1``` <br/>
   
 ##### EAN
 * Identifikator (identifiedBy)  
@@ -273,14 +272,14 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
   
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här. Här anges Produktionsland. 
+  Skriv in allmänna anmärkningar här. Här anges tills vidare Produktionsland. 
   </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
   Skriv in uppgiften under Benämning.  
    ```Exempel: Produktionsland: Frankrike```  
 
 #### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/URI (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)</BR>
-  Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs här.
+  Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs.</BR>
   För att lägga till Relaterad beskrivning eller innehåll, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Relaterad beskrivning eller innehåll (isPrimaryTopicOf). Klicka på plustecknet framför Relaterad beskrivning eller innehåll (Lägg till dokument), välj Skapa lokal entitet i sidorutan Lägg till entitet. Välj Dokument och lägg till egenskapen URI. Klistra in aktuell uri i rutan under egenskapen. 
   
 ### Verk   
