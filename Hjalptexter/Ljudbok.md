@@ -22,7 +22,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyright- eller p-år](#copyright--eller-p--ar) | [Innehållstyp](#innehallstyp) |
+| [Copyright- eller p-år](#copyright--eller-p-ar) | [Innehållstyp](#innehallstyp) |
 | [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
