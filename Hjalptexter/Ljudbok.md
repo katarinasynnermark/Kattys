@@ -192,7 +192,6 @@ För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.
-  Skriv in uppgiften.
   <br/>```Exempel:``` 
     
     * ```©2017```
