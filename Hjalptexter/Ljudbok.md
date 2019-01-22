@@ -189,7 +189,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
 #### Copyright- eller p-ar
-För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår/distributionsår, se Librispraxis [2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
+För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.
