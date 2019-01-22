@@ -382,7 +382,8 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
-Här anges även typ av fil (marc/ComputerTypeOfFileType = 008/26). Datorspel ska ha koden g (dataspel).</BR>
+Här anges även typ av fil (marc/ComputerTypeOfFileType = 008/26).
+</BR>Datorspel ska ha koden g (dataspel).</BR>
 Länka till entitet.</BR>
   ```Exempel: marc/ComputerTypeOfFileType-g```
  
