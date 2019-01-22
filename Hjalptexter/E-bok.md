@@ -25,7 +25,7 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
 | [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
@@ -511,7 +511,14 @@ För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Ins
      
  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
- ```Exempel: Ej preciserad```  
+ ```Exempel: Ej preciserad```
+ 
+ #### Anmarkning om akademisk avhandling    
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
+  Lägg till anmärkning om akademisk avhandling (plustecknet vid Instans av Verk: Text - Lägg till egenskaper under: Text, välj Anmärkning om akademisk avhandling. Klicka på plustecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet (längst ner i sidorutan till höger).  
+Skriv in anmärkningen under Benämning.    
+  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
+
     
 
 
