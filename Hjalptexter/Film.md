@@ -199,7 +199,7 @@ För film anges alltid copyrightår, även om det sammanfaller med utgivningsår
 Produktionsland anges tills vidare i [Anmärkning](#anmarkning).
     
 #### Identifikator
-Flera typer av identifikatorer kan finnas på videoinspelningar. I mallen för film är Utgivningsnummer (videoinspelning) och EAN förvalda.
+Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnummer (videoinspelning) och EAN förvalda.
 
 ##### Utgivningsnummer (videoinspelning)
 * Identifikator (identifiedBy)  
