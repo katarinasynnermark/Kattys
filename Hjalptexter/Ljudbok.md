@@ -198,7 +198,7 @@ För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med
     * ```℗2017```
      
 #### Identifikator 
-Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för ljudböcker är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
+Flera typer av identifikatorer kan finnas på ljudböcker. I mallen är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
 ##### Utgivningsnummer (ljudinspelning)
 * Identifikator (identifiedBy)<br/>
   Välj typ från lista.
