@@ -273,7 +273,7 @@ Datorspel har sällan en primär medverkande och verkets föredragna titel ska d
 Under Instans av Verk/Multimedia, lägg till Uttryck av (plustecknet vid Instans av Verk/Multimedia - Lägg till egenskaper under: Multimedia, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften under Huvudtitel.  
-```Exempel:  Prototype (datorspel)```
+```Exempel:  Prototype (datorspel)```</BR>
 Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype. Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).</BR>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
   ```Exempel: Huvudtitel: The sinking city, fileringsvärde: 4```
