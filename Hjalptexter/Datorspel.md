@@ -343,6 +343,7 @@ Under Medverkan och funktion/Medverkan/Agent/Organisation kan utgivare anges om 
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel: Utgivare, pbl```  
 
+##### Funktionskoder
 Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ganska begränsat. För att ange en funktion som inte har en motsvarande funktionskod, klicka på plustecknet vid Funktion (Lägg till funktion) och sedan på Skapa lokal entitet. Klicka på plustecknet Lägg till egenskaper under: Funktion och välj Benämning. Skriv in önskad term. Värdet exporteras till 7XX #e.</BR>
 ```Exempel: Spelutvecklare```
   
