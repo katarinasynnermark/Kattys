@@ -1,7 +1,7 @@
 ## Datorspel - multimedia
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av datorspel med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Datorspel - multimedia, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna.
 
-För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För anvisniningar om Adminmetadata, se Adminmetadata i vänstermenyn.
+För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För anvisniningar om Adminmetadata, se Adminmetadata.
 
 För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
@@ -37,15 +37,17 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Välj från lista.  
   ```Exempel: Monografisk resurs```
 
+Medietyp och bärartyp för ett datorspel på DVD-ROM ska vara dator respektive datorskiva.
+
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: computer, c```
+  ```Exempel: computer, c (= dator)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: computer disc, cd```  
+  ```Exempel: computer disc, cd (= datorskiva)```  
   
 #### Titel 
 Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). Ange en endast en titel som undertitel om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
