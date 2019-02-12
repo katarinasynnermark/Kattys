@@ -5,7 +5,7 @@ För instruktioner om att lägga till eller ta bort egenskap, länka till entite
 
 För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/). 
 
-Tänk på att för datorspel är hela den utgivna resursen föredragen källa. Uppgifterna tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis [KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html) är en avvikelse från [RDA 2.2.2.2.1](http://access.rdatoolkit.org/rdachp2_rda2-8983.html) och bygger på IASA Cataloguing Rules.
+Tänk på att för datorspel är hela den utgivna resursen föredragen källa. Uppgifterna tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis [KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html) bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.4.1](http://access.rdatoolkit.org/rdachp2_rda2-8983.html. 
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
@@ -50,8 +50,9 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```computer disc, cd (= datorskiva)```  
   
 #### Titel 
-Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). Ange en endast en titel som undertitel om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
+Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). 
 <br/>```Exempel: Need for speed - Undercover```
+Ange en endast en titel som undertitel om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
   
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
 
@@ -207,7 +208,10 @@ För anvisningar om hur man anger ISBN, se hjälptexten [Tryckt monografi](https
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
- <br/>```Exempel: 1 DVD-ROM``` 
+ <br/>```Exempel:
+         ```1 DVD-ROM``` 
+         ```1 Blu-ray-Disc```
+ 
 <br/>Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
  <br/>```Exempel: 1 DVD-ROM (Xbox 360)```
 <br/>Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
@@ -265,7 +269,7 @@ Skriv in uppgiften.</BR>
 För att lägga till egenskaper under Instans av Verk/Multimedia, klicka på plustecknet vid Instans av Verk/Multimedia - Lägg till egenskaper under: Multimedia. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 #### Verkets titel 
-Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). Om den föredragna titeln är densamma som den titel som angetts som huvudtitel under Instans, behöver denna egenskap inte läggas till.
+Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). 
 
 ##### Verkets titel - verk utan primär medverkande
 Datorspel har sällan en primär medverkande och verkets föredragna titel ska då anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. 
@@ -334,15 +338,6 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 ```Exempel: Röst, tal, spk```  
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/) 
  
-Under Medverkan och funktion/Medverkan/Agent/Organisation kan utgivare anges om så önskas. En utgivare är enligt RDA en agent som har en relation till manifestationen men i Libris anges utgivare i Instans av verk. För kommersiella utgivare räcker det tills vidare att skapa lokal entitet.
-* Medverkan och funktion/Medverkan/Agent/Organisation/Namn (contribution/agent/organisation/name = 710 1/- ‡a)  
-  Skriv in uppgiften efter Namn.</BR> 
-  ```Exempel: Ubisoft Entertainment```  
-* Medverkan och funktion/Medverkan/Funktion (contribution/role = 710 ‡4)  
-  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
-  ```Exempel: Utgivare, pbl```  
-
 ##### Funktionskoder
 Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ganska begränsat. För att ange en funktion som inte har en motsvarande funktionskod, klicka på plustecknet vid Funktion (Lägg till funktion) och sedan på Skapa lokal entitet. Klicka på plustecknet Lägg till egenskaper under: Funktion och välj Benämning. Skriv in önskad term. Värdet exporteras till 7XX #e.</BR>
 ```Exempel: Spelutvecklare```
