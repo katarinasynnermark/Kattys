@@ -209,8 +209,9 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
  <br/>```Exempel:```
-         ```1 DVD-ROM``` 
-         ```1 Blu-ray-Disc```
+    
+   * ```1 DVD-ROM``` 
+   * ```1 Blu-ray Disc```
  
 <br/>Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
  <br/>```Exempel: 1 DVD-ROM (Xbox 360)```
