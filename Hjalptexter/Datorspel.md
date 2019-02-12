@@ -39,8 +39,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```computer, c (= dator)```
+  Länka till entiteten ```computer, c (= dator)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
