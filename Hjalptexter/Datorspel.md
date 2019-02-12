@@ -3,7 +3,7 @@ Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskri
 
 För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För anvisniningar om Adminmetadata, se Adminmetadata.
 
-För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/). Tänk på att för datorspel är hela den utgivna resursen föredragen källa. Uppgifterna tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis [KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html) är en avvikelse från [RDA 2.2.2.2.1](http://access.rdatoolkit.org/rdachp2_rda2-8983.html) och bygger på IASA Cataloguing Rules.
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
@@ -39,12 +39,13 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entiteten ```computer, c (= dator)```
+  Länka till entiteten:
+  ```computer, c (= dator)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
-  ```Exempel: computer disc, cd (= datorskiva)```  
+  Länka till entiteten:  
+  ```computer disc, cd (= datorskiva)```  
   
 #### Titel 
 Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). Ange en endast en titel som undertitel om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
