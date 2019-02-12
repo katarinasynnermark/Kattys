@@ -212,7 +212,8 @@ Skriv in uppgiften under Benämning.
     
    * ```1 DVD-ROM``` 
    * ```1 Blu-ray Disc```
-<br/>Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
+
+Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
  <br/>```Exempel: 1 DVD-ROM (Xbox 360)```
 <br/>Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
   
