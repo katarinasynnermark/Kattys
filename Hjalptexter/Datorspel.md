@@ -37,12 +37,10 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Välj från lista.  
   ```Exempel: Monografisk resurs```
 
-Medietyp och bärartyp för ett datorspel på DVD-ROM ska vara dator respektive datorskiva.
-
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: computer, c (= dator)```
+  ```computer, c (= dator)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
