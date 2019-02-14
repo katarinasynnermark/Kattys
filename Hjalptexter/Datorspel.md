@@ -49,7 +49,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   För ett datorspel på DVD-ROM eller Blu-ray Disc, länka till entiteten:  
   ```computer disc, cd (= datorskiva)```</BR>
   För ett datorspel på minneskort, länka till entiteten:</BR>
-  ```computer chip cartridge, cb (=datorminnesmodul)```
+  ```computer chip cartridge, cb (= datorminnesmodul)```
   
 #### Titel 
 Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). 
