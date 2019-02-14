@@ -113,6 +113,7 @@ Skriv in uppgiften under Huvudtitel.
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
      
 #### Upphovsuppgift
+Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det tydligt framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)<BR/>
   För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
   <BR/>```Exempel: developed by Revolution Software```
@@ -213,20 +214,28 @@ Skriv in uppgiften under Benämning.
     
    * ```1 DVD-ROM``` 
    * ```1 Blu-ray Disc```
+   * ```1 minneskort"
 
 Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
- <br/>```Exempel: 1 DVD-ROM (Xbox 360)```
+ <br/>```Exempel:```
+ 
+   * ```1 DVD-ROM (Xbox 360)```
+   * ```1 Blu-Ray Disc (Playstation 4)
+   * ```1 minneskort (Nintendo Switch)
 <br/>Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
-  ```Exempel: ljud, färg```
+  ```Exempel: ljud, svartvit```
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans). 
 Skriv in uppgiften under Benämning.
-<br/>```Exempel: 1 handledning (36 sidor)``` 
+ <br/>```Exempel:```
+
+   * ```1 handledning (36 sidor)``` 
+   * ```1 handledning (4 sidor) + spelkontroll i form av gitarr```
 
 #### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi: Seriemedlemskap](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap).<br/>
@@ -242,7 +251,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska anges under Instans 
 
 #### Systemkrav
 Det är obligatoriskt i Libris att ange konsol här. 
-* Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label)</BR>
+* Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label = 753 ‡a)</BR>
 Skriv in uppgiften under Benämning.  
 ```Exempel: XBox 360```<BR/>
 Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala system, anges inom parentes efter [omfång](#omfang) eller i egenskapen [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter).
@@ -294,7 +303,7 @@ Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskape
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk visas som ett tillägg till verkets titel i marcpostens 130 #l. 
 
 ##### Verkets titel - verk med primär medverkande
-Det är ovanligt att datorspel har primär medverkande. För att en agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet.
+Det är ovanligt att datorspel har primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR> 
 Ange den föredragna titeln.
 * Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
@@ -324,7 +333,7 @@ För ingående verk med primär medverkande, lägg till Medverkan och funktion/P
   [Relationer till Agent i verksbeskrivningen](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 ##### Primär medverkan
-Det är ovanligt att datorspel har primär medverkande. Ofta är det två eller flera agenter (programmerare, utvecklare etc.) som är gemensamt ansvariga för att ha skapat verket. För att en agent ska ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet.  
+Det är ovanligt att datorspel har primär medverkande. Ofta är det två eller flera agenter (programmerare, utvecklare etc.) som är gemensamt ansvariga för att ha skapat verket. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet.  
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
@@ -332,7 +341,7 @@ Det är ovanligt att datorspel har primär medverkande. Ofta är det två eller 
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
 
 ##### Medverkan
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
+* Medverkan och funktion/Medverkan/Agent (contribution/agent = 700 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
   ```Exempel: Sydow, Max von, 1929-```  
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
@@ -340,7 +349,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 ```Exempel: Röst, tal, spk```  
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/) 
  
-##### Funktionskoder
+##### Funktioner som saknar funktionskod
 Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ganska begränsat. För att ange en funktion som inte har en motsvarande funktionskod, klicka på plustecknet vid Funktion (Lägg till funktion) och sedan på Skapa lokal entitet. Klicka på plustecknet Lägg till egenskaper under: Funktion och välj Benämning. Skriv in önskad term. Värdet exporteras till 7XX #e.</BR>
 ```Exempel: Spelutvecklare```
   
