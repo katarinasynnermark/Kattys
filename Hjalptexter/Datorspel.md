@@ -47,8 +47,8 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   För ett datorspel på DVD-ROM eller Blu-ray Disc, länka till entiteten:  
-  ```computer disc, cd (= datorskiva)```
-  För ett datorspel på minneskort, länka till entiteten: 
+  ```computer disc, cd (= datorskiva)```</BR>
+  För ett datorspel på minneskort, länka till entiteten:</BR>
   ```computer chip cartridge, cb (=datorminnesmodul)```
   
 #### Titel 
