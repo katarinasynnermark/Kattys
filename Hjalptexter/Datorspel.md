@@ -256,6 +256,7 @@ Det är obligatoriskt i Libris att ange konsol här.
 * Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label = 753 ‡a)</BR>
 Skriv in uppgiften under Benämning.  
 ```Exempel: XBox 360```<BR/>
+
 Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala system, anges inom parentes efter [omfång](#omfang) eller i egenskapen [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter).
 
 #### Anmarkning
