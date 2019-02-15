@@ -231,15 +231,15 @@ Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#syst
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans). 
-Skriv in uppgiften under Benämning.
+Lägg till Tillsammans med. Skapa Instans som lokal entitet. Skriv Instans i rutan Skapa lokal entitet och välj ** Instans.) Lägg till Benämning. 
+Skriv in uppgiften.
  <br/>```Exempel:```
 
    * ```1 handledning (36 sidor)``` 
    * ```1 handledning (4 sidor) + spelkontroll i form av gitarr```
 
 #### Seriemedlemskap
-För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Tryckt monografi: Seriemedlemskap](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap).<br/>
+För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap.<br/>
 Franchisenamn ska inte anges som serieuppgift, se [Titel](#titel).
 
 #### Malgruppsanmarkning  
