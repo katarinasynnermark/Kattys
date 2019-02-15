@@ -261,14 +261,14 @@ Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala sys
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. 
-  </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
+  </BR>För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till.
   Skriv in uppgiften under Benämning.<BR/>
 ```Exempel: Avsett för 1-7 spelare, 1-2 spelare i nätverk```  
   
 #### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen. Uppgift om konsol ska alltid anges i egenskapen [Systemkrav](#Systemkrav). Om så önskas, för att den ska bli synlig i i lokala system, kan uppgift om konsol även anges här eller inom parentes efter [Omfång](#Omfang).
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)</BR>
-För att lägga till anmärkning om systemkrav och mediespecifika uppgifter, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Har anmärkning: Systemkrav och mediespecifika uppgifter. Klicka på plustecknet Lägg till egenskaper under: Anmärkning: Systemkrav och mediespecifika uppgifter, välj Anmärkningstext (marc/systemDetailsNote).
+Lägg till Anmärkning om systemkrav och mediespecifika uppgifter. Klicka på plustecknet Lägg till egenskaper under: Anmärkning: Systemkrav och mediespecifika uppgifter, välj Anmärkningstext (marc/systemDetailsNote).
 Skriv in uppgiften.</BR>
 ```Exempel: Systemkrav: 50 GB minimum på hårddisken ; dualshok 4 ; stöd för remote play```  
 
@@ -322,7 +322,7 @@ Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till verk, välj S
 Lägg till eventuell deltitel, delbeteckning och benämning på språk.
 För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under [Medverkan och funktion](#medverkan-och-funktion). 
 
-##### Verkets titel - relaterade verk  
+##### Verkets titel - andra relaterade verk 
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 0/_ ‡a ‡d + ‡t (icke-analytisk sökingingång för verk med primär medverkande) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkande) i marc: 
 Under Instans av Verk/Multimedia, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Multimedia (Lägg till egenskaper under: Multimedia) och välj Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation. Ange föredragen titel i Huvudtitel. 
 Lägg till eventuell deltitel, delbeteckning och benämning på språk.</BR>
