@@ -244,8 +244,7 @@ Franchisenamn ska inte anges som serieuppgift, se [Titel](#titel).
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
-För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Elektronisk och välj Målgrupp.  
-Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det).<BR/>
+Lägg till Målgrupp. Skapa målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitetoch välj det).<BR/>
 Skriv in uppgiften under Benämning. Åldersnivån kan om så önskas, preciseras enligt [PEGI](https://pegi.info), Pan European Game Information.<BR/>
 ```Exempel: PEGI 12```  
 
