@@ -331,9 +331,9 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 
 #### Medverkan och funktion
 * Medverkan och funktion  
-  Läs mer:  
-  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Relationer till Agent i verksbeskrivningen](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare,    illustratörer samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.
+  Följ dessa instruktioner:[Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
+  Se även: [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/).   
   
 ##### Primär medverkan
 Det är ovanligt att datorspel har primär medverkande. Ofta är det två eller flera agenter (programmerare, utvecklare etc.) som är gemensamt ansvariga för att ha skapat verket. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet.  
