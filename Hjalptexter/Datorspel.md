@@ -331,8 +331,8 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 
 #### Medverkan och funktion
 * Medverkan och funktion  
-  Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare,    illustratörer samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.
-  Följ dessa instruktioner:[Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
+  Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket samt funktionskod för respektive agent.  Relationer till utgivare (710) anges för närvarande också här.</BR>
+  För utförligare instruktioner, se: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR>
   Se även: [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/).   
   
 ##### Primär medverkan
