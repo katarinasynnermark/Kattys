@@ -222,6 +222,7 @@ Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol an
    * ```1 DVD-ROM (Xbox 360)```
    * ```1 Blu-Ray Disc (Playstation 4)```
    * ```1 minneskort (Nintendo Switch)```
+   
 <br/>Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
   
 #### Ovriga fysiska detaljer   
