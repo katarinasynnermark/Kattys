@@ -223,7 +223,7 @@ Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol an
    * ```1 Blu-Ray Disc (Playstation 4)```
    * ```1 minneskort (Nintendo Switch)```
    
-<br/>Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
+Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
