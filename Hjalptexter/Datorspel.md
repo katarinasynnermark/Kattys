@@ -120,7 +120,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   <BR/>```Exempel: developed by Revolution Software```
   
 #### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 ‡a)<BR/>
+* Upplageuppgift (editionStatement = 250 ‡a)
   <BR/>Skriv in upplagebeteckning här. 
   <br/>```Exempel: Version 1.2```  
   
