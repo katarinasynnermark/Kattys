@@ -111,9 +111,9 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.  
      
 #### Upphovsuppgift
-Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår i resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
+Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)<BR/>
-  <BR/>```Exempel: developed by Revolution Software```
+  ```Exempel: developed by Revolution Software```
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)
