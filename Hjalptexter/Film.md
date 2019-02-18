@@ -187,7 +187,7 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivning
   För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion. Lägg in egenskaper under Utgivning/Utgivning och Huvudsakligt tillgängliggörande/Primär utgivning). Ange Land, År, Kompletterande datum och Typ av utgivningsdatum under Huvudsakligt tillgängliggörande.
     
 * Flera år (flerbandsverk)  
-  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning. 
+  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
 
 Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
@@ -225,13 +225,15 @@ Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnumm
   Ange identifikator.<br/>
   ```Exempel: 5705535059701```
 
-För anvisningar om hur man anger ISBN, se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Identifikator
+För anvisningar om hur man anger ISBN, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#identifikator): Identifikator
    
 #### Omfang  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
- <br/>```Exempel: 1 DVD-video (2 tim., 7 min.)``` 
+ <br/>```Exempel:```
+     ```1 DVD-video (2 tim., 7 min.)```
+     ```1 Blu-ray Disc (1 tim., 40 min.)
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
