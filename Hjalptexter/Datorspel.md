@@ -414,7 +414,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  
 #### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
-  Länka till entitet.</BR>
+  Länka till entiteten:</BR>
   ```Exempel: computer program, cop```
   
 #### Anmarkningar
@@ -424,10 +424,10 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
   
 #### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
-För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Multimedia - Lägg till egenskaper under: Multimedia. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
+Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. 
  Skriv in uppgiften under Benämning.
      
  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
- Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
+ Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad```  
      
