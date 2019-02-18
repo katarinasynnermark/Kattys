@@ -129,7 +129,7 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)</BR>
-  <BR/>```Exempel:```
+  ```Exempel:```
   
   * ```written, produced and directed by Hilary Ng'weno```
   * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
