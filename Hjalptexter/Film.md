@@ -184,7 +184,7 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivning
     * ```[2017]```
     * ```[mellan 2003 och 2007?]```
   
-  För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten Instans: Produktion. Lägg in egenskaper under Utgivning/Utgivning och Huvudsakligt tillgängliggörande/Primär utgivning). Ange Land, År, Kompletterande datum och Typ av utgivningsdatum under Huvudsakligt tillgängliggörande.
+  För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion. Lägg in egenskaper under Utgivning/Utgivning och Huvudsakligt tillgängliggörande/Primär utgivning). Ange Land, År, Kompletterande datum och Typ av utgivningsdatum under Huvudsakligt tillgängliggörande.
     
 * Flera år (flerbandsverk)  
   För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning. 
