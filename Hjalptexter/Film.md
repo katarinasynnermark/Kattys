@@ -7,7 +7,7 @@ För information om katalogregler och Librispraxis, se [Anvisningar för katalog
 
 Tänk på att för film på DVD eller Blu-ray är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.3](http://access.rdatoolkit.org/rdachp2_rda2-2892.html).
 
-Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
+Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
 
 
 ### Innehåll  
@@ -44,12 +44,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
+  Länka till entiteten:  
   ```Exempel: video, v```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
+  Länka till entiteten:  
   ```Exempel: videodisc, vd```  
   
 #### Titel  
@@ -59,7 +59,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). 
   <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, se [RDA 2.3.2.4](http://access.rdatoolkit.org/rdachp2_rda2-3375.html) samt [Librispraxis för RDA 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
- ```Exempel: The Beguiledh```  
+ ```Exempel: The beguiled```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: The Beguiledh, fileringsvärde: 4```  
  Se exempel i formathandboken för Libris/Voyager: 
