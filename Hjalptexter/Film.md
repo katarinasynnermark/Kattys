@@ -232,7 +232,7 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
  <br/>```Exempel:```
-     ```1 DVD-video (2 tim., 7 min.)```
+     ```1 DVD-video (2 tim., 7 min.)```</br>
      ```1 Blu-ray Disc (1 tim., 40 min.)```
   
 #### Ovriga fysiska detaljer   
