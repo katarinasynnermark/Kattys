@@ -402,14 +402,15 @@ Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICv
 #### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
  
-#### Amne 
-För anvisningar om hur man anger ämne, se hjälptexten [Tryckt monografi: Ämne](https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne). 
- 
+#### Amne  
+För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#amne): Ämne. 
+
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
-  Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
-  ```Exempel: j (= barn- och ungdom, 0-16 år)```
+  ```Exempel: j (= barn- och ungdom, 0-16 år)``` Normalvärde för speö som riktar sig till barn och ungdom.
+
+För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#Malgruppsanmarkning) under Instans.
  
 #### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
