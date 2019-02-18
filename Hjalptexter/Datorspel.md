@@ -163,7 +163,8 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
  <br/>```Exempel:```
  
     * ```[2017]```
-    * ```[mellan 2003 och 2007?]```</br>
+    * ```[mellan 2003 och 2007?]```
+
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion. Lägg in egenskaper under Utgivning/Utgivning och Huvudsakligt tillgängliggörande/Primär utgivning). Ange Land, År, Kompletterande datum och Typ av utgivningsdatum under Huvudsakligt tillgängliggörande.
     
 * Flera år (flerbandsverk)  
