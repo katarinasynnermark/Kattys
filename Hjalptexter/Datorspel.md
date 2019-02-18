@@ -113,7 +113,6 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
 #### Upphovsuppgift
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår i resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)<BR/>
-  För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
   <BR/>```Exempel: developed by Revolution Software```
   
 #### Upplageuppgift
