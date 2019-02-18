@@ -233,7 +233,7 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 Skriv in uppgiften under Benämning.
  <br/>```Exempel:```
      ```1 DVD-video (2 tim., 7 min.)```
-     ```1 Blu-ray Disc (1 tim., 40 min.)
+     ```1 Blu-ray Disc (1 tim., 40 min.)```
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
