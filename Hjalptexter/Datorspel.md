@@ -248,7 +248,7 @@ Lägg till Målgrupp. Skapa målgrupp som lokal entitet (skriv målgrupp i rutan
 Skriv in uppgiften under Benämning. Åldersnivån kan om så önskas, preciseras enligt [PEGI](https://pegi.info), Pan European Game Information.<BR/>
 ```Exempel: PEGI 12```  
 
-Notera att kodning av målgrupp, motsvarande 008/22, ska anges under [Målgrupp](#Malgrupp] i Instans av verk. 
+Notera att kodning av målgrupp, motsvarande 008/22, ska anges under [Målgrupp](#Malgrupp) i Instans av verk. 
 
 #### Systemkrav
 Det är obligatoriskt i Libris att ange konsol här. 
