@@ -5,7 +5,7 @@ För instruktioner om att lägga till eller ta bort egenskap, länka till entite
 
 För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
-Tänk på att för film på DVD eller Blu-ray är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.3](http://access.rdatoolkit.org/rdachp2_rda2-2892.html).
+Tänk på att för utgivna rörliga bilder är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.3](http://access.rdatoolkit.org/rdachp2_rda2-2892.html).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
 
@@ -81,7 +81,7 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).<br/>
 
-Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för utgivna rörliga bilder är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
+Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för utgivna rörliga bilder är hela resursen godkänd källa, utan prioritetsordning, se [KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)<br/> 
@@ -90,7 +90,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
 Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Har del).  
-Under Har del, skapa Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.)   
+Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.
 Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Delbeteckning (partNumber)).   
 Skriv in uppgiften under Delbeteckning.  
 ```Exempel: 1```   
