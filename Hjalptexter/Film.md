@@ -238,12 +238,12 @@ Skriv in uppgiften under Benämning.
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
-  ```Exempel: ljud, färg```
+  ```Exempel: stum, svartvit```
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (accompaniedBy/Instance/label = 300 ‡e)   
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).</BR> 
-Skriv in uppgiften under Benämning.
+Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.)</br> 
+Lägg till Benämning. Skriv in uppgiften.
 <br/>```Exempel: 1 häfte (10 sidor)``` 
 
 #### Videokarakteristika
