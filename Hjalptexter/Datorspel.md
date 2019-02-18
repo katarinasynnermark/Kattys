@@ -104,11 +104,11 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
-Välj först Har titel, välj sedan typ Parallelltitel.      
-Skriv in uppgiften under Huvudtitel.     
+Välj först Har titel, välj sedan typ Parallelltitel. Skriv in uppgiften under Huvudtitel. 
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
   
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
-Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle) under Parallelltitel.  
+Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.  
      
 #### Upphovsuppgift
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det tydligt framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
