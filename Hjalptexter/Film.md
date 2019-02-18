@@ -209,7 +209,7 @@ Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnumm
   Välj typ från lista.  
   ```Exempel: Utgivningsnummer (videoinspelning)```
 * Identifikator/Utgivningsnummer (videoinspelning)/Värde (identifiedBy/VideoRecordingNumber/value = 028 ‡a)<br/>
-  Ange identifikator.<br/>
+  Ange utgivningsnumret som det förekommer i resursen.<br/>
   ```Exempel: NF780```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 ‡b)<br/> 
   Ange utgivarens namn.<br/>
