@@ -101,6 +101,7 @@ Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titelde
 Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Deltitel (partName)).   
 Skriv in uppgiften under Deltitel.  
 ```Exempel: Stark rygg & god hållning```  
+
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
 
 ##### Titel - alternativ stavning
