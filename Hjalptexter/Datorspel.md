@@ -376,8 +376,16 @@ För datorspel som innehåller en översättning, lägg till:
   ```Exempel: engelska (eng)```  
    
 #### Genre  
- Länka till entitet. 
-För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
+Länka till entiteter.
+För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. 
+
+Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.
+För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).
+För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.
+
+För datorspel ska typ av fil anges här (marc/ComputerTypeOfFileType = 008/26).</BR>
+Länka till entiteten:</BR>
+  ```marc/ComputerTypeOfFileType-g (= dataspel)```
 
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
@@ -390,14 +398,9 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
      * ```First-person shooter (datorspel)```
 
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
-
-Här anges även typ av fil (marc/ComputerTypeOfFileType = 008/26).
-</BR>Datorspel ska ha koden g (dataspel).</BR>
-Länka till entitet.</BR>
-  ```Exempel: marc/ComputerTypeOfFileType-g```
  
 #### Klassifikation  
-För anvisningar om hur man anger klassifikation, se hjälptexten [Tryckt monografi: Klassifikation.](https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)
+För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
  
 #### Amne 
 För anvisningar om hur man anger ämne, se hjälptexten [Tryckt monografi: Ämne](https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne). 
