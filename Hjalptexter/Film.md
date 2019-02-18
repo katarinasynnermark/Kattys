@@ -129,7 +129,6 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)</BR>
-  För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.
   <BR/>```Exempel:```
   
   * ```written, produced and directed by Hilary Ng'weno```
@@ -137,7 +136,6 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)</BR>
-  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Videoinspelning.</BR>
   Skriv in upplagebeteckning här. 
  <br/>```Exempel: Limited edition```  
   
