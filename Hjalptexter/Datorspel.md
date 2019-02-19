@@ -271,7 +271,7 @@ Lägg till Anmärkning om systemkrav och mediespecifika uppgifter. Klicka på pl
 Skriv in uppgiften.</BR>
 ```Exempel: Systemkrav: 50 GB minimum på hårddisken ; dualshok 4 ; stöd för remote play```  
 
-### Verk (instanceOf/Work)
+### Verk 
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal   entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka     entitet) vid Instans av Verk.  
   Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).</BR> 
 
