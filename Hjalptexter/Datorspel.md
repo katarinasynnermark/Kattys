@@ -271,14 +271,11 @@ Lägg till Anmärkning om systemkrav och mediespecifika uppgifter. Klicka på pl
 Skriv in uppgiften.</BR>
 ```Exempel: Systemkrav: 50 GB minimum på hårddisken ; dualshok 4 ; stöd för remote play```  
 
-### Verk   
+### Verk (instanceOf/Work)
+Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal   entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka     entitet) vid Instans av Verk.  
+  Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).</BR> 
 
-#### Instans av Verk/Multimedia
-* Instans av Verk/Multimedia (instanceOf/Work/Multimedia)  
-  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal   entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal   entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka   entitet) vid Instans av Verk/Projicerad bild.  
- Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).</BR>  
-
-För att lägga till egenskaper under Instans av Verk/Multimedia, klicka på plustecknet vid Instans av Verk/Multimedia - Lägg till egenskaper under: Multimedia. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
+För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen Multimedia - Lägg till egenskaper under: Multimedia. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 #### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). 
@@ -286,8 +283,7 @@ Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för 
 ##### Verkets titel - verk utan primär medverkande
 Datorspel har sällan en primär medverkande och verkets föredragna titel ska då anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. 
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
-Under Instans av Verk/Multimedia, lägg till Uttryck av (plustecknet vid Instans av Verk/Multimedia - Lägg till egenskaper under: Multimedia, välj Uttryck av).  
-Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
+Under Instans av Verk, lägg till egenskapen Uttryck av. Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), välj Verk. Det läggs till under Uttryck av. Lägg till Har titel. Välj Titel. 
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel:  Prototype (datorspel)```</BR>
 Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype. Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).</BR>
