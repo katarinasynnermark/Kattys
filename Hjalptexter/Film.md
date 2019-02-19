@@ -277,8 +277,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. Här anges tills vidare Produktionsland. 
-  </BR>För att lägga till Anmärkning, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.   
-  Skriv in uppgiften under Benämning.  
+  </BR>För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning.  
    ```Exempel: Produktionsland: Frankrike```  
 
 #### Relaterad beskrivning eller innehall
