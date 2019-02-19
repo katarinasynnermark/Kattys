@@ -262,7 +262,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska anges i [Målgrupp](
 
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Videoinspelning). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.     
+  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning. Läggg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.     
   ```Exempel: Adjö Puh! -- Var är Nasse? -- Fiskar på land -- Himlen trillar ner! -- Nasses ballongspel```  
   
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 t‡, ‡r)  
