@@ -281,9 +281,9 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
    ```Exempel: Produktionsland: Frankrike```  
 
 #### Relaterad beskrivning eller innehall
-* Relaterad beskrivning eller innehåll/Dokument/URI (associatedMedia/MediaObject/marc:publicNote = 856 4/0 ‡z)</BR>
+* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
   Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs.</BR>
-  För att lägga till Relaterad beskrivning eller innehåll, klicka på plustecknet Lägg till egenskaper under: Videoinspelning och välj Relaterad beskrivning eller innehåll (isPrimaryTopicOf). Klicka på plustecknet framför Relaterad beskrivning eller innehåll (Lägg till dokument), välj Skapa lokal entitet i sidorutan Lägg till entitet. Välj Dokument och lägg till egenskapen URI. Klistra in aktuell uri i rutan under egenskapen. 
+  Lägg till Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell. 
   
 ### Verk   
 
