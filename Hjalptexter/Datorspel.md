@@ -370,12 +370,12 @@ För ingående verk med primär medverkande, lägg till Medverkan och funktion/P
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
    
 #### Genre  
-Länka till entiteter.
-För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. 
+Länka till entiteter.</BR>
+För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet, välj typ. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan.
 
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).
-För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.
+För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. 
 
 För datorspel ska typ av fil anges här (marc/ComputerTypeOfFileType = 008/26).</BR>
 Länka till entiteten:</BR>
