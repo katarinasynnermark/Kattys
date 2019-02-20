@@ -378,6 +378,7 @@ För en film som är dubbad, lägg till:
   ```Exempel: engelska (eng)```</br> 
 Om resursen innehåller originalversionen och en eller flera dubbade versioner kan, om så önskas, dessa anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](Verk-som-ingar-i-det-beskrivna-verket). 
 
+#### Relationer till ingående verk och andra verk
 ##### Verk som ingår i det beskrivna verket
 Om resursen innehåller originalversionen och en eller flera dubbade versioner kan, om så önskas, dessa anges som verk som ingår i det beskrivna verket.
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 0/2 ‡a ‡d + ‡t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkande) i marc:  
