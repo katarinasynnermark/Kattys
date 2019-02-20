@@ -22,7 +22,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | [Utgivning](#utgivning) |  [Ämne](#amne)  |
 | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
-| [Identifikator](#identifikator) | Bild- och filmtexter](#bild--och-filmtexter) |
+| [Identifikator](#identifikator) | Bild- och filmtexter](#bild-och-filmtexter) |
 | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
 | [Bilagor](#bilagor) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
