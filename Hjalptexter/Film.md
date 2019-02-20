@@ -311,7 +311,7 @@ Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskape
 *	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 ‡l)  
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.</BR> 
 
-För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. Om resursen innehåller originalversionen och en eller flera dubbade versioner kan om så önskas dessa istället anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](#Verk-som-ingar-i-det-beskrivna-verket).
+För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. Om resursen innehåller originalversionen och en eller flera dubbade versioner kan, om så önskas, dessa istället anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](#Verk-som-ingar-i-det-beskrivna-verket).
 
 ##### Verkets titel - verk med primär medverkande
 Det är ovanligt att film har primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen.
@@ -325,7 +325,7 @@ Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskape
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.
 Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.
 
-För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. Om resursen innehåller originalversionen och en eller flera dubbade versioner kan om så önskas dessa istället anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](#Verk-som-ingar-i-det-beskrivna-verket).
+För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. Om resursen innehåller originalversionen och en eller flera dubbade versioner kan, om så önskas, dessa istället anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](#Verk-som-ingar-i-det-beskrivna-verket).
 
 #### Medverkan och funktion  
 * Medverkan och funktion  
@@ -362,7 +362,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
   Länka till entitet. Språk/språken för dubbningarna hamnar då i separata 041 #a.
 
-Om resursen innehåller originalversionen och en eller flera dubbade versioner kan om så önskas dessa istället anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](Verk-som-ingar-i-det-beskrivna-verket). I så fall ska endast originalversionens språk anges här.
+Om resursen innehåller originalversionen och en eller flera dubbade versioner kan, om så önskas, dessa istället anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](Verk-som-ingar-i-det-beskrivna-verket). I så fall ska endast originalversionens språk anges här.
 
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).
  
@@ -376,13 +376,13 @@ För en film som är dubbad, lägg till:
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
   Klicka på Lägg till egenskaper under: Projicerad bild, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```</br> 
-Om resursen innehåller originalversionen och en eller flera dubbade versioner kan dessa anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](Verk-som-ingar-i-det-beskrivna-verket). 
+Om resursen innehåller originalversionen och en eller flera dubbade versioner kan, om så önskas, dessa anges enligt instruktionerna under [Verk som ingår i det beskrivna verket](Verk-som-ingar-i-det-beskrivna-verket). 
 
 ##### Verk som ingår i det beskrivna verket
 Om resursen innehåller originalversionen och en eller flera dubbade versioner kan, om så önskas, dessa anges som verk som ingår i det beskrivna verket.
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 0/2 ‡a ‡d + ‡t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkande) i marc:  
 Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
-Lägg till eventuell deltitel, delbeteckning och benämning på språk (lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket). I varje Har del ska även Språk, Anmärkning: Språk samt originalversionens språk anges.</br>
+Lägg till eventuell deltitel, delbeteckning och benämning på språk (lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket). I varje Har del ska även Språk, Anmärkning: Språk samt originalversionens språk anges enligt instruktionerna under Språk och Översättning, ovan.</br>
 För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
