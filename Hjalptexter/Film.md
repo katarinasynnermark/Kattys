@@ -17,15 +17,15 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Genre](#genre) |
-| [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyrightår](#copyrightar) | [Bild- och filmtexter](#bild--och-filmtexter) |
-| [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
-| [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
-| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Bilagor](#bilagor) | |
+| [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Utgivning](#utgivning) |  [Ämne](#amne)  |
+| [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
+| [Identifikator](#identifikator) | Bild- och filmtexter](#bild--och-filmtexter) |
+| [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
+| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
+| [Bilagor](#bilagor) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Videokarakteristika](#videokarakteristika) | |
 | [Seriemedlemskap](#seriemedlemskap) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
