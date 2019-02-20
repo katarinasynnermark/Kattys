@@ -473,7 +473,7 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https:/
  
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
-  Länka till entitet.</br>  
+  Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)``` Normalvärde för film som riktar sig till barn och ungdom.
 
 #### Bild- och filmtexter 
