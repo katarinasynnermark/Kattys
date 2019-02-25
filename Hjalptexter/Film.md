@@ -24,7 +24,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
 | [Bilagor](#bilagor) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Videokarakteristika](#videokarakteristika) | |
+| [Videokarakteristika](#videokarakteristika) | [Inspelning] (#inspelning] |
 | [Seriemedlemskap](#seriemedlemskap) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | [Innehållsanmärkning](#innehallsanmarkning) | |
@@ -506,10 +506,19 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https:/
   ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
   
 #### Sammanfattning av innehall
-* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
+* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
      
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
- ```Exempel: Ej preciserad```  
+ ```Exempel: Ej preciserad``` 
+ 
+ #### Inspelning
+ * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a) 
+ Här kan uppgift om inspelningstid anges.
+ Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
+ Skriv in uppgiften under Benämning.
+ ```Exempel: Inspelad 2010``` 
+ 
+ 
      
