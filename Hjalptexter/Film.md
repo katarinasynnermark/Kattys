@@ -248,11 +248,11 @@ Lägg till Benämning. Skriv in uppgiften.
 #### Videokarakteristika
 * Videokarakteristika (videoCharacteristics = 007/04)
   <BR/>Länka till entitet. 
-  Här anges format, antingen DVD eller Blu-ray Disc. 
+  Här anges format, antingen DVD eller Blu-ray Disc.</br>
   ```Exempel:```
   
   * ```DVD, v```
-  * ```Blu-ray Disc```
+  * ```Blu-ray Disc, s```
 
 #### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
