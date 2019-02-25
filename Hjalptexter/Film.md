@@ -517,7 +517,7 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
  Här kan uppgift om inspelningstid anges.
  Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
- Skriv in uppgiften under Benämning.
+ Skriv in uppgiften under Benämning.</br>
  ```Exempel: Inspelad 2010``` 
  
  
