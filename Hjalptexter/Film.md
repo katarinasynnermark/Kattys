@@ -24,7 +24,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
 | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
 | [Bilagor](#bilagor) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Videokarakteristika](#videokarakteristika) | [Inspelning] (#inspelning) |
+| [Videokarakteristika](#videokarakteristika) | [Inspelning](#inspelning) |
 | [Seriemedlemskap](#seriemedlemskap) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | [Innehållsanmärkning](#innehallsanmarkning) | |
