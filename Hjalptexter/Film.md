@@ -460,6 +460,8 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https:/
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)``` Normalvärde för film som riktar sig till barn och ungdom.
 
+För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#Malgruppsanmarkning) under Instans.
+
 #### Bild- och filmtexter 
  * Bild- och filmtexter (marc:subtitlesOrCaptions/marc:SubtitlesOrCaptions/language = 041 ‡j)</BR>
  Ange språk i eventuella bild- och filmtexter.</BR>
