@@ -459,7 +459,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
 #### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entiteten:</BR>
-  ```Exempel: computer program, cop```
+  ```Exempel: computer program, cop (= datorprogram)```
   
 #### Anmarkningar
 ##### Anmärkning om språk
