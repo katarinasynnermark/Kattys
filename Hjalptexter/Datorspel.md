@@ -14,14 +14,14 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Genre](#genre) |
-| [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
-| [Identifikator](#identifikator) |  [Anmärkningar](#anmarkningar) |
-| [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | |
+| [Titel](#titel) | [Relationer till ingående verk och andra verk] (#relationer-till-ingande-verk-och-andra-verk) |
+| [Upphovsuppgift](#upphovsuppgift) |  [Genre](#genre) |
+| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation)|
+| [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp)  |
+| [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp)  |
+| [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
+| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
@@ -352,6 +352,8 @@ För datorspel som innehåller en översättning, lägg till:
   Ange originalspråk här.  
   Klicka på Lägg till egenskaper under: Multimedia, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
+
+#### Relationer till ingående verk och andra verk
   
 ##### Verk som ingår i det beskrivna verket 
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 0/2 ‡a ‡d + ‡t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkande) i marc:  
