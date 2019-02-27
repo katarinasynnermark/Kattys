@@ -61,14 +61,14 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: The Beguiled, fileringsvärde: 4```  
  Se exempel i formathandboken för Libris/Voyager: 
-[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/).
+
+För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
   <br/>```Exempel: mer om modelljärnvägar : allt samlaren behöver veta```
-  
-För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel
 En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html).
