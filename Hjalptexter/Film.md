@@ -59,7 +59,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
   <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, se [RDA 2.3.2.4](http://access.rdatoolkit.org/rdachp2_rda2-3375.html) samt [Librispraxis för RDA 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
  ```Exempel: The beguiled```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
- ```Exempel: Huvudtitel: The Beguiledh, fileringsvärde: 4```  
+ ```Exempel: Huvudtitel: The Beguiled, fileringsvärde: 4```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
@@ -128,7 +128,6 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)</BR>
   ```Exempel:```
-  
   * ```written, produced and directed by Hilary Ng'weno```
   * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
   
@@ -179,7 +178,6 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivning
   För att ange ett år utan klamrar eller andra tecken, använd endast År.  
   Skriv in uppgiften.
  <br/>```Exempel:```
- 
     * ```[2017]```
     * ```[mellan 2003 och 2007?]```
   
@@ -230,9 +228,8 @@ För anvisningar om hur man anger ISBN, se hjälptexten [Instans](https://libris
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
- <br/>```Exempel:```</br>
- 
-     * ```1 DVD-video (2 tim., 7 min.)```</br>
+  <br/>```Exempel:```
+     * ```1 DVD-video (2 tim., 7 min.)```
      * ```1 Blu-ray Disc (1 tim., 40 min.)```
   
 #### Ovriga fysiska detaljer   
@@ -250,7 +247,6 @@ Lägg till Benämning. Skriv in uppgiften.
   <BR/>Länka till entitet. 
   Här anges format, antingen DVD eller Blu-ray Disc.</br>
   ```Exempel:```
-  
   * ```DVD, v```
   * ```Blu-ray Disc, s```
 
@@ -286,7 +282,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 #### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
   Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs.</BR>
-  Lägg till Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell. 
+  Lägg till Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell länk. 
   
 ### Verk
 #### Instans av verk (instanceOf/Work)
