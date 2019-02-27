@@ -265,8 +265,6 @@ Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala sys
 #### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen. Uppgift om konsol ska alltid anges i egenskapen [Systemkrav](#Systemkrav). Om så önskas, för att den ska bli synlig i i lokala system, kan uppgift om konsol även anges här eller inom parentes efter [Omfång](#Omfang).
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)</BR>
-Lägg till Anmärkning om systemkrav och mediespecifika uppgifter. Klicka på plustecknet Lägg till egenskaper under: Anmärkning: Systemkrav och mediespecifika uppgifter, välj Anmärkningstext (marc/systemDetailsNote).
-Skriv in uppgiften.</BR>
 ```Exempel: Systemkrav: 50 GB minimum på hårddisken ; dualshok 4 ; stöd för remote play```  
 
 ### Verk 
