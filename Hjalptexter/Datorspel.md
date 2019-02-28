@@ -178,7 +178,7 @@ Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivnings
   Välj typ från lista.  
   ```Exempel: Utgivningsnummer (annat)```
 * Identifikator/Utgivningsnummer (annat)/Värde (identifiedBy/VideoRecordingNumber/value = 028 5/1 ‡a)<br/>
-  Ange identifikator.<br/>
+  Ange utgivningsnumret som det förekommer i resursen.<br/>
   ```Exempel: 7303903501```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 5/1 ‡b)<br/> 
   Ange utgivarens namn.<br/>
