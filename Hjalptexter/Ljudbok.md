@@ -39,15 +39,15 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entiteten:  
-  ```Exempel: audio, s```
+  ```audio, s```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entiteten:</br> 
-  ```Exempel: audio disc, sd```</BR>
+  ```audio disc, sd```</BR>
   
   Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka även till entiteten: </BR>
-  ```Exempel: marc/SoundDisc```
+  ```marc/SoundDisc```
   
 #### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
