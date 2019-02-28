@@ -238,7 +238,7 @@ Ibland medföljer en extra MP3-CD (med samma ISBN) vid distribution och försäl
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
    
 #### Innehallsanmarkning  
-För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning)
+För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
