@@ -193,7 +193,6 @@ Flera typer av identifikatorer kan finnas på ljudböcker. I mallen är Utgivnin
   <br/>```Exempel: Naxos AudioBooks```<br/>
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Ange eventuell bestämning.    
-  <br/>```Exempel: MP3-CD```
   
 ##### ISBN
 * Identifikator (identifiedBy)  
