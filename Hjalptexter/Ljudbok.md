@@ -161,6 +161,8 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivning
   
     * ```[2017]```
     * ```[mellan 2003 och 2005?]```
+
+För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
   
 * Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning. 
@@ -170,7 +172,8 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivning
 #### Copyright- eller p-ar
 För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan.  
+  Skriv in uppgiften. Det går bra att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.
+  För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.
   <br/>```Exempel:``` 
     
