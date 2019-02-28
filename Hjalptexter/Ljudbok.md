@@ -230,7 +230,7 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.) Lägg till Benämning. Skriv in uppgiften. 
-<br/>```Exempel: 1 bildhäfte```<br/> 
+<br/>```Exempel: 1 bildhäfte (20 sidor)```<br/> 
 Ibland medföljer en extra MP3-CD (med samma ISBN) vid distribution och försäljning av CD-ljudböcker.
 <br/>```Exempel: 1 MP3-CD```
 
