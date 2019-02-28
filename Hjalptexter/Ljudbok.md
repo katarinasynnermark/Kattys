@@ -186,13 +186,14 @@ Flera typer av identifikatorer kan finnas på ljudböcker. I mallen är Utgivnin
   Välj typ från lista.
   <br/>```Exempel: Utgivningsnummer (ljudinspelning)```
 * Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 ‡a)<br/>
-  Ange identifikator.
+  Ange utgivningsnumret som det förekommer i resursen.
   <br/>```Exempel: NA242512```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
   Ange utgivarens namn.
   <br/>```Exempel: Naxos AudioBooks```<br/>
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Ange eventuell bestämning.    
+  <br/>```Exempel: MP3-CD```
   
 ##### ISBN
 * Identifikator (identifiedBy)  
