@@ -131,7 +131,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
  
 ##### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-  Sök inte efter Plats som entitet. Skapa plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br>
+  Sök inte efter Plats som entitet. Skapa Plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br>
   ```Exempel: [Malmö]```  
   
 ##### Utgivningsland  
@@ -141,12 +141,10 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   
 ##### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
-  För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
-  Skriv in uppgiften under Benämning.  
+  Sök inte efter Agent som entitet. Skapa Agent lokal entitet. Skriv in uppgiften under Benämning.  
   ```Exempel: Bokfabriken```   
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
-Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
-Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
+  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
+Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivningsavsnitt. Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
 ##### År och datum 
@@ -157,9 +155,8 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
-  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, använd endast År.  
-  Skriv in uppgiften.
+  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
+  För att ange ett år utan klamrar eller andra tecken, använd endast År. 
   <br/>```Exempel:```
   
     * ```[2017]```
