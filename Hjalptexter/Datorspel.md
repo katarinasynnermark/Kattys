@@ -91,13 +91,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
 För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
 
 ##### Titel - alternativ stavning
-* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
-(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
-Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
-
-  För att lägga till en alternativ sökingång för titeln, lägg till Relation. Lägg till Entitet. Skapa verk som lokal entitet. Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). Skriv in uppgiften under Huvudtitel.  
-
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra. Se exempel i formathandboken för Libris/Voyager: [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+För anvisningar om hur man lägger till en alternativ sökingång för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord (= 740), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel.  
   
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
