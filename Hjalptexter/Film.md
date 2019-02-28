@@ -151,7 +151,7 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivning
 * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.  
-  För att ange ett år utan klamrar eller andra tecken, använd endast År. Skriv in uppgiften.
+  För att ange ett år utan klamrar eller andra tecken, använd endast År. 
  <br/>```Exempel:```
  
     * ```[2017]```
