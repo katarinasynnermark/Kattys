@@ -43,10 +43,10 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entiteten: 
+  Länka till entiteten:</br> 
   ```Exempel: audio disc, sd```</BR>
   
-  Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka till entiteten: </BR>
+  Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka även till entiteten: </BR>
   ```Exempel: marc/SoundDisc```
   
 #### Titel
