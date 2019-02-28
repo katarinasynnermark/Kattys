@@ -225,7 +225,6 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)     
-  Skriv in uppgiften.  
   ```Exempel: stereo```
   
 #### Bilagor
