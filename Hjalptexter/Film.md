@@ -125,8 +125,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
  
 ##### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-Sök inte efter Plats som entitet. Skapa plats som lokal entitet.   
-  Skriv in uppgiften under Benämning. Klamra vid behov.</br> 
+Sök inte efter Plats som entitet. Skapa plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br> 
   ```Exempel: [Stockholm]```  
   
 ##### Utgivningsland  
