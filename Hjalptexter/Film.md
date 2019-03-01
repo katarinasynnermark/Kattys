@@ -381,7 +381,6 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe.</BR> 
  Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
 ```Exempel:```
-
    * ```Spelfilmer```
    * ```Dokumentärfilmer```</BR>
 
