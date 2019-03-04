@@ -336,8 +336,8 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   För en film som är dubbad ange dubbningens språk här. Om resursen innehåller både originalversionen och en eller flera dubbade versioner, ange originalversionens språk först och sedan språk/språken för dubbningen/dubbningarna.</BR>
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
-  </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
-  Länka till entitet. Språk/språken för dubbningarna hamnar då i separata 041 #a.
+ </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
+  Länka till entitet. Språk/språken för dubbningarna hamnar då i separata 041 #a. 
 
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).
  
@@ -345,7 +345,7 @@ För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen
 För en film som är dubbad, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Projicerad bild och välj Anmärkning: Språk. Välj fras från lista.  
+  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
