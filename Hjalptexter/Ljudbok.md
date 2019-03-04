@@ -15,14 +15,14 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Genre](#genre) |
-| [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
-| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyright- eller p-år](#copyright--eller-p-ar) | [Innehållstyp](#innehallstyp) |
-| [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och andra-verk) |
+| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Copyright- eller p-år](#copyright--eller-p-ar) | [Målgrupp](#malgrupp) |
+| [Identifikator](#identifikator) |[Innehållstyp](#innehallstyp) |
+| [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
+| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
