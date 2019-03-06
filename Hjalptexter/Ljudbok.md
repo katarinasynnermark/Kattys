@@ -317,7 +317,6 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   Länka till entitet. 
   
 ##### Översättning 
-
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Ljudmaterial och välj Anmärkning: Språk. Välj fras från lista</BR>
@@ -366,12 +365,14 @@ Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICv
    * ```0 (= ej skönlitterärt verk)```
    * ```f (= roman)```
    * ```j (= noveller)```
-   * ```p (= dikter)
+   * ```p (= dikter)```
    
 ##### Biografiskt material  
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Välj Biografiskt material i listan över typer. Länka till entitet.  
   ```Exempel: a (= självbiografi)```
+
+För exempel, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#genre): Genre.
   
 #### Klassifikation  
 För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation) Klassifikation.
