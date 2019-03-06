@@ -341,7 +341,6 @@ Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entit
 Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket).</br>
 För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion) : Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-
   
 #### Genre  
  Länka till entiteter. 
@@ -358,18 +357,22 @@ Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämne
    * ```Självbiografier```
    * ```Ljudböcker```
 
-Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7).  
 
 ##### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
   Välj Litterär genre i listan över typer. Länka till entitet.  
-  ```Exempel: 0 ( = ej skönlitterärt verk)```
-  
+  ```Exempel:```
+   * ```0 (= ej skönlitterärt verk)```
+   * ```f (= roman)```
+   * ```j (= noveller)```
+   * ```p (= dikter)
+   
 ##### Biografiskt material  
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Välj Biografiskt material i listan över typer. Länka till entitet.  
-  ```Exempel: a (= självbiografi)```  
-
+  ```Exempel: a (= självbiografi)```
+  
 #### Klassifikation  
 För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation) Klassifikation.
    
