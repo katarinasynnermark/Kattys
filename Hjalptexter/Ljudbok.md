@@ -385,8 +385,9 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk:](https:
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
-  ```Exempel: j (= barn- och ungdom, 0-16 år)```  
-  
+  ```Exempel: j (= barn- och ungdom, 0-16 år)```
+    Normalvärde för barn- och ungdomslitteratur.
+
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
