@@ -171,7 +171,6 @@ För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med
   Skriv in uppgiften. För att få fram © eller ℗, kopiera från exemplet nedan.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.
   <br/>```Exempel:``` 
-    
     * ```©2017```
     * ```℗2017```
      
