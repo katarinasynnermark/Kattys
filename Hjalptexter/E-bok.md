@@ -1,15 +1,12 @@
 ## E-bok
 
-Denna hjälptext beskriver ett antal för e-böcker vanligt förekommande egenskaper, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av e-böcker tillgängliga online, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information.
+
+För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För anvisningar om Adminmetadata, se Adminmetadata.
+
+För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
-
-I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
-
-I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som beskrivs i hjälptexten. Arbete pågår med förbättra gränssnittet. För att anmäla fel, använd detta formulär för [felrapportering](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform). För att lämna synpunkter, använd detta formulär för  [ändringsförslag](https://docs.google.com/forms/d/e/1FAIpQLScgz_0enebhBn6uB8xvowkDBB4ax_dbvaobLSFfqFMoty6eQg/viewform).  
-
-För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph).
-
 
 ### Innehåll  
 
@@ -18,15 +15,15 @@ För anvisningar om Adminmetadata, se hjälptexten [Tryckt monografi](https://li
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Genre](#genre) |
-| [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
-| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
-| [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Bilagor](#bilagor) | |
+| [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk|
+| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp)|
+| [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
+| [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande)  |
+| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| [Bilagor](#bilagor) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
 | [Anmarkning](#anmarkning) | | 
@@ -395,15 +392,17 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
 Skriv in uppgiften.  
 ```Exempel: Svenska```
 
-##### Verkets titel - verk som ingår i det beskrivna verket 
-För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 0/2 ‡a ‡d + ‡t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkande) i marc:  
+#### Relationer till ingaende verk och andra verk
+
+##### Verk som ingår i det beskrivna verket 
+För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkande) i marc:  
 Under Instans av Verk/Ljudmaterial, klicka på plustecknet vid Verk (lägg till egenskaper under: Verk) och välj Har del.
 Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Har del. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation. Ange föredragen titel i Huvudtitel. 
 Lägg till eventuell deltitel, delbeteckning och benämning på språk.
 För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under [Medverkan och funktion](#medverkan-och-funktion). 
 
-##### Verkets titel - relaterade verk  
-För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 0/- ‡a ‡d + ‡t (icke-analytisk sökingingång för verk med primär medverkande) eller 730 0/- ‡a (icke-analytisk sökingång för verk utan primär medverkande) i marc: 
+##### Relationer till andra verk  
+För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkande) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkande) i marc: 
 Under Instans av Verk/Ljudmaterial, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Ljudmaterial (Lägg till egenskaper under: Ljudmaterial) och välj Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation. Ange föredragen titel i Huvudtitel. 
 Lägg till eventuell deltitel, delbeteckning och benämning på språk.
 För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under [Medverkan och funktion](#medverkan-och-funktion). 
