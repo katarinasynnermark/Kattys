@@ -75,7 +75,7 @@ Ange endast en titel som övrig titelinformation om det klart framgår att den �
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
   
 ##### Varianttitel
-En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges även varianter för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.
+En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till entitet) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
  Skriv in uppgiften under Huvudtitel.    
