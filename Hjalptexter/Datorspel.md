@@ -387,7 +387,8 @@ För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https:/
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
-  ```Exempel: j (= barn- och ungdom, 0-16 år)``` Normalvärde för spel som riktar sig till barn och ungdom.
+  ```Exempel: j (= barn- och ungdom, 0-16 år)```</br> 
+  Normalvärde för spel som riktar sig till barn och ungdom.
 
 För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#Malgruppsanmarkning) under Instans.
  
