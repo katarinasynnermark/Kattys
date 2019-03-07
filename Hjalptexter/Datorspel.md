@@ -149,7 +149,6 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
   För att ange ett år utan klamrar eller andra tecken, använd endast År.
  <br/>```Exempel:```
- 
     * ```[2017]```
     * ```[mellan 2003 och 2007?]```
 
