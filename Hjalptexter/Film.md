@@ -150,7 +150,6 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivning
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.  
   För att ange ett år utan klamrar eller andra tecken, använd endast År. 
  <br/>```Exempel:```
- 
     * ```[2017]```
     * ```[mellan 2003 och 2007?]```
     
@@ -169,7 +168,7 @@ För film anges alltid copyrightår, även om det sammanfaller med utgivningsår
 <br/>```Exempel: ©2017```
        
 #### Produktionsland
-Produktionsland anges tills vidare i [Anmärkning](#anmarkning).
+Produktionsland och produktionsår anges tills vidare i [Anmärkning](#anmarkning).
     
 #### Identifikator
 Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnummer (videoinspelning) och EAN förvalda.
