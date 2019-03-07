@@ -219,7 +219,6 @@ Lägg till Benämning. Skriv in uppgiften.
   <BR/>Länka till entitet. 
   Här anges format, antingen DVD eller Blu-ray Disc.</br>
   ```Exempel:```
-  
   * ```DVD, v```
   * ```Blu-ray Disc, s```
 
@@ -409,7 +408,6 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.</BR>
   ```Exempel:```
-  
    * ```two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
    * ```three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
   
