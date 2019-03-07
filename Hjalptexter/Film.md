@@ -252,9 +252,9 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
   
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här. Här anges tills vidare Produktionsland. 
+  Skriv in allmänna anmärkningar här. Här anges tills vidare produktionsland och produktionsår. 
   </BR>För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning.  
-   ```Exempel: Produktionsland: Frankrike```  
+   ```Exempel: Produktion: Frankrike, 1972```    
 
 #### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
