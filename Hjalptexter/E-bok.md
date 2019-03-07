@@ -45,10 +45,11 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entiteten:  
   ```online resource, cr```</BR>
-  Om koden "r" (= fjärranslutning) i 007/01 (= särskild bärarbeteckning) behövs för lokalt system, länka till entiteten:</BR>
-  ```marc/Online```</BR>
-  Om koden "o" (= onlineutgåva) i 008/23 (= form för manifestationen) behövs för lokalt system, länka till entiteten:</br>
-  ```marc/OnlineResource```
+  Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
+  ```Onlineresurs, r```</BR>
+  Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
+  ```Onlineutgåva, o```
+  För att hitta entiteten Onlineutgåva, o, välj Form från listan under Föreslagna typer.
     
 #### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
