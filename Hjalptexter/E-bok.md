@@ -29,7 +29,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Anmarkning](#anmarkning) | | 
 
 ### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Ljudinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)   
@@ -38,21 +38,17 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```Exempel: computer, c```
+  Länka till entiteten:  
+  ```computer, c```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
-  ```Exempel: online resource, cr```</BR>
-  
-  Länka till entiteten  marc/Online för att lägga till Marc-koden "r" (= fjärranslutning) i 007/01 (= särskild bärarbeteckning).</BR>
-  ```Exempel: marc/Online```</BR>
-  Marc-koden behövs tills vidare för att genrera .... i Webbsök eller kan behövas i lokala sysem?</BR>
-  
-  Länka till entiteten marc/OnlineResource för att lägga till Marc-koden "o" (= onlineutgåva) i 008/23 (= form för manifestationen.</BR>
-  ```Exempel: marc/OnlineResource```</BR>
-  Marc-koden behövs tills vidare för att genrera .... i Webbsök eller kan behövas i lokala sysem?
+  Länka till entiteten:  
+  ```online resource, cr```</BR>
+  Om koden "r" (= fjärranslutning) i 007/01 (= särskild bärarbeteckning) behövs för lokalt system, länka till entiteten:</BR>
+  ```marc/Online```</BR>
+  Om koden "o" (= onlineutgåva) i 008/23 (= form för manifestationen) behövs för lokalt system, länka till entiteten:</br>
+  ```marc/OnlineResource```
     
 #### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
