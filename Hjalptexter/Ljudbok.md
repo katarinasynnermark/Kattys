@@ -399,8 +399,7 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk:](https:
   
 #### Sammanfattning av innehall    
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)</BR>
-Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
-  ```Exempel: Historien utspelar sig under amerikanska inbördeskriget på en internatskola för flickor i södern. När de avskärmade unga kvinnorna tar in en skadad fiendesoldat och ger honom skydd och vård stiger den sexuella spänningen, farliga rivaliteter bildas och tabun bryts i en oväntad vändning.```
+Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.</br> ```Exempel: Historien utspelar sig under amerikanska inbördeskriget på en internatskola för flickor i södern. När de avskärmade unga kvinnorna tar in en skadad fiendesoldat och ger honom skydd och vård stiger den sexuella spänningen, farliga rivaliteter bildas och tabun bryts i en oväntad vändning.```
      
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
