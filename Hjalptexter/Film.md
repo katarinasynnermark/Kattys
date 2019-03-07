@@ -71,7 +71,7 @@ För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.
   <br/>```Exempel: mer om modelljärnvägar : allt samlaren behöver veta```
 
 ##### Varianttitel
-En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord</BR>
+En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges även varianter för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord</BR>
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
  Skriv in uppgiften under Huvudtitel.    
