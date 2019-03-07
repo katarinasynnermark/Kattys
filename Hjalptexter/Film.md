@@ -71,7 +71,7 @@ För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.
   <br/>```Exempel: mer om modelljärnvägar : allt samlaren behöver veta```
 
 ##### Varianttitel
-En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html).
+En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord</BR>
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
  Skriv in uppgiften under Huvudtitel.    
@@ -86,10 +86,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
    ```Exempel: Titeln felstavad, korrekt titel:```   
    
 ##### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
-
-##### Titel - alternativ stavning
-För anvisningar om hur man lägger till en alternativ sökingång för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord (= 740), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel.  
+För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel.   
   
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
