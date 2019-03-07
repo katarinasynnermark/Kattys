@@ -390,12 +390,9 @@ Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICv
 För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
  
 #### Amne  
-* Ämne   
-  Länka  i första hand till entiteter för ämnesord. Följ instruktionerna på följande sidor:  
-  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)   
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)
-  [Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
+* Ämne  
+  Länka  i första hand till entiteter för ämnesord. Följ instruktionerna under:  
+  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
 
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
