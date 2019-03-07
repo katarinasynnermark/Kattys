@@ -15,7 +15,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk|
+| [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk)|
 | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
 | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | [Utgivning](#utgivning) | [Ämne](#amne) |
