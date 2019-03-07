@@ -396,7 +396,6 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https:/
   [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)   
   [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
   [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)
-  
   [Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
 
 #### Malgrupp     
