@@ -381,10 +381,7 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk:](https:
 * Ämne  
   Länka  i första hand till entiteter för ämnesord. Följ instruktionerna på följande sidor:  
   [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)   
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)   
-  [Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
-
+  
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
