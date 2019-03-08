@@ -159,7 +159,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html). Det går bra att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.</br>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  <br/>```Exempel:``` 
+  ```Exempel:``` 
     * ```©2017```
     * ```℗2017```
      
