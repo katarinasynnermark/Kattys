@@ -100,14 +100,11 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
-  För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Vid postimport: i vissa importerade poster saknas upphovsuppgift. Lägg då till det.   
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)</BR>
-  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
   
