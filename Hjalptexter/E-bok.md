@@ -169,13 +169,12 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
   Välj typ från lista.  
   ```Exempel: ISBN```
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
+  Ange identifikator.  
   ```Exempel: 9789188107213```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: PDF```  
+  Ange eventuell bestämning.  
 
-För ogiltiga ISBN, t.ex. ett ISBN som hör till en tryckt instans av samma verk, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
+För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).
   
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
@@ -183,15 +182,14 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   Välj typ från lista.  
   ```Exempel: ISBN```
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
+  Ange identifikator.  
   ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: Print``` 
+  Ange eventuell bestämning.
   
-##### URN, DOI, handle?
-* Identifikator/Identifikator/Benämning (identifiedBy/Identifier/value = 024 7/- ‡a</BR>
-  För att lägga till URN, DOI, handle klicka på plustecknet vid Identifikator (Lägg till identifikator) och välj typ Identifikator.</BR>
+##### Annan standardiserad identifikator
+URN, DOI, handle anges i Identifikator/Identifikator/Värde med standardnummer eller standardkod specificerad i en Typanmärkning. 
+* Identifikator/Identifikator/Värde (identifiedBy/Identifier/value = 024 7/- ‡a</BR>
   Skriv in uppgiften under Värde.</BR>
   ```Exempel: urn:nbn:se:su:diva-83163``` 
 * Identifikator/Identifikator/Typanmärkning (identifiedBy/Identifier/typeNote = 024 7/- ‡2)</BR>
