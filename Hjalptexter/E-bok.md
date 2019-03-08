@@ -23,10 +23,10 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
 | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande)  |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Bilagor](#bilagor) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Seriemedlemskap](#seriemedlemskap) | | 
+| [Seriemedlemskap](#seriemedlemskap) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
-| [Anmarkning](#anmarkning) | | 
+| [Anmarkning](#anmarkning)| | 
+
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -211,15 +211,6 @@ Ange antal enheter samt typ av enhet. Ange även antal underenheter, t.ex. sidor
 * Övriga fysiska detaljer (other physical details = 300 ‡b)     
   Skriv in uppgiften.  
   ```Exempel: illustrationer```
-  
-#### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Ljudinspelning och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
-Skriv in uppgiften under Benämning.  
- ```Exempel:```
- 
-    * ```1 MP3-CD```
-    * ```1 häfte```  
     
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
