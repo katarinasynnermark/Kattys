@@ -149,7 +149,7 @@ Sök inte efter Plats som entitet. Skapa plats som lokal entitet. Skriv in uppgi
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```[2017]```
-    * ```[mellan 2010 och 2016?]```
+    * ```[mellan 2010 och 2016?]```</br>
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten Instans: Produktion: Huvudsakligt tillgängliggörande.
  
 * Flera år (flerbandsverk)  
