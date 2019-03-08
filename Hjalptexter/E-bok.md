@@ -148,10 +148,10 @@ Sök inte efter Plats som entitet. Skapa plats som lokal entitet. Skriv in uppgi
   För att ange ett år utan klamrar eller andra tecken, använd endast År.  
   Skriv in uppgiften.
   <br/>```Exempel:```
-  
     * ```[2017]```
     * ```[mellan 2010 och 2016?]```
-  
+För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten Instans: Produktion: Huvudsakligt tillgängliggörande.
+ 
 * Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning. 
 
@@ -159,8 +159,8 @@ Sök inte efter Plats som entitet. Skapa plats som lokal entitet. Skriv in uppgi
   
 #### Copyrightar
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
-  Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+  Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+  Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). 
  ```Exempel: ©2017```
      
 #### Identifikator 
