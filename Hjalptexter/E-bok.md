@@ -29,7 +29,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Digital karaktäristika](#digital-karaktaristika) | |
 | [Annat bärarformat](#annat-bararformat) | |
 | [Elektronisk adress](#eletronisk-adress) | |
-| [Målgrupp] (#malgrupp) | |
+| [Målgruppsanmärkning](#malgruppsanmarkning) | |
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
