@@ -150,10 +150,11 @@ Sök inte efter Plats som entitet. Skapa plats som lokal entitet. Skriv in uppgi
   <br/>```Exempel:```
     * ```[2017]```
     * ```[mellan 2010 och 2016?]```</br>
+
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten Instans: Produktion: Huvudsakligt tillgängliggörande.
  
 * Flera år (flerbandsverk)  
- För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Tryckt monografi](https://libris-qa.kb.se/katalogisering/help/workflow-print-monograph#utgivning): Utgivning. 
+ För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
