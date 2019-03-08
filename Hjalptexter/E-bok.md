@@ -104,14 +104,10 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
-  För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Vid postimport: i vissa importerade poster saknas upphovsuppgift. Lägg då till det.   
-  Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)</BR>
-  För att lägga till upplageuppgift, klicka på plustecknet Lägg till egenskaper under: Elektronisk.
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
   
@@ -125,8 +121,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
  
 ##### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-  För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
-  Skriv in uppgiften under Benämning. Klamra vid behov.</br>
+Sök inte efter Plats som entitet. Skapa plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br>
   ```Exempel: [Malmö]```  
   
 ##### Utgivningsland  
