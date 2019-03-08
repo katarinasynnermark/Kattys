@@ -160,7 +160,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 #### Copyrightar
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). 
+  Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars).</br> 
  ```Exempel: ©2017```
      
 #### Identifikator 
