@@ -188,8 +188,8 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
   Ange eventuell bestämning.
   
-##### Annan standardiserad identifikator
-URN, DOI, handle anges i Identifikator/Identifikator/Värde med standardnummer eller standardkod specificerad i en Typanmärkning. 
+##### URN, DOI, handle
+URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnummer eller standardkod specificerad i en Typanmärkning. 
 * Identifikator/Identifikator/Värde (identifiedBy/Identifier/value = 024 7/- ‡a</BR>
   Skriv in uppgiften under Värde.</BR>
   ```Exempel: urn:nbn:se:su:diva-83163``` 
