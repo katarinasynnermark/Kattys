@@ -244,7 +244,7 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   ```Exempel: 8```  
 ##### Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie, men inte Ingår i serie/Instans/Instans av Verk/Verk, anges.
+  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie, men inte Ingår i serie/Instans/Instans av Verk/Verk, anges.</br>
 Skriv in uppgiften.</br>
   ```Exempel: 0```  
   Ange indikator 1 om dessutom Ingår i serie/Instans/Instans av Verk/Verk (830) anges.   
