@@ -295,7 +295,7 @@ Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 #### Malgruppsanmarkning  
 Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
 Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det). Skriv in uppgiften under Benämning.  
-```Exempel: För årskurs 1```  
+```Exempel: För årskurs 1```</br>  
 Notera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.   
   
 ### Verk   
