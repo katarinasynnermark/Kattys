@@ -283,7 +283,7 @@ Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)
 #### Elektronisk adress
 ##### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 ‡u)</br>
-Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande media för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+Använd Tillhörande media för att lägga in en elektronisk adress till den besrivna resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 ##### Relaterad beskrivning eller innehåll
@@ -291,17 +291,9 @@ Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 För att lägga in en elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet under Relaterad beskrivning eller innehåll. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
-##### Annan relaterad resurs
-* Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)</br>
-Om instansbeskrivningen gäller en tryckt resurs, använd Annat relaterad resurs för att lägga in en elektronisk adress till resursen i annat format. Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
-* Annan relaterad resurs/Elektronisk/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote
-= 856 4/1 ‡z)</br>
-Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 
-Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.
-  
-#### Malgruppsanmarkning ? 
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
+#### Malgruppsanmarkning  
+Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
 För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
 ```Exempel: För årskurs 1```  
