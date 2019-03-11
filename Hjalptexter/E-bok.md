@@ -300,19 +300,17 @@ Notera att kodning av målgrupp, motsvarande 008/22, ska registreras under Insta
   
 ### Verk   
 
-#### Instans av Verk/Ljudmaterial  
-* Instans av Verk/Ljudmaterial (instanceOf/Work/Audio)  
-  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Ljudmaterial.  
+#### Instans av Verk (instanceOfWork) 
+  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exemepl på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk.</br>
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
-För att lägga till egenskaper under Instans av Verk/Ljudmaterial, klicka på plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Verkets titel
  
-Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
-Föredragen titel ska anges för översättningar och för verk som har givits ut under olika titlar på samma språk. En föredragen titel ska också anges om olika verk, som saknar primär medverkande, har samma titel. 
+Ange den föredragna titeln för verket här, vid behov. Följ anvisningarna under [Konstruera sökingångar för verk och uttryck](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) i Anvisningar för katalogisering - RDA. Föredragen titel ska anges för översättningar och för verk som har givits ut under olika titlar på samma språk. En föredragen titel ska också anges om olika verk har samma auktoriserade sökingång. 
 
-##### Verkets titel - verk med primär medverkande
+##### Verkets titel - verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
   Ange den föredragna titeln för ett verk med primär medverkande här.
   ```Exempel: Soldier spy```  
