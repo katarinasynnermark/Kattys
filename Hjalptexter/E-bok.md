@@ -99,7 +99,7 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
 Välj först Har titel, välj sedan typ Parallelltitel.      
 Skriv in uppgiften under Huvudtitel.     
-  ```Exempel: The Great Northern War explained```
+  ```Exempel: The Great Northern War explained```</br>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
