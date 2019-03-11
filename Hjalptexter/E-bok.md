@@ -369,17 +369,12 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Sprak 
 * Språk (language = 008/35-37)  
-  Ange det talade språket här. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+  Ange textens språk här. För en text på svenska, länka till svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
-  För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
+  För att ange att texten är på flera språk, ange ytterligare en språkkod.
   
-##### Översättning  
-För en översättning, ange även:  
-* Språk/Språk/Benämning (Language/label = 240 ‡l)  
-  Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
-  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
-  ```Exempel: Svenska```  
+##### Översättning    
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Ljudmaterial och välj Anmärkning: Språk. Välj fras från lista. 
