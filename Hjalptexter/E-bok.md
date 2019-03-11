@@ -294,10 +294,9 @@ Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 
 #### Malgruppsanmarkning  
 Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
-För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
-Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
+Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det). Skriv in uppgiften under Benämning.  
 ```Exempel: För årskurs 1```  
-Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.   
+Notera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.   
   
 ### Verk   
 
