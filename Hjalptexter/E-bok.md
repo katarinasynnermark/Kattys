@@ -268,7 +268,7 @@ Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)
   
 #### Digital karaktaristika
 * Digital karaktärisitika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347 ‡b)</BR>
-  Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5264.html). Använd i första hand term från lista, se Librispraxis [3.19.3.3](http://access.rdatoolkit.org/kbspchp3_kbsp3-1193.html).</BR>
+  Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5264.html). 
   Skriv in uppgiften under Benämning.</BR>
   ```Exempel: PDF```
 
