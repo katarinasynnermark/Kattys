@@ -138,11 +138,12 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c.</br>
   ```Exempel: 2017```</br>
   Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
-  För att ang årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
+  
+  För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
-  <br/>```Exempel:```
+  ```Exempel:```
     * ```[2017]```
     * ```[mellan 2003 och 2005?]```
 För att ange ett år utan klamrar eller andra tecken, använd År.
