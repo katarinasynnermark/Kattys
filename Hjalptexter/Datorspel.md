@@ -131,8 +131,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
 ##### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   Sök inte efter Agent som entitet. Skapa Agent som lokal entitet. Skriv in uppgiften under Benämning.  
-  ```Exempel: Insomniac Games```   
-  
+  ```Exempel: Insomniac Games```    
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivningsavsnitt. Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
@@ -229,7 +228,7 @@ Franchisenamn ska inte anges som serieuppgift, se [Titel](#titel).
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
-Lägg till Målgrupp. Skapa målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitetoch välj det).<BR/>
+Lägg till Målgrupp. Skapa målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det).<BR/>
 Skriv in uppgiften under Benämning. Åldersnivån kan om så önskas, preciseras enligt [PEGI](https://pegi.info), Pan European Game Information.<BR/>
 ```Exempel: PEGI 12```  
 
@@ -245,8 +244,7 @@ Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala sys
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här. 
-  </BR>För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till.
+  Skriv in allmänna anmärkningar här. För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till.
   Skriv in uppgiften under Benämning.<BR/>
 ```Exempel: Avsett för 1-7 spelare, 1-2 spelare i nätverk```  
   
@@ -260,21 +258,19 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal   entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka     entitet) vid Instans av Verk.  
   Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).</BR> 
 
-För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen Multimedia - Lägg till egenskaper under: Multimedia. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
+För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Multimedia. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 #### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. Följ anvisningarna under [Konstruera sökingångar för verk och uttryck](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) i Anvisningar för katalogisering - RDA.
 
-##### Verkets titel - verk utan primär medverkande
-Datorspel har sällan en primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk utan primär medverkande ska anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. 
+##### Verkets titel - verk utan primär medverkan
+Datorspel har sällan en primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk utan primär medverkan ska anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. 
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
 Under Instans av Verk, lägg till egenskapen Uttryck av. Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), välj Verk. Det läggs till under Uttryck av. Lägg till Har titel. Välj Titel. 
-Skriv in uppgiften under Huvudtitel.  
+Ange  den föredragna titetln under Huvudtitel.  
 ```Exempel:  Prototype (datorspel)```</BR>
 Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype. Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).</BR>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-  ```Exempel: Huvudtitel: The sinking city, fileringsvärde: 4```
-
 *	Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
