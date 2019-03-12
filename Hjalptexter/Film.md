@@ -392,7 +392,7 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https:/
 #### Amne  
 * Ämne  
   Länka  i första hand till entiteter för ämnesord. Följ instruktionerna under:  
-  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
+  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).  
 
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
