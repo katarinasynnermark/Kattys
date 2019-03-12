@@ -43,12 +43,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entiteten:  
-  ```video, v```
+  ```Video, v (= video)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entiteten:  
-  ```videodisc, vd```  
+  ```Videodisc, vd (= videoskiva)```  
   
 #### Titel  
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
