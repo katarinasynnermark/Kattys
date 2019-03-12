@@ -28,7 +28,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Anmarkning](#anmarkning)| | 
 | [Digital karaktäristika](#digital-karaktaristika) | |
 | [Annat bärarformat](#annat-bararformat) | |
-| [Elektronisk adress](#eletronisk-adress) | |
+| [Elektronisk adress](#elektronisk-adress) | |
 | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 
 ### Instans
