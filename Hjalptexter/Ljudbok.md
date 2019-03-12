@@ -137,7 +137,8 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
   Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c.</br>
   ```Exempel: 2017```</br>
-  Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
+ 
+ Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
   
   För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
@@ -146,6 +147,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   ```Exempel:```
     * ```[2017]```
     * ```[mellan 2003 och 2005?]```
+
 För att ange ett år utan klamrar eller andra tecken, använd År.
 
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
