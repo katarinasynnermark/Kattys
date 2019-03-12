@@ -135,16 +135,17 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
 ##### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-  Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. Observera att År måste finnas med i beskrivningen, även om datum finns med. 
-  ```Exempel: 2017```  
+  Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c.</br>
+  ```Exempel: 2017```
+  Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
+  För att ang årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
-  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
-  För att ange ett år utan klamrar eller andra tecken, använd endast År. 
+  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
   <br/>```Exempel:```
     * ```[2017]```
     * ```[mellan 2003 och 2005?]```
+För att ange ett år utan klamrar eller andra tecken, använd År.
 
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
   
@@ -154,7 +155,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
 #### Copyright- eller p-ar
-För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html). Det går bra att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.</br>
+För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html). Det går bara att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.</br>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel:``` 
