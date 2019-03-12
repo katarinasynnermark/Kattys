@@ -331,8 +331,7 @@ Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämne
 
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
- Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
- Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. 
+ Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet. Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe.</br> 
  Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
   ```Exempel:``` 
    * ```Självbiografier```
@@ -369,6 +368,8 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk:](https:
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```
     </br>Normalvärde för barn- och ungdomslitteratur.
+ 
+För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#Malgruppsanmarkning) under Instans.
 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
