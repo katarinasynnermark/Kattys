@@ -30,7 +30,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Innehållsanmärkning](#innehallsanmarkning) | |
 | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 | [Anmärkning](#anmarkning) | |
-| [Elektronisk adress](#elektronisk adress) | |
+| [Elektronisk adress](#elektronisk-adress) | |
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Videoinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
