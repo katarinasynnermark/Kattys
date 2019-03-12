@@ -248,8 +248,8 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
 Skriv in uppgiften.</br>
   ```Exempel: 0```  
   Ange indikator 1 om dessutom Ingår i serie/Instans/Instans av Verk/Verk (830) anges.   
-  ```Exempel: 1```   
-
+  ```Exempel: 1``` 
+  
 ##### Seriemedlemskap, vid postimport:
 Om fält 490 ‡a och 830 ‡a matchar, läggs de vid import i samma Seriemedlemskap. Om de inte matchar, skapas två Seriemedlemskap: ett med Seriemedlemskap/Serieuppgift och ett med Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.
 När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett.
@@ -286,11 +286,8 @@ Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)
 Använd Tillhörande media för att lägga in en elektronisk adress till den besrivna resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
-##### Relaterad beskrivning eller innehåll
-* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</br>
-För att lägga in en elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet under Relaterad beskrivning eller innehåll. Lägg till egenskapen URI. Klistra in aktuell URI.
-* Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
-Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
+* Del av materialet som avses/Resurs/Benämning (marc:versionOfResource/Electronic/appliesTo = 856 4/0 ‡3)
+Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.
 
 #### Malgruppsanmarkning  
 Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
