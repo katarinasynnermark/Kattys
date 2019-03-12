@@ -264,20 +264,19 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal   entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka     entitet) vid Instans av Verk.  
   Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).</BR> 
 
-För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen Projicerad bild - Lägg till egenskaper under: Projicerad bild. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
+För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Projicerad bild. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 #### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. Följ anvisningarna under [Konstruera sökingångar för verk och uttryck](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) i Anvisningar för katalogisering - RDA.
 
 ##### Verkets titel - verk utan Primär medverkan
-Film har sällan en primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen. Föredragen titel för ett verk utan primär medverkande ska anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. ska anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. 
+Film har sällan en primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen. Föredragen titel för ett verk utan primär medverkan ska anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. 
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
 Under Instans av Verk, lägg till egenskapen Uttryck av. Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), välj Verk. Det läggs till under Uttryck av. Lägg till Har titel. Välj Titel. 
-Skriv in uppgiften under Huvudtitel.  
+Ange den föredragna titeln under Huvudtitel.  
 ```Exempel: Gomorra (tv-serie)```    
 Tillägget inom parentes (tv-serie) görs för att skilja tv-serien Gomorra från filmen Gomorra. Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).</BR>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-  ```Exempel: Huvudtitel: The truth matters, fileringsvärde: 4```
 *	Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
@@ -287,10 +286,11 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
 
 För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
 
-##### Verkets titel - verk med primär medverkande
-Det är ovanligt att film har primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen. Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel.
+##### Verkets titel - verk med primär medverkan
+Det är ovanligt att film har primär medverkan. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen. Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
 Ange den föredragna titeln.
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
 * Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).</BR>
 * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
@@ -334,7 +334,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
  </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
-  Länka till entitet. Språk/språken för dubbningarna hamnar då i separata 041 #a. 
+  Länka till entitet. 
 
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).
  
@@ -351,17 +351,17 @@ För en film som är dubbad, lägg till:
 
 #### Relationer till ingaende verk och andra verk
 ##### Verk som ingår i det beskrivna verket
-För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkande):  
+För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan):  
 Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
 Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket). 
-För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
+För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 ##### Relationer till andra verk  
-För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkande) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkande): 
+För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkan): 
 Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
 Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket).</br>
-För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan. 
+För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan. 
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
 #### Genre  
@@ -411,8 +411,8 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.</BR>
   ```Exempel:```
-   * ```two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
-   * ```three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
+   * ```Two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
+   * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
   
 #### Anmarkningar
 ##### Anmärkning om språk
@@ -435,7 +435,7 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  #### Inspelning
  * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
  Här kan uppgift om inspelningstid anges.
- Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
+ Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till Benämning.
  Skriv in uppgiften under Benämning.</br>
  ```Exempel: Inspelad 2010``` 
  
