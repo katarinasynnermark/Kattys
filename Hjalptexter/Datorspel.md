@@ -278,10 +278,11 @@ Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskape
 *	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 ‡l)  
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk visas som ett tillägg till verkets titel i marcpostens 130 #l. 
 
-##### Verkets titel - verk med primär medverkande
-Det är ovanligt att datorspel har primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel.
+##### Verkets titel - verk med primär medverkan
+Det är ovanligt att datorspel har primär medverkan. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk med primär medverkan ska anges i Har titel/Titel/Huvudtitel.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR> 
 Ange den föredragna titeln.
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
 * Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).</BR>
 * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
@@ -317,7 +318,6 @@ Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ga
 ```Exempel: Spelutvecklare```
   
 #### Sprak 
-Ange språk här.
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
@@ -331,23 +331,22 @@ För datorspel som innehåller en översättning, lägg till:
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Multimedia och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
-  Ange originalspråk här.  
- Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
 
 #### Relationer till ingaende verk och andra verk
 ##### Verk som ingår i det beskrivna verket
-För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkande):  
+För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan):  
 Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
 Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket). 
-För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
+För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 ##### Relationer till andra verk  
-För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkande) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkande): 
+För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkan): 
 Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
 Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket).</br>
-För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan. 
+För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan. 
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
    
 #### Genre  
@@ -379,7 +378,7 @@ För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https:/
 #### Amne  
 * Ämne  
   Länka  i första hand till entiteter för ämnesord. Följ instruktionerna under:  
-  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)   
+  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).   
   
 
 #### Malgrupp     
@@ -393,7 +392,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
 #### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entiteten:</BR>
-  ```Exempel: computer program, cop (= datorprogram)```
+  ```Exempel: Computer program, cop (= datorprogram)```
   
 #### Anmarkningar
 ##### Anmärkning om språk
