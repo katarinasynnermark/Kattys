@@ -60,12 +60,12 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-  Återge huvudtiteln som den förekommer i källan, se arbetsflödet [Tryckta monografier](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel) i Anvisningar för katalogisering - RDA.</BR> 
+  Återge huvudtiteln som den förekommer i källan, se [RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).
  ```Exempel: Erik den rödes saga```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: Den frusna elden, fileringsvärde: 4```  
  Se exempel i formathandboken för Libris/Voyager: 
-[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+[Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
 För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
