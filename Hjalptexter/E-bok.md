@@ -48,6 +48,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entiteten:  
   ```Online resource, cr (= onlineresurs)```</BR>
+  
   Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
   ```Onlineresurs, r```</BR>
   Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
