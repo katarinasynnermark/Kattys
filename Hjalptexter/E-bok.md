@@ -209,7 +209,7 @@ URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnumme
     * ```hdl```
  
 #### Omfang
-Ange antal enheter samt typ av enhet. Ange även antal underenheter, t.ex. sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html). 
+Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html). Ange även antal underenheter, t.ex. sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html). 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
   Skriv in uppgiften under Benämning.  
   ```Exempel:   1 onlineresurs (239 sidor)```  
