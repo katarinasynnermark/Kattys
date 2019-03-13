@@ -21,9 +21,9 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Utgivning](#utgivning) | [Ämne](#amne) |
 | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp)|
 | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
-| [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande)  |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Seriemedlemskap](#seriemedlemskap) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Seriemedlemskap](#seriemedlemskap) |  |
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
 | [Anmarkning](#anmarkning)| | 
 | [Digital karaktäristika](#digital-karaktaristika) | |
@@ -441,11 +441,8 @@ För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:](htt
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
-  ```Exempel: term/rda/SpokenWord```  
-  
-#### Anmarkning om medverkande
- * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
-  ```Exempel: Inläsare: Gunilla Röör```
+  ```Exempel: Text, txt (=text)``` 
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en resurs med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
