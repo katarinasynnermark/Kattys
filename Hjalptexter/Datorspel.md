@@ -357,8 +357,8 @@ Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämne
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla). För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. 
 
 ##### Genre/form - termer som motsvar marc-koder i 008
-* Genre/form - typ av fil (= 008/26) 
-Välj Typ av fil i listan över typer. Länka till entiteten:
+* Genre/form - typ av fil (= 008/26)</br> 
+För datorspel, välj Typ av fil i listan över typer. Länka till entiteten:</br>
 ```Dataspel, g```
 
 ##### Genre/form - saogf-termer  
