@@ -401,7 +401,7 @@ För ingående verk med primär medverkande, lägg till Medverkan och funktion/P
 För anvisningar om hur man anger genre, se hjälptexten [Tryckt monongrafi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#genre): Genre.
 
 #### Klassifikation  
-För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
+För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
    
 #### Amne
 Länka i första hand till entiteter för ämnesors. Följ instruktionerna under:<br>
