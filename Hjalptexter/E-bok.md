@@ -292,11 +292,8 @@ Använd Tillhörande media för att lägga in en elektronisk adress till den bes
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 
 #### Malgruppsanmarkning  
-Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
-Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det). Skriv in uppgiften under Benämning.  
-```Exempel: För årskurs 1```</br>  
-Notera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.   
-  
+För att ange en målgruppsanmärkning, se hjälptexten [Instan](https://libris.kb.se/katalogisering/help/workflow-instance#malgruppsanmarkning): Målgruppsanmärkning.
+   
 ### Verk   
 
 #### Instans av Verk (instanceOfWork) 
