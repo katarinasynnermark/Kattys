@@ -371,7 +371,9 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 För anvisningar om hur man anger genre, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre.
 
 ##### Genre/form - saogf-termer
-```Exempel:```
+* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)</br>
+ Länka till entitet.
+ ```Exempel:```
    * ```Spelfilmer```
    * ```Dokumentärfilmer```
   
