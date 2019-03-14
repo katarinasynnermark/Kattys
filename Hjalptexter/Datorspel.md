@@ -357,9 +357,7 @@ Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämne
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. 
 
-För datorspel ska typ av fil anges här (marc/ComputerTypeOfFileType = 008/26).</BR>
-Länka till entiteten:</BR>
-  ```marc/ComputerTypeOfFileType-g (= dataspel)```
+För datorspel ska typ av fil anges här (= 008/26). Välj Typ av fil i listan och sök fram Dataspel, g. Länka till entiteten.
 
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
