@@ -73,9 +73,7 @@ För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.
 För anvisningar om hur man anger övrig titelinformation, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
 
 ##### Varianttitel   
-En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). För anvinsningar om hur man anger olika typer av varianttitlar se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel.
-
-För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](https://libris.kb.se/katalogisering/help/workflow-instance#titel) i hjälptexten Instans: Titel.
+För anvinsningar om hur man anger varianttitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel.
     
 ##### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
@@ -190,8 +188,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Verkets titel
- 
-Ange den föredragna titeln för verket här, vid behov. Följ anvisningarna under [Konstruera sökingångar för verk och uttryck](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) i Anvisningar för katalogisering - RDA. Föredragen titel ska anges för översättningar och för verk som har givits ut under olika titlar på samma språk. En föredragen titel ska också anges om olika verk har samma auktoriserade sökingång. 
+ Ange den föredragna titeln för verket här, vid behov. Följ anvisningarna under [Konstruera sökingångar för verk och uttryck](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) i Anvisningar för katalogisering - RDA. Föredragen titel ska anges för översättningar och för verk som har givits ut under olika titlar på samma språk. En föredragen titel ska också anges om olika verk har samma auktoriserade sökingång. 
 
 ##### Verkets titel - verk med primär medverkan
 Föredragen titel för ett verk med primär medverkan ska anges i Har titel/Titel/Huvudtitel .</BR>
