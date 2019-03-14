@@ -360,7 +360,7 @@ Länka till entiteten:</br>
 
 ##### Genre/form - saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)</br> 
-Länka till entitet:</br> 
+Länka till entitet.</br> 
   ```Exempel:```
      * ```Datorspel```
      * ```First-person shooter (datorspel)```
