@@ -349,16 +349,19 @@ Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg t
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.</br>
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
    
-#### Genre  
+#### Genre/form  
 Länka till entiteter.</BR>
 För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet, välj typ. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan.
 
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.
-För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).
+För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla). För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. 
 
-För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. För datorspel ska typ av fil anges här (= 008/26). Välj Typ av fil i listan och sök fram Dataspel, g. Länka till entiteten.
+##### Genre/form - termer som motsvar marc-koder i 008
+* Genre/form - typ av fil (= 008/26) 
+Välj Typ av fil i listan över typer. Länka till entiteten:
+```Dataspel, g```
 
-##### Saogf-termer  
+##### Genre/form - saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
  Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe.</BR>
