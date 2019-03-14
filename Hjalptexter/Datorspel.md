@@ -353,7 +353,7 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 För utförliga anvisningar om hur man anger genre, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre.
 
 ##### Genre/form - termer som motsvar marc-koder i 008
-* Genre/form - typ av fil (= 008/26)</br> 
+* Genre/form - typ av fil (ComputerTypeOfFile = 008/26)</br> 
 För datorspel, välj Typ av fil i listan över typer. Länka till entiteten:</br>
 ```Dataspel, g```
 
