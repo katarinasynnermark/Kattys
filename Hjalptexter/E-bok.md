@@ -404,38 +404,20 @@ För anvisningar om hur man anger genre, se hjälptexten [Tryckt monongrafi](htt
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
    
 #### Amne
-Länka i första hand till entiteter för ämnesors. Följ instruktionerna under:<br>
+Länka i första hand till entiteter för ämnesord. Följ instruktionerna under:<br>
 [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
 #### Malgrupp     
- * Målgrupp (intendedAudience = 008/22)  
-  Länka till entitet.  
-  Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
-  ```Exempel: j (= barn- och ungdom, 0-16 år)```  
+För att lägga till målgrupp, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#malgrupp): Målgrupp.
   
 #### Innehallstyp
-* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
-  Länka till entitet.  
-  ```Exempel: Text, txt``` 
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en resurs med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.
-* Har del/Verk/Innehållstyp
-  ```Exempel: Stillbild, sti```  
+För att lägga till innehållstyp, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#innehallstyp): Innehållstyp.
   
 #### Sammanfattning av innehall    
- * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
-För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Ljudmaterial - Lägg till egenskaper under: Ljudmaterial. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
- Skriv in uppgiften under Benämning.  
-     
- * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
- Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
- ```Exempel: Ej preciserad```
+För att lägga till en sammfattning av innehållet, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#sammanfattning-av-innehall): Sammanfattning av innehåll.
  
  #### Anmarkning om akademisk avhandling    
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
-  Lägg till anmärkning om akademisk avhandling (plustecknet vid Instans av Verk: Text - Lägg till egenskaper under: Text, välj Anmärkning om akademisk avhandling. Klicka på plustecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet (längst ner i sidorutan till höger).  
-Skriv in anmärkningen under Benämning.    
-  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
-
+För att lägga till Anmärkning om akademisk avhandling, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#anmarkning-om-akademisk-avhandling): Anmärkning om akademisk avhandling.
     
 
 
