@@ -375,26 +375,25 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 ##### Översättning    
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Ljudmaterial och välj Anmärkning: Språk. Välj fras från lista. 
+  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista. 
   ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
-  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på Lägg till egenskaper under: Ljudmaterial, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
+  Ange det språk som en texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
+  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
 
 #### Relationer till ingaende verk och andra verk
 
 ##### Verk som ingår i det beskrivna verket 
-För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkande) i marc:  
-Under Instans av Verk/Ljudmaterial, klicka på plustecknet vid Verk (lägg till egenskaper under: Verk) och välj Har del.
-Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Har del. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation. Ange föredragen titel i Huvudtitel. 
+För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan) i marc:  
+Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel. 
 Lägg till eventuell deltitel, delbeteckning och benämning på språk.
 För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under [Medverkan och funktion](#medverkan-och-funktion). 
 
 ##### Relationer till andra verk  
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkande) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkande) i marc: 
-Under Instans av Verk/Ljudmaterial, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Ljudmaterial (Lägg till egenskaper under: Ljudmaterial) och välj Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation. Ange föredragen titel i Huvudtitel. 
+Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel. Välj Titel. Ange föredragen titel i Huvudtitel. 
 Lägg till eventuell deltitel, delbeteckning och benämning på språk.
 För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under [Medverkan och funktion](#medverkan-och-funktion). 
   
