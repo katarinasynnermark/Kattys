@@ -354,11 +354,13 @@ För utförliga anvisningar om hur man anger genre, se hjälptexten [Verk](https
 
 ##### Genre/form - termer som motsvar marc-koder i 008
 * Genre/form - typ av fil (ComputerTypeOfFile = 008/26)</br> 
-För datorspel, välj Typ av fil i listan över typer. Länka till entiteten:</br>
+För datorspel, välj Typ av fil i listan över typer.</br>
+Länka till entiteten:</br>
 ```Dataspel, g```
 
 ##### Genre/form - saogf-termer  
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
+* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)</br> 
+Länka till entitet:</br> 
   ```Exempel:```
      * ```Datorspel```
      * ```First-person shooter (datorspel)```
