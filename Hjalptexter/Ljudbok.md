@@ -334,7 +334,7 @@ För utförliga anvisningar om hur man anger genre, se hjälptexten [Tryckt mono
 ##### Genre/form - saogf-termer
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)</br>
 Länka till entitet.</br>
-````Exempel: Ljudböcker```
+* ````Exempel: Ljudböcker```
 
 #### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk:](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
