@@ -1,6 +1,6 @@
 ## E-bok
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av e-böcker tillgängliga online, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information.
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av e-böcker tillgängliga online, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter.
 
 För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För anvisningar om Adminmetadata, se Adminmetadata.
 
@@ -70,106 +70,30 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
- ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
+För anvisningar om hur man anger övrig titelinformation, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
 
 ##### Varianttitel   
-En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.</BR>
-För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varanttitel.
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
-  Skriv in uppgiften under Huvudtitel.    
- ```Exempel: Hierarchy in organizations```  
+En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). För anvinsningar om hur man anger olika typer av varianttitlar se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel.
 
-För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).
-
-Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en varianttitel.
-
-En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varanttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning.
-
-* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
-  ```Exempel: Titeln felstavad, korrekt titel:``` 
-
-För utförligare anvinsningar om hur man anger olika typer av varianttitlar se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel.
+För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](https://libris.kb.se/katalogisering/help/workflow-instance#titel) i hjälptexten Instans: Titel.
     
 ##### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
 
 ##### Parallelltitel  
-Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
-* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
-Välj först Har titel, välj sedan typ Parallelltitel.      
-Skriv in uppgiften under Huvudtitel.     
-  ```Exempel: The Great Northern War explained```</br>
-För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
-Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
-  ```Exempel: Charles XII and the ideological address```  
-  
+För anvisningar om hur man anger parallelltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
+
 #### Upphovsuppgift
-* Upphovsuppgift (responsibilityStatement = 245 ‡c)  
-  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
-  
+För anvisningar om hur man anger upphovsuppgift, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#upphovsuppgift): Upphovsuppgift.
+
 #### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 ‡a)</BR>
-  Skriv in upplagebeteckning här.  
-  ```Exempel: Första upplagan```  
+För anvisningar om hur man anger upplageuppgift, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#upplageuppgift): Upplageuppgift.
   
 #### Utgivning  
-* Utgivning (publication)  
-  Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
-NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
-  Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.      
-Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.
- 
-##### Utgivningsplats
-* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-Sök inte efter Plats som entitet. Skapa plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br>
-  ```Exempel: [Malmö]```  
-  
-##### Utgivningsland  
-* Land (country = 008/15-17)  
-  Länka till entitet.  
-  ```Exempel: Sverige (sw)``` 
-  
-##### Utgivarnamn
-* Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
-  Sök inte efter Agent som entitet. Skapa Agent som lokal entitet. Skriv in uppgiften under Benämning.  
-  ```Exempel: Bokförlaget Forum```   
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivningsavsnitt. Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.</br>
-  Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
-  
-##### År och datum 
-  * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
-  År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-  Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c.</br>
-  ```Exempel: 2017```</br>
- 
- Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
-  
-  För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
-  * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
-  Datum får innehålla text och interpunktionstecken.  
-  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
-  ```Exempel:```
-    * ```[2017]```
-    * ```[mellan 2003 och 2005?]```
-
-För att ange ett år utan klamrar eller andra tecken, använd År.
-
-För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
-  
-* Flera år (flerbandsverk)  
- För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
- 
- Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
+För anvisningar om hur man anger utgivningsuppgifter, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning.
   
 #### Copyrightar
-* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars).</br> 
- ```Exempel: ©2017```
+För anvisningar om hur man anger copyrightår, se hjälptexten [Instans](https://github.com/katarinasynnermark/Kattys/blob/master/Hjalptexter/Film.md#copyrightar): Copyrightår.
      
 #### Identifikator 
 ##### ISBN
@@ -220,50 +144,13 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
   ```Exempel: illustrationer```
     
 #### Seriemedlemskap
-* Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
-  Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt följande instruktion.  
-  *Nytt 2018-10-04:*   
-  * Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
-  * Vid export till marc21 skapas både 490 och 830 (800/810) från Seriemedlemskap som saknar Serieuppgift (t ex gamla 440-fält). OBS. Hanteringen klarar de flesta fall bra, men det finns serier med deltitlar/delserier som kommer att exporteras fel (fel ordning mellan Delbeteckning och Deltitel, fel interpunktion). Om man stöter på sådana, och anser felet besvärande, får man gå in i posten och lägga till en korrekt Serieuppgift i rätt Seriemedlemskap. Då kommer 490 att skapas från det. (Finns det flera Seriemedlemskap behöver man komplettera alla, annars skapas bara 490 för den serien som har en ifylld Serieuppgift).  
-  
-Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/).  
-     
-##### Seriens titel (auktoriserad sökingång för serie)  
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
-  Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
-  Skriv in uppgiften.   
-  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
-##### ISSN  
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x) 
-  Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.  
-  Skriv in uppgiften.  
-  ```Exempel: 1103-498X```     
-##### Serieuppgift  
-* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
-  Skriv in uppgiften.  
-   ```Exempel: Årstasällskapets skriftserie```   
-##### Numrering inom serie  
-* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
-  Skriv in uppgiften.  
-  ```Exempel: 8```  
-##### Indikator för seriebiuppslag   
-* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie, men inte Ingår i serie/Instans/Instans av Verk/Verk, anges.</br>
-Skriv in uppgiften.</br>
-  ```Exempel: 0```  
-  Ange indikator 1 om dessutom Ingår i serie/Instans/Instans av Verk/Verk (830) anges.   
-  ```Exempel: 1``` 
-  
-##### Seriemedlemskap, vid postimport:
-Om fält 490 ‡a och 830 ‡a matchar, läggs de vid import i samma Seriemedlemskap. Om de inte matchar, skapas två Seriemedlemskap: ett med Seriemedlemskap/Serieuppgift och ett med Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.
-När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett.
-OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.
+För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap.
 
 ##### Författarserie
 För anvisningar om hur man anger författarserie, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#seriemedlemskap): Seriemedlemskap.
    
 #### Innehallsanmarkning  
-För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
+För anvisningar om hur man lägger till innehållsanmärkningar se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
 
 #### Anmarkning
 Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
@@ -292,7 +179,7 @@ Använd Tillhörande media för att lägga in en elektronisk adress till den bes
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 
 #### Malgruppsanmarkning  
-För att ange en målgruppsanmärkning, se hjälptexten [Instan](https://libris.kb.se/katalogisering/help/workflow-instance#malgruppsanmarkning): Målgruppsanmärkning.
+För anvisningar om hur man gör en målgruppsanmärkning, se hjälptexten [Instan](https://libris.kb.se/katalogisering/help/workflow-instance#malgruppsanmarkning): Målgruppsanmärkning.
    
 ### Verk   
 
