@@ -398,35 +398,14 @@ Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg t
 För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under [Medverkan och funktion](#medverkan-och-funktion). 
   
 #### Genre  
- Länka till entitet. 
-För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet (längst upp i sidorutan till höger), välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
-
-##### Saogf-termer  
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
- Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
- Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
-  ```Exempel:``` 
-  
-   * ```Självbiografier```
-   * ```Ljudböcker```
-
-Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
-
-##### Litterär genre  
-* Genre/form – litterär genre (genreForm = 008/33)  
-  Välj Litterär genre i listan över typer. Länka till entitet.  
-  ```Exempel: 0 ( = ej skönlitterärt verk)```
-  
-##### Biografiskt material  
-* Genre/form – biografiskt material (genreForm = 008/34)  
-  Välj Biografiskt material i listan över typer. Länka till entitet.  
-  ```Exempel: a (= självbiografi)```  
+För anvisningar om hur man anger genre, se hjälptexten [Tryckt monongrafi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#genre): Genre.
 
 #### Klassifikation  
-För anvisningar om hur man anger Klassifikation, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#klassifikation) Klassifikation.
+För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
    
 #### Amne
-För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:](https://libris.kb.se/katalogisering/help/workflow-print-monograph#amne) Ämne.
+Länka i första hand till entiteter för ämnesors. Följ instruktionerna under:<br>
+[Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
@@ -437,8 +416,10 @@ För anvisningar om hur man anger Ämne, se hjälptexten [Tryckt monografi:](htt
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
-  ```Exempel: Text, txt (=text)``` 
+  ```Exempel: Text, txt``` 
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en resurs med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.
+* Har del/Verk/Innehållstyp
+  ```Exempel: Stillbild, sti```  
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
