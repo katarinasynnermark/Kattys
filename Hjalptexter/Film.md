@@ -387,7 +387,7 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
   
 #### Klassifikation
-För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
+För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
  
 #### Amne  
 * Ämne  
