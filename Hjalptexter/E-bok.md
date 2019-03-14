@@ -312,7 +312,7 @@ Ange den föredragna titeln för verket här, vid behov. Följ anvisningarna und
 ##### Verkets titel - verk med primär medverkan
 Föredragen titel för ett verk med primär medverkan ska anges i Har titel/Titel/Huvudtitel .</BR>
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</br>
-  Ange den föredragna titeln.</br>
+  Ange den föredragna titeln under huvudtitel.</br>
   ```Exempel: Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
 * Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
