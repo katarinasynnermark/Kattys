@@ -72,7 +72,7 @@ För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.
 En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.</BR>
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varanttitel.
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
-  Skriv in uppgiften under Huvudtitel.    
+  Skriv in uppgiften i Huvudtitel.    
  ```Exempel: Hierarchy in organizations```  
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).
@@ -91,7 +91,7 @@ För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [I
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
 Välj först Har titel, välj sedan typ Parallelltitel.      
-Skriv in uppgiften under Huvudtitel.     
+Skriv in uppgiften i Huvudtitel.     
   ```Exempel: The Great Northern War explained```</br>
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)
