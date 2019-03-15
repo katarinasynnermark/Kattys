@@ -111,7 +111,7 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
  <br/>```Exempel: Limited edition```  
   
 #### Utgivning  
-Följ [Librispraxis för RDA 2.8](http://access.rdatoolkit.org/kbspchp2_kbsp2-590.html) och ange distributionsuppgifter i avsnittet för utgivning. I filmbranschen är distributör motsvarigheten till utgivare.
+Följ [Librispraxis för RDA 2.8](http://access.rdatoolkit.org/kbspchp2_kbsp2-590.html) och ange distributionsuppgifter i avsnittet för utgivning. I filmbranschen är distributör motsvarigheten till utgivare. Produktionsland och produktionsår anges tills vidare i [Anmärkning](#anmarkning).
 * Utgivning (publication)  
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
@@ -168,9 +168,6 @@ För film anges alltid copyrightår, även om det sammanfaller med utgivningsår
   Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). 
 <br/>```Exempel: ©2017```
-       
-#### Produktionsland
-Produktionsland och produktionsår anges tills vidare i [Anmärkning](#anmarkning).
     
 #### Identifikator
 Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnummer (videoinspelning) och EAN förvalda.
