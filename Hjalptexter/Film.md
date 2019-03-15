@@ -74,7 +74,7 @@ För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.
 En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
- Skriv in uppgiften under Huvudtitel.    
+ Skriv in uppgiften i Huvudtitel.    
   ```Exempel: Cool girls```<br/>
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).<br/>
