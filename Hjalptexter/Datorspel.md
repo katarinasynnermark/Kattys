@@ -351,7 +351,7 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 #### Genre 
 För utförliga anvisningar om hur man anger genre, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre.
 
-För datorspel ska typ av fil (008/26) anges med termen dataspel i Genre/from.
+För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/from.
 
 ##### Genre/form - termer som motsvar marc-koder i 008
 * Genre/form - typ av fil (ComputerTypeOfFile = 008/26)</br> 
@@ -361,11 +361,9 @@ Länka till entiteten:</br>
 
 ##### Genre/form - saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)</br> 
-Länka till entitet.</br> 
-  ```Exempel:```
-     * ```Datorspel```
-     * ```First-person shooter (datorspel)```
- 
+Länka till entiteten:</br> 
+ ```Datorspel```
+    
 #### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
  
