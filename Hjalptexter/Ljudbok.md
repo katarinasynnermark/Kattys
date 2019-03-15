@@ -360,7 +360,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entiteteten: 
-  ```SpokenWord, spw (= tal)```  
+  </br>```SpokenWord, spw (= tal)```  
   
 #### Anmarkning om medverkande
  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
