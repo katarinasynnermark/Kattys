@@ -359,7 +359,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
-  Länka till entiteteten:<br>  
+  Länka till entiteteten: 
   ```SpokenWord, spw (= tal)```  
   
 #### Anmarkning om medverkande
