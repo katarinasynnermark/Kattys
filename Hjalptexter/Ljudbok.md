@@ -287,7 +287,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
   
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden. 
-  ```Exempel: relator/author (= författare)``
+  ```Exempel: relator/author (= författare)```<br/>
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
   `
 ##### Medverkan
