@@ -215,8 +215,7 @@ Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#syst
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-Lägg till Tillsammans med. Skapa Instans som lokal entitet. Skriv Instans i rutan Skapa lokal entitet och välj ** Instans.) Lägg till Benämning. 
-Skriv in uppgiften.
+Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften.
  <br/>```Exempel:```
    * ```1 handledning (36 sidor)``` 
    * ```1 handledning (4 sidor) + spelkontroll i form av gitarr```
@@ -266,9 +265,10 @@ Ange vid behov den föredragna titeln för verket här. Följ anvisningarna unde
 Datorspel har sällan en primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk utan primär medverkan ska anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. 
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
 Under Instans av Verk, lägg till egenskapen Uttryck av. Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), välj Verk. Det läggs till under Uttryck av. Lägg till Har titel. Välj Titel. 
-Ange  den föredragna titetln under Huvudtitel.  
+Ange  den föredragna titetln i Huvudtitel.  
 ```Exempel:  Prototype (datorspel)```</BR>
-Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype. Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).</BR>
+Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype.</BR> 
+Läs mer om [Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).</BR>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
 *	Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
@@ -280,7 +280,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
 ##### Verkets titel - verk med primär medverkan
 Det är ovanligt att datorspel har primär medverkan. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk med primär medverkan ska anges i Har titel/Titel/Huvudtitel.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR> 
-Ange den föredragna titeln.
+Ange den föredragna titeln i Huvudtitel.
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
 * Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).</BR>
@@ -351,9 +351,11 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 #### Genre 
 För utförliga anvisningar om hur man anger genre, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre.
 
+För datorspel ska typ av fil (008/26) anges med termen dataspel i Genre/from.
+
 ##### Genre/form - termer som motsvar marc-koder i 008
 * Genre/form - typ av fil (ComputerTypeOfFile = 008/26)</br> 
-För datorspel, välj Typ av fil i listan över typer.</br>
+Välj Typ av fil i listan över typer.</br>
 Länka till entiteten:</br>
 ```Dataspel, g```
 
