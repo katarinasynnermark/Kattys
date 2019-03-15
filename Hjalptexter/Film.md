@@ -308,7 +308,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
  ```Exempel: Moore, Andy, 1956-```
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-  ```Exempel: relator/fmk (= filmskapare)```
+  ```Exempel: relator/fmk (= filmskapare)```</br>
   För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
 
 ##### Medverkan
@@ -317,7 +317,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   ```Exempel: Wechselman, Maj, 1942-```  
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-  ```Exempel: relator/drt (= regissör)```
+  ```Exempel: relator/drt (= regissör)```</br>
   För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   
 #### Sprak 
