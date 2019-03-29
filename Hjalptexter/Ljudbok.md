@@ -42,7 +42,8 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Audio, s (= audio)```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 ‡b)</br>
+  Välj Bärartyp i listan över typer.</br>
   Länka till entiteten:</br> 
   ```Audio disc, sd (= ljudskiva)```</BR>
   
