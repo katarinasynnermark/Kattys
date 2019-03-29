@@ -46,8 +46,8 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Video, v (= video)```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)
-  Välj Bärartyp i listan över typer. 
+* Bärartyp (carrierType/CarrierType = 338 ‡b)</br>
+  Välj Bärartyp i listan över typer.</br>
   Länka till entiteten:  
   ```Videodisc, vd (= videoskiva)```  
   
