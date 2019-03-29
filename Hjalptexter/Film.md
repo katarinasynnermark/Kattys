@@ -42,12 +42,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Välj Bärartyp i listan över typer. 
   Länka till entiteten:  
   ```Video, v (= video)```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 ‡b)
+  Välj Bärartyp i listan över typer. 
   Länka till entiteten:  
   ```Videodisc, vd (= videoskiva)```  
   
