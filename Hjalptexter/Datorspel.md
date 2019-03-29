@@ -276,8 +276,8 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
-*	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 ‡l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk visas som ett tillägg till verkets titel i marcpostens 130 #l. 
+*	Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l)  
+Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 130 ‡l. 
 
 ##### Verkets titel - verk med primär medverkan
 Det är ovanligt att datorspel har primär medverkan. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk med primär medverkan ska anges i Har titel/Titel/Huvudtitel.
@@ -289,7 +289,7 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
 * Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk visas som ett tillägg till verkets titel i marcpostens 240 #l. 
+</br>**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även för resurser som bara innehåller en dubbning men inte originalversionen. Det kommer att korrigeras i en kommande release av Libris katalogisering.**
 
 #### Medverkan och funktion
 * Medverkan och funktion  
