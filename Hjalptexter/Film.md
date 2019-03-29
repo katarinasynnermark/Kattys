@@ -290,7 +290,7 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
 * Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
 För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
-**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även för resurser som bara innehåller en dubbning men inte originalversionen. Det kommer att korrigeras i en kommande release av Libris katalogisering.**
+</br>**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även för resurser som bara innehåller en dubbning men inte originalversionen. Det kommer att korrigeras i en kommande release av Libris katalogisering.**
 
 #### Medverkan och funktion
 * Medverkan och funktion  
@@ -345,7 +345,7 @@ För en film som är dubbad, lägg till:
 För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan):  
 Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
 Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)
-För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
+</br>För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 ##### Relationer till andra verk  
