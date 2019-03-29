@@ -289,7 +289,7 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
 * Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
-För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
+För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här.</BR>  
 **Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även för resurser som bara innehåller en dubbning men inte originalversionen. Det kommer att korrigeras i en kommande release av Libris katalogisering.**
 
 #### Medverkan och funktion
