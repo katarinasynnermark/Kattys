@@ -275,7 +275,8 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
-*	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 ‡l)  
+*	Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l)  
+För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.</BR> 
 
 För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
@@ -290,10 +291,8 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
 * Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.
-Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.
-
 För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även för resurser som bara innehåller en dubbning men inte originalversionen. Det kommer att korrigeras i en kommande release av Libris katalogisering.**
 
 #### Medverkan och funktion
 * Medverkan och funktion  
