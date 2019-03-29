@@ -326,7 +326,7 @@ Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ga
   Länka till entitet.  
   
 ##### Översättning  
-För datorspel som innehåller en översättning, lägg till:  
+För datorspel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Multimedia och välj Anmärkning: Språk. Välj fras från lista.  
