@@ -43,7 +43,9 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   </br>```computer, c (= dator)```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 ‡b)</br>
+  Välj Bärartyp i listan över typer.
+  
   För ett datorspel på DVD-ROM eller Blu-ray Disc, länka till entiteten:  
   ```computer disc, cd (= datorskiva)```</BR>
   
