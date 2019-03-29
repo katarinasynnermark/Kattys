@@ -277,9 +277,7 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
 *	Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l)  
-Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka.  Språket visas då som ett tillägg till verkets titel i marcpostens 130 ‡l.</BR> 
-
-För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
+Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka.  Språket visas då som ett tillägg till verkets titel i marcpostens 130 ‡l. För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
 
 ##### Verkets titel - verk med primär medverkan
 Det är ovanligt att film har primär medverkan. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen. Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel.
