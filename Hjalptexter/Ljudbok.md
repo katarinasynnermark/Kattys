@@ -37,12 +37,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: Monografisk resurs```
   
 #### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
+* Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```Audio, s (= audio)```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)</br>
+* Bärartyp (carrierType/CarrierType = 338 #b)</br>
   Välj Bärartyp i listan över typer.</br>
   Länka till entiteten:</br> 
   ```Audio disc, sd (= ljudskiva)```</BR>
@@ -54,7 +54,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
 ##### Huvudtitel    
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html).</BR> 
  ```Exempel: Den frusna elden```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
@@ -65,7 +65,7 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
  ```Exempel: C-byråns kvinnliga agenter under andra världskriget : en dokumentär spionberättelse```
 
