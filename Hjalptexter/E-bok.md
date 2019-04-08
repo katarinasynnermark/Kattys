@@ -40,12 +40,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: Monografisk resurs```
   
 #### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
+* Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```Computer, c (= dator)```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
   ```Online resource, cr (= onlineresurs)```</BR>
   
@@ -59,7 +59,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
 ##### Huvudtitel    
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i källan, se [RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).</br>
  ```Exempel: Erik den rödes saga```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
@@ -98,31 +98,31 @@ För anvisningar om hur man anger copyrightår, se hjälptexten [Instans](https:
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: ISBN```
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
+* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
   Ange identifikator.  
   ```Exempel: 9789188107213```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).
   
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
-* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
+* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 #z)  
   Välj typ från lista.  
   ```Exempel: ISBN```
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #a)  
   Ange identifikator.  
   ```Exempel: 97891881072```
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
+* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.
   
 ##### URN, DOI, handle
 URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnummer eller standardkod specificerad i en Typanmärkning. 
-* Identifikator/Identifikator/Värde (identifiedBy/Identifier/value = 024 7/- ‡a</BR>
+* Identifikator/Identifikator/Värde (identifiedBy/Identifier/value = 024 7/- #a</BR>
   Skriv in uppgiften under Värde.</BR>
   ```Exempel: urn:nbn:se:su:diva-83163``` 
-* Identifikator/Identifikator/Typanmärkning (identifiedBy/Identifier/typeNote = 024 7/- ‡2)</BR>
+* Identifikator/Identifikator/Typanmärkning (identifiedBy/Identifier/typeNote = 024 7/- #2)</BR>
   För att specificera typ av standardnummer eller standardkod, lägg till Typanmärkning.</BR>
   Skriv in uppgiften.
   <br/>```Exempel:```
@@ -132,12 +132,12 @@ URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnumme
  
 #### Omfang
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html). Ange även antal underenheter, t.ex. sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html). 
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
   ```Exempel:   1 onlineresurs (239 sidor)```  
   
 #### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (other physical details = 300 ‡b)     
+* Övriga fysiska detaljer (other physical details = 300 #b)     
   Skriv in uppgiften.  
   ```Exempel: illustrationer```
     
@@ -151,12 +151,12 @@ För anvisningar om hur man anger författarserie, se hjälptexten [Tryckt monog
 För anvisningar om hur man lägger till innehållsanmärkningar se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
 
 #### Anmarkning
-Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
+Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning.</BR> 
   
 #### Digital karaktaristika
-* Digital karaktärisitika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347 ‡b)</BR>
+* Digital karaktärisitika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347 #b)</BR>
   Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5264.html). 
   Skriv in uppgiften under Benämning.</BR>
   ```Exempel: PDF```
@@ -164,16 +164,16 @@ Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en tryckt utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
-* Annat bärarformat/Typanmärkning (776 ‡i)  
+* Annat bärarformat/Typanmärkning (776 #i)  
   Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
-* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
+* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 #w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
   
 #### Elektronisk adress
 ##### Tillhörande media
-* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 ‡u)</br>
+* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)</br>
 Använd Tillhörande media för att lägga in en elektronisk adress till den besrivna resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
-* Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 #z)
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 
 #### Malgruppsanmarkning  
@@ -192,13 +192,13 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 
 ##### Verkets titel - verk med primär medverkan
 Föredragen titel för ett verk med primär medverkan ska anges i Har titel/Titel/Huvudtitel .</BR>
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</br>
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</br>
   Ange den föredragna titeln under Huvudtitel.</br>
   ```Exempel: Iliaden```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-* Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
+* Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 #p)</BR> 
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).</BR>
- * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
+ * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 n)</BR>
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
   ```Exempel: Bok 1-6 ```
 * Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
