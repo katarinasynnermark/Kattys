@@ -419,7 +419,7 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  ```Exempel: Ej preciserad``` 
  
  #### Inspelning
- * Inspelning/Inspelning/Datum (capture/Capture/date = 033 #a) * Inspelning/Inspelning/Datum (capture/Capture/date = 033 #a)</br>
+ * Inspelning/Inspelning/Datum (capture/Capture/date = 033 #a)</br>
  Här kan kodad uppgift om inspelningstid anges.</br>
  ```Exempel: 2010``` 
  * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 #a)</br>
