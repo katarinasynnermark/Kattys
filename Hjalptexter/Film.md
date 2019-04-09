@@ -319,11 +319,11 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   
 #### Sprak 
 * Språk (language = 008/35-37)</BR>
-  Ange det talade eller sjungna språket här.</BR>
-  Länka till entitet.  
+  Ange det talade eller sjungna språket här. Om filmen innehåller flera dubbningar samt originalversionen ange originalversionens språk. </BR>Länka till entitet.  
   ```Exempel: engelska (eng)```</BR>
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
-  För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten "icke-språkligt medium".</BR>
+  För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:
+   ```"icke-språkligt medium"```
 
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).</BR>
 
