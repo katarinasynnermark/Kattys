@@ -330,7 +330,7 @@ För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen
 ##### Dubbningar 
 För en film som är dubbad, men där originalversionen saknas, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning.  
+  Ange att resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
