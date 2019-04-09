@@ -343,7 +343,7 @@ Om resursen innehåller både originalversionen och en eller flera dubbningar, a
 
 Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till dubbningens språk. Lägg till Anmärkning: Språk under Verk och ange att resursen är/innehåller en översättning. Lägg även till Originalversion/Verk/Språk, se ovan. Länka till språket för originalversionen.
 
-Upprepa Har del, enligt ovan, för varje dubbningsspråk.
+Upprepa Verk under Har del, lägg till Språk, Anmärkning: Språk och Originalversion/Verk/Språk för varje dubbningsspråk.
 
 #### Relationer till ingaende verk och andra verk
 ##### Verk som ingår i det beskrivna verket
