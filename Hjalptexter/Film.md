@@ -341,7 +341,7 @@ För en film som är dubbad, men där originalversionen saknas, lägg till:
 
 Om resursen innehåller både originalversionen och en eller flera dubbningar, ange originalversionens språk i egenskapen Språk under Instans av Verk, se ovan, samt lägg till Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a). 
 
-Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till dubbningens språk. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Lägg till Originalversion/Verk/Språk, se ovan. Länka till språket för originalversionen.
+Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till dubbningens språk. Lägg till Anmärkning: Språk under Verk och ange att resursen är/innehåller en översättning. Lägg även till Originalversion/Verk/Språk, se ovan. Länka till språket för originalversionen.
 
 Upprepa Har del, enligt ovan, för varje dubbningsspråk.
 
