@@ -327,14 +327,14 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
    ```"icke-språkligt medium"```
  * Anmärkning: Språk (marc:languageNote = 041 0/- #a)</br> 
  Om filmen innehåller originalversionen samt flera dubbningar, klicka på plustecknet vid Instans av verk och lägg till egenskapen Anmärkning: Språk.</br> 
- Välj fras från lista: 
+ Välj fras från lista:</br> 
   ```objektet är/innehåller ej översättning```      
 
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).</BR>
 
 ##### Dubbningar 
 För en dubbad film där originalversionen saknas, lägg till:  
-* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)</br>  
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Välj fras från lista:</br>
    ```objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
