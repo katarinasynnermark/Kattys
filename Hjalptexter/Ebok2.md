@@ -146,14 +146,6 @@ Används inte. Se Varianttitel (246).
 Använd Startår och Slutår (inte År).
 * Primär utgivning/Utgivning/Startår (008/07-10 + 264 -/1 #c)  
 * Primär utgivning/Utgivning/Slutår (008/11-14 + 264 -/1 #c) 
-  
-#### Tillverkning 
-
-##### Tillverkningsplats (Tillverkningsort) 
-* Tillverkning/Plats/Plats/Benämning (place/label = 264 -/3 #a)  
-
-##### Tillverkningsnamn  
-* Tillverkning/Agent/Agent/Benämning (agent/label = 264 -/3 #b)  
 
 #### Copyrightar   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
@@ -161,7 +153,7 @@ Använd Startår och Slutår (inte År).
 #### Identifikator 
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
 * Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 #q)  
-Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde.  
+Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde. 
 
 #### Indirekt identifierad av  
 Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
@@ -169,17 +161,28 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z)
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)
 
-#### Omfang   
+##### URN, DOI, handle
+URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnummer eller standardkod specificerad i en Typanmärkning. 
+* Identifikator/Identifikator/Värde (identifiedBy/Identifier/value = 024 7/- #a</BR>
+  Skriv in uppgiften under Värde.</BR>
+  ```Exempel: urn:nbn:se:su:diva-83163``` 
+* Identifikator/Identifikator/Typanmärkning (identifiedBy/Identifier/typeNote = 024 7/- #2)</BR>
+  För att specificera typ av standardnummer eller standardkod, lägg till Typanmärkning.</BR>
+  Skriv in uppgiften.
+  <br/>```Exempel:```
+    * ```urn```
+    * ```doi```
+    * ```hdl```
+
+#### Omfang 
+Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html). Ange även antal underenheter, t.ex. sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html). 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)
+ sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html).
+ Skriv in uppgiften under Benämning.  
+  ```Exempel:   1 onlineresurs (239 sidor)```  
 
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)
-
-#### Matt 
-* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)
-
-#### Bilagor
-* Tillsammans med/Instans/Benämning (accompaniedBy/Instance/label = 300 #e)
 
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
@@ -220,13 +223,30 @@ Följ dessa instruktioner:
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
-#### Malgruppsanmarkning  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
-Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
+#### Digital karaktaristika
+* Digital karaktärisitika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347 #b)</BR>
+  Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5264.html). 
+  Skriv in uppgiften under Benämning.</BR>
+  ```Exempel: PDF```
 
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-Länka till instans.
+  För att länka till en utgåva i annat format, till exempel en tryckt utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj   Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
+* Annat bärarformat/Typanmärkning (776 #i)  
+  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
+* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 #w)  
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
+  
+#### Elektronisk adress
+##### Tillhörande media
+* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)</br>
+Använd Tillhörande media för att lägga in en elektronisk adress till den besrivna resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 #z)
+Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
+
+#### Malgruppsanmarkning  
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
+Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
 
 #### Verk
