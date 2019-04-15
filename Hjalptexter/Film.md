@@ -342,9 +342,9 @@ För en dubbad film där originalversionen saknas, lägg till:
  Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```</br> 
 
-Om resursen innehåller både originalversionen och en eller flera dubbningar, ange originalversionens språk i egenskapen Språk under Instans av Verk och Anmärkning: Språk: Objektet är/innehåller ej översättning, se ovan. 
+Om resursen innehåller både originalversionen och en eller flera dubbningar, ange originalversionens språk i egenskapen Språk under Instans av Verk samt frasen Objektet är/innehåller ej översättning i egenskapen Anmärkning: Språk, se ovan. 
 
-Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till dubbningens språk. Lägg till Anmärkning: Språk under Verk och ange att Objektet är/innehåller en översättning. Lägg även till Originalversion/Verk/Språk, se ovan. Länka till språket för originalversionen.
+Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till dubbningens språk. Lägg till egenskapen Anmärkning: Språk under Verk och välj frasen Objektet är/innehåller en översättning. Lägg även till Originalversion/Verk/Språk, se ovan, och länka till språket för originalversionen.
 
 Upprepa Verk under Har del för varje dubbningsspråk. Lägg till Språk, Anmärkning: Språk och Originalversion/Verk/Språk.
 
