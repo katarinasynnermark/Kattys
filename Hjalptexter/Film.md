@@ -319,7 +319,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   
 #### Sprak 
 * Språk (language = 008/35-37)</BR>
-  Ange det talade eller sjungna språket i filmen. Om filmen innehåller flera dubbningar samt originalversionen, ange originalversionens språk. För att ange dubbningarnas språk, se nedan under Dubbningar.
+  Ange filmens talade eller sjungna språk. Om filmen innehåller originalversionen samt flera dubbningar, ange originalversionens språk. För att ange dubbningarnas språk, se nedan under Dubbningar.
   </BR>Länka till entitet.  
   ```Exempel: engelska (eng)```</BR>
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
@@ -329,7 +329,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).</BR>
 
 ##### Dubbningar 
-För en film som är dubbad, men där originalversionen saknas, lägg till:  
+För en dubbad film, men där originalversionen saknas, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange att resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
@@ -343,7 +343,7 @@ Om resursen innehåller både originalversionen och en eller flera dubbningar, a
 
 Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till dubbningens språk. Lägg till Anmärkning: Språk under Verk och ange att Objektet är/innehåller en översättning. Lägg även till Originalversion/Verk/Språk, se ovan. Länka till språket för originalversionen.
 
-Upprepa Verk under Har del, lägg till Språk, Anmärkning: Språk och Originalversion/Verk/Språk för varje dubbningsspråk.
+Upprepa Verk under Har del för varje dubbningsspråk. Lägg till Språk, Anmärkning: Språk och Originalversion/Verk/Språk.
 
 Om det är många dubbningar, kan man duplicera den första verksentiteten under Har del och byta ut språket.
 
