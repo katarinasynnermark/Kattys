@@ -325,10 +325,11 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
   För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:</br> 
    ```"icke-språkligt medium"```
- * Anmärkning: Språk (marc:languageNote = 041 0/- #a)
- Ange att resursen inte är eller innehåller översättning
- För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller ej översättning```      
+ * Anmärkning: Språk (marc:languageNote = 041 0/- #a)</br> 
+ Om filmen innehåller originalversionen samt flera dubbningar, ange att resursen inte är/innehåller översättning.
+ För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. 
+ Välj fras från lista:  
+  ```objektet är/innehåller ej översättning```      
 
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).</BR>
 
@@ -336,8 +337,9 @@ För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen
 För en dubbad film där originalversionen saknas, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange att resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller översättning```   
+  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. 
+  Välj fras från lista: 
+  ```objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
  Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
