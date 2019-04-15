@@ -25,18 +25,16 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
-| | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
-|  | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| | [Mått](#matt) | |
-| | [Bilagor](#bilagor) | |
+| | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) | 
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) | 
+| | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Anmärkning](#anmarkning) |
+| | [Digital karaktäristika](#digital-karaktaristika) | |
 | | [Annat bärarformat](#annat-bararformat) | |
+| | [Elektronisk adress(#eletronisk-adress) | | 
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 
 
 #### Adminmetadata
