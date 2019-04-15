@@ -83,7 +83,14 @@ Se exempel i formathandboken för Libris/Voyager: [Fileringsindikator](http://ww
 
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
 
-För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.    
+För en parallell huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).<br/>
+
+För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
+
+##### Titel - alternativ stavning
+* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel  
+(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
+Används inte. Se Varianttitel (246).  
 
 ##### Varianttitel
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
@@ -101,11 +108,6 @@ För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.
 
 ##### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
-
-#### Titel - alternativ stavning
-* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel  
-(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
-Används inte. Se Varianttitel (246).  
 
 ##### Parallelltitel
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)
