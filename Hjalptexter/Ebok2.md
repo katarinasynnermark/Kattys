@@ -48,11 +48,7 @@ Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogise
 
 
 #### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
-![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
-
-Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
-![Välj egenskap](plusegenskapinstans2.png)  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk.  Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
 
 Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
@@ -61,18 +57,28 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-##### Medietyp
+#### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
-  Länka till entitet.  
-  ```Exempel: n (= omedierad)```
+  Länka till entiteten:  
+  ```Computer, c (= dator)```
   
-##### Barartyp 
+#### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
-  Länka till entitet.  
-  ```Exempel: nc (= volym)```
+  Länka till entiteten:  
+  ```Online resource, cr (= onlineresurs)```</BR>
+  
+  Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
+  ```Onlineresurs, r```</BR>
+  Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
+  ```Onlineutgåva, o```</BR>
+  För att hitta entiteten Onlineutgåva, o, välj Form från listan under Föreslagna typer.
   
 ##### Titel
+Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
+
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)
+Återge huvudtiteln som den förekommer i källan, se [RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).</br>
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
 
 ##### Varianttitel
