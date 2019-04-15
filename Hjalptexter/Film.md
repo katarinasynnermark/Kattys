@@ -319,7 +319,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   
 #### Sprak 
 * Språk (language = 008/35-37)</BR>
-  Ange filmens talade eller sjungna språk här. Om originalversionen saknas, men flera dubbningar finns, ange språket som huvudtiteln är på. Om filmen innehåller originalversionen samt flera dubbningar, ange originalversionens språk. För att ange dubbningarnas språk, se nedan under Dubbningar.
+  Ange filmens talade eller sjungna språk. Om originalversionen saknas, men flera dubbningar finns, ange det språk som huvudtiteln är på här. Om filmen innehåller originalversionen samt flera dubbningar, ange originalversionens språk. För att ange dubbningarnas språk, se nedan under Dubbningar.
   </BR>Länka till entitet.  
   ```Exempel: engelska (eng)```</BR>
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
@@ -333,7 +333,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).</BR>
 
 ##### Dubbningar 
-För en film med en dubbning där originalversionen saknas, lägg till:  
+För en film med en eller flera dubbningar där originalversionen saknas, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Välj fras från lista:</br>
    ```objektet är/innehåller översättning```   
