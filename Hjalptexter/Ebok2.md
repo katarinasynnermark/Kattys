@@ -57,12 +57,12 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-#### Medietyp
+##### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```Computer, c (= dator)```
   
-#### Barartyp
+##### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
   ```Online resource, cr (= onlineresurs)```</BR>
@@ -76,7 +76,7 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 ##### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
 Återge huvudtiteln som den förekommer i källan, se [RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).</br>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
