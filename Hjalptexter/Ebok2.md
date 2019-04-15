@@ -78,8 +78,11 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
 Återge huvudtiteln som den förekommer i källan, se [RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).</br>
-För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra. Se exempel i formathandboken för Libris/Voyager: [Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
+
+För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.    
 
 ##### Varianttitel
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
