@@ -264,44 +264,27 @@ Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/w
 För en tryckt monografi är verkstypen Text.  
 
 ##### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
-Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
+Ange den föredragna titeln för verket här, vid behov. Följ anvisningarna under [Konstruera sökingångar för verk och uttryck](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) i Anvisningar för katalogisering - RDA. Föredragen titel ska anges för översättningar och för verk som har givits ut under olika titlar på samma språk. En föredragen titel ska också anges om olika verk har samma auktoriserade sökingång. 
 
 ###### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
- "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
+ Föredragen titel för ett verk med primär medverkan anges här.  
 
 ###### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)
- "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
+ Föredragen titel för ett verk utan primär medverkan anges här.
  
-#### Relationer till ingaende verk och andra verk
-
-##### Relationer till ingående verk 
-* Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
-  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
-
-* Ingående verk utan Medverkan och funktion/Primär medverkan 
-  Har del/Verk/Har titel/Titel (730 0/2 #a)  
-  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
-
-##### Relationer till andra verk  
-  * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)  
-  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-
-*  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
-   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
-   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
-
 ##### Medverkan och funktion
-Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  
+Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
+
+##### Primär medverkan  
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)
 
 * Medverkan och funktion/Primär medverkan/Funktion  
 (contribution/PrimaryContribution/role = 100 #4)
 
+##### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person  
 (contribution/agent/Person = 700 1/- #a)
 
@@ -321,9 +304,6 @@ För en översättning ska språket också läggas till i klartext i marcpostens
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
 Länka till entitet.  
-Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
-Har del/Verk/Språk (Language/label = 730 #l)  
-Länka till entitet.  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
@@ -335,6 +315,24 @@ Se Sammanfattning av innehåll
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
 (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
 Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
+
+#### Relationer till ingaende verk och andra verk
+
+##### Relationer till ingående verk 
+* Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
+  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+
+* Ingående verk utan Medverkan och funktion/Primär medverkan 
+  Har del/Verk/Har titel/Titel (730 0/2 #a)  
+  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
+
+##### Relationer till andra verk  
+  * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)  
+  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+
+*  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
+   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
+   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Genre
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
@@ -373,7 +371,6 @@ Välj någon av övriga rubriker i listan.
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
-![Genre exempel](genre_exempel.png)  
 
 **Roman**  
 Exempel: Haag, Martina: Det är något som inte stämmer  
