@@ -325,11 +325,15 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
   För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:</br> 
    ```"icke-språkligt medium"```
+ * Anmärkning: Språk (marc:languageNote = 041 0/- #a)
+ Ange att resursen inte är eller innehåller översättning
+ För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
+  ```Exempel: objektet är/innehåller ej översättning```      
 
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).</BR>
 
 ##### Dubbningar 
-För en dubbad film, men där originalversionen saknas, lägg till:  
+För en dubbad film där originalversionen saknas, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange att resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
@@ -339,7 +343,7 @@ För en dubbad film, men där originalversionen saknas, lägg till:
  Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```</br> 
 
-Om resursen innehåller både originalversionen och en eller flera dubbningar, ange originalversionens språk i egenskapen Språk under Instans av Verk, se ovan, samt lägg till Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a). 
+Om resursen innehåller både originalversionen och en eller flera dubbningar, ange originalversionens språk i egenskapen Språk under Instans av Verk och Anmärkning: Språk: Objektet är/innehåller ej översättning, se ovan. 
 
 Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till dubbningens språk. Lägg till Anmärkning: Språk under Verk och ange att Objektet är/innehåller en översättning. Lägg även till Originalversion/Verk/Språk, se ovan. Länka till språket för originalversionen.
 
