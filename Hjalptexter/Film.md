@@ -326,8 +326,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:</br> 
    ```"icke-språkligt medium"```
  * Anmärkning: Språk (marc:languageNote = 041 0/- #a)</br> 
- Om filmen innehåller originalversionen samt flera dubbningar, ange att resursen inte är/innehåller översättning.
- För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk.</br> 
+ Om filmen innehåller originalversionen samt flera dubbningar, klicka på plustecknet vid Instans av verk och lägg till egenskapen Anmärkning: Språk.</br> 
  Välj fras från lista:  
   ```objektet är/innehåller ej översättning```      
 
