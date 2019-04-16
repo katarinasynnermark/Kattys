@@ -324,15 +324,15 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   ```Exempel: engelska (eng)```</BR>
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
  För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:</br> 
-   ```"icke-språkligt medium"```
+   ```"icke-språkligt medium"```</BR>
  Om filmen innehåller originalversionen samt flera dubbningar, klicka på plustecknet vid Instans av verk och lägg till egenskapen Anmärkning: Språk.</br> 
  * Anmärkning: Språk (marc:languageNote = 041 0/- #a)</br> 
  Välj fras från lista:</br> 
-  ```objektet är/innehåller ej översättning``` 
+  ```objektet är/innehåller ej översättning```</BR>
   För en film med en eller flera dubbningar där originalversionen saknas, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Välj fras från lista:</br>
-   ```objektet är/innehåller översättning```   
+   ```objektet är/innehåller översättning```</BR>   
    För en film med en eller flera dubbningar där originalversionen saknas, lägg även till: 
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
