@@ -439,6 +439,7 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  * Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
   Skapa ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Plats. Skapa lokal entitet, välj Plats och skriv in uppgiften under Benämning.</br>
    ```Exempel: Stockholm```</br>
+  
   Om så önskas, kan även en anmärkning om inspelningstid och/eller inspelningsplats läggas till.
  * Inspelning/Benämning (capture/Capture/label = 518 #a)</br>
  Skapa ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Benämning.</br>
