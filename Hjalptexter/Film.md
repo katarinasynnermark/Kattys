@@ -435,7 +435,7 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
   Här kan kodad uppgift om inspelningstid och inspelningsplats anges.</br>
  * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</br>
  Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till Datum.
- ```Exempel: 2010```
+ ```Exempel: 2010```</br>
  * Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
   Skapa ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Plats. Skapa lokal entitet, välj Plats och skriv in uppgiften under Benämning.</br>
    ```Exempel: Stockholm```</br>
