@@ -334,7 +334,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   Välj fras från lista:</br>
    ```objektet är/innehåller översättning```   
    För en film med en eller flera dubbningar där originalversionen saknas, lägg även till: 
-   * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
  Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```</br> 
