@@ -432,12 +432,16 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  ```Exempel: Ej preciserad``` 
  
  #### Inspelning
- * Inspelning/Inspelning/Datum (capture/Capture/date = 033 #a)</br>
- Här kan kodad uppgift om inspelningstid anges.</br>
- ```Exempel: 2010``` 
- * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 #a)</br>
- Om så önskas, lägg även till en anmärkning om inspelningstid.
- Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till Benämning.
+  Här kan kodad uppgift om inspelningstid och inspelningsplats anges.</br>
+ * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</br>
+ Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till Datum.
+ ```Exempel: 2010```
+ * Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
+  Skapa ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Plats. Skapa lokal entitet, välj Plats och skriv in uppgiften under Benämning.
+   ```Exempel: Stockholm```
+  Om så önskas, kan även en anmärkning om inspelningstid och/eller inspelningsplats läggas till.
+ * Inspelning/Benämning (capture/Capture/label = 518 #a)</br>
+ Skapa ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Benämning.
  Skriv in uppgiften under Benämning.</br>
  ```Exempel: Inspelad 2010``` 
  
