@@ -325,25 +325,33 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
  För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:</br> 
    ```"icke-språkligt medium"```</BR>
+ 
  Om filmen innehåller originalversionen samt flera dubbningar, klicka på plustecknet vid Instans av verk och lägg till egenskapen Anmärkning: Språk.</br> 
  * Anmärkning: Språk (marc:languageNote = 041 0/- #a)</br> 
  Välj fras från lista:</br> 
   ```objektet är/innehåller ej översättning```</BR>
-  För en film med en eller flera dubbningar där originalversionen saknas, lägg till:  
+ 
+ För en film med en eller flera dubbningar där originalversionen saknas, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Välj fras från lista:</br>
    ```objektet är/innehåller översättning```</BR>   
-   För en film med en eller flera dubbningar där originalversionen saknas, lägg även till: 
+ 
+ För en film med en eller flera dubbningar där originalversionen saknas, lägg även till: 
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
- Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```</br> 
-  
-Om resursen innehåller både originalversionen och en eller flera dubbningar, ange originalversionens språk i egenskapen Språk under Instans av Verk samt frasen Objektet är/innehåller ej översättning i egenskapen Anmärkning: Språk, se ovan. 
+ 
+ Om filmen innehåller originalversionen och en eller flera dubbningar eller saknar originalversionen men innehåller fler än en dubbning, ange dubbningarnas språk i Har del. 
+ 
+Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till egenskapen Språk under Verk och länka till dubbningens språk.  
 
-Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till dubbningens språk. Lägg till egenskapen Anmärkning: Språk under Verk och välj frasen Objektet är/innehåller en översättning. Lägg även till Originalversion/Verk/Språk, se ovan, och länka till språket för originalversionen.
+Lägg till egenskapen Anmärkning: Språk under Verk och välj frasen Objektet är/innehåller en översättning. 
 
-Upprepa Verk under Har del för varje dubbningsspråk. Lägg till Språk, Anmärkning: Språk och Originalversion/Verk/Språk.
+Lägg till Originalversion/Verk/Språk och länka till språket för originalversionen.
+
+Upprepa Verk som lokal entitet under Har del för varje dubbningsspråk. Lägg till Språk, Anmärkning: Språk och Originalversion/Verk/Språk.
+
+
 
 Om det är många dubbningar, kan man duplicera den första verksentiteten under Har del och byta ut språket.  
 
