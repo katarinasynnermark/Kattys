@@ -33,7 +33,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Anmärkning](#anmarkning) |
 | | [Digital karaktäristika](#digital-karaktaristika) | |
 | | [Annat bärarformat](#annat-bararformat) | |
-| | [Elektronisk adress(#eletronisk-adress) | | 
+| | [Elektronisk adress](#eletronisk-adress) | | 
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 
 
