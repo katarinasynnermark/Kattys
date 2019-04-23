@@ -1,7 +1,12 @@
 ## Datorspel - multimedia
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av datorspel med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Datorspel - multimedia, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information. 
+Beskrivningen av ett datorspel innehåller följande tre delar:  
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För anvisniningar om Adminmetadata, se Adminmetadata.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för ett datorspel. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
+
+Många av egenskaperna finns redan i mallen Datorspel - multimedia, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Datorspel.  
 
 För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/). Notera att för datorspel är hela den utgivna resursen föredragen källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.4.1](http://access.rdatoolkit.org/rdachp2_rda2-8983.html). 
 
@@ -9,25 +14,33 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 ### Innehåll  
 
-| [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- |
-| [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Upphovsuppgift](#upphovsuppgift) |  [Genre](#genre) |
-| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation)|
-| [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp)  |
-| [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp)  |
-| [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
-| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Bilagor](#bilagor) | |
-| [Seriemedlemskap](#seriemedlemskap) | |
-| [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| [Systemkrav](#systemkrav) | |
-| [Anmärkning](#anmarkning) | |
-| [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ----------- | ----------- |  ----------- |
+| [Generell hjälptexy för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | 
+| | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Upphovsuppgift](#upphovsuppgift) |  [Genre](#genre) |
+| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation)|
+| | [Utgivning](#utgivning) | [Ämne](#amne) |
+| | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp)  |
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp)  |
+| | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
+| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Bilagor](#bilagor) | |
+| | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Systemkrav](#systemkrav) | |
+| | [Anmärkning](#anmarkning) | |
+| | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
+
+#### Adminmetadata
+Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
+**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
