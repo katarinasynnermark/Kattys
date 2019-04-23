@@ -457,7 +457,7 @@ Innehåll (008/24-27): Avhandling
 
  Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se Instans.  
 
-##### Innehallstyp
+#### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
 ```Exempel: text (txt)```
 
