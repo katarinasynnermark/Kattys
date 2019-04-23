@@ -344,7 +344,7 @@ För datorspel som är/innehåller en översättning, lägg till:
   ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-  ```Exempel: engelska (eng)```  
+  ```Exempel: japanska (jpn)```  
 
 #### Relationer till ingaende verk och andra verk
 ##### Verk som ingår i det beskrivna verket
@@ -402,7 +402,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
 #### Anmarkningar
 ##### Anmärkning om språk
  * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
-  ```Exempel: Tal och text på svenska, danska, norska, finska. Manual på engelska.```  
+  ```Exempel: Tal och text på engelska. Manual på svenska.```  
   
 #### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
