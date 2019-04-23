@@ -37,7 +37,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Anmärkning](#anmarkning) | |
 | | [Elektronisk adress](#elektronisk-adress) | |
 
-#### Adminmetadata
+### Adminmetadata
 Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
