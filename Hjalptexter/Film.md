@@ -448,12 +448,12 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  Under Inspelning, skapa Inspelning som lokal entitet och lägg till Datum.</br>
  ```Exempel: 2010```</br>
  * Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
-  Lägg till ytterligare en Inspelning som lokal entitet under Inspelning och lägg till Plats. Lägg till Plats som lokal entitet och skriv in uppgiften under Benämning.</br>
+  Under Inspelning, skapa Inspelning som lokal entitet och lägg till Plats. Under Plats skapa Plats som lokal entitet och skriv in uppgiften under Benämning.</br>
    ```Exempel: Stockholm```</br>
   
   Om så önskas, kan även en anmärkning om inspelningstid och/eller inspelningsplats läggas till. Denna egenskap är förvald i mallen.
  * Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</br>
- Lägg till ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Benämning.</br>
+ Under Inspelning, skapa Inspelning som lokal entitet. Lägg till Benämning.</br>
  Skriv in uppgiften under Benämning.</br>
  ```Exempel: Inspelad 2010``` 
  
