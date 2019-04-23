@@ -434,15 +434,15 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  #### Inspelning
   Här kan kodad uppgift om inspelningstid och inspelningsplats anges.</br>
  * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</br>
- Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till Datum.</br>
+ Under Inspelning, skapa Inspelning som lokal entitet och lägg till Datum.</br>
  ```Exempel: 2010```</br>
- * Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
-  Skapa ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Plats. Skapa lokal entitet, välj Plats och skriv in uppgiften under Benämning.</br>
+ * Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
+  Lägg till ytterligare en Inspelning som lokal entitet under Inspelning och lägg till Plats. Lägg till Plats som lokal entitet och skriv in uppgiften under Benämning.</br>
    ```Exempel: Stockholm```</br>
   
-  Om så önskas, kan även en anmärkning om inspelningstid och/eller inspelningsplats läggas till.
- * Inspelning/Benämning (capture/Capture/label = 518 #a)</br>
- Skapa ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Benämning.</br>
+  Om så önskas, kan även en anmärkning om inspelningstid och/eller inspelningsplats läggas till. Denna egenskap är förvald i mallen.
+ * Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</br>
+ Lägg till ytterligare en Inspelning som lokal entitet under Inspelning. Lägg till Benämning.</br>
  Skriv in uppgiften under Benämning.</br>
  ```Exempel: Inspelad 2010``` 
  
