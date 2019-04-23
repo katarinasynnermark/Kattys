@@ -464,6 +464,16 @@ Innehåll (008/24-27): Avhandling
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild:
 * Har del/Verk/Innehållstyp  
 ```Exempel: still image (sti)```
+  
+#### Sammanfattning av innehall    
+ * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
+Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
+ Skriv in uppgiften under Benämning.  
+  ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
+  
+ * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
+ Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
+ ```Exempel: Ej preciserad``` 
 
 ##### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk
