@@ -470,7 +470,7 @@ Innehåll (008/24-27): Avhandling
 * Sammanfattning av innehåll/Sammanfattning/Språk
 
 #### Anmarkning om akademisk avhandling    
-* Anmärkning om akademisk avhandling/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)
+* Anmärkning om akademisk avhandling/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)</br>
 Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.
 Skriv in anmärkningen under Benämning.
-Exempel: Diss. Umeå : Umeå universitet, 2018
+```Exempel: Diss. Umeå : Umeå universitet, 2018```
