@@ -476,7 +476,7 @@ Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.</br>
 
 ##### Sammanfattningsspråk
 * Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)</br>
-Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.
+Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.<br>
 ```Exempel: Engelska```
   
 #### Anmarkning om akademisk avhandling    
