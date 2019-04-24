@@ -27,7 +27,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) | 
 | | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) | 
-| | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Omfång](#omfang) | [Sammanfattningsspråk](#sammanfattningsspråk) |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) |
