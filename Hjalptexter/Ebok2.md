@@ -233,30 +233,28 @@ Följ dessa instruktioner:
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
   
 #### Elektronisk adress
+Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).
+
 ##### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)</br>
 Använd Tillhörande media för att lägga in en elektronisk adress till den besrivna resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
-* Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 #z)
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
+* Del av materialet som avses/Resurs/Benämning (appliesTo/Resource/label = 856 4/0 #3)
+Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
-
 ### Verk
-För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
-![Instans av verk](instansavverk.png)  
-
-Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
-
-![Instans av verk egenskap](instansavverkegenskap.png)  
+För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
 #### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
-För en tryckt monografi är verkstypen Text.  
+För en e-bok är verkstypen Text.  
 
 #### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ anvisningarna under [Konstruera sökingångar för verk och uttryck](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) i Anvisningar för katalogisering - RDA. Föredragen titel ska anges för översättningar och för verk som har givits ut under olika titlar på samma språk. En föredragen titel ska också anges om olika verk har samma auktoriserade sökingång. 
@@ -266,7 +264,7 @@ Ange den föredragna titeln för verket här, vid behov. Följ anvisningarna und
  Föredragen titel för ett verk med primär medverkan anges här.  
 
 ##### Verk utan Primär medverkan
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)</br>
  Föredragen titel för ett verk utan primär medverkan anges här.
  
 #### Medverkan och funktion
@@ -289,43 +287,49 @@ Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogi
 
 #### Sprak 
 * Språk (language = 008/35-37)
+Ange textens språk här. För en text på svenska, länka till svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
 
-För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
-
-##### Översättning  
-För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
-**Från och med version 1.7 skapas språktillägget automatiskt. Språktillägget skapas i 240 #l även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
-
-Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
-Uttryck av/Verk/Språk (Language/label = 130 #l)  
-Länka till entitet.  
-
+##### Översättning 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
-  
+  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista. 
+  ```Exempel: objektet är/innehåller översättning```   
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
+  Ange det språk som en texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
+  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  ```Exempel: engelska (eng)```  
+För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
+
+För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
+**Från och med version 1.7 skapas språktillägget automatiskt i 240 #l. 
+
+Om översättningen saknar Primär medverkan, ange språket som ska visas i klartext här:  
+Uttryck av/Verk/Språk (Language/label = 130 #l)  
+Länka till entitet.  
+ 
 ##### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
 
 ##### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
 (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
-Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
+Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk 
-* Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
+* Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
-* Ingående verk utan Medverkan och funktion/Primär medverkan 
-  Har del/Verk/Har titel/Titel (730 0/2 #a)  
+* Ingående verk utan primär medverkan (730 0/2 #a) 
+  Har del/Verk/Har titel/Titel  
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Relationer till andra verk  
-  * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)  
+  * Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
-*  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
+*  Relationer till andra verk primär medverkan  
    Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
@@ -462,19 +466,11 @@ Innehåll (008/24-27): Avhandling
 * Har del/Verk/Innehållstyp  
 ```Exempel: still image (sti)```
   
-#### Sammanfattning av innehall    
- * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
-Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
- Skriv in uppgiften under Benämning.  
-  ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
-  
- * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
- Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
- ```Exempel: Ej preciserad``` 
-
-##### Sammanfattningsspråk  
+#### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk
 
 #### Anmarkning om akademisk avhandling    
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning  
-(dissertation/Dissertation/label = 502 #a)  
+* Anmärkning om akademisk avhandling/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)
+Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.
+Skriv in anmärkningen under Benämning.
+Exempel: Diss. Umeå : Umeå universitet, 2018
