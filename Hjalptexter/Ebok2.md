@@ -56,18 +56,17 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
-  ```Computer, c (= dator)```
+  ```dator, computer, c```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
-  ```Online resource, cr (= onlineresurs)```</BR>
+  ```onlineresurs, online resource, cr```</BR>
   
   Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
   ```Onlineresurs, r```</BR>
   Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
   ```Onlineutgåva, o```</BR>
-  För att hitta entiteten Onlineutgåva, o, välj Form från listan under Föreslagna typer.
   
 #### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
@@ -147,15 +146,10 @@ Använd Startår och Slutår (inte År).
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
 
 #### Identifikator 
+##### ISBN
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
 * Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 #q)  
-Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde. 
-
-#### Indirekt identifierad av  
-Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
-
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z)
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)
+Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad av] (#indirekt-identifierad-av). Använd inte Ogiltigt värde. 
 
 ##### URN, DOI, handle
 URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnummer eller standardkod specificerad i en Typanmärkning. 
@@ -169,6 +163,12 @@ URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnumme
     * ```urn```
     * ```doi```
     * ```hdl```
+    
+#### Indirekt identifierad av  
+Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
+
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z)
+* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)
 
 #### Omfang 
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html). Ange även antal underenheter, t.ex. sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html). 
