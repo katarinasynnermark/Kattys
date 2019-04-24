@@ -93,7 +93,7 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
  Skriv in uppgiften i Huvudtitel.    
 ```Exempel: Pro evolution soccer 2014```
 
-För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
+För en parallell huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
 
 Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för datorspel är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
 
