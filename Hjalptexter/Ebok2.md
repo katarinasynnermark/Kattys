@@ -149,7 +149,7 @@ Använd Startår och Slutår (inte År).
 ##### ISBN
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
 * Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 #q)  
-Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad av] (#indirekt-identifierad-av). Använd inte Ogiltigt värde. 
+Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad av](#indirekt-identifierad-av). Använd inte Ogiltigt värde. 
 
 ##### URN, DOI, handle
 URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnummer eller standardkod specificerad i en Typanmärkning. 
