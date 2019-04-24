@@ -37,28 +37,28 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 
 
-#### Adminmetadata
+### Adminmetadata
 Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
 
-#### Instans
+### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk.  Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
 
 Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-##### Utgivningssatt 
+#### Utgivningssatt 
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-##### Medietyp
+#### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```Computer, c (= dator)```
   
-##### Barartyp
+#### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
   ```Online resource, cr (= onlineresurs)```</BR>
@@ -69,7 +69,7 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
   ```Onlineutgåva, o```</BR>
   För att hitta entiteten Onlineutgåva, o, välj Form från listan under Föreslagna typer.
   
-##### Titel
+#### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
@@ -245,7 +245,7 @@ Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
 
-#### Verk
+### Verk
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
 ![Instans av verk](instansavverk.png)  
 
@@ -255,22 +255,22 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
-##### Instans av verk
+#### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
 
-##### Verkets titel
+#### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ anvisningarna under [Konstruera sökingångar för verk och uttryck](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) i Anvisningar för katalogisering - RDA. Föredragen titel ska anges för översättningar och för verk som har givits ut under olika titlar på samma språk. En föredragen titel ska också anges om olika verk har samma auktoriserade sökingång. 
 
-###### Verk med Primär medverkan
+##### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
  Föredragen titel för ett verk med primär medverkan anges här.  
 
-###### Verk utan Primär medverkan
+##### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)
  Föredragen titel för ett verk utan primär medverkan anges här.
  
-##### Medverkan och funktion
+#### Medverkan och funktion
 Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
 
 ##### Primär medverkan  
@@ -330,7 +330,7 @@ Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av
    Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
-##### Genre
+#### Genre
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
  Välj Genre/form i listan över typer.  
  
