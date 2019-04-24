@@ -172,8 +172,7 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 
 #### Omfang 
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html). Ange även antal underenheter, t.ex. sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html). 
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)
- sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html).
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)<br>
  Skriv in uppgiften under Benämning.  
   ```Exempel:   1 onlineresurs (239 sidor)```  
 
