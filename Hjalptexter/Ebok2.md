@@ -280,9 +280,7 @@ Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogi
 ##### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person  
 (contribution/agent/Person = 700 1/- #a)
-
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)
-
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)
 
 #### Sprak 
