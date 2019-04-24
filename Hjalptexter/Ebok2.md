@@ -27,7 +27,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) | 
 | | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) | 
-| | [Omfång](#omfang) | [Sammanfattningsspråk](#sammanfattningsspråk) |
+| | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) |
@@ -306,6 +306,9 @@ För en översättning ska språket också läggas till i klartext i marcpostens
 Om översättningen saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
 Länka till entitet. 
+
+##### Sammanfattningsspråk
+Se [Sammanfattning av innehåll](#sammanfattning av innehåll).
 
 #### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
