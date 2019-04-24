@@ -289,8 +289,7 @@ Ange textens språk här. För en text på svenska, länka till svenska. För at
 
 ##### Översättning 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista. 
+  Ange om resursen är/innehåller en översättning. För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista. 
   ```Exempel: objektet är/innehåller översättning```   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Ange det språk som en texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
@@ -305,7 +304,7 @@ Om översättningen saknar Primär medverkan, ange språket som ska visas i klar
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
 Länka till entitet. 
 
-#### Sammanfattningsspråk
+##### Sammanfattningsspråk
 Se [Sammanfattning av innehåll](#sammanfattning-av-innehall).
 
 #### Språkanmärkning     
