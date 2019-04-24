@@ -305,10 +305,7 @@ För en översättning ska språket också läggas till i klartext i marcpostens
 
 Om översättningen saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
-Länka till entitet.  
- 
-#### Sammanfattningsspråk  
-Se Sammanfattning av innehåll   
+Länka till entitet. 
 
 #### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
@@ -465,10 +462,22 @@ Innehåll (008/24-27): Avhandling
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild:
 * Har del/Verk/Innehållstyp  
 ```Exempel: still image (sti)```
-  
-#### Sammanfattningsspråk  
-* Sammanfattning av innehåll/Sammanfattning/Språk
 
+#### Sammanfattning av innehall
+* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</br>
+Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.
+Skriv in uppgiften under Benämning.</br>
+```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```
+
+* Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)</br>
+Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.</br>
+```Exempel: Ej preciserad```
+
+##### Sammanfattningsspråk
+* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)</br>
+Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.
+```Exempel: Engelska```
+  
 #### Anmarkning om akademisk avhandling    
 * Anmärkning om akademisk avhandling/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)</br>
 Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.
