@@ -307,8 +307,8 @@ Om översättningen saknar Primär medverkan, ange språket som ska visas i klar
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
 Länka till entitet. 
 
-##### Sammanfattningsspråk
-Se [Sammanfattning av innehåll](#sammanfattning av innehåll).
+#### Sammanfattningsspråk
+Se [Sammanfattning av innehåll](#sammanfattning-av-innehall).
 
 #### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
