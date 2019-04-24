@@ -307,10 +307,10 @@ Om översättningen saknar Primär medverkan, ange språket som ska visas i klar
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
 Länka till entitet.  
  
-##### Sammanfattningsspråk  
+#### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
 
-##### Språkanmärkning     
+#### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
 (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
 Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
