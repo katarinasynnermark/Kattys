@@ -299,7 +299,7 @@ Ange textens språk här. För en text på svenska, länka till svenska. För at
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
 
 För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
-**Från och med version 1.7 skapas språktillägget automatiskt i 240 #l. 
+**Från och med version 1.7 skapas språktillägget automatiskt i 240 #l.** 
 
 Om översättningen saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
