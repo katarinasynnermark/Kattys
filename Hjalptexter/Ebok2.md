@@ -321,7 +321,7 @@ Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning 
 * Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
-* Ingående verk utan primär medverkan (730 0/2 #a) 
+* Ingående verk utan primär medverkan (730 0/2 #a)</br> 
   Har del/Verk/Har titel/Titel  
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
