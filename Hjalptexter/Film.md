@@ -360,11 +360,11 @@ Lägg även till:
  
 * Har del/Verk/Språk (hasPart/Verk/language = 041 #a)
 Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till egenskapen Språk under Verk och länka till dubbningens språk. 
-```Exempel: svenska (swe)
+```Exempel: svenska (swe)```
 
 * Har del/Verk/Anmärkning: Språk (hasPart/Verk/marc:LanguageNote = 041 i1: 1)
-Lägg till Anmärkning: Språk under Verk och välj fras från lista:
-```Exempel: Objektet är/innehåller en översättning (frasen syftar på dubbningens språk) 
+Lägg till Anmärkning: Språk under Verk och välj fras från lista (frasen syftar på dubbningens språk) :
+```Exempel: Objektet är/innehåller en översättning```
 
 * Har del/Verk/Originalversion/Verk/Språk (hasPart/Verk/originalVersion/Verk/language = 041 #h)
 Lägg till Originalversion under Verk och länka till språket för originalversionen.
