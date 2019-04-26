@@ -27,9 +27,9 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
 | | [Identifikator](#identifikator) | [Bild- och filmtexter](#bild--och-filmtexter) |
 | | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
-| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
-| | [Bilagor](#bilagor) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Videokarakteristika](#videokarakteristika) | [Inspelning](#inspelning) |
+| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
+| | [Bilagor](#bilagor) | [Anmärkningar](#anmarkningar) |
+| | [Videokarakteristika](#videokarakteristika) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Innehållsanmärkning](#innehallsanmarkning) | |
@@ -355,8 +355,7 @@ Ange dubbningarnas språk under Har del.
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)</br> 
   Välj fras från lista (frasen syftar på dubbningen vars språk är angivet under Språk, se ovan):</br> 
    ```objektet är/innehåller översättning```</BR>   
- 
-Lägg även till: 
+  
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
   ```Exempel: engelska (eng)```</br> 
@@ -435,7 +434,22 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till någon av entiteterna:</BR>
    * ```Two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
-   * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
+   * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)```
+
+ #### Inspelning
+  Här kan kodad uppgift om inspelningstid och inspelningsplats anges.</br>
+ * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</br>
+ Under Inspelning, skapa Inspelning som lokal entitet och lägg till Datum.</br>
+ ```Exempel: 2010```</br>
+ * Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
+  Under Inspelning, skapa Inspelning som lokal entitet och lägg till Plats. Under Plats skapa Plats som lokal entitet och skriv in uppgiften under Benämning.</br>
+   ```Exempel: Stockholm```</br>
+  
+  Om så önskas, kan även en anmärkning om inspelningstid och/eller inspelningsplats läggas till. Denna egenskap är förvald i mallen.
+ * Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</br>
+ Under Inspelning, skapa Inspelning som lokal entitet. Lägg till Benämning.</br>
+ Skriv in uppgiften under Benämning.</br>
+ ```Exempel: Inspelad 2010``` 
   
 #### Anmarkningar
 ##### Anmärkning om språk
@@ -455,21 +469,7 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
  
- #### Inspelning
-  Här kan kodad uppgift om inspelningstid och inspelningsplats anges.</br>
- * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</br>
- Under Inspelning, skapa Inspelning som lokal entitet och lägg till Datum.</br>
- ```Exempel: 2010```</br>
- * Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
-  Under Inspelning, skapa Inspelning som lokal entitet och lägg till Plats. Under Plats skapa Plats som lokal entitet och skriv in uppgiften under Benämning.</br>
-   ```Exempel: Stockholm```</br>
-  
-  Om så önskas, kan även en anmärkning om inspelningstid och/eller inspelningsplats läggas till. Denna egenskap är förvald i mallen.
- * Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</br>
- Under Inspelning, skapa Inspelning som lokal entitet. Lägg till Benämning.</br>
- Skriv in uppgiften under Benämning.</br>
- ```Exempel: Inspelad 2010``` 
- 
+
  
  
      
