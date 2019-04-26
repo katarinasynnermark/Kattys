@@ -446,12 +446,15 @@ Gör anmärkning om inspelningens tid, plats och omständigheter.
 
 Ange kodade uppgifter om inspelningstid och inspelningsplats.
 * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</BR>
-  Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning och lägg till Datum. Skriv in uppgiften.</BR>
+  Under Inspelning, lägg till Inspelning som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
+  Klicka på plustecknet, Lägg till egenskaper under: Inspelning. Lägg till datum. Skriv in uppgiften.
     ```Exempel: 2010```
 
 * Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</BR>
-Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning  och lägg till Plats. Klicka på plustecknet till höger om Plats Lägg till entitet och skapa Plats som lokal entitet. Skriv in uppgiften under Benämning.</BR>
-```Exempel: Stockholm```
+  Klicka igen på plustecknet, Lägg till egenskaper under: Inspelning. Lägg till Plats.
+  Under Plats, lägg till Plats som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
+  Klicka på plustecknet bredvid Plats, Lägg till egenskaper under Plats och lägg till Benämning. Skriv in uppgiften.
+   ```Exempel: Stockholm```
 
 #### Anmarkningar
 ##### Anmärkning om språk
