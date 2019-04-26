@@ -358,9 +358,9 @@ Lägg även till:
  
  Ange övriga dubbningars språk i Har del. 
  
-* Har del/Verk/Språk (hasPart/Verk/language = 041 #a)</br>  
-Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till egenskapen Språk under Verk och länka till dubbningens språk.</br>  
-```Exempel: svenska (swe)```
+* Har del/Verk/Språk (hasPart/Verk/language = 041 #a)  
+  Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till egenskapen Språk under Verk och länka till    dubbningens språk. 
+  ```Exempel: svenska (swe)```
 
 * Har del/Verk/Anmärkning: Språk (hasPart/Verk/marc:LanguageNote = 041 i1: 1)
 </br> Lägg till Anmärkning: Språk under Verk och välj fras från lista (frasen syftar på dubbningens språk):</br> 
