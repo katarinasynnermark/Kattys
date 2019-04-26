@@ -436,21 +436,23 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
    * ```Two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
    * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)```
 
- #### Inspelning
-  Här kan kodad uppgift om inspelningstid och inspelningsplats anges.</br>
- * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</br>
- Under Inspelning, skapa Inspelning som lokal entitet och lägg till Datum.</br>
- ```Exempel: 2010```</br>
- * Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</br>
-  Under Inspelning, skapa Inspelning som lokal entitet och lägg till Plats. Under Plats skapa Plats som lokal entitet och skriv in uppgiften under Benämning.</br>
-   ```Exempel: Stockholm```</br>
-  
-  Om så önskas, kan även en anmärkning om inspelningstid och/eller inspelningsplats läggas till. Denna egenskap är förvald i mallen.
- * Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</br>
- Under Inspelning, skapa Inspelning som lokal entitet. Lägg till Benämning.</br>
- Skriv in uppgiften under Benämning.</br>
- ```Exempel: Inspelad 2010``` 
-  
+#### Inspelning
+Under inspelning kan man göra såväl anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
+
+Gör anmärkning om inspelningens tid, plats och omständigheter.
+* Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)
+Skriv in uppgiften under Benämning.
+```Exempel: Inspelad 2010 i Konserthuset, Stockholm```
+
+Ange kodade uppgifter om inspelningstid och inspelningsplats.
+* Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)
+Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning och lägg till Datum. Skriv in uppgiften.
+```Exempel: 2010```
+
+* Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)
+Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning  och lägg till Plats. Klicka på plustecknet till höger om Plats Lägg till entitet och skapa Plats som lokal entitet. Skriv in uppgiften under Benämning.
+```Exempel: Stockholm```
+
 #### Anmarkningar
 ##### Anmärkning om språk
  * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
