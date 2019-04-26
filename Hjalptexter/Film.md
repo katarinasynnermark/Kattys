@@ -339,7 +339,8 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   Om filmen innehåller originalversionen samt flera dubbningar, ange originalversionens språk. För att ange dubbningarnas språk, se nedan under Dubbningar.
   
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
- För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:</br> 
+  
+  För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:</br> 
    ```"icke-språkligt medium"```</BR>
  
 ##### Dubbningar 
