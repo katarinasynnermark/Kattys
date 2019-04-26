@@ -330,21 +330,24 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   
 #### Sprak 
 * Språk (language = 008/35-37)</BR>
-  Ange filmens talade eller sjungna språk. Om originalversionen saknas, men flera dubbningar finns, ange det språk som huvudtiteln är på. Om filmen innehåller originalversionen samt flera dubbningar, ange originalversionens språk. För att ange dubbningarnas språk, se nedan.
+  Ange filmens talade eller sjungna språk. Om originalversionen saknas, men flera dubbningar finns, ange det språk som huvudtiteln är på. Om filmen innehåller originalversionen samt flera dubbningar, ange originalversionens språk. För att ange dubbningarnas språk, se nedan under Dubbningar.
   </BR>Länka till entitet.  
   ```Exempel: engelska (eng)```</BR>
   Om flera språk talas i filmen, länka till ytterligare språkentiteter.</br> 
  För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) länka till entiteten:</br> 
    ```"icke-språkligt medium"```</BR>
  
+##### Dubbningar 
  Om filmen innehåller originalversionen samt flera dubbningar, klicka på plustecknet vid Instans av verk och lägg till egenskapen Anmärkning: Språk.</br> 
  * Anmärkning: Språk (marc:languageNote = 041 0/- #a)</br> 
- Välj fras från lista:</br> 
+ Välj fras från lista (frasen syftar på originalversionen):</br> 
   ```objektet är/innehåller ej översättning```</BR>
+  
+Ange dubbningarnas språk under Har del.
  
  För en film med en eller flera dubbningar där originalversionen saknas, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Välj fras från lista:</br>
+  Välj fras från lista (frasen syftar på dubbningen vars språk är angivet under Språk, se ovan):</br>
    ```objektet är/innehåller översättning```</BR>   
  
  För en film med en eller flera dubbningar där originalversionen saknas, lägg även till: 
@@ -352,17 +355,15 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
   ```Exempel: engelska (eng)```</br> 
  
- Om filmen innehåller originalversionen och en eller flera dubbningar eller saknar originalversionen men innehåller fler än en dubbning, ange dubbningarnas språk i Har del. 
+ Ange de övriga dubbningarnas språk i Har del. 
  
-Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till egenskapen Språk under Verk och länka till dubbningens språk.  
+För att ange dubbningars språk i Har del, lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till egenskapen Språk under Verk och länka till dubbningens språk.  
 
-Lägg till egenskapen Anmärkning: Språk under Verk och välj frasen Objektet är/innehåller en översättning. 
+Lägg sedan till egenskapen Anmärkning: Språk under Verk och välj frasen Objektet är/innehåller en översättning. 
 
 Lägg till Originalversion/Verk/Språk och länka till språket för originalversionen.
 
 Upprepa Verk som lokal entitet under Har del för varje dubbningsspråk. Lägg till Språk, Anmärkning: Språk och Originalversion/Verk/Språk.
-
-
 
 Om det är många dubbningar, kan man duplicera den första verksentiteten under Har del och byta ut språket.  
 
