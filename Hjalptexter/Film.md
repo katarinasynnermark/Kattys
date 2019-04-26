@@ -352,7 +352,7 @@ Ange dubbningarnas språk under Har del.
    ```objektet är/innehåller översättning```</BR>   
  
 Lägg även till: 
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)</br>   
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
   ```Exempel: engelska (eng)```</br> 
  
