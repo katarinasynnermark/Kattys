@@ -341,14 +341,14 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
 ##### Dubbningar 
  Om filmen innehåller originalversionen samt flera dubbningar, klicka på plustecknet vid Instans av verk och lägg till egenskapen Anmärkning: Språk.</br> 
  * Anmärkning: Språk (marc:languageNote = 041 0/- #a)</br> 
- Välj fras från lista (frasen syftar på originalversionen):</br> 
+ Välj fras från lista (frasen syftar på originalversionen):
   ```objektet är/innehåller ej översättning```</BR>
   
 Ange dubbningarnas språk under Har del.
  
  För en film med en eller flera dubbningar där originalversionen saknas, lägg till:  
-* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)</br>   
-  Välj fras från lista (frasen syftar på dubbningen vars språk är angivet under Språk, se ovan):</br>
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)
+  Välj fras från lista (frasen syftar på dubbningen vars språk är angivet under Språk, se ovan):</br> 
    ```objektet är/innehåller översättning```</BR>   
  
 Lägg även till: 
@@ -358,15 +358,15 @@ Lägg även till:
  
  Ange övriga dubbningars språk i Har del. 
  
-* Har del/Verk/Språk (hasPart/Verk/language = 041 #a)</br> 
+* Har del/Verk/Språk (hasPart/Verk/language = 041 #a) 
 Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till egenskapen Språk under Verk och länka till dubbningens språk.</br>  
 ```Exempel: svenska (swe)```
 
-* Har del/Verk/Anmärkning: Språk (hasPart/Verk/marc:LanguageNote = 041 i1: 1)</br> 
+* Har del/Verk/Anmärkning: Språk (hasPart/Verk/marc:LanguageNote = 041 i1: 1)
 Lägg till Anmärkning: Språk under Verk och välj fras från lista (frasen syftar på dubbningens språk):</br> 
 ```Exempel: Objektet är/innehåller en översättning```
 
-* Har del/Verk/Originalversion/Verk/Språk (hasPart/Verk/originalVersion/Verk/language = 041 #h)</br> 
+* Har del/Verk/Originalversion/Verk/Språk (hasPart/Verk/originalVersion/Verk/language = 041 #h) 
 Lägg till Originalversion under Verk och länka till språket för originalversionen.</br> 
 ```Exempel: engelska (eng)```
 
