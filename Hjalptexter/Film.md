@@ -440,17 +440,17 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
 Under inspelning kan man göra såväl anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
 
 Gör anmärkning om inspelningens tid, plats och omständigheter.
-* Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)
- Skriv in uppgiften under Benämning.
+* Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</BR>
+ Skriv in uppgiften under Benämning.</BR>
    ```Exempel: Inspelad 2010 i Konserthuset, Stockholm```
 
 Ange kodade uppgifter om inspelningstid och inspelningsplats.
-* Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)
-  Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning och lägg till Datum. Skriv in uppgiften.
+* Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</BR>
+  Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning och lägg till Datum. Skriv in uppgiften.</BR>
     ```Exempel: 2010```
 
-* Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)
-Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning  och lägg till Plats. Klicka på plustecknet till höger om Plats Lägg till entitet och skapa Plats som lokal entitet. Skriv in uppgiften under Benämning.
+* Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</BR>
+Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning  och lägg till Plats. Klicka på plustecknet till höger om Plats Lägg till entitet och skapa Plats som lokal entitet. Skriv in uppgiften under Benämning.</BR>
 ```Exempel: Stockholm```
 
 #### Anmarkningar
