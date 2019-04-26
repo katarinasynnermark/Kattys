@@ -441,13 +441,13 @@ Under inspelning kan man göra såväl anmärkning om inspelningens tid, plats o
 
 Gör anmärkning om inspelningens tid, plats och omständigheter.
 * Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)
-Skriv in uppgiften under Benämning.
-```Exempel: Inspelad 2010 i Konserthuset, Stockholm```
+ Skriv in uppgiften under Benämning.
+   ```Exempel: Inspelad 2010 i Konserthuset, Stockholm```
 
 Ange kodade uppgifter om inspelningstid och inspelningsplats.
 * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)
-Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning och lägg till Datum. Skriv in uppgiften.
-```Exempel: 2010```
+  Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning och lägg till Datum. Skriv in uppgiften.
+    ```Exempel: 2010```
 
 * Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)
 Klicka på plustecknet längst ut till höger Lägg till egenskaper under: Inspelning  och lägg till Plats. Klicka på plustecknet till höger om Plats Lägg till entitet och skapa Plats som lokal entitet. Skriv in uppgiften under Benämning.
