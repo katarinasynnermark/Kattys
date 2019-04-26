@@ -347,7 +347,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
 Ange dubbningarnas språk under Har del.
  
  För en film med en eller flera dubbningar där originalversionen saknas, lägg till:  
-* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)</br> 
   Välj fras från lista (frasen syftar på dubbningen vars språk är angivet under Språk, se ovan):</br> 
    ```objektet är/innehåller översättning```</BR>   
  
