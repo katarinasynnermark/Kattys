@@ -287,7 +287,7 @@ Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogi
 (contribution/PrimaryContribution/role = 700, 710 #4)
 
 #### Sprak 
-* Språk (language = 008/35-37)
+* Språk (language = 008/35-37)(/br)
 Ange textens språk här. För en text på svenska, länka till svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
 
 ##### Översättning 
