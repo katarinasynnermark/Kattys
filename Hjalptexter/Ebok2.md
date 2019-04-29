@@ -273,15 +273,18 @@ Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogi
 ##### Primär medverkan  
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)
-
+* Medverkan och funktion/Primär medverkan/Agent/Organisation (110 2/-)
+* Medverkan och funktion/Primär medverkan/Agent/Jurisdiktion (110 1/-)
 * Medverkan och funktion/Primär medverkan/Funktion  
-(contribution/PrimaryContribution/role = 100 #4)
+(contribution/PrimaryContribution/role = 100, 110 #4)
 
 ##### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person  
 (contribution/agent/Person = 700 1/- #a)
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)
+* Medverkan och funktion/Medverkan/Funktion  
+(contribution/PrimaryContribution/role = 700, 710 #4)
 
 #### Sprak 
 * Språk (language = 008/35-37)
