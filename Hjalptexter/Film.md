@@ -334,7 +334,7 @@ Det är ovanligt att film har primär medverkande. För att en agent ska ska rä
   Länka till entitet.  
   ```Exempel: engelska (eng)```</BR>
   
-  Om originalversionen saknas, men flera dubbningar finns, ange någon av dubbningarnas språk. För att ange övriga dubbningars språk, se nedan under Dubbningar.</br> 
+  Om originalversionen saknas, men flera dubbningar finns, ange något av dubbningarnas språk. För att ange övriga dubbningars språk, se nedan under Dubbningar.</br> 
   
   Om filmen innehåller originalversionen samt flera dubbningar, ange originalversionens språk. För att ange dubbningarnas språk, se nedan under Dubbningar.
   
