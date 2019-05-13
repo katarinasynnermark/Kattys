@@ -1,7 +1,7 @@
 ## E-bok
 
 Beskrivningen av en e-bok innehåller följande tre delar:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå.
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
@@ -65,6 +65,7 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
   
   Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
   ```Onlineresurs, r```</BR>
+  
   Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
   ```Onlineutgåva, o```</BR>
   
@@ -219,7 +220,8 @@ Följ dessa instruktioner:
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
 #### Digital karaktaristika
-* Digital karaktärisitika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347 #b)</BR>
+* Digital karaktärisitika/Kodningsformat/Benämning</br>
+(digitalCharacteristic/EncodingFormat/label = 347 #b)</BR>
   Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5264.html). 
   Skriv in uppgiften under Benämning.</BR>
   ```Exempel: PDF```
