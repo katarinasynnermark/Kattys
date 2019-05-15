@@ -437,7 +437,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
    * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)```
 
 #### Inspelning
-Under inspelning kan man göra såväl anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
+Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
 
 Gör anmärkning om inspelningens tid, plats och omständigheter.
 * Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</BR>
