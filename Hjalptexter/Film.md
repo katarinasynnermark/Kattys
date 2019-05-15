@@ -439,12 +439,12 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
 #### Inspelning
 Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
 
-Gör anmärkning om inspelningens tid, plats och omständigheter.
+##### Anmärkning om inspelningens tid, plats och omständigheter.
 * Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</BR>
  Skriv in uppgiften under Benämning.</BR>
    ```Exempel: Inspelad 2010 i Konserthuset, Stockholm```
 
-Ange kodade uppgifter om inspelningstid och inspelningsplats.
+##### Kodade uppgifter om inspelningstid och inspelningsplats.
 * Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</BR>
   Under Inspelning, lägg till Inspelning som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
   Lägg till Datum genom att klicka på plustecknet, Lägg till egenskaper under: Inspelning. Skriv in uppgiften.</BR>
