@@ -21,23 +21,24 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 ### Innehåll  
 
-| [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- |
-| [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Titel](#titel) | [Språk](#sprak)  |
-| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
-| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
-| [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
-| [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
-| [Bilagor](#bilagor) | |
-| [Seriemedlemskap](#seriemedlemskap) | | 
-| [Innehållsanmärkning](#innehallsanmarkning) | | 
-| [Anmärkning](#anmarkning) | | 
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ----------- |  ----------- | ----------- | 
+|  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#v| erkets-titel) |
+| | [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Titel](#titel) | [Språk](#sprak)  |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
+| | [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
+| | [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
+| | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
+| | [Bilagor](#bilagor) | |
+| | [Seriemedlemskap](#seriemedlemskap) | | 
+| | [Innehållsanmärkning](#innehallsanmarkning) | | 
+| | [Anmärkning](#anmarkning) | | 
 
 ### Instans
   För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
