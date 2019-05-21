@@ -32,9 +32,9 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
 | | [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
-| | [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
+| | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
+| | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |  
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
 | | [Bilagor](#bilagor) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsanmärkning](#innehallsanmarkning) | | 
