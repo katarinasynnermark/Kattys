@@ -398,22 +398,6 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entitet.  
   ```Exempel: term/rda/PerformedMusic```  
-  
-#### Anmarkning om medverkande
-  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)  
- Ange namn på medverkande följt av instrumentnamn och/eller röstläge.  
-  ```Exempel: Mats Gustafsson, flutephone, tenorsaxofon ; David Grubbs, harmonium```
-  
-#### Sammanfattning av innehall    
-  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
-  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
-  <br/>```Exempel:```
-    * ```60 trallar från Dalarna```
-    * ```Musik från filmen The star```
-
-  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
-  Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
- ```Exempel: Ej preciserad```
  
 #### Inspelning
 Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
@@ -434,3 +418,20 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
   Under Plats, lägg till Plats som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
   Klicka på plustecknet bredvid Plats, Lägg till egenskaper under Plats och lägg till Benämning. Skriv in uppgiften.</BR>
    ```Exempel: Stockholm```
+  
+#### Anmarkning om medverkande
+  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)  
+ Ange namn på medverkande följt av instrumentnamn och/eller röstläge.  
+  ```Exempel: Mats Gustafsson, flutephone, tenorsaxofon ; David Grubbs, harmonium```
+  
+#### Sammanfattning av innehall    
+  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
+  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
+  <br/>```Exempel:```
+    * ```60 trallar från Dalarna```
+    * ```Musik från filmen The star```
+
+  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
+  Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
+ ```Exempel: Ej preciserad```
+
