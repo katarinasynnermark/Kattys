@@ -274,12 +274,7 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   <br/>```Exempel:```
     * ```La traviata```
     * ```Symfoni```
-    * ```Pianomusik```
- 
-   Ange besättning i Huvudtitel efter form/genre/pregnant titel.
-  <br/>```Exempel:```
-    * ```Kvartett, stråkar```
-    * ```Fosterlandspsalm, röst, orkester```  
+    * ```Pianomusik```  
   
   Använd även Huvudtitel för *hela* den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.
   <br/>```Exempel:```
@@ -303,9 +298,18 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
     Grupptitlar, exempelvis ”Pianomusik. Urval”, används då Instansen innehåller flera verk av samma tonsättare. Grupptiteln kompletteras med individuella sökingångar för dessa verk (i Relation/Verk).  
     Lägg till eventuell grupptitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Specificering i form av grupptitel. Skriv in uppgiften.  
      ```Exempel: Urval```  
+
+  * Besättning för framförande (musicMedium = 240 ‡m)  
+  Ange besättning. Skriv in uppgiften.
+  <br/>```Exempel:```
+    * ```orkester```
+    * ```klarinett, piano```
+    * ```blandad kör```
+      
   * Tonart (240 1/0 ‡r)       
     Ange tonart. Skriv in uppgiften.  
     ```Exempel: fiss-moll```  
+    
   * Version (240 1/0 ‡o)        
     Ange eventuellt arrangemang. Skriv in uppgiften.  
      ```Exempel: arr. röst, piano```  
