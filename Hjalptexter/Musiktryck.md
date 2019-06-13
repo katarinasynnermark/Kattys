@@ -38,8 +38,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Titel](#titel) | [Genre](#genre) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| | [Utgivning](#utgivning) | [Besättning](#besattning-for-framforande)  |
-| | [Tillverkning](#tillverkning) | [Notationssystem och språk](#notationssystem-och-sprak)  |
+| | [Utgivning](#utgivning) | [Besättning](#besattning-for-framforande) |
+| | [Tillverkning](#tillverkning) | [Notationssystem och språk](#notationssystem-och-sprak) |
 | | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) |
 | | [Identifikator](#identifikator) | [Sekundär DDK-klassifikation](#sekundar-ddk-klassifikation) |
 | | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) | [Har del](#har-del) |   
