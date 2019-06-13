@@ -38,11 +38,11 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Titel](#titel) | [Genre](#genre) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| | [Utgivning](#utgivning) | [Besättning](#besattning-for-framforande) |
-| | [Tillverkning](#tillverkning) | [Notationssystem och språk](#notationssystem-och-sprak) |
-| | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) |
-| | [Identifikator](#identifikator) | [Sekundär DDK-klassifikation](#sekundar-ddk-klassifikation) |
-| | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) | [Har del](#har-del) |   
+| | [Utgivning](#utgivning) |  [Notationssystem och språk](#notationssystem-och-sprak) |
+| | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) |
+| | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
+| | [Identifikator](#identifikator) | [Har del](#har-del) |  
+| | [Omfång](#omfang) | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
 | | [Mått](#matt) | |                                                                  
 | | [Bilagor](#bilagor) | |  
