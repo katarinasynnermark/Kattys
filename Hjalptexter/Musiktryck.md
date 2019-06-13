@@ -382,7 +382,8 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   Steg 2: För att ändra verkstyp måste du radera den befintliga verkstypen och lägga till en ny. Börja med att ta bort verkstypen Text genom att klicka på papperskorgen till höger om Text (eller annan verkstyp som du vill ändra). Lägg till en ny verkstyp genom att klicka på plustecknet till vänster om Instans av verk. Välj Skapa lokal entitet – Noterad musik.  
   Steg 3: Välj sedan om du vill berika posten med metadata som fanns i den gamla posten (klicka på Verktyg och välj Berika från post - Från ID och klistra in det ID som du kopierade i Steg 1)  
   ELLER  
-  om du vill berika från mall för att få fram de vanligaste egenskaperna (Klicka på Verktyg och välj Berika från mall – Noterad musik).   (OBS! Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan ändra Innehållstyp under Noterad musik till ”notated music · ntm”.)
+  om du vill berika från mall för att få fram de vanligaste egenskaperna (Klicka på Verktyg och välj Berika från mall – Noterad musik).     
+  (OBS! Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan ändra Innehållstyp under Noterad musik till ”notated music · ntm”.)
   
 #### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). Pregnanta titlar för musik anges ofilerade enligt svensk musikbibliotekstradition.  
