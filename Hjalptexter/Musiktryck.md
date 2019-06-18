@@ -196,7 +196,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
 ##### År och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-    Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c (till 264 förutsatt att inte Datum är angivet). 
+    Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c (till 264 förutsatt att inte Datum är angivet).  
   ```Exempel: 2017```  
 
   Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
@@ -424,7 +424,7 @@ Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Ti
 
 * Specificering i form av grupptitel (hasTitle/Title/mainTitle/marc:formSubheading = 240 1/0 #k)   
   Grupptitlar, exempelvis ”Pianomusik. Urval”, används då Instansen innehåller flera verk av samma tonsättare. Grupptiteln kompletteras med individuella sökingångar för dessa verk (i Relation/Verk).  
-  Lägg till eventuell grupptitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Specificering i form av grupptitel. Skriv in uppgiften.  
+  Lägg till eventuell grupptitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Specificering i form av grupptitel. Skriv in uppgiften.
   <br/>```Exempel: Urval```  
 
 * Besättning för framförande (musicMedium = 240 #m)  
