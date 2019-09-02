@@ -1,4 +1,3 @@
-
 ---
 section: Materialtyper
 title: Musik-CD
