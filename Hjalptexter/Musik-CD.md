@@ -1,7 +1,16 @@
 
+---
+section: Materialtyper
+title: Musik-CD
+order: 48
+date: 2019-09-04
+tags:
+- under arbete
+- musik-CD
+- ljudinspelning
+--- 
+
 ## Musik-CD - ljudinspelning 
-
-
 Beskrivningen av en musik-CD innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
@@ -35,7 +44,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
 | | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |  
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| | [Bilagor](#bilagor) | |
+| | [Medföljande material](#medfoljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsanmärkning](#innehallsanmarkning) | | 
 | | [Anmärkning](#anmarkning) | | 
@@ -222,9 +231,9 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   Skriv in uppgiften.  
   ```Exempel: mono```
   
-#### Bilagor
-  * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
-  Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.)</br> 
+#### Medfoljande material
+  * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
+  Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.)</br> 
   Lägg till Benämning. Skriv in uppgiften.  
    ```Exempel: Sångtexter och kommentarer i bilaga```  
     
