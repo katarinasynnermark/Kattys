@@ -44,7 +44,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Omfång](#omfang) | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
 | | [Mått](#matt) | |                                                                  
-| | [Medföljande material](#medfoljand-material) | |  
+| | [Medföljande material](#medfoljande-material) | |  
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | |
 | | [Format för noterad musik](#format-for-noterad-musik) | |
