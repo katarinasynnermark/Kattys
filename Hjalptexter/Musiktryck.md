@@ -267,8 +267,9 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
   ```Exempel: 24 cm```  
   
 #### Medfoljande material
-* Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)
-  Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa   lokal entitet och välj ** Instans.) Lägg till Benämning.
+* Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)</br>
+  Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa   lokal entitet och välj ** Instans.)</br>
+  Lägg till Benämning.
   Skriv in uppgiften.    
   ```Exempel: 1 CD```  
 
