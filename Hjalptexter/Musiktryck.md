@@ -2,12 +2,11 @@
 section: Materialtyper
 title: Musiktryck
 order: 49
-date: 2019-04-17
+date: 2019-09-04
 tags:
 - under arbete
 - musiktryck
 --- 
-
 
 ## Musiktryck
 
@@ -45,7 +44,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Omfång](#omfang) | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
 | | [Mått](#matt) | |                                                                  
-| | [Bilagor](#bilagor) | |  
+| | [Medföljande material](#medfoljand-material) | |  
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | |
 | | [Format för noterad musik](#format-for-noterad-musik) | |
@@ -196,8 +195,8 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
 ##### År och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-    Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c (till 264 förutsatt att inte Datum är angivet).  
-  ```Exempel: 2017```  
+    Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c (till 264 förutsatt att inte Datum är angivet). 
+<br/>```Exempel: 2017```  
 
   Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
   
@@ -267,8 +266,9 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
   Skriv in uppgiften under Benämning.  
   ```Exempel: 24 cm```  
   
-#### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)  
+#### Medfoljande material
+* Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)
+  Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa   lokal entitet och välj ** Instans.) Lägg till Benämning.
   Skriv in uppgiften.    
   ```Exempel: 1 CD```  
 
@@ -375,8 +375,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 
   För att lägga till egenskaper under Instans av Verk/Noterad musik, klicka på plustecknet vid Instans av Verk/Noterad musik - Lägg till egenskaper under: Noterad musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
   
-  #### Byta verkstyp
-
+#### Byta verkstyp
 Ibland finns behov av att ändra verkstyp, t ex från Text till Noterad musik. Det kan gälla förhandsposter från Bokinfo eller andra poster där den katalogiserande instansen har valt en annan verkstyp.  
 
 **Observera:** Ta fram posten i ett nytt fönster i webbläsaren, innan du raderar verkstypen, om du vill kunna kopiera uppgifter från den gamla posten till den nya, eller jämföra posten före och efter. Spara inte posten förrän du är helt klar med byte av verkstyp och postberikning.  
@@ -603,4 +602,5 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
 
 * Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
+
 
