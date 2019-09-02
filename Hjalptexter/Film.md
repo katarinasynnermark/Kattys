@@ -242,7 +242,7 @@ Lägg till Benämning. Skriv in uppgiften.
 * Videokarakteristika (videoCharacteristics = 007/04)
   <BR/>Länka till entitet. 
 Här anges format, antingen DVD eller Blu-ray Disc.
-   <br/>```Exempel:```
+   <br/>```Exempel:```<br/>
       * ```DVD, v```
       * ```Blu-ray Disc, s```
 
