@@ -243,7 +243,7 @@ Lägg till Benämning. Skriv in uppgiften.
   <BR/>Länka till entitet. 
 Här anges format, antingen DVD eller Blu-ray Disc.
    <br/>```Exempel:```<br/>
-      * ```DVD, v```
+      * ```DVD, v```<br/>
       * ```Blu-ray Disc, s```
 
 #### Seriemedlemskap
