@@ -40,7 +40,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
 | | [Medföljande material](#medfoljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | | 
+| | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmarkning](#anmarkning) | | 
 
 ### Adminmetadata
@@ -244,8 +244,8 @@ Ibland medföljer en extra MP3-CD (med samma ISBN) vid distribution och försäl
 #### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
    
-#### Innehallsanmarkning  
-För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
+#### Innehallsforteckning  
+För anvisningar om hur man lägger till olika typer av innehållsförteckningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning): Innehållsförteckning.
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
