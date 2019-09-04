@@ -48,7 +48,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | |
 | | [Format för noterad musik](#format-for-noterad-musik) | |
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Innehållsförteckning](#innehallsforteckning) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | | 
 
@@ -339,18 +339,18 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   Skriv in uppgiften.  
   ```Exempel: rda```  
 
-#### Innehallsanmarkning  
+#### Innehallsforteckning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-  Musik- och teaterbiblioteket rekommenderar enkel innehållsanmärkning för musiktryck.  
-  För en enkel innehållsanmärkning (505 #a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.
+  Musik- och teaterbiblioteket rekommenderar enkel innehållsförteckning för musiktryck.  
+  För en enkel innehållsförteckning (505 #a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
    * ```Concerto nach italienischem Gusto, BWV 971 ; Ouverture nach französischer Art, BWV 831 ; Appendix: Ouverture in c, BWV 831a```
    * ```Chain of fools / Donald Covay -- A deeper love / David Cole, Robert Clivilles -- Do right woman, do right man / Chips Moman, Dan Penn -- I knew you were waiting (for me) / Dennis Morgan, Simon Climie```
 
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 #t, #r)  
-  För en utökad innehållsanmärkning med titlar och upphovsuppgifter.  
-  Klicka på pilen vid Innehållsförteckning: {Namnlös} för att fälla ut Utökad innehållsanmärkning med Benämning och Upphovsuppgift. Lägg in titel under Benämning och upphov under Upphovsuppgift. Vid behov, lägg in Kommentar.  
-  För att lägga till ytterligare en Utökad innehållsanmärkning med titel (Benämning) och Upphovsuppgift som lokal entitet, klicka på Duplicera entitet.
+  För en utökad innehållsförteckning med titlar och upphovsuppgifter.  
+  Klicka på pilen vid Innehållsförteckning: {Namnlös} för att fälla ut Utökad innehållsförteckning med Benämning och Upphovsuppgift. Lägg in titel under Benämning och upphov under Upphovsuppgift. Vid behov, lägg in Kommentar.  
+  För att lägga till ytterligare en Utökad innehållsförteckning med titel (Benämning) och Upphovsuppgift som lokal entitet, klicka på Duplicera entitet.
 
 #### Malgruppsanmarkning
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
