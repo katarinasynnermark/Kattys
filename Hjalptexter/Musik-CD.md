@@ -247,7 +247,7 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
     * ```Symfoni, nr 1, op. 45, d-moll ; Serenad, op. 36, d-moll```
     * ```Don't Deceive Me (Fats Domino) -- Cheatin' Woman (Frankie Ford) -- Honey Hush (Joe Turner) -- Diddy-Y-Diddy-O (Roy Brown) -- Whirlaway (Allen Toussaint) -- Cha Dooky Doo (Art Neville) -- Real Gone Party (Ruth & Al) -- Chickee Wah Wah (Bobby Marchan) --There'll Be No Backin' Out (Mickey & Sylvia) -- That's All I Need To Know (Sam Cooke) -- Carry On (Jerry Byrne)```
 
-  * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 #t, #r)  
+   * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)  
   För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, se Hjälptexten för Instans:
   https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning
   
