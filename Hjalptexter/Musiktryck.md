@@ -347,10 +347,8 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
    * ```Concerto nach italienischem Gusto, BWV 971 ; Ouverture nach französischer Art, BWV 831 ; Appendix: Ouverture in c, BWV 831a```
    * ```Chain of fools / Donald Covay -- A deeper love / David Cole, Robert Clivilles -- Do right woman, do right man / Chips Moman, Dan Penn -- I knew you were waiting (for me) / Dennis Morgan, Simon Climie```
 
-* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 #t, #r)  
-  För en utökad innehållsförteckning med titlar och upphovsuppgifter.  
-  Klicka på pilen vid Innehållsförteckning: {Namnlös} för att fälla ut Utökad innehållsförteckning med Benämning och Upphovsuppgift. Lägg in titel under Benämning och upphov under Upphovsuppgift. Vid behov, lägg in Kommentar.  
-  För att lägga till ytterligare en Utökad innehållsförteckning med titel (Benämning) och Upphovsuppgift som lokal entitet, klicka på Duplicera entitet.
+* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)    
+  För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, se hjälptexten för Instans: https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning
 
 #### Malgruppsanmarkning
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
