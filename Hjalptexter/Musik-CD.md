@@ -248,9 +248,8 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
     * ```Don't Deceive Me (Fats Domino) -- Cheatin' Woman (Frankie Ford) -- Honey Hush (Joe Turner) -- Diddy-Y-Diddy-O (Roy Brown) -- Whirlaway (Allen Toussaint) -- Cha Dooky Doo (Art Neville) -- Real Gone Party (Ruth & Al) -- Chickee Wah Wah (Bobby Marchan) --There'll Be No Backin' Out (Mickey & Sylvia) -- That's All I Need To Know (Sam Cooke) -- Carry On (Jerry Byrne)```
 
   * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 #t, #r)  
-  För en utökad innehållsanmärkning med titlar och upphovsuppgifter.  
-  Klicka på på pilen vid Innehållsförteckning: {Namnlös} för att fälla ut Utökad innehållsanmärkning med Benämning och Upphovsuppgift. Lägg in titel under Benämning och upphov under Upphovsuppgift. Vid behov, lägg in Kommentar.  
-  För att lägga till ytterligare en Utökad innehållsanmärkning med titel (Benämning) och Upphovsuppgift som lokal entitet, klicka på Duplicera entitet.
+  För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, se Hjälptexten för Instans:
+  https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning
   
 #### Anmarkning
   * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
