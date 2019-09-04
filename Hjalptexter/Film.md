@@ -44,7 +44,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Videokarakteristika](#videokarakteristika) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Innehållsförteckning](#innehallsforteckning) | |
 | | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 | | [Anmärkning](#anmarkning) | |
 | | [Elektronisk adress](#elektronisk-adress) | |
@@ -256,8 +256,8 @@ Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan
 
 Notera att kodning av målgrupp, motsvarande 008/22, ska anges i [Målgrupp](#malgrupp) under Instans av Verk. 
 
-#### Innehallsanmarkning  
-För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
+#### Innehallsforteckning  
+För anvisningar om hur man lägger till olika typer av innehållsförteckningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
   
 #### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen.
