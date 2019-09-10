@@ -199,14 +199,15 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för musik-CD är Utgivningsnummer (ljudinspelning) och EAN förvalda.
 
 ##### Utgivningsnummer (ljudinspelning)
+Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivnummer kallas också fonogramnummer.  
   * Identifikator (identifiedBy)<br/>
   Välj typ från lista.
   <br/>```Exempel: Utgivningsnummer (ljudinspelning)```
   * Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 #a)<br/>
-  Ange identifikator som det förekommer i resursen.
+  Ange utgivningsnummer (= skivnummer) som det förekommer i resursen.
   <br/>```Exempel: DEERCD016```
-  * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
-  Ange utgivarens namn.
+  * Identifikator/Agent/Organisation/Namn (= skivmärke) (identifiedBy/agent/Organization/name = 028 #b)<br/>
+  Ange skivmärkets namn.
   <br/>```Exempel: Dead End Exit Records```<br/>
   * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.    
