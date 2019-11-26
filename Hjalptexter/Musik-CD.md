@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2019-09-04
+date: 2019-09-11
 tags:
 - under arbete
 - musik-CD
@@ -446,4 +446,5 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
   * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
   Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
  ```Exempel: Ej preciserad```
+
 
