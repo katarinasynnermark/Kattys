@@ -246,6 +246,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   För en enkel innehållsförteckning (505 ‡a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
     * ```Symfoni, nr 1, op. 45, d-moll ; Serenad, op. 36, d-moll```
+    * ```Ge mej din hand -- Våld -- Varför e Sverige så kallt? -- Rockin' chair -- Dig it -- En del och andra -- Enighet -- Håll ut```
     * ```Don't Deceive Me / Fats Domino -- Cheatin' Woman / Frankie Ford -- Honey Hush / Joe Turner -- Diddy-Y-Diddy-O / Roy Brown -- Whirlaway / Allen Toussaint -- Cha Dooky Doo / Art Neville -- Real Gone Party / Ruth & Al -- Chickee Wah Wah / Bobby Marchan -- There'll Be No Backin' Out / Mickey & Sylvia -- That's All I Need To Know / Sam Cooke -- Carry On / Jerry Byrne```
 
    * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)  
