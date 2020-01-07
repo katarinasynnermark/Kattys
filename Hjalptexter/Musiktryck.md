@@ -43,7 +43,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Identifikator](#identifikator) | [Har del](#har-del) |  
 | | [Omfång](#omfang) | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
-| | [Mått](#matt) | |                                                                  
+| | [Mått](#matt) | |
+| | [Speltid](#speltid) | |
 | | [Medföljande material](#medfoljande-material) | |  
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | |
@@ -267,7 +268,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
   ```Exempel: 24 cm``` 
 
 #### Speltid
-* Speltid/speltid/värde (hasDuration/Duration/Value = 306 #a)
+* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)
   Vid behov anges speltid här i kodad form.
   Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
   Om sekunder inte är kända ange 00.</br>
