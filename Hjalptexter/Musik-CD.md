@@ -228,7 +228,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   ```Exempel: 1 CD (1 tim., 12 min.) ```  
 
 #### Speltid
-* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)
+* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
   Vid behov anges speltid här i kodad form.
   Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
   Om sekunder inte är kända ange 00.</br>
