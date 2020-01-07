@@ -268,7 +268,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
   ```Exempel: 24 cm``` 
 
 #### Speltid
-* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)
+* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
   Vid behov anges speltid här i kodad form.
   Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
   Om sekunder inte är kända ange 00.</br>
