@@ -269,8 +269,8 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
 #### Speltid
 * Speltid/speltid/värde (hasDuration/Duration/Value = 306 #a)
   Vid behov anges speltid här i kodad form.
-  Skriv in uppgiften under Värde enligt formen TTMMSS.
-  Om sekunder inte är kända ange 00.
+  Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
+  Om sekunder inte är kända ange 00.</br>
   ```Exempel: 011200```
   
 #### Medfoljande material
