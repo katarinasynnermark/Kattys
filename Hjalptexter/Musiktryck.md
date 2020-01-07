@@ -264,7 +264,14 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
 #### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)  
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 24 cm```  
+  ```Exempel: 24 cm``` 
+
+#### Speltid
+* Speltid/speltid/värde (hasDuration/Duration/Value = 306 #a)
+  Vid behov anges speltid här i kodad form.
+  Skriv in uppgiften under Värde enligt formen TTMMSS.
+  Om sekunder inte är kända ange 00.
+  ```Exempel: 011200  
   
 #### Medfoljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)</br>
