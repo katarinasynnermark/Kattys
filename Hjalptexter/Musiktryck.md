@@ -271,7 +271,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
   Vid behov anges speltid här i kodad form.
   Skriv in uppgiften under Värde enligt formen TTMMSS.
   Om sekunder inte är kända ange 00.
-  ```Exempel: 011200  
+  ```Exempel: 011200```
   
 #### Medfoljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)</br>
