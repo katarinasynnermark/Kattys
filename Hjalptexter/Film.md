@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Film
 order: 43
-date: 2019-09-04
+date: 2020-01-07
 tags:
 - under arbete
 - film
@@ -39,6 +39,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
 | | [Identifikator](#identifikator) | [Bild- och filmtexter](#bild--och-filmtexter) |
 | | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
+| | [Speltid](#speltid) | |
 | | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
 | | [Medföljande material](#medfoljande-material) | [Anmärkningar](#anmarkningar) |
 | | [Videokarakteristika](#videokarakteristika) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
@@ -227,6 +228,13 @@ Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
      * ```1 DVD-video (2 tim., 7 min.)```
      * ```1 Blu-ray Disc (1 tim., 40 min.)```
+     
+#### Speltid
+* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
+  Vid behov anges speltid här i kodad form.
+  Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
+  Om sekunder inte är kända ange 00.</br>
+  ```Exempel: 011200```
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
