@@ -42,8 +42,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
 | | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
 | | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| | [Speltid](#speltid) |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Speltid](#speltid) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | | [Medföljande material](#medfoljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | | 
