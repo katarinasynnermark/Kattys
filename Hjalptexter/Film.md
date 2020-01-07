@@ -37,12 +37,12 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) |  [Ämne](#amne)  |
 | | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
-| | [Identifikator](#identifikator) | [Bild- och filmtexter](#bild--och-filmtexter) |
-| | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
-| | [Speltid](#speltid) | |
-| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
-| | [Medföljande material](#medfoljande-material) | [Anmärkningar](#anmarkningar) |
-| | [Videokarakteristika](#videokarakteristika) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
+| | [Omfång](#omfang) | [Bild- och filmtexter](#bild--och-filmtexter)|
+| | [Speltid](#speltid) | [Inspelning](#inspelning) |
+| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
+| | [Medföljande material](#medfoljande-material) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Videokarakteristika](#videokarakteristika) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Innehållsförteckning](#innehallsforteckning) | |
