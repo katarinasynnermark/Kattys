@@ -41,7 +41,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
 | | [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
 | | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
-| | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |  
+| | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
+| | [Speltid](#speltid) |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
 | | [Medföljande material](#medfoljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
@@ -225,6 +226,13 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
   ```Exempel: 1 CD (1 tim., 12 min.) ```  
+
+#### Speltid
+* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)
+  Vid behov anges speltid här i kodad form.
+  Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
+  Om sekunder inte är kända ange 00.</br>
+  ```Exempel: 011200```
   
 #### Ovriga fysiska detaljer   
   * Övriga fysiska detaljer (other physical details = 300 #b)     
