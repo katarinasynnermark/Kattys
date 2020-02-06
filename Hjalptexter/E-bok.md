@@ -23,7 +23,7 @@ tags:
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk)  |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre form](#genre-form) | 
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) | 
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) | 
