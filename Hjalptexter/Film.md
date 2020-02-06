@@ -391,7 +391,7 @@ För ingående verk med primär medverkan, lägg till Medverkan och funktion/Pri
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
 #### Genre form 
-För utförliga anvisningar om hur man anger genre/formm, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
+För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
 
 ##### Genre/form - saogf-termer
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
