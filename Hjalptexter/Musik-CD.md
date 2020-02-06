@@ -22,7 +22,7 @@ tags:
 | | [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
 | | [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Titel](#titel) | [Språk](#sprak)  |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
 | | [Copyrightår eller p-år](#copyrightar-eller-p-ar) | [Innehållstyp](#innehallstyp) |
@@ -395,7 +395,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   ```Exempel: svenska (swe)```  
   Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket. Länka till entitet. 
   
-#### Genre  
+#### Genre form 
   Länka till entitet. För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet, välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. 
 
   Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008. För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla). För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. 
