@@ -356,7 +356,9 @@ Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i söking�
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion) : Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
-#### Genre form  
+#### Genre form 
+För utförliga anvisningar om hur man anger genre/form, se hjälptexten Verk: Genre form.
+
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
 Länka till entitet.</br>
 ```Exempel: Ljudböcker```
