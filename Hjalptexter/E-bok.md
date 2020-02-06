@@ -350,44 +350,10 @@ Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning 
    Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
-#### Genre
-* Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
- Välj Genre/form i listan över typer.  
- 
-* Genre/form – termer som motsvarar marc-koder i 008  
-Välj någon av övriga rubriker i listan.
-
-##### Biografiskt material  
-* Genre/form – biografiskt material (genreForm = 008/34)  
-  Välj Biografiskt material i listan över typer. Länka till entitet.  
-  ```Exempel: a (= självbiografi)```  
-  
-##### Festskrift     
-* Genre/form – festskrift (genreForm = 008/30)  
-  Välj Festskrift i listan över typer. Länka till entitet.    
-  ```Exempel: Ja, resursen är en festskrift```    
-  
-##### Litterär genre  
-* Genre/form – litterär genre (genreForm = 008/33)  
-  Välj Litterär genre i listan över typer. Länka till entitet.  
-  ```Exempel: f (= roman)```
-   
-##### Konferenspublikation       
-* Genre/form – konferenspublikation (genreForm = 008/29)  
-  Välj Konferenspublikation i listan över typer. Länka till entitet.         
-  ```Exempel: Ja, resursen härrör från konferens```   
-     
-##### Akademisk avhandling      
-* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
-  ```Exempel: Akademisk avhandling```  
-  Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
+#### Genre/form
+För anvisningar om hur man anger genre/formm, se hjälptexten [Verk](https://libris-stg.kb.se/katalogisering/help/workflow-work#genre-form): Genre form.
 
 ###### Exempel på användning av Genre/form
-Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
-För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
-För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
-
 **Roman**  
 Exempel: Haag, Martina: Det är något som inte stämmer  
 Genre/form (saogf-term, 655): Självbiografiska skildringar, Romaner  
