@@ -377,16 +377,15 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
    
 #### Genre form 
 För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
-
-##### Genre/form - saogf-termer  
+ 
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br> 
 Länka till entiteten:</br> 
  ```Exempel: Datorspel```
 
-För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/from.
+För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/form.
 
-##### Genre/form - termer som motsvar marc-koder i 008
-* Genre/form - typ av fil (ComputerTypeOfFile = 008/26)</br> 
+* Genre/form</br> 
+Välj Typ av fil.
 Länka till entiteten:</br>
  ```Exempel: Dataspel, g```
     
