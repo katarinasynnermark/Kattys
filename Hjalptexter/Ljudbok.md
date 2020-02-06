@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2020-02-05
+date: 2020-02-06
 tags:
 - under arbete
 - ljudbok
@@ -21,7 +21,7 @@ tags:
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](#amne) |
 | | [Copyrightår eller p-år](#copyrightar-eller-p-ar) | [Målgrupp](#malgrupp) |
@@ -356,9 +356,8 @@ Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i söking�
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion) : Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
-#### Genre  
+#### Genre form  
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
-Välj Genre/form i listan över typer.</br>
 Länka till entitet.</br>
 ```Exempel: Ljudböcker```
 
