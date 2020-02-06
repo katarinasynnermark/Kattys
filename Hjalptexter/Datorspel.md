@@ -384,7 +384,7 @@ Länka till entiteten:</br>
 
 För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/form.
 
-* Genre/form</br> 
+* Genre/form - termer som motsvarar marc-koder i 008</br> 
 Välj Typ av fil.
 Länka till entiteten:</br>
  ```Exempel: Dataspel, g```
