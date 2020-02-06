@@ -21,7 +21,7 @@ tags:
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) |  [Ämne](#amne)  |
 | | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
@@ -390,15 +390,15 @@ Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i söking�
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan. 
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
-#### Genre  
-För utförliga anvisningar om hur man anger genre, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre.
+#### Genre form 
+För utförliga anvisningar om hur man anger genre/formm, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
 
 ##### Genre/form - saogf-termer
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
  Länka till entitet.</br>
- ```Exempel:```
-   * ```Spelfilmer```
-   * ```Dokumentärfilmer```
+ <br/>```Exempel:```<br/> 
+ * ```Spelfilmer```<br/> 
+ * ```Dokumentärfilmer```
   
 #### Klassifikation
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
