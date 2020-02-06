@@ -361,7 +361,7 @@ För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk:]
 
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
 Länka till entiteten:</br>
-```Exempel: Ljudböcker```
+```Ljudböcker```
 
 * Genre/form – termer som motsvarar marc-koder i 008</br>
 Välj Typ av genre för text till ljudupptagning (ej musik).</br>
