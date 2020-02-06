@@ -353,7 +353,7 @@ Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning 
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 #### Genre form
-För anvisningar om hur man anger genre/formm, se hjälptexten [Verk](https://libris-stg.kb.se/katalogisering/help/workflow-work#genre-form): Genre form.
+För anvisningar om hur man anger genre/form, se hjälptexten [Verk](https://libris-stg.kb.se/katalogisering/help/workflow-work#genre-form): Genre form.
 
 ###### Exempel på användning av Genre/form
 **Roman**  
