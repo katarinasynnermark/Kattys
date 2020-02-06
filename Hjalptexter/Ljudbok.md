@@ -360,7 +360,7 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk:](https://libris.kb.se/katalogisering/help/workflow-work#genre-form) Genre form.
 
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
-Länka till entitet.</br>
+Länka till entiteten:</br>
 ```Exempel: Ljudböcker```
 
 * Genre/form – termer som motsvarar marc-koder i 008</br>
