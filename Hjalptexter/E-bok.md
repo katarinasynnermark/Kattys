@@ -2,7 +2,7 @@
 section: Materialtyper
 title: E-bok
 order: 42
-date: 2019-06-28
+date: 2020-02-06
 tags:
 - under arbete
 - e-bok
@@ -23,7 +23,7 @@ tags:
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk)  |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre/form) | 
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre form](#genre form) | 
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) | 
@@ -350,7 +350,7 @@ Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning 
    Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
-#### Genre/form
+#### Genre form
 För anvisningar om hur man anger genre/formm, se hjälptexten [Verk](https://libris-stg.kb.se/katalogisering/help/workflow-work#genre-form): Genre form.
 
 ###### Exempel på användning av Genre/form
