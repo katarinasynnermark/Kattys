@@ -168,7 +168,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
     Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c.  
-  ```Exempel: 2017```  
+  ```Exempel: 2020```  
   
   Observera att År måste finnas med i beskrivningen, även om Datum finns med.</br>
   
@@ -380,7 +380,6 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
   ```Exempel: Sångare, sng```  
   ```Exempel: Musiker, mus```  
-  
   Om funktion inte kan specificeras, välj funktionen "Framförande".    
   ```Exempel: Framförande, prf```  
   
