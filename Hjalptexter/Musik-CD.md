@@ -177,7 +177,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
     Datum får innehålla text och interpunktionstecken.  
     Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 #c.
   <br/>```Exempel:```
-    * ```[2017]```
+    * ```[2020]```
     * ```[mellan 2003 och 2005?]```
 
   För att ange ett år utan klamrar eller andra tecken, använd År.  
@@ -192,13 +192,13 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 #### Copyrightar eller p-ar
   För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
-  Det går bara att ange ett år här, så om både copyright- och p-år förekommer på resursen ange det senaste p-året.
+  Ange senaste copyrightår. Om både copyright- och p-år förekommer på resursen, ange p-året.  
   För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Skriv in uppgiften.
   <br/>```Exempel:```
-    * ```©2017```
-    * ```℗2017```  
+    * ```℗2020```  
+    * ```©2020```
      
 #### Identifikator
 Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för musik-CD är Utgivningsnummer (ljudinspelning) och EAN förvalda.
