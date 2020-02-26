@@ -375,10 +375,10 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
 <br/>```Exempel: Persson, Peps, 1946-```  
   * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-  För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
+  För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
 <br/>```Exempel:```
     * ```Sångare, sng```
-    * ```Musiker, mus```  
+    * ```Musiker, mus```
 Om funktion inte kan specificeras, välj funktionen "Framförande":  
     ```Exempel: Framförande, prf```  
 
