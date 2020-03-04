@@ -380,7 +380,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
     * ```Sångare, sng```
     * ```Musiker, mus```
   
-Om funktion inte kan specificeras, välj funktionen "Framförande":<br/>  
+  Om funktion inte kan specificeras, välj funktionen "Framförande": 
   ```Exempel: Framförande, prf```  
 
 #### Medverkan
