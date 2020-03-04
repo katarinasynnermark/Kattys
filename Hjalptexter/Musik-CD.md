@@ -378,8 +378,8 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
 <br/>```Exempel:```
     * ```Sångare, sng```
-    * ```Musiker, mus```<br/>  
-<br/>Om funktion inte kan specificeras, välj funktionen "Framförande":<br/>  
+    * ```Musiker, mus```<br/> 
+Om funktion inte kan specificeras, välj funktionen "Framförande":<br/>  
     * ```Exempel: Framförande, prf```  
 
 #### Medverkan
