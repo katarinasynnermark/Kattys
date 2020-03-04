@@ -191,7 +191,7 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
   För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med utgivningsår, [se Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Ange senaste copyrightår. Om både copyright- och p-år förekommer på resursen, ange p-året.  
-  För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan eller skriv Alt + 184.  
+  För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan. 
   [Se också hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Skriv in uppgiften.
   <br/>```Exempel:```
