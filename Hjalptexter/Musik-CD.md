@@ -379,8 +379,8 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
 <br/>```Exempel:```
     * ```Sångare, sng```
     * ```Musiker, mus```<br/>  
-  Om funktion inte kan specificeras, välj funktionen "Framförande":  
-<br/>  * ```Exempel: Framförande, prf```  
+<br/>Om funktion inte kan specificeras, välj funktionen "Framförande":<br/>  
+    * ```Exempel: Framförande, prf```  
 
 #### Medverkan
   * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- #a)  
