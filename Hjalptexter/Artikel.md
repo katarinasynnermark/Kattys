@@ -9,7 +9,7 @@ tags:
 - Bidrag
 --- 
 
-# Artiklar
+# Artikel (bidrag)
 Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en artikel. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 ## Innehåll   
@@ -39,14 +39,14 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 
 
 ## Inledning
-Beskrivningen av ett datorspel innehåller följande tre delar:  
+Beskrivningen av en artikel innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans för en artikel är huvudtitel, upphov och utgivning.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
 Många av egenskaperna finns redan i mallen Datorspel - multimedia, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Datorspel.  
 
-För information om katalogregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). Notera att för datorspel är hela den utgivna resursen föredragen källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. [Denna Librispraxis, KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.4.1](http://access.rdatoolkit.org/rdachp2_rda2-8983.html). 
+För information om katalogregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).
 
@@ -56,25 +56,24 @@ För information om katalogregler och Librispraxis, [se Anvisningar för katalog
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
 
 ## Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
-  ```Exempel: Monografisk resurs```
+  ```Exempel: Del av sammansatt resurs```
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:
-  </br>```computer, c (= dator)```
+  </br>```Unmediated, n (= omedierad)```
   
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
-  För ett datorspel på DVD-ROM eller Blu-ray Disc, länka till entiteten:
-  </br>```computer disc, cd (= datorskiva)```
+  Länka till entiteten:
+  </br>```Volume, nc (= volym)```
   
-  För ett datorspel på minneskort, länka till entiteten:
-  </br>```computer chip cartridge, cb (= datorminnesmodul)```
+  MARC-koder?
   
 ### Titel 
 Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [se RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). 
