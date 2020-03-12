@@ -1,16 +1,16 @@
 ---
 section: Materialtyper
-title: Artikel
+title: Bidrag
 order:
 date: 2020-03-
 tags:
 - under arbete
-- Artikel
 - Bidrag
+- Artikel
 --- 
 
-# Artikel (bidrag)
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en artikel. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+# Bidrag
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för ett bidrag, t.ex. en artikel eller recension? i en tidskrift eller ett kapitel i en årsbok eller i ett samlingsverk. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 ## Innehåll   
 
@@ -41,19 +41,19 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 ## Inledning
 Beskrivningen av en artikel innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans för en artikel är huvudtitel, upphov och utgivning.
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans för ett bidrag är titel, upphov och utgivning.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-Många av egenskaperna finns redan i mallen Datorspel - multimedia, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Datorspel.  
+Många av egenskaperna finns redan i mallen bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Datorspel.  Ta bort hela stycket?
 
-För information om katalogregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
+För information om katalogiseringsregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).
 
 ## Adminmetadata
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
-**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
+**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** Ta bort?
 
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -76,37 +76,27 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   MARC-koder?
   
 ### Titel 
-Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, [se RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). 
-<br/>```Exempel: Need for speed - Undercover```
-<br/> Ange endast en titel som övrig titelinformation om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn.
-  
-Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
-
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
-  Återge huvudtiteln som den förekommer i källan, [se Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). 
-  </br>```Exempel: SimCity 4 - Rush hour expansion```  
+  </br>```Exempel: Amerikanen och bilen```  
   </br>För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
-  </br>```Exempel: Huvudtitel: The hip hop dance experience, fileringsvärde: 4```  
+  </br>```Exempel: Huvudtitel: Ett backstugebarn, fileringsvärde: 4```  
  [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/).
 
-För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
+För att ange föredragen titel, t.ex. om bidraget är översatt, se Verk/Har titel/Titel/Huvudtitel.  
 
 #### Övrig titelinformation (undertitel)
-Ange endast en titel som övrig titelinformation om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn, [se även instruktioner under Titel](#titel).
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
+  </br>```Exempel: Vilhelm Moberg ser på Amerika```
+Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag. 
   
 #### Varianttitel
-En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, [se RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
-<br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till entitet) och välj typ Varianttitel.  
-  * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
-<br/>Skriv in uppgiften i Huvudtitel.
-</br>```Exempel: Pro evolution soccer 2014```
+* Har titelVarianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
+Används till exempel för felaktigheter och för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller    oväntade stavningar av ord. Skriv in uppgiften under Huvudtitel.
 
-För en parallell huvudtitel på ett annat språk eller i en annan skriftart, [se Parallelltitel](#Parallelltitel).<br/>
+Varianttitel används för närvarande också för att ange titlar i icke-latinsk skrift.
 
-Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för datorspel är hela resursen godkänd källa, utan prioritetsordning, [se Librispraxis för RDA 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra. 
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)<br/> 
@@ -124,40 +114,18 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.  
      
 ### Upphovsuppgift
-Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
-* Upphovsuppgift (responsibilityStatement = 245 #c)<BR/>
-  ```Exempel: developed by Revolution Software```
-  
-### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 #a)
-  <BR/>Skriv in upplagebeteckning här. 
-  <br/>```Exempel: Version 1.2```  
+* Upphovsuppgift (responsibilityStatement = 245 #c)<br/>
+  ```Exempel: Johan Ahlner, Karin Kjellgren```
   
 ### Utgivning  
 * Utgivning (publication)  
-  Välj typ från lista. För monografisk resurs, använd Primär utgivning. 
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
-NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.<BR/>
-Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.<BR/>
-Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c) finnas med.
+  Välj typ från lista. För bidrag, använd Primär utgivning. 
  
-#### Utgivningsplats
-* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
-  Sök inte efter Plats som entitet. Skapa Plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br> 
-  ```Exempel: [Burbank, California]```  
-  
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
-  ```Exempel: Förenta staterna (xxu)``` 
-  
-#### Utgivarnamn
-* Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
-  Sök inte efter Agent som entitet. Skapa Agent som lokal entitet. Skriv in uppgiften under Benämning.  
-  ```Exempel: Insomniac Games```    
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivningsavsnitt. Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
-  [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
-  
+  ```Exempel: Sverige (sw)``` 
+    
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
@@ -178,103 +146,12 @@ För att ange ett år utan klamrar eller andra tecken, använd År.
 
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, [följ exempel i hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
   
-* Flera år (flerbandsverk)  
- För anvisningar om hur man anger flera år (flerbandsverk), [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
- 
- [Läs mer om År och Datum i ett inlägg på Libris supportforum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
-  
-### Copyrightar
-För datorspel anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, [se Librispraxis 2.11 i RDA Toolkit](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
-* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
-  Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  [Se också hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). 
-<br/>```Exempel: ©2017```
-    
-### Identifikator
-Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivningsnummer (annat) och EAN förvalda.
-
-#### Utgivningsnummer (annat)
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: Utgivningsnummer (annat)```
-* Identifikator/Utgivningsnummer (annat)/Värde (identifiedBy/VideoRecordingNumber/value = 028 5/1 #a)<br/>
-  Ange utgivningsnumret som det förekommer i resursen.<br/>
-  ```Exempel: 7303903501```
-* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 5/1 #b)<br/> 
-  Ange utgivarens namn.<br/>
-  ```Exempel: Electronic Arts```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)<br/>
-  Ange eventuell bestämning.<br/>
-  
-#### EAN
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: EAN```
-* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 #a)<br/>
-  Ange identifikator.<br/>
-  ```Exempel: 5705535059701```
-
-För anvisningar om hur man anger ISBN, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#identifikator): Identifikator
-   
-### Omfang  
-Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [se Librispraxis i RDA Toolkit för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). 
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)<br/>
-Skriv in uppgiften under Benämning.
- <br/>```Exempel:```
-   * ```1 DVD-ROM``` 
-   * ```1 Blu-ray Disc```
-   * ```1 minneskort```
-
-* Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
- <br/>```Exempel:```
-   * ```1 DVD-ROM (Xbox 360)```
-   * ```1 Blu-Ray Disc (Playstation 4)```
-   * ```1 minneskort (Nintendo Switch)```
-   
-Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
-  
-### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (other physical details = 300 #b)  
-  ```Exempel: ljud, svartvit```
-  
-### Medfoljande material
-* Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
-Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften.
- <br/>```Exempel:```
-   * ```1 handledning (36 sidor)``` 
-   * ```1 handledning (4 sidor) + spelkontroll i form av gitarr```
-
-### Seriemedlemskap
-För anvisningar om hur man anger seriemedlemskap, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap.<br/>
-Franchisenamn ska inte anges som serieuppgift, [se Titel](#titel).
-
-### Malgruppsanmarkning  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
-Lägg till Målgrupp. Skapa målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det).<BR/>
-Skriv in uppgiften under Benämning. Åldersnivån kan om så önskas, preciseras [enligt PEGI - Pan European Game Information](https://pegi.info).<BR/>
-```Exempel: PEGI 12```  
-
-Notera att kodning av målgrupp, motsvarande 008/22, ska anges i [Målgrupp](#malgrupp) under Instans av Verk.
-
-### Systemkrav
-Det är obligatoriskt i Libris att ange konsol här. 
-* Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label = 753 #a)</BR>
-Skriv in uppgiften under Benämning.  
-```Exempel: XBox 360```<BR/>
-
-Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala system, anges inom parentes efter [omfång](#omfang) eller i egenskapen [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter).
-
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
   Skriv in allmänna anmärkningar här. För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till.
   Skriv in uppgiften under Benämning.<BR/>
-```Exempel: Avsett för 1-7 spelare, 1-2 spelare i nätverk```  
+```Exempel: ```  
   
-### Systemkrav och mediespecifika uppgifter
-Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen. Uppgift om konsol ska alltid anges i egenskapen [Systemkrav](#Systemkrav). Om så önskas, för att den ska bli synlig i i lokala system, kan uppgift om konsol även anges här eller inom parentes efter [Omfång](#Omfang).
-* Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)</BR>
-```Exempel: Systemkrav: 50 GB minimum på hårddisken ; dualshok 4 ; stöd för remote play```  
-
 ## Verk 
 ### Instans av verk (instanceOf/Work)
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk.  
