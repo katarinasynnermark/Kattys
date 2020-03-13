@@ -120,7 +120,7 @@ Eller ska en sådan anmärkning ligga i 505 8/_ #a Har innehållsförteckning/In
 Recension av?
 
 ### Är del av
-Här anges vilken publikation bidraget ingår i. I första hand bör man länka till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva den som en lokal entitet.<br/> 
+Här anges vilken publikation bidraget ingår i. I första hand bör man länka till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva den som lokal entitet.<br/> 
 Behöver man verkligen det? Finns inga sådana instruktioner i Katalogisatörens verktygslåda.
 
 Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Det finns många olika varianter av detta - från en ganska löst påförd tematitel på omslaget till en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare.
@@ -131,7 +131,7 @@ I Libris rekommenderas att årsbokens/tidskriftens huvudpost alltid väljs som p
 * Är del av (isPartOf = 773)
 Sök fram beskrivningen av värdpublikationen i Lägg till entitet och länka till entiteten.
 
-#### Beskriva värdpublikationen som en lokal entitet
+#### Beskriva värdpublikationen som lokal entitet
 Under Är del av, lägg till Instans som lokal entitet. Under Instans lägg till egenskaper för värdpublikationen 
 
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)
