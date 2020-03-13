@@ -66,9 +66,9 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ### Titel 
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
-  </br>```Exempel: Amerikanen och bilen```  
+  ```Exempel: Amerikanen och bilen```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
-  </br>```Exempel: Huvudtitel: Ett backstugebarn, fileringsvärde: 4```  
+ ```Exempel: Huvudtitel: Ett backstugebarn, fileringsvärde: 4```  
  [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/).
 
 För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets titel] (#verkets titel).  
