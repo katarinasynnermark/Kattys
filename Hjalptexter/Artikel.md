@@ -139,7 +139,7 @@ Lägg till egenskapen Identifikator. Väl typ och ange värdpublikationens ident
 Ska det vara med? Kommer ej ut i exporten när man länkar.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)
   Om värdpublikationens är en monografi, ange huvudtitel och övrig titelinformation? åtskild med interpunktion.</br>
-   ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```
+   ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```</br>
    Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln?</br>
    ```Exempel: Karolinska förbundets årsbok```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)</br>
@@ -148,6 +148,9 @@ Ska det vara med? Kommer ej ut i exporten när man länkar.
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent
 Om världpublikationen har en primär medverkande, lägg till egenskapen Instans av Verk. Under Instans av verk, lägg till Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion, välj typ Primär medverkan. Under Agent, skapa Agent som lokal entitet. Ange det föredragna namnet under Benämning.</br> 
 Räcker det? 
+
+#### Placering i värdpublikationen
+Under Instans, lägg till egenskapen Del.
 
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
