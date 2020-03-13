@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Bidrag
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för ett bidrag, t.ex. en artikel eller recension? i en tidskrift eller ett kapitel i en årsbok eller i ett samlingsverk. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för ett bidrag, t.ex. en artikel eller recension? i en tidskrift eller ett kapitel i en monografi. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 ## Innehåll   
 
@@ -30,7 +30,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 
 
 ## Inledning
-Beskrivningen av en artikel innehåller följande tre delar:  
+Beskrivningen av ett bidrag innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans för ett bidrag är titel, upphov och utgivning.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
@@ -43,15 +43,14 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 
 ## Adminmetadata
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
-* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
-**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** Ta bort?
+* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). 
 
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
-  Välj från lista.  
+  Välj från lista:  
   ```Exempel: Del av sammansatt resurs```
 
 ### Medietyp
@@ -64,8 +63,6 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entiteten:
   </br>```Volume, nc (= volym)```
   
-  MARC-koder?
-  
 ### Titel 
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
@@ -74,7 +71,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   </br>```Exempel: Huvudtitel: Ett backstugebarn, fileringsvärde: 4```  
  [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/).
 
-För att ange föredragen titel, t.ex. om bidraget är översatt, se Verk/Har titel/Titel/Huvudtitel.  
+För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets titel](#verkets titel).  
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
