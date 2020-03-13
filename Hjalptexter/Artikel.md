@@ -120,15 +120,35 @@ Eller ska en sådan anmärkning ligga i 505 8/_ #a Har innehållsförteckning/In
 Recension av?
 
 ### Är del av
-Här anges vilken publikation bidraget ingår i. I första hand bör man länka till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva den som en lokal entitet.
+Här anges vilken publikation bidraget ingår i. I första hand bör man länka till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva den som en lokal entitet.<br/> 
+Behöver man verkligen det? Finns inga sådana instruktioner i Katalogisatörens verktygslåda.
+
+Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Det finns många olika varianter av detta - från en ganska löst påförd tematitel på omslaget till en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare.
+
+I Libris rekommenderas att årsbokens/tidskriftens huvudpost alltid väljs som pekarmål i artikelposter, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär.
 
 #### Länka till värdpublikationen
 * Är del av (isPartOf = 773)
-Sök fram beskrivningen av värdpublikationen och lägg till.
+Sök fram beskrivningen av värdpublikationen i Lägg till entitet och länka till entiteten.
 
 #### Beskriva värdpublikationen som en lokal entitet
-* Är del av (isPartOf = 773)
-  
+Under Är del av, lägg till Instans som lokal entitet. Under Instans lägg till egenskaper för värdpublikationen 
+
+* Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)
+Lägg till egenskapen Identifikator. Väl typ och ange värdpublikationens identifikator (om sådan finns).</br>
+Ska det vara med? Kommer ej ut i exporten när man länkar.
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)
+  Om värdpublikationens är en monografi, ange huvudtitel och övrig titelinformation? åtskild med interpunktion.
+   ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```
+   Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln?
+   ```Exempel: Karolinska förbundets årsbok```
+* Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)
+  Om värdpublikationen är en monografi, ange utgivningstiden för monografin. 
+  Värdet hamnar i 264 #c, inte i 773 #d?
+* Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent
+Om världpublikationen har en primär medverkande, lägg till egenskapen Instans av Verk. Under Instans av verk, lägg till Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion, välj typ Primär medverkan. Under Agent, skapa Agent som lokal entitet. Ange det föredragna namnet under Benämning.</br> 
+Räcker det? 
+
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
