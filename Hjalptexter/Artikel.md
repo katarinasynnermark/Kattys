@@ -75,7 +75,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  </br>```Exempel: Vilhelm Moberg ser på Amerika```</br>
+  ```Exempel: Vilhelm Moberg ser på Amerika```</br>
 Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag. 
   
 #### Varianttitel
