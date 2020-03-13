@@ -87,7 +87,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se Verk/Har ti
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  </br>```Exempel: Vilhelm Moberg ser på Amerika```
+  </br>```Exempel: Vilhelm Moberg ser på Amerika```</br>
 Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag. 
   
 #### Varianttitel
@@ -150,14 +150,16 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
   Skriv in allmänna anmärkningar här. För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till.
   Skriv in uppgiften under Benämning.<BR/>
-```Exempel: ```  
+<br/>```Exempel:```
+   * ```Om en planerad fredskonferens som aldrig kom till stånd``` Eller ska en sådan anmärkning ligga i 505 8/_ #a Har    innehållsförteckning/Innehållsförteckning/Benämning?
+   * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"``` Recension av?
   
 ## Verk 
-### Instans av verk (instanceOf/Work)
-Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk.  
-[Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).</BR> 
+För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
-För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Multimedia. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
+[Läs mer om egenskaperna under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work)
+
+### Instans av verk 
 
 ### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) 
