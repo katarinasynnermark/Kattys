@@ -138,11 +138,11 @@ Under Är del av, lägg till Instans som lokal entitet. Under Instans lägg till
 Lägg till egenskapen Identifikator. Väl typ och ange värdpublikationens identifikator (om sådan finns).</br>
 Ska det vara med? Kommer ej ut i exporten när man länkar.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)
-  Om värdpublikationens är en monografi, ange huvudtitel och övrig titelinformation? åtskild med interpunktion.
+  Om värdpublikationens är en monografi, ange huvudtitel och övrig titelinformation? åtskild med interpunktion.</br>
    ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```
-   Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln?
+   Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln?</br>
    ```Exempel: Karolinska förbundets årsbok```
-* Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)
+* Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)</br>
   Om värdpublikationen är en monografi, ange utgivningstiden för monografin. 
   Värdet hamnar i 264 #c, inte i 773 #d?
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent
