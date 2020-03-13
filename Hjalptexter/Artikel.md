@@ -80,7 +80,7 @@ Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åt
   
 #### Varianttitel
 * Har titelVarianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
-Används till exempel för felaktigheter och för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller    oväntade stavningar av ord. Skriv in uppgiften under Huvudtitel.
+</br>Används till exempel för felaktigheter och för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord. Skriv in uppgiften under Huvudtitel.
 
 Varianttitel används för närvarande också för att ange titlar i icke-latinsk skrift.
 
