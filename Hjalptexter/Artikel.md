@@ -112,9 +112,9 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
   Skriv in allmänna anmärkningar här.
  <br/>```Exempel:```
-   * ```Om en planerad fredskonferens som aldrig kom till stånd``` 
-Eller ska en sådan anmärkning ligga i 505 8/_ #a Har    innehållsförteckning/Innehållsförteckning/Benämning?
-   * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"``` 
+   * ```Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
+Eller ska en sådan anmärkning ligga i 505 8/_ #a Har innehållsförteckning/Innehållsförteckning/Benämning?
+   * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"```<br/> 
 Recension av?
   
 ## Verk 
