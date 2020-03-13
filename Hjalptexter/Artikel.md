@@ -22,20 +22,11 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Upphovsuppgift](#upphovsuppgift) |  [Genre/form](#genre-form) |
-| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation)|
-| | [Utgivning](#utgivning) | [Ämne](#amne) |
-| | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp)  |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp)  |
-| | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
-| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Medföljande material](#medfoljande-material) | |
-| | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Systemkrav](#systemkrav) | |
-| | [Anmärkning](#anmarkning) | |
-| | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
+| | [Titel](#titel) |[Genre/form](#genre-form)|
+| | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation)  |
+| | [Utgivning](#utgivning)| [Ämne](#amne)|
+| | [Anmärkning](#anmarkning) | [Innehållstyp](#innehallstyp) |
+| | | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 
 
 ## Inledning
@@ -160,97 +151,51 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 [Läs mer om egenskaperna under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work)
 
 ### Instans av verk 
+* Instans av verk/Text (instanceOf/Work/Text)
+För ett tryckt bidrag är verkstypen Text. 
 
 ### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) 
-
-#### Verkets titel - verk utan primär medverkan
-Datorspel har sällan en primär medverkande. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk utan primär medverkan ska anges i Uttryck av/Verk/Har titel/Titel/Huvudtitel. 
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)  
-Under Instans av Verk, lägg till egenskapen Uttryck av. Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), välj Verk. Det läggs till under Uttryck av. Lägg till Har titel. Välj Titel. 
-Ange  den föredragna titeln i Huvudtitel.  
-```Exempel:  Prototype (datorspel)```</BR>
-Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype.</BR> 
-[Läs mer om Tillägg till auktoriserade sökingångar för verk](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/#tillaggtillauktsokingforverk) i Anvisningar för katalogisering (RDA).</BR>
-För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-*	Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 130 #p)  
-Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
-*	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 #n)  
-Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
-*	•	Uttryck av/Verk/Språk (expressionOf/Work/language = 130 #l)
-Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 130 #l.
+Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.
 
 #### Verkets titel - verk med primär medverkan
-Det är ovanligt att datorspel har primär medverkan. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. Föredragen titel för ett verk med primär medverkan ska anges i Har titel/Titel/Huvudtitel.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</BR> 
-Ange den föredragna titeln i Huvudtitel.
-För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-* Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 #p)</BR> 
-Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).</BR>
-* Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 #n)</BR>
-Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
-* Språk/Språk/Benämning (language/Language/label = 240 #l)</BR>
-**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning. Det kommer att korrigeras i en kommande release av Libris katalogisering.**
+"Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.
+
+#### Verkets titel - verk utan primär medverkan
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)  
 
 ### Medverkan och funktion
-* Medverkan och funktion  
-  Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket samt funktionskod för respektive agent.  Relationer till utgivare (710) anges för närvarande också här.</BR>
-  För ytterligare instruktioner om hur man anger relationer till agenter, [se hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR>
-  [Se även Auktoritetsgruppens rekommendationer på Supportforum för nya Libris](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/).   
-  
-#### Primär medverkan
-Det är ovanligt att datorspel har primär medverkande. Ofta är det två eller flera agenter (programmerare, utvecklare etc.) som är gemensamt ansvariga för att ha skapat verket. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet.  
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
-  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
+[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
 
-#### Medverkan
-* Medverkan och funktion/Medverkan/Agent (contribution/agent = 700 1/- #a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
-  ```Exempel: Sydow, Max von, 1929-```  
-* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 #4)  
-  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.</BR> 
-```Exempel: Röst, tal, spk```  
-För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/) 
+* Medverkan och funktion/Primär medverkan/Agent/Person</br>
+(contribution/PrimaryContribution/agent/Person = 100 1/- #a)
+
+* Medverkan och funktion/Primär medverkan/Funktion</br>
+(contribution/PrimaryContribution/role = 100 #4)
+
+* Medverkan och funktion/Medverkan/Agent/Person</br>
+(contribution/agent/Person = 700 1/- #a)
+
+* Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)</br>
+
+* Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)</br>
  
-#### Funktioner som saknar funktionskod
-Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ganska begränsat. För att ange en funktion som inte har en motsvarande funktionskod, klicka på plustecknet vid Funktion (Lägg till funktion) och sedan på Skapa lokal entitet. Klicka på plustecknet Lägg till egenskaper under: Funktion och välj Benämning. Skriv in önskad term. Värdet exporteras till 7XX #e.</BR>
-```Exempel: Spelutvecklare```
-  
-### Sprak 
+#### Sprak 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
-  ```Exempel: engelska (eng)``` 
-  </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram entitet för språket.</BR>
-  Länka till entitet.  
+  ```Exempel: svenska (swe)``` 
+  För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk under [Översättning](#oversattning).
   
 #### Översättning  
-För datorspel som är/innehåller en översättning, lägg till:  
+För en artikel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Multimedia och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller översättning```   
+  
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-  ```Exempel: japanska (jpn)```  
+  ```Exempel: engelska (eng)```  
 
-### Relationer till ingaende verk och andra verk
-#### Verk som ingår i det beskrivna verket
-För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 #a, #d, #t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 #a (analytisk sökingång för verk utan primär medverkan):  
-Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
-Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 #l.)</br>
-För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.</br>
-För utförligare instruktioner, [se även hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-
-#### Relationer till andra verk  
-För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- #a, #d, #t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ #a (icke-analytisk sökingång för verk utan primär medverkan): 
-Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
-Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 #l.)</br>
-För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.</br>
-För utförligare instruktioner, [se även hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-   
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
  
