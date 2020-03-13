@@ -65,41 +65,23 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
 ### Titel 
 #### Huvudtitel    
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
-  ```Exempel: Amerikanen och bilen```</br>   
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.
- ```Exempel: Huvudtitel: Ett backstugebarn, fileringsvärde: 4```  
- [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/).</br>
- 
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)
+  ```Exempel: ```
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
+   ```Exempel: ```
+
 För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets titel] (#verkets titel).  
 
-#### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  ```Exempel: Vilhelm Moberg ser på Amerika```</br>
-Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag. 
-  
 #### Varianttitel
 * Har titelVarianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
-</br>Används till exempel för felaktigheter och för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord. Skriv in uppgiften under Huvudtitel.
 
-Varianttitel används för närvarande också för att ange titlar i icke-latinsk skrift.
-
-För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra. 
-
-En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
-  * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)<br/> 
-   ```Exempel: Titeln felstavad, korrekt titel:```   
-   
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
+* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)
+* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
   
 #### Parallelltitel  
-Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
-* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
-Välj först Har titel, välj sedan typ Parallelltitel. Skriv in uppgiften i Huvudtitel.</br> 
-För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra. 
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)   
-Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.  
+* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)
      
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)<br/>
