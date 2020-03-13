@@ -65,10 +65,10 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
 ### Titel 
 #### Huvudtitel    
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)
-  ```Exempel: ```
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
+  ```Exempel: Herrgårdsbyggnader i Mälardalen under 1700- och 1800-talet```
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-   ```Exempel: ```
+   ```Exempel: när, var och av vem?```
 
 För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets titel] (#verkets titel).  
 
@@ -96,33 +96,26 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
     
-#### År och datum 
-  * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
-  År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-  Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c.</br>
-  ```Exempel: 2017```</br>
- 
- Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
-  
-  För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
-  * Datum (= Utgivningstid) (date = 264 -/1 #c)  
-  Datum får innehålla text och interpunktionstecken.  
-  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens 264 -/1 #c.
-<br/>```Exempel:```
-   * ```[2017]``` 
-   * ```[mellan 2003 och 2005?]```
+#### År
+  * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)
+År får endast innehålla siffror (0-9) och bokstaven u.
+Observera att År måste finnas med i beskrivningen, även om Datum finns med.
 
-För att ange ett år utan klamrar eller andra tecken, använd År.
+#### Datum
+  * Primär utgivning/Utgivning/Datum (date = 264 -/1 #c)
+Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.
+Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
 
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, [följ exempel i hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
   
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
-  Skriv in allmänna anmärkningar här. För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till.
-  Skriv in uppgiften under Benämning.<BR/>
-<br/>```Exempel:```
-   * ```Om en planerad fredskonferens som aldrig kom till stånd``` Eller ska en sådan anmärkning ligga i 505 8/_ #a Har    innehållsförteckning/Innehållsförteckning/Benämning?
-   * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"``` Recension av?
+  Skriv in allmänna anmärkningar här.
+ <br/>```Exempel:```
+   * ```Om en planerad fredskonferens som aldrig kom till stånd``` 
+Eller ska en sådan anmärkning ligga i 505 8/_ #a Har    innehållsförteckning/Innehållsförteckning/Benämning?
+   * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"``` 
+Recension av?
   
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
