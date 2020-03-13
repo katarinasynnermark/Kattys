@@ -35,7 +35,9 @@ Beskrivningen av ett bidrag innehåller följande tre delar:
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans för ett bidrag är titel, upphov och utgivning.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-Många av egenskaperna finns redan i mallen bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Datorspel.  Ta bort hela stycket?
+Om bidraget är publicerat i flera olika publikationer bör man skapa en beskrivning för varje förekomst.
+
+Många av egenskaperna finns redan i mallen Bidrag?, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
 
 För information om katalogiseringsregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
 
@@ -116,6 +118,16 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 Eller ska en sådan anmärkning ligga i 505 8/_ #a Har innehållsförteckning/Innehållsförteckning/Benämning?
    * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"```<br/> 
 Recension av?
+
+### Är del av
+Här anges vilken publikation bidraget ingår i. I första hand bör man länka till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva den som en lokal entitet.
+
+#### Länka till värdpublikationen
+* Är del av (isPartOf = 773)
+Sök fram beskrivningen av värdpublikationen och lägg till.
+
+#### Beskriva värdpublikationen som en lokal entitet
+* Är del av (isPartOf = 773)
   
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
