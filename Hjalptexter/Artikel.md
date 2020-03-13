@@ -70,7 +70,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
    ```Exempel: när, var och av vem?```
 
-För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets titel] (#verkets titel).  
+För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets titel] (#verkets-titel).  
 
 #### Varianttitel
 * Har titelVarianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
