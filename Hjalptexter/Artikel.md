@@ -48,7 +48,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). 
 
 ## Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. Mallen är utformad för katalogisering av bidrag i tryckta publikationer. Om det är en elektroniskt bidrag du ska beskriva, ändra instanstypen till "Elektronisk".
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. Mallen är utformad för katalogisering av bidrag i tryckta publikationer. Om det är ett bidrag i en elektronisk publikation du ska beskriva, ändra instanstypen till "Elektronisk".
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
