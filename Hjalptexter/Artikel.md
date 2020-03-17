@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Bidrag
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för ett bidrag, t.ex. en artikel eller recension? i en tidskrift eller ett kapitel i en monografi. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av bidrag, t.ex. artiklar eller recensioner i tidskrifter eller kapitel i en monografi. För mer utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan. Ska texten gälla både bidrag ur tryckta och elektroniska värdpublikationer? Kräver väl olika mallar?
 
 ## Innehåll   
 
@@ -35,9 +35,9 @@ Beskrivningen av ett bidrag innehåller följande tre delar:
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans för ett bidrag är titel, upphov och utgivning.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-Om bidraget är publicerat i flera olika publikationer bör man skapa en beskrivning för varje förekomst.
+Om bidraget är publicerat i flera olika publikationer och man vill beskriva det bör man skapa en beskrivning för varje publicering.
 
-Många av egenskaperna finns redan i mallen Bidrag?, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
+Många av egenskaperna finns redan i mallen Bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
 
 För information om katalogiseringsregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
 
@@ -48,7 +48,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). 
 
 ## Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. Mallen är utformad för katalogisering av bidrag i tryckta publikationer. Om det är en elektroniskt bidrag du ska beskriva, ändra instanstypen till "Elektronisk".
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
@@ -57,13 +57,16 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
-  Länka till entiteten:
-  </br>```Unmediated, n (= omedierad)```
+  Länka till entitet.
+  </br>```Exempel:```
+  </br>```omedierad, n``` för bidrag i tryckt publikation
+  </br>```dator, c ``` för bidrag i elektronisk publikation
   
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:
-  </br>```Volume, nc (= volym)```
+  </br>```volym, nc``` för bidrag i tryckt publikation
+  </br>```onlineresurs, cr``` för bidrag i elektronisk publikation 
   
 ### Titel 
 #### Huvudtitel    
@@ -75,7 +78,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets titel](#verkets-titel).  
 
 #### Varianttitel
-* Har titelVarianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
 
 #### Delbeteckning och deltitel
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)
@@ -105,10 +108,13 @@ Observera att År måste finnas med i beskrivningen, även om Datum finns med.
 
 #### Datum
   * Primär utgivning/Utgivning/Datum (date = 264 -/1 #c)
-Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.
+Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.
 Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
 
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, [följ exempel i hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
+
+Från Riktlinjer artikelindexering: En grundläggande regel är att en katalogpost för bidrag inte ska innehålla fälten 260 och 300. 
+Kommentar: Årtalen från År kommer ut i 264 #c. Anvisningar om Datum tas bort?
   
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
@@ -126,6 +132,8 @@ Behöver man verkligen det? Finns inga sådana instruktioner i Katalogisatörens
 Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Det finns många olika varianter av detta - från en ganska löst påförd tematitel på omslaget till en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare.
 
 I Libris rekommenderas att årsbokens/tidskriftens huvudpost alltid väljs som pekarmål i artikelposter, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär.
+
+Från Katalogisatörens verktygslåda: Som kompensation kan artiklar som görs med huvudposten som pekarmål få tematiteln eller motsvarande inlagd som serietitel (490-fält) i artikelposten. Om det finns en monografipost som beskriver årsboksårgången eller tidskriftshäftet kan den märkas med en förklarande fras i ett 500-fält. Det gör det lättare för användarna att hitta artiklar. I exempelsamlingen finns mer anvisningar om detta. Blir det rätt fortfarande?
 
 #### Länka till värdpublikationen
 * Är del av (isPartOf = 773)
