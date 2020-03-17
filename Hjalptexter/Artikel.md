@@ -53,7 +53,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista:  
-  ```Exempel: Del av sammansatt resurs```
+  ```Del av sammansatt resurs```
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
