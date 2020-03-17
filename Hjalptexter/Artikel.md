@@ -122,7 +122,7 @@ Kommentar: Årtalen från År kommer ut i 264 #c. Anvisningar om Datum tas bort?
 Här kan man beskriva bidragets relation till andra resurser, t.ex. om bidraget innehåller en replik på en annan artikel eller recenserar en annan resurs som man länkar till, se nedan under Relaterad till.
  <br/>```Exempel:```
    * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"```<br/>
-   * ```Recension av Jonas Olofssons bok Arbetslöshetsfrågan i historisk belysning
+   * ```Recension av Jonas Olofssons bok Arbetslöshetsfrågan i historisk belysning```
 
 
  <br/>```Exempel:```
