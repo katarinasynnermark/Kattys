@@ -65,8 +65,11 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet:
-  * ```volym, nc``` (bidrag i tryckt publikation)
-  * ```onlineresurs, cr``` (för bidrag i elektronisk publikation) 
+  </br>```Exempel:```
+  * ```volym, nc``` 
+(bidrag i tryckt publikation)
+  * ```onlineresurs, cr``` 
+(bidrag i elektronisk publikation) 
   
 ### Titel 
 #### Huvudtitel    
