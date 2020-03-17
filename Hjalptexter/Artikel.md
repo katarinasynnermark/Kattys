@@ -59,14 +59,14 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.
   </br>```Exempel:```
-  </br>```omedierad, n``` för bidrag i tryckt publikation
-  </br>```dator, c ``` för bidrag i elektronisk publikation
+  * ```omedierad, n``` (bidrag i tryckt publikation)
+  * ```dator, c ``` (bidrag i elektronisk publikation)
   
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
-  Länka till entiteten:
-  </br>```volym, nc``` för bidrag i tryckt publikation
-  </br>```onlineresurs, cr``` för bidrag i elektronisk publikation 
+  Länka till entitet:
+  * ```volym, nc``` (bidrag i tryckt publikation)
+  * ```onlineresurs, cr``` (för bidrag i elektronisk publikation) 
   
 ### Titel 
 #### Huvudtitel    
