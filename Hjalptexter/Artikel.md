@@ -103,12 +103,12 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
   ```Exempel: Sverige (sw)``` 
     
 #### År
-  * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)
+  * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)<br/>
 År får endast innehålla siffror (0-9) och bokstaven u.
 Observera att År måste finnas med i beskrivningen, även om Datum finns med.
 
 #### Datum
-  * Primär utgivning/Utgivning/Datum (date = 264 -/1 #c)
+  * Primär utgivning/Utgivning/Datum (date = 264 -/1 #c)<br/>
 Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.
 Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
 
@@ -118,7 +118,7 @@ Från Riktlinjer artikelindexering: En grundläggande regel är att en katalogpo
 Kommentar: Årtalen från År kommer ut i 264 #c. Anvisningar om Datum tas bort?
   
 ### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a) 
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/> 
 Här kan man beskriva bidragets relation till andra resurser, t.ex. om bidraget innehåller en replik på en annan artikel eller recenserar en annan resurs som man länkar till, se nedan under Relaterad till.
  <br/>```Exempel:```
    * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"```<br/>
