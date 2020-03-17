@@ -118,21 +118,22 @@ Från Riktlinjer artikelindexering: En grundläggande regel är att en katalogpo
 Kommentar: Årtalen från År kommer ut i 264 #c. Anvisningar om Datum tas bort?
   
 ### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
-  Skriv in allmänna anmärkningar här.
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a) 
+Här kan man beskriva bidragets relation till andra resurser, t.ex. om bidraget innehåller en replik på en annan artikel eller recenserar en annan resurs som man länkar till, se nedan under Relaterad till.
+ <br/>```Exempel:```
+   * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"```<br/>
+   * ```Recension av Jonas Olofssons bok Arbetslöshetsfrågan i historisk belysning
+
+
  <br/>```Exempel:```
    * ```Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
 Eller ska en sådan anmärkning ligga i 505 8/_ #a Har innehållsförteckning/Innehållsförteckning/Benämning?
-   * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"```<br/> 
-Recension av?
 
 ### Är del av
-Här anges vilken publikation bidraget ingår i. I första hand bör man länka till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva den som lokal entitet.<br/> 
+Här anges publikationen som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva värdpublikationen som lokal entitet.<br/> 
 Behöver man verkligen det? Finns inga sådana instruktioner i Katalogisatörens verktygslåda.
 
-Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Det finns många olika varianter av detta - från en ganska löst påförd tematitel på omslaget till en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare.
-
-I Libris rekommenderas att årsbokens/tidskriftens huvudpost alltid väljs som pekarmål i artikelposter, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär.
+Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Den kan ha en t.ex. en tematitel på omslaget men det kan också vara en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare. I Libris rekommenderas dock att årsbokens/tidskriftens huvudpost alltid väljs som pekarmål i artikelposter, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär.
 
 Från Katalogisatörens verktygslåda: Som kompensation kan artiklar som görs med huvudposten som pekarmål få tematiteln eller motsvarande inlagd som serietitel (490-fält) i artikelposten. Om det finns en monografipost som beskriver årsboksårgången eller tidskriftshäftet kan den märkas med en förklarande fras i ett 500-fält. Det gör det lättare för användarna att hitta artiklar. I exempelsamlingen finns mer anvisningar om detta. Blir det rätt fortfarande?
 
@@ -141,25 +142,51 @@ Från Katalogisatörens verktygslåda: Som kompensation kan artiklar som görs m
 Sök fram beskrivningen av värdpublikationen i Lägg till entitet och länka till entiteten.
 
 #### Beskriva värdpublikationen som lokal entitet
-Under Är del av, lägg till Instans som lokal entitet. Under Instans lägg till egenskaper för värdpublikationen 
+Under Är del av, lägg till Instans som lokal entitet. Under Instans lägg till egenskaper för värdpublikationen. 
 
+###### Värdpublikation med primär medverkan
+* Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent
+Om värdpublikationen har en primär medverkande, lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.</br> 
+Skriv in uppgiften. Använda den föredragna namnformen?
+  ```Exempel:``` 
+  * ```Carlsson, Magnus```
+  * ```Sverige. Socialtjänskommittén```
+  * ```International Congress on Military History (26 : Stockholm : 2000)```
+
+##### Övriga egenskaper för värdpublikationen
+Dessa egenskaper anges under Är del av/Instans.
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)
-Lägg till egenskapen Identifikator. Väl typ och ange värdpublikationens identifikator (om sådan finns).</br>
-Ska det vara med? Kommer ej ut i exporten när man länkar.
+Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns).</br>
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)
-  Om värdpublikationens är en monografi, ange huvudtitel och övrig titelinformation? åtskild med interpunktion.</br>
-   ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```</br>
-   Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln?</br>
-   ```Exempel: Karolinska förbundets årsbok```
+Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet.</br>
+```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```</br>
+   Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars instansens huvudtiteln</br>
+```Exempel: Karolinska förbundets årsbok```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)</br>
-  Om värdpublikationen är en monografi, ange utgivningstiden för monografin. 
-  Värdet hamnar i 264 #c, inte i 773 #d?
-* Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent
-Om världpublikationen har en primär medverkande, lägg till egenskapen Instans av Verk. Under Instans av verk, lägg till Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion, välj typ Primär medverkan. Under Agent, skapa Agent som lokal entitet. Ange det föredragna namnet under Benämning.</br> 
-Räcker det? 
+Om värdpublikationen är en monografi, ange utgivningstiden för monografin. 
+* Serieuppgift
+Om värdpublikationen är en monografi som ingår i en serie, lägg till serieuppgift om så önskas. 
+```Exempel: Statens offentliga utredningar, 0375-250X ; 1998:33```
 
 #### Placering i värdpublikationen
-Under Instans, lägg till egenskapen Del.
+* Del
+Lägg till egenskapen under Instans.
+
+###### Bidrag i årsbok eller tidskrift
+Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat samt paginering
+```Exempel:```
+```2000, sidorna 215-217``` 
+```2002(87):2, sidorna 145-172```
+När en årgång av en består av flera nummer anger vi också numret enligt exemplet: "2002(87):2" (följer den standard som beskrivs i Sten Hedbergs Bibliografiska referenser), även om årgången har genomgående paginering.
+Kolla detta mot RDA:s anvisningar och mejl med SBI. Sidorna, stort eller litet "s"
+
+###### Bidrag i monografi
+Ange paginering.
+```Exempel: Sidorna 379-390```
+
+#### Relaterad till
+Om bidraget är en recension eller en replik på en annan resurs används egenskapen Relaterad till.
+Ej klart än.
 
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
@@ -167,8 +194,7 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 [Läs mer om egenskaperna under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work)
 
 ### Instans av verk 
-* Instans av verk/Text (instanceOf/Work/Text)
-För ett tryckt bidrag är verkstypen Text. 
+* Instans av verk/Text (instanceOf/Work/Text) 
 
 ### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/) 
