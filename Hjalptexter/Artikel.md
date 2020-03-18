@@ -127,7 +127,8 @@ Här kan man beskriva bidragets relation till andra resurser, t.ex. om bidraget 
 
  <br/>```Exempel:```
    * ```Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
-Eller ska en sådan anmärkning ligga i 505 8/_ #a Har innehållsförteckning/Innehållsförteckning/Benämning?
+SHB använde 505 8/_ #a Har innehållsförteckning/Innehållsförteckning/Benämning för den här typen av innehållsanmärkningar.
+Är inte 520 8/_ #a Sammanfattning av innehåll bättre?
 
 ### Är del av
 Här anges publikationen som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva värdpublikationen som lokal entitet.<br/> 
