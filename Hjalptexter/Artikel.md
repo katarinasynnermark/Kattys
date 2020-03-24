@@ -147,7 +147,7 @@ Under Är del av, lägg till Instans som lokal entitet. Under Instans lägg till
 
 ###### Värdpublikation med primär medverkan
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent
-Under Instans (under Är del av), lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.</br> 
+Under Instans (under Är del av), lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.</br> Går det att länka till Agent här? Kommer ej ihåg. 
 Skriv in uppgiften. Använda den föredragna namnformen?
   ```Exempel:``` 
   * ```Carlsson, Magnus```
