@@ -124,7 +124,8 @@ I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver �
 * Seriemedlemskap/Seriemedlemskap/Serieuppgift</br>
 ```Exempel: Trädgårdar och parker : historia, dagsläge``` 
 
-I monografiposten som beskriver årsboksårgången eller tidskriftshäftet kan en förklarande fras anges i en anmärkning, se [Anmärkning](#anmarkning). Det gör det lättare för användarna att hitta artiklar.<br/>
+I monografiposten som beskriver årsboksårgången eller tidskriftshäftet kan en förklarande fras anges i en anmärkning. Det gör det lättare för användarna att hitta artiklar.<br/>
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 ```Exempel: Artiklar ur detta häfte söks i LIBRIS via Bebyggelsehistorisk tidskrift``` 
 
 #### Länka till värdpublikationen
