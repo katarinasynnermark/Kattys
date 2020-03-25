@@ -241,16 +241,6 @@ För en artikel som är/innehåller en översättning, lägg till:
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
  
-* Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br> 
-Länka till entiteten:</br> 
- ```Datorspel```
-
-För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/form.
-
-* Genre/form - termer som motsvarar marc-koder i 008</br> 
-Välj Typ av fil.
-Länka till entiteten:</br>
- ```Dataspel, g```
     
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
