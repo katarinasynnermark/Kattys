@@ -130,7 +130,8 @@ I monografiposten som beskriver årsboksårgången eller tidskriftshäftet kan e
 
 #### Länka till värdpublikationen
 * Är del av (isPartOf = 773)<br/>
-Sök fram beskrivningen av värdpublikationen i Lägg till entitet och länka till entiteten.
+Sök fram beskrivningen av värdpublikationen i Lägg till entitet.<br/>
+Länka till värdpublikationen.
 
 #### Beskriva värdpublikationen som lokal entitet
 Under Är del av, lägg till Instans som lokal entitet. Under Instans lägg till egenskaper för värdpublikationen. 
