@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Bidrag
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av bidrag, t.ex. artiklar eller recensioner i tidskrifter eller kapitel i en monografi. För mer utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan. Ska texten gälla både bidrag ur tryckta och elektroniska värdpublikationer? Kräver väl olika mallar?
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av bidrag, t.ex. artiklar eller recensioner? i tidskrifter eller kapitel i en monografi. För mer utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan. Ska texten gälla både bidrag ur tryckta och elektroniska värdpublikationer? Kräver väl olika mallar?
 
 ## Innehåll   
 
