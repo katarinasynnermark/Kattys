@@ -121,7 +121,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 Här anges publikationen som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris får värdpublikationen beskrivas som lokal entitet.<br/> 
 
 I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida och så vidare eller med en tematitel). Om så önskas kan tematiteln eller motsvarande anges som serieuppgift i bidragsposten.<br/>
-* Seriemedlemskap/Seriemedlemskap/Serieuppgift
+* Seriemedlemskap/Seriemedlemskap/Serieuppgift</br>
 ```Exempel: Trädgårdar och parker : historia, dagsläge``` 
 
 I monografiposten som beskriver årsboksårgången eller tidskriftshäftet kan en förklarande fras anges i en anmärkning, se [Anmärkning](#anmarkning). Det gör det lättare för användarna att hitta artiklar.<br/>
