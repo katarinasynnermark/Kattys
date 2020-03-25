@@ -115,14 +115,20 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 År får endast innehålla siffror (0-9) och bokstaven u.
 
 ### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
 ### Är del av
 Här anges publikationen som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva värdpublikationen som lokal entitet.<br/> 
 
-Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Den kan t.ex. ha en tematitel på omslaget men det kan också vara en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare. I Libris rekommenderas dock att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär. Om så önskas kan tematiteln eller motsvarande anges som serieuppgift i bidragsposten. I monografiposten som beskriver årsboksårgången eller tidskriftshäftet kan de en förklarande fras anges i en anmärkning, se exempel [Anmärkning](#anmarkning).
+Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Den kan t.ex. ha en tematitel på omslaget men det kan också vara en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare. 
 
-Från Katalogisatörens verktygslåda: Som kompensation kan artiklar som görs med huvudposten som pekarmål få tematiteln eller motsvarande inlagd som serietitel (490-fält) i artikelposten. Om det finns en monografipost som beskriver årsboksårgången eller tidskriftshäftet kan den märkas med en förklarande fras i ett 500-fält. Det gör det lättare för användarna att hitta artiklar. I exempelsamlingen finns mer anvisningar om detta. Blir det rätt fortfarande?
+I Libris rekommenderas dock att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär. Om så önskas kan tematiteln eller motsvarande anges som serieuppgift i bidragsposten.<br/>
+
+* Seriemedlemskap/Seriemedlemskap/Serieuppgift
+```Exempel: Trädgårdar och parker : historia, dagsläge``` 
+
+I monografiposten som beskriver årsboksårgången eller tidskriftshäftet kan en förklarande fras anges i en anmärkning, se [Anmärkning](#anmarkning). Det gör det lättare för användarna att hitta artiklar.<br/>
+```Exempel: Artiklar ur detta häfte söks i LIBRIS via Bebyggelsehistorisk tidskrift``` 
 
 #### Länka till värdpublikationen
 * Är del av (isPartOf = 773)
