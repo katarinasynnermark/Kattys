@@ -69,6 +69,14 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   * ```volym, nc``` (bidrag i tryckt publikation)
   * ```onlineresurs, cr``` (bidrag i elektronisk publikation) 
   
+  För bidrag i elektronisk publikation:
+  
+    Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
+  ```Onlineresurs, r```</BR>
+  
+  Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
+  ```Onlineutgåva, o```</BR>
+  
 ### Titel 
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
