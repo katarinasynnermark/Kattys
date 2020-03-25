@@ -140,7 +140,7 @@ I Är del av, lägg till Instans som lokal entitet. Lägg till egenskaper för v
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent<br/>
 Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.<br/> 
 Skriv in uppgiften under Benämning.
-  ```Exempel:``` 
+  ```Exempel:```<br/> 
   * ```Carlsson, Magnus```
   * ```Sverige. Socialtjänskommittén```
   * ```International Congress on Military History (26 : Stockholm : 2000)```
@@ -171,7 +171,7 @@ Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är
 
 ###### Bidrag i årsbok eller tidskrift
 Ange årgång och/eller nummer samt paginering.<br/>
-```Exempel:```
+```Exempel:```<br/>
 * ```2000, sidorna 215-217``` 
 * ```2002(87):2, sidorna 145-172```<br/>
 När en årgång består av flera nummer anger vi också numret enligt exemplet: "2002(87):2" (följer den standard som beskrivs i Sten Hedbergs Bibliografiska referenser), även om årgången har genomgående paginering.
