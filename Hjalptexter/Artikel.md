@@ -166,7 +166,7 @@ Om värdpublikationen är en monografi som ingår i en serie, lägg till serieup
 ```Exempel: Statens offentliga utredningar, 0375-250X ; 1998:33```
 
 #### Placering i värdpublikationen
-* Del (part = 773 #g)
+* Del (part = 773 #g)<br/>
 Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat och/eller paginering.
 
 ###### Bidrag i årsbok eller tidskrift
