@@ -115,13 +115,9 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 År får endast innehålla siffror (0-9) och bokstaven u.
 Observera att År måste finnas med i beskrivningen, även om Datum finns med.
 
-  
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/> 
-Här kan man beskriva bidragets relation till andra resurser, t.ex. om bidraget innehåller en replik på en annan artikel eller recenserar en annan resurs som man länkar till, se nedan under Relaterad till.
- <br/>```Exempel:```
-   * ```Replik på Tommy Hammarströms artikel "Lögnen om Sigismund"```<br/>
-   * ```Recension av Jonas Olofssons bok Arbetslöshetsfrågan i historisk belysning```
+
 
 
  <br/>```Exempel:```
@@ -270,7 +266,8 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), [se
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. 
  Skriv in uppgiften under Benämning.
-     
+ <br/>```Exempel:```
+   * ```Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad```
