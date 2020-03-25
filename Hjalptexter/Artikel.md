@@ -145,21 +145,23 @@ Skriv in uppgiften under Benämning.
   * ```Sverige. Socialtjänskommittén```
   * ```International Congress on Military History (26 : Stockholm : 2000)```
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Funktion<br/>
-Länka till entiteten:
+Länka till entiteten:<br/>
 ```Författare, aut```
 
 ##### Övriga egenskaper för värdpublikationen
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
 Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/>
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)<br/>
-Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet.</br>
+Lägg till egenskapen Har titel. Välj typ Titel. 
+Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
 ```Exempel: Karolinska förbundets årsbok```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
-Om värdpublikationen är en monografi, ange utgivningstiden för monografin.
+Lägg till egenskapen ppgift om produktion, utgivning, distribution och eller tillverkning.<br/>
+Om värdpublikationen är en monografi, ange utgivningstiden för monografin.<br/>
 ```Exempel: 2002```
-* Serieuppgift
+* Serieuppgift (seriesStatement = 773 #k)
 Om värdpublikationen är en monografi som ingår i en serie, lägg till serieuppgift om så önskas. 
 ```Exempel: Statens offentliga utredningar, 0375-250X ; 1998:33```
 
