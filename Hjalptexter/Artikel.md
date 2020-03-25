@@ -129,7 +129,7 @@ I monografiposten som beskriver årsboksårgången eller tidskriftshäftet kan e
 ```Exempel: Artiklar ur detta häfte söks i LIBRIS via Bebyggelsehistorisk tidskrift``` 
 
 #### Länka till värdpublikationen
-* Är del av (isPartOf = 773)
+* Är del av (isPartOf = 773)<br/>
 Sök fram beskrivningen av värdpublikationen i Lägg till entitet och länka till entiteten.
 
 #### Beskriva värdpublikationen som lokal entitet
