@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Bidrag
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av bidrag, t.ex. artiklar i tidskrifter eller kapitel i en monografi. För mer utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan. Det finns två mallar för bidrag, en för bidrag i tryckta publikationer och en för bidrag i elektroniska publikaioner.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av bidrag, t.ex. artiklar i tidskrifter eller kapitel i en monografi. För mer utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se innehållsförteckningen nedan. Det finns två mallar för bidrag, en för bidrag i tryckta publikationer och en för bidrag i elektroniska publikaioner. Hjälptexten ger instruktioner för båda typerna.
 
 ## Innehåll   
 
@@ -119,9 +119,8 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 
 ### Är del av
 Här anges publikationen som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva värdpublikationen som lokal entitet.<br/> 
-Behöver man verkligen det? Finns inga sådana instruktioner i Katalogisatörens verktygslåda.
 
-Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Den kan t.ex. ha en tematitel på omslaget men det kan också vara en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare. I Libris rekommenderas dock att årsbokens/tidskriftens huvudpost alltid väljs som pekarmål i artikelposter, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär.
+Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Den kan t.ex. ha en tematitel på omslaget men det kan också vara en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare. I Libris rekommenderas dock att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär. Om så önskas kan tematiteln eller motsvarande anges som serieuppgift i bidragsposten. I monografiposten som beskriver årsboksårgången eller tidskriftshäftet kan de en förklarande fras anges i en anmärkning, se exempel (#Anmärkning)
 
 Från Katalogisatörens verktygslåda: Som kompensation kan artiklar som görs med huvudposten som pekarmål få tematiteln eller motsvarande inlagd som serietitel (490-fält) i artikelposten. Om det finns en monografipost som beskriver årsboksårgången eller tidskriftshäftet kan den märkas med en förklarande fras i ett 500-fält. Det gör det lättare för användarna att hitta artiklar. I exempelsamlingen finns mer anvisningar om detta. Blir det rätt fortfarande?
 
