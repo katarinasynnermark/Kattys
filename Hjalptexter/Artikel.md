@@ -134,42 +134,45 @@ Sök fram beskrivningen av värdpublikationen i Lägg till entitet.<br/>
 Länka till värdpublikationen.
 
 #### Beskriva värdpublikationen som lokal entitet
-Under Är del av, lägg till Instans som lokal entitet. Under Instans lägg till egenskaper för värdpublikationen. 
+I Är del av, lägg till Instans som lokal entitet. Lägg till egenskaper för värdpublikationen under Instans. 
 
 ###### Värdpublikation med primär medverkan
-* Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent
-Under Instans (under Är del av), lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.</br> Går det att länka till Agent här? Kommer ej ihåg. 
-Skriv in uppgiften. Använda den föredragna namnformen?
+* Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent<br/>
+Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.<br/> 
+Skriv in uppgiften under Benämning.
   ```Exempel:``` 
   * ```Carlsson, Magnus```
   * ```Sverige. Socialtjänskommittén```
   * ```International Congress on Military History (26 : Stockholm : 2000)```
+* Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Funktion<br/>
+Länka till entiteten:
+```Författare, aut```
 
 ##### Övriga egenskaper för värdpublikationen
-Under Instans (under Är del av), lägg till nedanstående egenskaper efter behov.
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
-Välj typ och ange värdpublikationens identifikator (om sådan finns).<br/>
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)
+Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/>
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)<br/>
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
 ```Exempel: Karolinska förbundets årsbok```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
-Om värdpublikationen är en monografi, ange utgivningstiden för monografin. 
+Om värdpublikationen är en monografi, ange utgivningstiden för monografin.
+```Exempel: 2002```
 * Serieuppgift
 Om värdpublikationen är en monografi som ingår i en serie, lägg till serieuppgift om så önskas. 
 ```Exempel: Statens offentliga utredningar, 0375-250X ; 1998:33```
 
 #### Placering i värdpublikationen
-* Del
-Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat och/eller paginering
+* Del (part = 773 #g)
+Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat och/eller paginering.
 
 ###### Bidrag i årsbok eller tidskrift
+Ange årgång och/eller nummer samt paginering.
 ```Exempel:```
 ```2000, sidorna 215-217``` 
 ```2002(87):2, sidorna 145-172```
-När en årgång av en består av flera nummer anger vi också numret enligt exemplet: "2002(87):2" (följer den standard som beskrivs i Sten Hedbergs Bibliografiska referenser), även om årgången har genomgående paginering.
-Kolla detta mot RDA:s anvisningar och mejl med SBI. Sidorna, stort eller litet "s"
+När en årgång består av flera nummer anger vi också numret enligt exemplet: "2002(87):2" (följer den standard som beskrivs i Sten Hedbergs Bibliografiska referenser), även om årgången har genomgående paginering.
 
 ###### Bidrag i monografi
 Ange paginering.
