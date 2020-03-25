@@ -115,15 +115,6 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 År får endast innehålla siffror (0-9) och bokstaven u.
 Observera att År måste finnas med i beskrivningen, även om Datum finns med.
 
-#### Datum
-  * Primär utgivning/Utgivning/Datum (date = 264 -/1 #c)<br/>
-Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.
-Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
-
-För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, [följ exempel i hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
-
-Från Riktlinjer artikelindexering: En grundläggande regel är att en katalogpost för bidrag inte ska innehålla fälten 260 och 300. 
-Kommentar: Årtalen från År kommer ut i 264 #c. Anvisningar om Datum tas bort?
   
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/> 
