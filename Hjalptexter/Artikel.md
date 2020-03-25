@@ -116,14 +116,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 Observera att År måste finnas med i beskrivningen, även om Datum finns med.
 
 ### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/> 
-
-
-
- <br/>```Exempel:```
-   * ```Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
-SHB använde 505 8/_ #a Har innehållsförteckning/Innehållsförteckning/Benämning för den här typen av innehållsanmärkningar.
-Är inte 520 8/_ #a Sammanfattning av innehåll bättre?
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
 ### Är del av
 Här anges publikationen som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva värdpublikationen som lokal entitet.<br/> 
@@ -179,10 +172,6 @@ Kolla detta mot RDA:s anvisningar och mejl med SBI. Sidorna, stort eller litet "
 Ange paginering.
 ```Exempel: Sidorna 379-390```
 
-#### Relaterad till
-Om bidraget är en recension eller en replik på en annan resurs används egenskapen Relaterad till.
-Ej klart än.
-
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
@@ -235,7 +224,6 @@ För en artikel som är/innehåller en översättning, lägg till:
 
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
- 
     
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
@@ -243,25 +231,12 @@ För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https:/
 ### Amne  
 * Ämne  
   Länka  i första hand till entiteter för ämnesord. [Följ instruktionerna under Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).   
-
-### Malgrupp     
- * Målgrupp (intendedAudience = 008/22)  
-  Länka till entitet.  
-  ```Exempel: j (= barn- och ungdom, 0-16 år)```</br> 
-  Normalvärde för spel som riktar sig till barn och ungdom.
-
-För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), [se Målgruppsanmärkning](#Malgruppsanmarkning) under Instans.
  
 ### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteten:</BR>
   ```Computer program, cop (= datorprogram)```
   
-### Anmarkningar
-#### Anmärkning om språk
- * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
-  ```Exempel: Tal och text på engelska. Manual på svenska.```  
-
 ### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. 
