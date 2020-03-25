@@ -147,7 +147,7 @@ Skriv in uppgiften. Använda den föredragna namnformen?
 
 ##### Övriga egenskaper för värdpublikationen
 Under Instans (under Är del av), lägg till nedanstående egenskaper efter behov.
-* Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)
+* Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
 Välj typ och ange värdpublikationens identifikator (om sådan finns).<br/>
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet.</br>
