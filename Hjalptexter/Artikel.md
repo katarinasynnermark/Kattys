@@ -118,7 +118,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
 ### Är del av
-Här anges publikationen som bidraget ingår i. I första hand länkar man till publikationen men om den inte har någon beskrivning i Libris kan den beskrivas som lokal entitet.<br/> 
+Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris kan den beskrivas som lokal entitet.<br/> 
 
 I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida och så vidare eller med en tematitel). Om så önskas kan tematiteln eller motsvarande anges som serieuppgift i bidragsposten.<br/>
 * Seriemedlemskap/Seriemedlemskap/Serieuppgift</br>
