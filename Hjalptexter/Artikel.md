@@ -118,12 +118,9 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
 ### Är del av
-Här anges publikationen som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris får man beskriva värdpublikationen som lokal entitet.<br/> 
+Här anges publikationen som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris får värdpublikationen beskrivas som lokal entitet.<br/> 
 
-Ibland publiceras en årgång av en årsbok eller ett häfte av en tidskrift som någon slags monografi. Den kan t.ex. ha en tematitel på omslaget men det kan också vara en helt genomförd monografisk publikation med egen, distinkt titel, fullständig titelsida och så vidare. 
-
-I Libris rekommenderas dock att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär. Om så önskas kan tematiteln eller motsvarande anges som serieuppgift i bidragsposten.<br/>
-
+I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida och så vidare eller med en tematitel). Om så önskas kan tematiteln eller motsvarande anges som serieuppgift i bidragsposten.<br/>
 * Seriemedlemskap/Seriemedlemskap/Serieuppgift
 ```Exempel: Trädgårdar och parker : historia, dagsläge``` 
 
