@@ -162,7 +162,7 @@ Lägg till egenskapen ppgift om produktion, utgivning, distribution och eller ti
 Om värdpublikationen är en monografi, ange utgivningstiden för monografin.<br/>
 ```Exempel: 2002```
 * Serieuppgift (seriesStatement = 773 #k)
-Om värdpublikationen är en monografi som ingår i en serie, lägg till serieuppgift om så önskas. 
+Om värdpublikationen är en monografi som ingår i en serie, lägg till serieuppgift om så önskas.<br/> 
 ```Exempel: Statens offentliga utredningar, 0375-250X ; 1998:33```
 
 #### Placering i värdpublikationen
@@ -170,14 +170,14 @@ Om värdpublikationen är en monografi som ingår i en serie, lägg till serieup
 Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat och/eller paginering.
 
 ###### Bidrag i årsbok eller tidskrift
-Ange årgång och/eller nummer samt paginering.
+Ange årgång och/eller nummer samt paginering.<br/>
 ```Exempel:```
 ```2000, sidorna 215-217``` 
 ```2002(87):2, sidorna 145-172```
 När en årgång består av flera nummer anger vi också numret enligt exemplet: "2002(87):2" (följer den standard som beskrivs i Sten Hedbergs Bibliografiska referenser), även om årgången har genomgående paginering.
 
 ###### Bidrag i monografi
-Ange paginering.
+Ange paginering.<br/>
 ```Exempel: Sidorna 379-390```
 
 ## Verk 
