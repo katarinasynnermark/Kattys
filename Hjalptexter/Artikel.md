@@ -113,7 +113,6 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 #### År
   * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)<br/>
 År får endast innehålla siffror (0-9) och bokstaven u.
-Observera att År måste finnas med i beskrivningen, även om Datum finns med.
 
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
