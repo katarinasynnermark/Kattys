@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Bidrag
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av bidrag, t.ex. artiklar i tidskrifter eller kapitel i en monografi. För mer utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan. Ska texten gälla både bidrag ur tryckta och elektroniska värdpublikationer? Kräver väl olika mallar?
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av bidrag, t.ex. artiklar i tidskrifter eller kapitel i en monografi. För mer utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan. Det finns två mallar för bidrag, en för bidrag i tryckta publikationer och en för bidrag i elektroniska publikaioner.
 
 ## Innehåll   
 
@@ -37,7 +37,7 @@ Beskrivningen av ett bidrag innehåller följande tre delar:
 
 Om bidraget är publicerat i flera olika publikationer och man vill beskriva det bör man skapa en beskrivning för varje publicering.
 
-Många av egenskaperna finns redan i mallen Bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
+Många av egenskaperna finns redan i mallarna för  Bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
 
 För information om katalogiseringsregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
 
@@ -48,7 +48,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). 
 
 ## Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. Mallen är utformad för katalogisering av bidrag i tryckta publikationer. Om det är ett bidrag i en elektronisk publikation du ska beskriva, ändra instanstypen till "Elektronisk".
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Tryck (bidrag i tryckt publikation) eller Elektronisk (för bidrag i elektronisk publikation). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
