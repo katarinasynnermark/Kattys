@@ -148,8 +148,8 @@ Skriv in uppgiften under Benämning. Använd korrekt namnform, [se hjälptexten 
   * ```Sverige. Socialtjänskommittén```
   * ```International Congress on Military History (26 : Stockholm : 2000)```
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Funktion<br/>
-Länka till entiteten:<br/>
-```Författare, aut```
+Länka till entitet:<br/>
+```Exempel: Författare, aut```
 
 ##### Övriga egenskaper för värdpublikationen
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
