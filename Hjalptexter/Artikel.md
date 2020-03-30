@@ -26,7 +26,8 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation)  |
 | | [Utgivning](#utgivning)| [Ämne](#amne)|
 | | [Anmärkning](#anmarkning) | [Innehållstyp](#innehallstyp) |
-| | | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Är del av](#ar-del-av) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Placering i värdpublikation](#placering-i-vardpublikation)| [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 
 
 ## Inledning
@@ -210,7 +211,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)</br>
  
-#### Sprak 
+### Sprak 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
   ```Exempel: svenska (swe)```</BR> 
