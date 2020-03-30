@@ -158,16 +158,12 @@ Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens iden
 Lägg till egenskapen Har titel. Välj typ Titel.<br/> 
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
-
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
 ```Exempel: Karolinska förbundets årsbok```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
 Lägg till egenskapen ppgift om produktion, utgivning, distribution och eller tillverkning.<br/>
 Om värdpublikationen är en monografi, ange utgivningstiden för monografin.<br/>
 ```Exempel: 2002```
-* Serieuppgift (seriesStatement = 773 #k)
-Om värdpublikationen är en monografi som ingår i en serie, lägg till serieuppgift om så önskas.<br/> 
-```Exempel: Statens offentliga utredningar, 0375-250X ; 1998:33```
 
 ### Placering i vardpublikation
 * Del (part = 773 #g)<br/>
