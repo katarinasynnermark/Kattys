@@ -147,8 +147,8 @@ Länka till entitet:<br/>
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
 Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/>
 ```Exempel:``` 
-```9789186949372```
-```0008-011X```
+*```9789186949372```
+*```0008-011X```
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)<br/>
 Lägg till egenskapen Har titel. Välj typ Titel.<br/> 
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
