@@ -155,9 +155,10 @@ Länka till entitet:<br/>
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
 Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/>
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)<br/>
-Lägg till egenskapen Har titel. Välj typ Titel. 
+Lägg till egenskapen Har titel. Välj typ Titel.<br/> 
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
+
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
 ```Exempel: Karolinska förbundets årsbok```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
