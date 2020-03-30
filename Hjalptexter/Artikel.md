@@ -133,7 +133,7 @@ I Är del av, lägg till Instans som lokal entitet. Lägg till egenskaper för v
 ###### Värdpublikation med primär medverkan
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent<br/>
 Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.<br/> 
-Skriv in uppgiften under Benämning. Använd korrekt namnform, [se hjälptexten Relationer till agent, Skapa lokal entitet](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance#skapa-lokal-entitet)<br/>
+Skriv in uppgiften under Benämning. Använd korrekt namnform, [se hjälptexten Relationer till Agent, Skapa lokal entitet](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance#skapa-lokal-entitet)<br/>
   ```Exempel:```
   * ```Carlsson, Magnus```
   * ```Sverige. Socialtjänskommittén```
