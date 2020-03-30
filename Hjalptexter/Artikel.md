@@ -72,10 +72,10 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   För bidrag i elektronisk publikation:
   
     Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
-  ```Onlineresurs, r```</BR>
+  ```onlineresurs, r```</BR>
   
   Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
-  ```Onlineutgåva, o```</BR>
+  ```onlineutgåva, o```</BR>
   
 ### Titel 
 #### Huvudtitel    
@@ -238,7 +238,7 @@ För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https:/
 ### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteten:</BR>
-  ```Computer program, cop (= datorprogram)```
+  ```Text, txt```
   
 ### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
