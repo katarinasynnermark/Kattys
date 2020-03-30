@@ -213,7 +213,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 #### Sprak 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
-  ```Exempel: svenska (swe)``` 
+  ```Exempel: svenska (swe)```</BR> 
   För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk under [Översättning](#oversattning).
   
 #### Översättning  
