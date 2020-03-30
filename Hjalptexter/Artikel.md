@@ -27,7 +27,8 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Utgivning](#utgivning)| [Ämne](#amne)|
 | | [Anmärkning](#anmarkning) | [Innehållstyp](#innehallstyp) |
 | | [Är del av](#ar-del-av) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Placering i värdpublikation](#placering-i-vardpublikation)|  |
+| | [Placering i värdpublikation](#placering-i-vardpublikation) |  |
+| | [Elektronisk adress](#elektronisk-adress) |  |
 
 
 ## Inledning
@@ -179,6 +180,13 @@ När en årgång består av flera nummer anges också numret enligt exemplet: "2
 Ange paginering.<br/>
 ```Exempel: Sidorna 379-390```
 
+### Elektronisk adress
+#### Tillhörande media
+Om beskrivningen gäller ett elektroniskt bidrag, använd Tillhörande media för att lägga in en elektronisk adress till resursen.
+* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)
+* Del av materialet som avses/Resurs/Benämning (appliesTo/Resource/label = 856 4/0 #3)
+
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
@@ -200,18 +208,13 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 
 ### Medverkan och funktion
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
-
 * Medverkan och funktion/Primär medverkan/Agent/Person</br>
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)
-
 * Medverkan och funktion/Primär medverkan/Funktion</br>
 (contribution/PrimaryContribution/role = 100 #4)
-
 * Medverkan och funktion/Medverkan/Agent/Person</br>
 (contribution/agent/Person = 700 1/- #a)
-
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)</br>
-
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)</br>
  
 ### Sprak 
