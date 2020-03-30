@@ -19,7 +19,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Systemteknisk anmärkning](#systemtekninsk-anmarkning] | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning] | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | | [Titel](#titel) |[Genre/form](#genre-form)|
@@ -52,7 +52,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas.
 Märkningen gör du genom att lägga in en Systemtekninsk anmärkning i posten för värdpublikationen.</BR>
 
-* Systemtekninsk anmärkning/Benämning (technicalNote/label = 599 #a)</BR>
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)</BR>
   Skriv in anmärkningen under Benämning.
   ```Indexeringslänk```
 
