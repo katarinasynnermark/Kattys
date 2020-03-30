@@ -168,7 +168,7 @@ Om värdpublikationen är en monografi, ange utgivningstiden för monografin.<br
 Om värdpublikationen är en monografi som ingår i en serie, lägg till serieuppgift om så önskas.<br/> 
 ```Exempel: Statens offentliga utredningar, 0375-250X ; 1998:33```
 
-#### Placering i vardpublikationen
+#### Placering i vardpublikation
 * Del (part = 773 #g)<br/>
 Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat och/eller paginering.
 
