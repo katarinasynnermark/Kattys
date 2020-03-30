@@ -48,7 +48,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
 
-### Systemteknisk anmärkning
+### Systemteknisk anmarkning
 För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas.
 Märkningen gör du genom att lägga in en Systemtekninsk anmärkning i posten för värdpublikationen.</BR>
 
