@@ -53,7 +53,7 @@ För att länkningen mellan värdpublikation och ingående delar ska fungera i W
 Märkningen gör du genom att lägga in en Systemtekninsk anmärkning i posten för värdpublikationen.</BR>
 
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)</BR>
-  Skriv in anmärkningen under Benämning.
+  Skriv in anmärkningen under Benämning.</BR>
   ```Indexeringslänk```
 
 ## Instans
