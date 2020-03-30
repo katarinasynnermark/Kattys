@@ -36,7 +36,7 @@ Beskrivningen av ett bidrag innehåller följande tre delar:
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans för ett bidrag är titel, upphov och utgivning.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-Om bidraget är publicerat i flera olika publikationer och man vill beskriva det bör man skapa en beskrivning för varje publicering.
+Om bidraget är publicerat i flera olika publikationer och man vill beskriva det bör man skapa en beskrivning för varje publicering. Man kan också göra en anmärkning som talar om att texten är publicerad på flera ställen.
 
 Många av egenskaperna finns redan i mallarna för  Bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
 
