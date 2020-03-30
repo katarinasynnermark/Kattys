@@ -126,7 +126,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
-### Är del av
+### Ar del av
 Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris kan den beskrivas som lokal entitet.<br/> 
 
 I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida och så vidare eller med en tematitel). 
@@ -168,7 +168,7 @@ Om värdpublikationen är en monografi, ange utgivningstiden för monografin.<br
 Om värdpublikationen är en monografi som ingår i en serie, lägg till serieuppgift om så önskas.<br/> 
 ```Exempel: Statens offentliga utredningar, 0375-250X ; 1998:33```
 
-#### Placering i värdpublikationen
+#### Placering i vardpublikationen
 * Del (part = 773 #g)<br/>
 Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat och/eller paginering.
 
