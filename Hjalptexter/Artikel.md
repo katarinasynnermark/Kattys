@@ -27,7 +27,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Utgivning](#utgivning)| [Ämne](#amne)|
 | | [Anmärkning](#anmarkning) | [Innehållstyp](#innehallstyp) |
 | | [Är del av](#ar-del-av) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Placering i värdpublikation](#placering-i-vardpublikation)| [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Placering i värdpublikation](#placering-i-vardpublikation)|  |
 
 
 ## Inledning
