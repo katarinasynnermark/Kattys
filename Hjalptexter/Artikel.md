@@ -51,7 +51,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 
 ### Systemteknisk anmarkning
 För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas.
-Märkningen gör du genom att lägga in en Systemtekninsk anmärkning i posten för värdpublikationen.</BR>
+Märkningen gör du genom att lägga in en Systemteknisk anmärkning i posten för värdpublikationen.</BR>
 
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)</BR>
   Skriv in anmärkningen under Benämning.</BR>
@@ -120,7 +120,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
 ### Ar del av
-Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte har någon beskrivning i Libris kan den beskrivas som lokal entitet.<br/> 
+Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte fins i Libris kan den beskrivas som lokal entitet.<br/> 
 
 I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida och så vidare eller med en tematitel). 
 
