@@ -155,7 +155,9 @@ Lägg till egenskapen Har titel. Välj typ Titel.<br/>
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
-```Exempel: Karolinska förbundets årsbok```
+```Exempel:``` 
+* ```Karolinska förbundets årsbok```
+* ```Barnboken (Online)```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
 Om värdpublikationen är en monografi, lägg till egenskapen Uppgift om produktion, utgivning, distribution och/eller tillverkning.<br/>
 Ange utgivningstiden för monografin.<br/>
