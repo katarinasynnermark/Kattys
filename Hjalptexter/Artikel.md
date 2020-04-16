@@ -129,7 +129,6 @@ I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver �
 Mallarna är förberedda för att beskriva värdpublikationen som lokal entitet. För att länka till värdpublikationen, klicka på Länka entitet och sök fram värdpublikationen. Klicka sedan på Ersätt lokal entitet. <br/> 
 
 #### Beskriva värdpublikationen som lokal entitet
-Mallarna är föreberedda för att beskriva värdpublikationen som lokal entitet. Dessa egenskaper behöver därför normalt inte läggas till.
 I Är del av, lägg till Instans som lokal entitet. Lägg till egenskaper för värdpublikationen under Instans. 
 
 ##### Värdpublikation med primär medverkan
