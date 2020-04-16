@@ -122,7 +122,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 ### Ar del av
 Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte finns i Libris kan den beskrivas som lokal entitet. 
 
-I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida och så vidare eller en tematitel). 
+I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida och så vidare eller har en tematitel). 
 
 #### Länka till värdpublikationen
 * Är del av (isPartOf = 773)<br/>
