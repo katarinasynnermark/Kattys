@@ -120,14 +120,13 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
 ### Ar del av
-Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte finns i Libris kan den beskrivas som lokal entitet.<br/> 
+Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. I första hand länkar man till värdpublikationen men om den inte finns i Libris kan den beskrivas som lokal entitet. 
 
 I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida och så vidare eller med en tematitel). 
 
 #### Länka till värdpublikationen
 * Är del av (isPartOf = 773)<br/>
-Sök fram beskrivningen av värdpublikationen i Lägg till entitet.<br/>
-Länka till värdpublikationen.
+Mallarna är förberedda för att beskriva värdpublikationen som lokal entitet. För att länka till värdpublikationen, klicka på Länka entitet och sök fram värdpublikationen. Klicka sedan på Ersätt lokal entitet. <br/> 
 
 #### Beskriva värdpublikationen som lokal entitet
 I Är del av, lägg till Instans som lokal entitet. Lägg till egenskaper för värdpublikationen under Instans. 
