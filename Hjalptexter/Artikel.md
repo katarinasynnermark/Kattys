@@ -28,7 +28,6 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Anmärkning](#anmarkning) | [Innehållstyp](#innehallstyp) |
 | | [Är del av](#ar-del-av) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Placering i värdpublikation](#placering-i-vardpublikation) |  |
-| | [Elektronisk adress](#elektronisk-adress) |  |
 
 
 ## Inledning
@@ -181,13 +180,6 @@ När en årgång består av flera nummer anges också numret enligt exemplet: "2
 * Del (part = 773 #g)<br/>
 Ange paginering.<br/>
 ```Exempel: Sidorna 379-390```
-
-### Elektronisk adress
-#### Tillhörande media
-Om beskrivningen gäller ett elektroniskt bidrag, använd Tillhörande media för att lägga in en elektronisk adress till resursen.
-* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)
-* Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)
-* Del av materialet som avses/Resurs/Benämning (appliesTo/Resource/label = 856 4/0 #3)
 
 ## Verk 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
