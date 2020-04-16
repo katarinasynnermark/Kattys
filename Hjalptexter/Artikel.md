@@ -163,6 +163,7 @@ Ange utgivningstiden för monografin.<br/>
 ```Exempel: 2002```
 
 ### Placering i vardpublikation
+Utformningen av uppgifterna i denna egenskap bygger främst på boken Bibliografiska referenser, utarbetad av SIS - allmänna standardiseringsgruppen [av Sten Hedberg med stöd av en arbetsgrupp utsedd av SAB:s kommitté för katalogisering och klassifikation]. - Stockholm : Standardiseringskommissionen i Sverige (SIS), 1991.
 * Del (part = 773 #g)<br/>
 Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat och/eller paginering.
 
@@ -174,7 +175,7 @@ Ange årgång och/eller nummer samt paginering.<br/>
   * ```2019(87):2, sidorna 145-172```
   * ```2020-02-23```
 
-När en årgång består av flera nummer anges också numret enligt exemplet: "2002(87):2" (följer den standard som beskrivs i Sten Hedbergs Bibliografiska referenser), även om årgången har genomgående paginering.
+När en årgång består av flera nummer anges också numret enligt exemplet: "2002(87):2" även om årgången har genomgående paginering.
 
 #### Bidrag i monografi
 * Del (part = 773 #g)<br/>
