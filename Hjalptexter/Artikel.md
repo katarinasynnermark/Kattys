@@ -51,7 +51,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 
 ### Systemteknisk anmarkning
 För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas.
-Märkningen gör du genom att lägga in en Systemteknisk anmärkning i posten för värdpublikationen.</BR>
+Märkningen görs genom att lägga in en Systemteknisk anmärkning i posten för värdpublikationen.</BR>
 
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)</BR>
   Skriv in anmärkningen under Benämning.</BR>
