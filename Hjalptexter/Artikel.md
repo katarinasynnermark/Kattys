@@ -37,11 +37,12 @@ Beskrivningen av ett bidrag innehåller följande tre delar:
 
 Om bidraget är publicerat i flera olika publikationer och man vill beskriva det får man antingen skapa en beskrivning för varje publicering eller också göra en anmärkning som talar om att bidraget är publicerat på flera ställen.
 
-För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas. Märkningen görs genom att lägga in en Systemteknisk anmärkning i posten för värdpublikationen.
+För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas.
+Märkningen görs genom att lägga in en Systemteknisk anmärkning i posten för värdpublikationen.</BR>
 
-Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)
-Skriv in anmärkningen under Benämning.
-Indexeringslänk
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)</BR>
+  Skriv in anmärkningen under Benämning.</BR>
+  ```Indexeringslänk```
 
 Många av egenskaperna finns redan i mallarna för  Bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
 
@@ -52,14 +53,6 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 ## Adminmetadata
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
-
-### Systemteknisk anmarkning
-För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas.
-Märkningen görs genom att lägga in en Systemteknisk anmärkning i posten för värdpublikationen.</BR>
-
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)</BR>
-  Skriv in anmärkningen under Benämning.</BR>
-  ```Indexeringslänk```
 
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Tryck (för bidrag i tryckt publikation) eller Elektronisk (för bidrag i elektronisk publikation). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
