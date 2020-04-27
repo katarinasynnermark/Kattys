@@ -37,6 +37,12 @@ Beskrivningen av ett bidrag innehåller följande tre delar:
 
 Om bidraget är publicerat i flera olika publikationer och man vill beskriva det får man antingen skapa en beskrivning för varje publicering eller också göra en anmärkning som talar om att bidraget är publicerat på flera ställen.
 
+För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas. Märkningen görs genom att lägga in en Systemteknisk anmärkning i posten för värdpublikationen.
+
+Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)
+Skriv in anmärkningen under Benämning.
+Indexeringslänk
+
 Många av egenskaperna finns redan i mallarna för  Bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
 
 För information om katalogiseringsregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
