@@ -61,7 +61,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Utgivningssätt (issuanceType = 008/07)  
   Välj från lista:  
   ```Del av sammansatt resurs```</br>
-Normalvärdet för monografiska bidrag som t.ex. artiklar i en tidskrift/årbok eller kapitel i en monografi. 
+Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årbok eller kapitel i en monografi. 
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
