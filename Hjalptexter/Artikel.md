@@ -58,9 +58,10 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Tryck (för bidrag i tryckt publikation) eller Elektronisk (för bidrag i elektronisk publikation). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
 
 ### Utgivningssatt
-* Utgivningssätt (issuanceType)  
+* Utgivningssätt (issuanceType = 008/07)  
   Välj från lista:  
   ```Del av sammansatt resurs```
+Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årbok eller kapitel i en monografi.
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
