@@ -68,7 +68,7 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årbok e
   Länka till entitet.
   </br>```Exempel:```
   * ```omedierad, n``` (bidrag i tryckt publikation)
-  * ```dator, c ``` (bidrag i elektronisk publikation)
+  * ```dator, c ``` (bidrag i elektronisk publikation)<br/>
   Observera att i mallen för elektroniskt bidrag ligger felaktigt medietypen "omedierad, n". Det bör ändras vid katalogisering. Felet kommer att åtgärdas vid nästa release.
   
 ### Barartyp
