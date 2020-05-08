@@ -35,7 +35,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmärkning](#anmarkning) | | 
-| | [Digital karakteristika](#digital-karakteristika) | |
+| | [Kodningsformat](#kodningsformat) | |
 | | [Elektronisk adress](#anmarkning) | |
 
 ## Inledning 
@@ -283,7 +283,7 @@ För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lo
   * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
 Ange filformat här.</BR>
 Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.
-  * ```Exempel: MP3```
+  ```Exempel: MP3```
   
 ### Elektronisk adress
 #### Elektronisk adress
