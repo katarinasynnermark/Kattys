@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2020-03-11
+date: 2020-05-08
 tags:
 - under arbete
 - musik-CD
@@ -282,7 +282,7 @@ För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lo
 ### Kodningsformat
   * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
 Ange filformat här.</BR>
-Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.
+Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
   ```Exempel: MP3```
   
 ### Elektronisk adress
