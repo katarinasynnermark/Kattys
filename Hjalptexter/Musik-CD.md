@@ -35,6 +35,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmärkning](#anmarkning) | | 
+| | [Digital karakeristika] (#digital-karakteristika) | | 
 
 ## Inledning 
 Beskrivningen av en musik-CD innehåller följande tre delar:  
@@ -227,8 +228,11 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
   * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 1 CD (1 tim., 12 min.) ```  
-
+  ```Exempel: 1 CD (1 tim., 12 min.) ```</br>
+  Om filformatet är MP3 ska det inte anges här utan i Digital karakteristika/Kodningsformat/Benämning nedan.
+  
+  För att uppgiften ska vara synlig i Libris Webbsök eller i lokala bibliotekskataloger, ange den även i en anmärkning.
+  
 ### Speltid
 * Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
   Vid behov anges speltid här i kodad form.
@@ -270,8 +274,12 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   <br/>```Exempel:```
     * ```Först utgiven 1997```
     * ```Titel från omslag```
+    * ```MP3```
+    
+### Digital karakteristika
+
   
-### Relaterad beskrivning eller innehall
+### Elektronisk adress 
   * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 #u)</BR>
   Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs.</BR>
   Lägg till Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell länk.
