@@ -286,9 +286,11 @@ Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. 
 * ```Exempel: MP3```
   
 ### Elektronisk adress
-  * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 #u)</BR>
-  Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs.</BR>
-  Lägg till Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell länk.
+#### Elektronisk adress
+* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
+  För att lägga in elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI .</BR>
+* Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
+  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
   
 ## Verk   
 ### Instans av Verk/Musik
