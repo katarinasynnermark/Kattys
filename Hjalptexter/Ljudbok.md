@@ -230,7 +230,11 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
 Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 11 CD (13 tim., 30 min.) ```  
+  ```Exempel: 11 CD (13 tim., 30 min.) ```
+
+Om filformatet är MP3 ska det inte anges här utan i Digital karakteristika/Kodningsformat/Benämning, [se Kodningsformat](#kodningsformat).
+
+För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lokala bibliotekskatalogen, ange den även i en anmärkning, [se Anmärkning](#anmarkning).
   
 ### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)     
