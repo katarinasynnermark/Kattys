@@ -35,7 +35,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmärkning](#anmarkning) | | 
-| | [Elektronisk adress](#anmarkning) | |
+| | [Elektronisk adress](#elektronisk-adress) | |
 
 
 ## Inledning 
@@ -272,16 +272,9 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   <br/>```Exempel:```
     * ```Först utgiven 1997```
     * ```Titel från omslag```
-    * ```MP3```
-    
-### Kodningsformat
-  * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
-Ange filformat här.</BR>
-Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
-  ```Exempel: MP3```
-  
+    * ```MP3```   
+
 ### Elektronisk adress
-#### Elektronisk adress
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
   För att lägga in elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI .</BR>
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
