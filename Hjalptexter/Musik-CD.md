@@ -35,8 +35,8 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmärkning](#anmarkning) | | 
-| | [Kodningsformat](#kodningsformat) | |
 | | [Elektronisk adress](#anmarkning) | |
+
 
 ## Inledning 
 Beskrivningen av en musik-CD innehåller följande tre delar:  
@@ -231,11 +231,6 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   Skriv in uppgiften under Benämning.  
   ```Exempel: 1 CD (1 tim., 12 min.) ```<br/>
   
-Om filformatet är MP3 ska det inte anges här utan i Digital karakteristika/Kodningsformat/Benämning, [se Kodningsformat](#kodningsformat).
-
-För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lokala bibliotekskatalogen, ange den även i en anmärkning, [se Anmärkning](#anmarkning).
- 
-
 ### Speltid
 * Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
   Vid behov anges speltid här i kodad form.
