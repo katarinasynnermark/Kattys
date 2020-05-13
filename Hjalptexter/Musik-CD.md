@@ -271,8 +271,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   Skriv in uppgiften under Benämning.</BR> 
   <br/>```Exempel:```
     * ```Först utgiven 1997```
-    * ```Titel från omslag```
-    * ```MP3```   
+    * ```Titel från omslag``` 
 
 ### Elektronisk adress
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
