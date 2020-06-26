@@ -9,7 +9,7 @@ tags:
 - integrerande resurs
 --- 
 
-# Databas/Webbplats
+# Databas/webbplats
 Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en databas eller en webbplats. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 [Inledning](#inledning) 
@@ -57,37 +57,43 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
   
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
-  Länka till entiteten.  
+  Länka till entiteten:  
   ```Exempel:  c (= dator)``` 
   
 ### Barartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
-  Länka till entiteten.  
+  Länka till entiteten: 
   ```Exempel:  cr (= online resurs)```
+   
+  Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
+  ```Onlineresurs, r```</BR>
+  
+  Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
+  ```Onlineutgåva, o```</BR>
   
 ### Titel 
 
 #### Nyckeltitel
 * Har titel/Nyckeltitel/Huvudtitel    
 (hasTitle/KeyTitle/mainTitle = 222 -/0 #a)  
-För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
+För svenska integrerande resurser ansvarar ISSN Sverige för nyckeltiteln.  
 Skriv in uppgiften.  
- ```Exempel:  Kammarmusik-nytt ```
+ ```Exempel:  ARTbibliographies modern ```
  
 * Har titel/Nyckeltitel/Särskiljande tillägg  
 (hasTitle/KeyTitle/qualifier = 222 #b)  
 Skriv in uppgiften, inom parentes.  
-```Exempel: (Brämhult)```
+```Exempel: (Online)```
   
-#### Huvudtitel    
+#### Huvudtitel 
+Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. [Se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-seriella-resurser/#huvudtitel_seriell  "Anvisningar för katalogisering - RDA").  
+  Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
   Skriv in uppgiften under Huvudtitel.      
-  ```Exempel: Kammarmusik-nytt```  
+  ```Exempel: ARTbibliographies modern```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
- ```Exempel: Huvudtitel: Le bulletin France-Suède, fileringsvärde: 3```  
- [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+[Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
   
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
