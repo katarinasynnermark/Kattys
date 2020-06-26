@@ -1,16 +1,16 @@
 ---
 section: Materialtyper
-title: Data
+title: Databas/Webbplats
 order: 55
-date: 2020-06-22
+date: 2020-06-26
 tags:
-- seriell resurs
-- tidskrift
-- monografiserie
+- databas
+- webbplats
+- integrerande resurs
 --- 
 
-# Tryckt seriell resurs
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en tryckt seriell resurs. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+# Databas/Webbplats
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en databas eller en webbplats. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 [Inledning](#inledning) 
 
@@ -53,17 +53,17 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
-  ```Exempel: Seriell resurs```
+  ```Exempel: Integrerande resurs```
   
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
-  Länka till entitet.  
-  ```Exempel:  n (= omedierad)``` 
+  Länka till entiteten.  
+  ```Exempel:  c (= dator)``` 
   
 ### Barartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
-  Länka till entitet.  
-  ```Exempel:  nc (= volym)```
+  Länka till entiteten.  
+  ```Exempel:  cr (= online resurs)```
   
 ### Titel 
 
