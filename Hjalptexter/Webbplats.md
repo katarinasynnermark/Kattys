@@ -90,7 +90,6 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
   Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
-  Skriv in uppgiften under Huvudtitel.      
   ```Exempel: ARTbibliographies modern```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
 [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
@@ -98,28 +97,22 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
-  ```Exempel: Kammarmusikförbundets tidskrift```
   
 #### Varianttitel   
-Används till exempel för felaktigheter och tillfälliga variationer/mindre förändringar i huvudtiteln. Felaktigheter kan specificeras med Typanmärkning och tillfälliga variationer/mindre förändringar i huvudtiteln kan preciseras med Täckning och tillkomst. 
+Används för stavningvarianter eller varianter av huvudtiteln som förekommer i resursen som man vill göra sökbara. Vid förändringar i huvudtiteln, se Tidigare titel.
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
-* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
- Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
-  Skriv in uppgiften.   
-  ```Exempel: Titel felstavad i nummer 1 (2006):```  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
   Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: Housing sarts```    
+  ```Exempel: ART bibliographies modern  ```    
 
-#### Tidsbestämd titelvariant   
-Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)    
+#### Tidigare titel
+Om en databas eller webbplats byter titel görs normalt ingen ny beskrivning. Huvudtiteln ersätts istället med den nya titeln och den gamla titeln anges i Tidigare titel. Tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
+* Har titel/Tidigare titel/Huvudtitel (hasTitle/FormerTitle/mainTitle = 247 1/0 #a)    
   Skriv in uppgiften under Huvudtitel.  
-  ```Exempel: Hushållningssällskapets magasin```  
-  
-* Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
+
+* Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)  
   Skriv in uppgiften.  
-  ```Exempel: 2011, nr 4-2012, nr 4``` 
+  ```Exempel: 2005-2009``` 
   
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
@@ -131,7 +124,7 @@ Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preci
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
-  ```Exempel: ACMO```  
+  ```Exempel: ABM```  
     
 ### Utgivning
 * Utgivning  
