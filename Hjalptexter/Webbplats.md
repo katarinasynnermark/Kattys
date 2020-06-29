@@ -83,18 +83,6 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
   
 ### Titel 
 
-#### Nyckeltitel
-* Har titel/Nyckeltitel/Huvudtitel    
-(hasTitle/KeyTitle/mainTitle = 222 -/0 #a)  
-För svenska integrerande resurser ansvarar ISSN Sverige för nyckeltiteln.  
-Skriv in uppgiften.  
- ```Exempel:  ARTbibliographies modern ```
- 
-* Har titel/Nyckeltitel/Särskiljande tillägg  
-(hasTitle/KeyTitle/qualifier = 222 #b)  
-Skriv in uppgiften, inom parentes.  
-```Exempel: (Online)```
-  
 #### Huvudtitel 
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
@@ -141,36 +129,31 @@ Om en databas eller webbplats byter huvudtitel görs normalt ingen ny beskrivnin
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)
 
-Om upphovsuppgiften ändras, uppdatera Upphovsuppgiften så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften, om det är viktigt för identifikation, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html) samt [Anmärkning](#anmarkning).
+Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften, om det är viktigt för identifikation eller åtkomst, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html).
     
 ### Utgivning
 * Utgivning  
-  Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
-  
-För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
+  Välj typ från lista. För databaser och webbplatser, använd Primär utgivning. 
   
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
-  För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
-  Skriv in uppgiften under Benämning.    
-  ```Exempel: [Göteborg]```
+
+Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
   
 #### Utgivningsland
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```
   
+Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktuell version.
+  
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
-  För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
-  Skriv in uppgiften under Benämning.  
-  ```Exempel: NoNa```  
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
-Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
-Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
-  [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).  
-  
-#### År och datum    
+
+Om utgivarnamnet ändras, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikatione eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
+    
+#### År och datum 
+För instruktioner om hur man anger utgivningstid för integrerande resurser, [se RDA 2.8.6.5] (http://access.rdatoolkit.org/rdachp2_rda2-6792.html).
 * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
   För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. 
@@ -185,16 +168,28 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
    För att lägga till Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår.  
   Skriv in uppgiften.  
   ```Exempel: 2013```     
-  För att ange slutår för senaste utgivningsperiod (264 -/3 #c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår (se nedan under Datum).    
 * Datum (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken.  
-  För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 #c.  
+  För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens 264 -/1 #c.  
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
   Skriv in uppgiften.
   <br/>```Exempel:```
   * ```2012-2013```
   * ```[1988-]```
   
+### Tillhörande media
+* Tillhörande media/Mediaobjekt/URI<br/> 
+(associatedMedia/Mediaobject/uri = 856 4/0 #u)<br/>
+Använd Tillhörande media för fritt tillgängliga resurser för att lägga in en elektronisk adress till resursen. 
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning<br/> 
+(associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)<br/>
+Lägg till offentlig anmärkning.
+<br/>```Exempel:```
+* ```Fritt tillgänglig via databasens webbplats``` 
+* ```Fritt tillgänglig via webbplatsen
+
+För avtalsbundna databaser anges URI för den leverantörsplattform genom vilken biblioteket har tillgång till databasen i beståndsposten. Instansbeskrivningen kan kompletteras med URI till databasens generella inloggningssida i Tillhörande media. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkningen t.ex. "Inloggning krävs".
+
 ### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
