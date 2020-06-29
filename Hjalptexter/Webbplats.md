@@ -103,17 +103,8 @@ Används för stavningvarianter eller varianter av huvudtiteln som förekommer i
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
   Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: ART bibliographies modern  ```    
+  ```Exempel: ART bibliographies modern  ```   
 
-#### Tidigare titel
-Om en databas eller webbplats byter titel görs normalt ingen ny beskrivning. Huvudtiteln ersätts istället med den nya titeln och den gamla titeln anges i Tidigare titel. Tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
-* Har titel/Tidigare titel/Huvudtitel (hasTitle/FormerTitle/mainTitle = 247 1/0 #a)    
-  Skriv in uppgiften under Huvudtitel.  
-
-* Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)  
-  Skriv in uppgiften.  
-  ```Exempel: 2005-2009``` 
-  
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
  
@@ -125,9 +116,19 @@ Används för akronymer som är en del av huvudtiteln.
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ABM``` 
- 
+
+#### Tidigare titel
+Om en databas eller webbplats byter titel görs normalt ingen ny beskrivning. Huvudtiteln ersätts istället med den nya titeln och den gamla titeln anges i Tidigare titel. Tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
+* Har titel/Tidigare titel/Huvudtitel (hasTitle/FormerTitle/mainTitle = 247 1/0 #a)    
+  Skriv in uppgiften under Huvudtitel.  
+
+* Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)  
+  Skriv in uppgiften.  
+  ```Exempel: 2005-2009``` 
+  
 #### Upphovsuppgift
-Om upphovsuppgiften ändras, ersätt den gamla upphovsuppgiften med den nya. Gör en anmärkning om den tidigare upphovsuppgiften om det är viktigt för identifikation, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html) samt [Anmärkning](#anmarkning).
+
+Om upphovsuppgiften ändras, ersätt den gamla upphovsuppgiften med den nya. Gör en anmärkning om den tidigare upphovsuppgiften, om det är viktigt för identifikation, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html) samt [Anmärkning](#anmarkning).
     
 ### Utgivning
 * Utgivning  
