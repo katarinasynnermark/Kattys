@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Databas/webbplats
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en databas eller en webbplats. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en databas eller en webbplats (integrerande resurs). För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 [Inledning](#inledning) 
 
@@ -34,7 +34,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 
 
 ## Inledning
-Beskrivningen av en elektronisk integrerande resurs (webbplats, databas) innehåller följande tre delar:  
+Beskrivningen av en elektronisk integrerande resurs, t.ex. en webbplats eller en databas, innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
@@ -124,7 +124,10 @@ Om en databas eller webbplats byter titel görs normalt ingen ny beskrivning. Hu
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
-  ```Exempel: ABM```  
+  ```Exempel: ABM``` 
+ 
+#### Upphovsuppgift
+Om upphovsuppgiften ändras, ersätt den gamla upphovsuppgiften med den nya. Gör en anmärkning om den tidigare upphovsuppgiften om det är viktigt för identifikation, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html) samt [Anmärkning](#anmarkning].
     
 ### Utgivning
 * Utgivning  
