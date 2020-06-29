@@ -180,15 +180,15 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, [s
 ### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI<br/> 
 (associatedMedia/Mediaobject/uri = 856 4/0 #u)<br/>
-Använd Tillhörande media för fritt tillgängliga resurser för att lägga in en elektronisk adress till resursen. 
+Använd Tillhörande media för **fritt tillgängliga resurser** för att lägga in en elektronisk adress till resursen. 
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning<br/> 
 (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)<br/>
 Lägg till offentlig anmärkning.
 <br/>```Exempel:```
 * ```Fritt tillgänglig via databasens webbplats``` 
-* ```Fritt tillgänglig via webbplatsen
+* ```Fritt tillgänglig via webbplatsen```
 
-För avtalsbundna databaser anges URI för den leverantörsplattform genom vilken biblioteket har tillgång till databasen i beståndsposten. Instansbeskrivningen kan kompletteras med URI till databasens generella inloggningssida i Tillhörande media. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkningen t.ex. "Inloggning krävs".
+För **avtalsbundna resurser**RI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. eskrivningen kan kompletteras med URI till databasens generella inloggningssida i Tillhörande media. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkningen t.ex. "Inloggning krävs".
 
 ### Frekvens   
 * Frekvens (frequency)  
