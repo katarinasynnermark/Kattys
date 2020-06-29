@@ -127,7 +127,7 @@ Används för akronymer som är en del av huvudtiteln.
   ```Exempel: ABM``` 
  
 #### Upphovsuppgift
-Om upphovsuppgiften ändras, ersätt den gamla upphovsuppgiften med den nya. Gör en anmärkning om den tidigare upphovsuppgiften om det är viktigt för identifikation, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html) samt [Anmärkning](#anmarkning].
+Om upphovsuppgiften ändras, ersätt den gamla upphovsuppgiften med den nya. Gör en anmärkning om den tidigare upphovsuppgiften om det är viktigt för identifikation, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html) samt [Anmärkning](#anmarkning).
     
 ### Utgivning
 * Utgivning  
