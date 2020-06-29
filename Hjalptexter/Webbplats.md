@@ -102,7 +102,7 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
 
-Om övrig titelinformation ändras i resursen, uppdatera Övrig titelinformation så att den speglar aktuell version, om det är viktigt för identifikation eller åtkomst, [se RDA 2.3.4.7.3](http://access.rdatoolkit.org/rdachp2_rda2-3909.html).
+Om övrig titelinformation ändras i resursen, uppdatera Övrig titelinformation så att den speglar aktuell version, om det bedöms vara viktigt för identifikation eller åtkomst, [se RDA 2.3.4.7.3](http://access.rdatoolkit.org/rdachp2_rda2-3909.html).
 
 #### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
@@ -138,7 +138,7 @@ Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den spe
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
 
-Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
+Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivningsort om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
   
 #### Utgivningsland
 * Land (country = 008/15-17)  
@@ -150,7 +150,7 @@ Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktue
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
 
-Om utgivarnamnet ändras, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikatione eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
+Om utgivarnamnet ändras, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
     
 #### År och datum 
 För instruktioner om hur man anger utgivningstid för integrerande resurser, [se RDA 2.8.6.5] (http://access.rdatoolkit.org/rdachp2_rda2-6792.html).
@@ -188,27 +188,28 @@ Lägg till offentlig anmärkning.
 * ```Fritt tillgänglig via databasens webbplats``` 
 * ```Fritt tillgänglig via webbplatsen```
 
-För **avtalsbundna resurser**RI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. eskrivningen kan kompletteras med URI till databasens generella inloggningssida i Tillhörande media. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkningen t.ex. "Inloggning krävs".
+För **avtalsbundna resurser**RI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till databasens generella inloggningssida. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkningen t.ex. "Inloggning krävs".
 
 ### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
     Länka till entitet.  
-    ```Exempel: var tredje månad (q = quarterly)```  
+    ```Exempel: kontinuerligt (k = ContinuouslyUpdated)```  
 **Från och med version 1.7 behöver man inte längre ange "u" för okänd frekvens. Det skapas automatiskt vid marcexport om frekvens inte har angetts.**
   * Regelbundenhet (008/19)  
     **Från och med version 1.7 behöver man inte längre ange Regelbundenhet. "Inget försök att koda" skapas automatiskt vid marcexport.**
-    
-### Numrering av seriell resurs  
-* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
-  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)  
-  Skriv in uppgiften under Benämning.    
-  ```Exempel: 2011: 4-2013: 2```
   
 ### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
   Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
+
+### Anmarkning
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
+För integrerande resurser med fjärråtkomst anges alltid datum för när resursen beskrevs.
+```Exempel: Katalogiserad 2020-02-16```
+Här kan också anmärkningar om tidigare upphovsuppgift eller utgivare anges om det bedöms vara viktigt för identifikation eller åtkomst. 
+```Exempel: Utgiven av Södertörns högskolebibliotek, 2009-2017```
   
 ### Behandling vid titelandring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
