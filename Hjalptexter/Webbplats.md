@@ -49,7 +49,17 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 ## Instans
-
+### Identifikator  
+* Identifikator/Typ (identifiedBy)  
+  Välj från lista.  
+  ```Exempel: ISSN```   
+* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 #a)  
+  Skriv in uppgiften.  
+  ```Exempel: 2001-2721```  
+* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
+  Skriv in uppgiften.   
+  ```Exempel: 1653-2945```   
+  
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
@@ -88,22 +98,11 @@ Skriv in uppgiften, inom parentes.
 #### Huvudtitel 
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
+För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Elektronisk.  
   Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
   ```Exempel: ARTbibliographies modern```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
 [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
-  
-#### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
-  
-#### Varianttitel   
-Används för stavningvarianter eller varianter av huvudtiteln som förekommer i resursen som man vill göra sökbara. Vid förändringar i huvudtiteln, se Tidigare titel.
-För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
-  Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: ART bibliographies modern  ```   
 
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
@@ -111,14 +110,27 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 ##### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
 
+#### Övrig titelinformation (undertitel)
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
+  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
+
+Om övrig titelinformation ändras i resursen, uppdatera Övrig titelinformation så att den speglar aktuell version, om det är viktigt för identifikation eller åtkomst, [se RDA 2.3.4.7.3](http://access.rdatoolkit.org/rdachp2_rda2-3909.html).
+
 #### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ABM``` 
 
+#### Varianttitel   
+Används för stavningvarianter eller varianter av huvudtiteln som förekommer i resursen som man vill göra sökbara. Vid förändringar i huvudtiteln, se Tidigare titel.
+För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
+  Skriv in uppgiften under Huvudtitel.    
+  ```Exempel: ART bibliographies modern```   
+
 #### Tidigare titel
-Om en databas eller webbplats byter titel görs normalt ingen ny beskrivning. Huvudtiteln ersätts istället med den nya titeln och den gamla titeln anges i Tidigare titel. Tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
+Om en databas eller webbplats byter huvudtitel görs normalt ingen ny beskrivning. Den gamla huvudtiteln ersätts istället med den nya och den gamla huvudtiteln anges i Tidigare titel. Tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
 * Har titel/Tidigare titel/Huvudtitel (hasTitle/FormerTitle/mainTitle = 247 1/0 #a)    
   Skriv in uppgiften under Huvudtitel.  
 
@@ -127,14 +139,15 @@ Om en databas eller webbplats byter titel görs normalt ingen ny beskrivning. Hu
   ```Exempel: 2005-2009``` 
   
 #### Upphovsuppgift
+* Upphovsuppgift (responsibilityStatement = 245 #c)
 
-Om upphovsuppgiften ändras, ersätt den gamla upphovsuppgiften med den nya. Gör en anmärkning om den tidigare upphovsuppgiften, om det är viktigt för identifikation, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html) samt [Anmärkning](#anmarkning).
+Om upphovsuppgiften ändras, uppdatera Upphovsuppgiften så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften, om det är viktigt för identifikation, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html) samt [Anmärkning](#anmarkning).
     
 ### Utgivning
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
   
-  För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
+För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
   
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
@@ -181,17 +194,6 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   <br/>```Exempel:```
   * ```2012-2013```
   * ```[1988-]```
-  
-### Identifikator  
-* Identifikator/Typ (identifiedBy)  
-  Välj från lista.  
-  ```Exempel: ISSN```   
-* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 #a)  
-  Skriv in uppgiften.  
-  ```Exempel: 2001-2721```  
-* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
-  Skriv in uppgiften.   
-  ```Exempel: 1653-2945```   
   
 ### Frekvens   
 * Frekvens (frequency)  
