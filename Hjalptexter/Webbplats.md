@@ -194,7 +194,7 @@ För **avtalsbundna resurser**RI för den leverantörsplattform genom vilken bib
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
     Länka till entitet.  
-    ```Exempel: kontinuerligt (k = ContinuouslyUpdated)```  
+    ```Exempel: kontinuerligt (k = Continuously updated)```  
 **Från och med version 1.7 behöver man inte längre ange "u" för okänd frekvens. Det skapas automatiskt vid marcexport om frekvens inte har angetts.**
   * Regelbundenhet (008/19)  
     **Från och med version 1.7 behöver man inte längre ange Regelbundenhet. "Inget försök att koda" skapas automatiskt vid marcexport.**
@@ -207,19 +207,16 @@ För **avtalsbundna resurser**RI för den leverantörsplattform genom vilken bib
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
 För integrerande resurser med fjärråtkomst anges alltid datum för när resursen beskrevs.
-```Exempel: Katalogiserad 2020-02-16```
+```Exempel: Katalogiserad 2020-02-16```<br/>
 Här kan också anmärkningar om tidigare upphovsuppgift eller utgivare anges om det bedöms vara viktigt för identifikation eller åtkomst. 
 ```Exempel: Utgiven av Södertörns högskolebibliotek, 2009-2017```
   
 ### Behandling vid titelandring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entitet.  
-  ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
+  ```Exempel: 2 (= Integrating entry = Katalogposten avser integrerande resurs)```
 
-### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
-  Skriv in allmänna anmärkningar här.  
-  Skriv in uppgiften under Benämning.  
+
 
 ### Relationer
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
