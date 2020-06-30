@@ -224,24 +224,39 @@ Här kan också anmärkningar om tidigare upphovsuppgift eller utgivare anges om
 
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
-  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
+  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk.  
 [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html). 
 
+För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
+
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/. 
+Ange vid behov den föredragna titeln för verket här. Ofta är den föredragna titeln för verket densamma som huvudtiteln i manifestationen och behöver den inte anges i verksbeskrivningen [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/. 
 
-#### Verkets titel - verk utan primär medverkan
+Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudtiteln i den integrerande resursen ändras, uppdatera den föredragna titeln så att den speglar aktuell version av huvudtiteln, [se RDA 6.1.3.3.2](http://access.rdatoolkit.org/rdachp6_rda6-1930.html).
 
-### Medverkan och funktion     
+#### Verk utan Primär medverkan
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
+Föredragen titel för ett verk utan Medverkan och funktion/Primär medverkan anges här.  
+
+#### Verk med primär medverkan
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
+Föredragen titel för ett verk med Medverkan och funktion/Primär medverkan anges här.  
+
+
+### Medverkan och funktion  
+Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. Relationer till utgivare (710) anges för närvarande också här.
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
-* Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- #a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
-  ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
-* Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 #4)   
-  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
-  ```Exempel:  Utgivare (pbl = publisher)```
+* Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- #a)
+* Medverkan och funktion/Primär medverkan/Agent/Organisation (110 2/- #a) 
+* Medverkan och funktion/Primär medverkan/Funktion (100/110 #4)   
+* Medverkan och funktion/Medverkan/Agent/Person (700 1/- #a) 
+* Medverkan och funktion/Medverkan/Agent/Organisation (710 2/- #a)
+* Medverkan och funktion/Medverkan/Agent/Funktion (700/710 #4)
+
+Om en agent är angiven i Primär medverkan, d.v.s. om verket har en huvudsaklig skapare, och , [se RDA 6.1.3.3.1](http://access.rdatoolkit.org/rdachp6_rda6-1916.html)
+
+Om en agent är angiven i Medverkan och en 
   
 ### Sprak
 * Språk (language = 008/35-37)  
