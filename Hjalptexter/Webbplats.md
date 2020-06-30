@@ -113,7 +113,7 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
 
-Om en parallelltitel läggs till, tas bort eller ändras i resursen, uppdatera Parallelltitel så att den speglar aktuell version om det bedöms vara viktigt för identifikation eller åtkomst, [se RDA 2.3.3.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-3773.html). En tidigare parallelltitel som bedöms vara viktig kan ligga kvar och den nya parallelltiteln läggas till. Tidsintervall för den tidigare parallelltiteln kan preciseras under Täckning eller tillkomst.
+Om en parallelltitel läggs till, tas bort eller ändras i resursen, uppdatera Parallelltitel så att den speglar aktuell version, [se RDA 2.3.3.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-3773.html). En tidigare parallelltitel som bedöms vara viktig för identifikation eller åtkomst kan ligga kvar och den nya parallelltiteln läggas till. Tidsintervall för den tidigare parallelltiteln kan preciseras under Täckning eller tillkomst.
 * Har titel/Parallelltitel/Täckning eller tillkomst (hasTitle/ParallellTitle/coverage = 246 1/1 #f)
 ```Exempel: 2003-2008```
 
@@ -194,7 +194,7 @@ Lägg till offentlig anmärkning.
 * ```Fritt tillgänglig via databasens webbplats``` 
 * ```Fritt tillgänglig via webbplatsen```
 
-För **avtalsbundna resurser** ange URI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till databasens generella inloggningssida. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkningen t.ex. "Inloggning krävs".
+För **avtalsbundna resurser** ange URI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till databasens generella inloggningssida. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".
 
 ### Frekvens   
 * Frekvens (frequency)  
@@ -222,70 +222,13 @@ Här kan också anmärkningar om tidigare upphovsuppgift eller utgivare anges om
   Länka till entitet.  
   ```Exempel: 2 (= Integrating entry = Katalogposten avser integrerande resurs)```
 
-
-
-### Relationer
-För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
-sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn. För seriella resurser, skapa lokal entitet i stället för att länka. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC (Internationella ISSN-centralen).  
-
-* Annat bärarformat (776)  
-  Annat bärarformat/Instans/Instanstyp/Har titel/Titel/Huvudtitel  
-  (otherPhysicalFormat/Instance/type/hasTitle/Title/mainTitle = 776 #t)  
-Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Man behöver inte välja Instanstyp här. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
-* Annat bärarformat/Instans/Instanstyp/Identifikator/ISSN/Värde  
-(otherPhysicalFormat/Instance/type/identifiedBy/ISSN/value = 776 #x)  
-Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.  
- Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.   
-
-* Övriga relationer (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera:  
-följ mönstret för Fortsätter, se nedan.
- 
-* Fortsätter/Instans/Instanstyp/Har titel/Titel/Huvudtitel  
- (continues/Instance/type/hasTitle/Title/mainTitle = 780 0/0 #t)  
- För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
- Skapa Instans som lokal entitet. Man behöver inte välj Instanstyp här. Lägg till Har titel. Välj Titel. Skriv in uppgiften under Huvudtitel.
- <br/>```Exempel:```
-  * ```Aktuellt magazin```
-  * ```Medlemstidning (Svenska Schweisshundklubben)```
-  
-* Fortsätter/Instans/Instanstyp/Identifikator/ISSN/Värde  
- (continues/Instance/type/identifiedBy/ISSN/value = 780 0/0 #x)  
-  Lägg till Identifikator vid Instans. Välj typ ISSN. Skriv in ISSN under Värde.  
-```Exempel: 1402-1250```  
-
-Exempel:  
-
-![Exempel på relationen Fortsättes av för seriell resurs](fortsatter_seriell.png)  
-
-* Fortsätter/Instans/Instanstyp/Beskriven av/Post/Kontrollnummer (continues/Instance/type/describedBy = 780 0/0 #w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
-
-  Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan):  
-  
-  Fortsätter (continues = 780 0/0)  
-  Fortsätter delvis (continuesInPartBy = 780 0/1)  
-  Föregående (precededBy = 780 0/2)  
-  Ersätter delvis (precededInPartBy = 780 0/3)  
-  Sammanslagen med (mergerOf = 780 0/4) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
-  Har införlivat (absorbed = 780 0/5)  
-  Har delvis införlivat (absorbedInPart = 780 0/6)  
-  Separerad från (separatedFrom = 780 0/7)  
-  
-  Fortsättes av (continuedBy = 785 0/0)  
-  Fortsättes delvis av (continuedInPartBy = 785 0/1)  
-  Efterföljande (succeededBy = 785 0/2)  
-  Ersättes delvis av (succeededInPartBy = 785 0/3)  
-  Har uppgått i (absorbedBy = 785 0/4)  
-  Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
-  Uppdelat på (splitInto = 785 0/6)  
-  Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
-  
-
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
-[Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
+[Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html). 
+
+### Verkets titel
+Ange vid behov den föredragna titeln för verket här. Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.
 
 ### Medverkan och funktion     
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
