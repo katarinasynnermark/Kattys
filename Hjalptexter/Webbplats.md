@@ -89,43 +89,47 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Elektronisk.  
-  Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
+  Återge huvudtiteln som den förekommer i i den föredragna källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
   ```Exempel: ARTbibliographies modern```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
 [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
-#### Delbeteckning
-* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
- 
-##### Deltitel  
-* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
+Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [se RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3656.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan.
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
+Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
 
-Om övrig titelinformation ändras i resursen, uppdatera Övrig titelinformation så att den speglar aktuell version, om det bedöms vara viktigt för identifikation eller åtkomst, [se RDA 2.3.4.7.3](http://access.rdatoolkit.org/rdachp2_rda2-3909.html).
+Om övrig titelinformation läggs till, tas bort eller ändras i resursen, uppdatera Övrig titelinformation så att den speglar aktuell version om det bedöms vara viktigt för identifikation eller åtkomst, [se RDA 2.3.4.7.3](http://access.rdatoolkit.org/rdachp2_rda2-3909.html).
 
 #### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
-  ```Exempel: ABM``` 
+  ```Exempel: ABM```
+  
+### Parallelltitel
+Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.
+* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
+
+Om en parallelltitel läggs till, tas bort eller ändras i resursen, uppdatera Parallelltitel så att den speglar aktuell version om det bedöms vara viktigt för identifikation eller åtkomst, [se RDA 2.3.3.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-3773.html). En tidigare parallelltitel som bedöms vara viktig kan ligga kvar och den nya parallelltiteln läggas till. Tidsintervall för den tidigare parallelltiteln kan preciseras under Täckning eller tillkomst.
+* Har titel/Parallelltitel/Täckning eller tillkomst (hasTitle/ParallellTitle/coverage = 246 1/1 #f)
+```Exempel: 2003-2008```
 
 #### Varianttitel   
-Används för stavningvarianter eller varianter av huvudtiteln som förekommer i resursen som man vill göra sökbara. Vid förändringar i huvudtiteln, se Tidigare titel.
+Används för stavningvarianter eller varianter av titeln som förekommer i resursen som man vill göra sökbara. Vid förändringar i huvudtiteln, se Tidigare titel.
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: ART bibliographies modern```   
 
 #### Tidigare titel
-Om en databas eller webbplats byter huvudtitel görs normalt ingen ny beskrivning. Den gamla huvudtiteln ersätts istället med den nya och den gamla huvudtiteln anges i Tidigare titel. Tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
+Om resursen byter titel ange den tidigare titeln här. Tidsintervall kan preciseras under Täckning eller tillkomst (se nedan).   
 * Har titel/Tidigare titel/Huvudtitel (hasTitle/FormerTitle/mainTitle = 247 1/0 #a)    
   Skriv in uppgiften under Huvudtitel.  
 
-* Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)  
-  Skriv in uppgiften.  
+* Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)    
   ```Exempel: 2005-2009``` 
   
 #### Upphovsuppgift
@@ -135,19 +139,19 @@ Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den spe
     
 ### Utgivning
 * Utgivning  
-  Välj typ från lista. För databaser och webbplatser, använd Primär utgivning. 
+Välj typ från lista. För databaser och webbplatser, använd Primär utgivning. 
+
+#### Utgivningsland
+* Land (country = 008/15-17)  
+  Länka till entitet.  
+  ```Exempel: Sverige (sw)```
+
+Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktuell version.
   
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
 
 Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivningsort om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
-  
-#### Utgivningsland
-* Land (country = 008/15-17)  
-  Länka till entitet.  
-  ```Exempel: Sverige (sw)```
-  
-Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktuell version.
   
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
@@ -190,7 +194,7 @@ Lägg till offentlig anmärkning.
 * ```Fritt tillgänglig via databasens webbplats``` 
 * ```Fritt tillgänglig via webbplatsen```
 
-För **avtalsbundna resurser**RI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till databasens generella inloggningssida. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkningen t.ex. "Inloggning krävs".
+För **avtalsbundna resurser** ange URI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till databasens generella inloggningssida. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkningen t.ex. "Inloggning krävs".
 
 ### Frekvens   
 * Frekvens (frequency)  
