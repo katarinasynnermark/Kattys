@@ -10,7 +10,9 @@ tags:
 --- 
 
 # Databas/webbplats
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en databas eller en webbplats (integrerande resurs). För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en onlinedatabas eller en webbplats (integrerande resurser). För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+
+Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat material) infogas som en integrerad del i helheten. I motsats till seriella resurser saknas därför alfanumeriska och/eller kronologiska beteckningar. Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen ny beskrivning. Istället ersätts huvudtiteln med den nya så att den aktuella uppdateringen återspegles. Även andra egenskaper hos en integrerande resurs kan förändras och behöva uppdateras, t.ex. upphov och utgivare. För instruktioner om hur olika egenskaper ska uppdateras, se repektive egenskap.
 
 [Inledning](#inledning) 
 
@@ -31,13 +33,11 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Relationer](#relationer) | | 
 
 
-
-
 ## Inledning
 Beskrivningen av en elektronisk integrerande resurs, t.ex. en webbplats eller en databas, innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
-* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, medietyp.
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
 Många av egenskaperna finns redan i mallen Databas/webbplats, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Databas/webbplats.  
 
@@ -49,6 +49,8 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 ## Instans
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
+
 ### Identifikator  
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
@@ -63,17 +65,17 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
-  ```Exempel: Integrerande resurs```
+  ```Integrerande resurs```
   
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
-  ```Exempel:  c (= dator)``` 
+  ```c (= dator)``` 
   
 ### Barartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten: 
-  ```Exempel:  cr (= online resurs)```
+  ```cr (= online resurs)```
    
   Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
   ```Onlineresurs, r```</BR>
