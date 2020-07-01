@@ -19,18 +19,17 @@ Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat m
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) | 
+| | [Utgivningssätt](#utgivningssatt) | [Medverkan-och-funktion](#medverkan-och-funktion) |
 | | [Medietyp](#medietyp) | [Språk](#sprak) |
-| | [Bärartyp](#barartyp) | [Genre/form](#genre-form) |
-| | [Titel](#titel) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
-| | [Frekvens](#frekvens) | [Verkets titel](#verkets-titel) |
-| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | |
-| | [Alfabet](#alfabet) | |
-| | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
-| | [Anmärkning](#anmarkning)| |
-| | [Relationer](#relationer) | | 
+| | [Bärartyp](#barartyp) | [Genre form](#genre-form) |
+| | [Titel](#titel) | [Klassifikation](klassifikation) |
+| | [Utgivning](#utgivning) | [Ämne](#https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
+| | [Alfabet](#alfabet) | [Sammanfattning av innehåll] (#innehallstyp) |
+| | [Anmärkning](#anmarkning) |  |
+| | [Behandling vid titeländring](#behandling-vid-titelandring)| |
+ 
 
 
 ## Inledning
@@ -108,7 +107,7 @@ Används för akronymer som är en del av huvudtiteln.
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ABM```
   
-### Parallelltitel
+#### Parallelltitel
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
