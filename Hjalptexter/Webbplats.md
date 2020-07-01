@@ -54,7 +54,6 @@ De bibliotek som önskar kan använda databasposterna för att skapa och underh�
 </br>Skriv in koden.</br>
 ```DBAS```
 
-
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
@@ -81,7 +80,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
 ### Barartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
-  Länka till entiteten: 
+  Länka till entiteten:</BR>
   ```cr (= online resurs)```
    
   Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
