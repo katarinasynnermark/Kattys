@@ -143,7 +143,7 @@ Välj typ från lista. För databaser och webbplatser, använd Primär utgivning
 
 #### Utgivningsland
 * Land (country = 008/15-17)  
-  Länka till entitet.  
+  Länka till entitet.  I mallen är "Sverige" förifyllt. Ändra vid behov.
   ```Exempel: Sverige (sw)```
 
 Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktuell version.
@@ -259,7 +259,7 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
   
 ### Sprak
 * Språk (language = 008/35-37)  
-  Länka till entitet.  
+  Länka till entitet. I mallen är "svenska" förifyllt. Ändra vid behov. 
   ```Exempel: svenska (swe)```  
    
 ### Genre form 
@@ -270,7 +270,7 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
   * ```Artikeldatabaser```
   
 * Genre/form - Typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
-  Välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. I mallen för Databas/Webbplats ligger både Databas och Webbplats förifyllt. Ta bort den som inte är aktuell.
+  Välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. 
 <br/>```Exempel:```
   * ```Databas (= d)```
   * ```Uppdaterande webbplats (= w)```
