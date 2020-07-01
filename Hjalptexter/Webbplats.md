@@ -47,6 +47,14 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 ## Adminmetadata
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
+### Databaser
+De bibliotek som önskar kan använda databasposterna för att skapa och underhålla egna listor över de (avtalsbundna och fritt tillgängliga) databaser som är tillgängliga för användarna. För att underlätta detta bör databasposten kompletteras med koden DBAS i Bibliografikod och beståndspost upprättas även i de fall posten avser en fritt tillgänglig databas.
+
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
+Skriv in koden.
+```DBAS```
+
+
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
