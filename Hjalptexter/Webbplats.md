@@ -230,18 +230,17 @@ Här kan också anmärkningar om tidigare upphovsuppgift eller utgivare anges om
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket här. Ofta är den föredragna titeln för verket densamma som huvudtiteln i manifestationen och behöver den inte anges i verksbeskrivningen [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/. 
+Ange vid behov den föredragna titeln för verket här. Normalt är dock den föredragna titeln för en integrerande resurs densamma som huvudtiteln och ska därför inte anges i verksbeskrivningen [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/. 
 
-Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudtiteln i den integrerande resursen ändras, uppdatera den föredragna titeln så att den speglar aktuell version av huvudtiteln, [se RDA 6.1.3.3.2](http://access.rdatoolkit.org/rdachp6_rda6-1930.html).
+Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudtiteln i den integrerande resursen ändras, uppdatera den föredragna titeln så att den speglar aktuell version, [se RDA 6.1.3.3.2](http://access.rdatoolkit.org/rdachp6_rda6-1930.html).
 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
-Föredragen titel för ett verk utan Medverkan och funktion/Primär medverkan anges här.  
+Föredragen titel för ett verk utan Primär medverkan anges här.  
 
 #### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
-Föredragen titel för ett verk med Medverkan och funktion/Primär medverkan anges här.  
-
+Föredragen titel för ett verk med primär med anges här.  
 
 ### Medverkan och funktion  
 Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. Relationer till utgivare (710) anges för närvarande också här.
@@ -254,26 +253,27 @@ Under Medverkan och funktion, ange relationer till de agenter som medverkar i ve
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 2/- #a)
 * Medverkan och funktion/Medverkan/Agent/Funktion (700/710 #4)
 
-Om en agent är angiven i Primär medverkan, d.v.s. om verket har en huvudsaklig skapare, och , [se RDA 6.1.3.3.1](http://access.rdatoolkit.org/rdachp6_rda6-1916.html)
+Om en agent är angiven i Primär medverkan och det sker en förändring i upphovsansvaret för den integrerande resursen, uppdatera Primär medverkan så att den speglar aktuell version, [se RDA 6.1.3.3.1](http://access.rdatoolkit.org/rdachp6_rda6-1916.html).
 
-Om en agent är angiven i Medverkan och en 
+Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras eller om en ny utgivare tillkommer, lägg till utgivaren i en ny Medverkan om det bedöms vara viktigt för identifikation eller åtkomst.
   
 ### Sprak
 * Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
-   För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
    
 ### Genre form 
-#### Typ av fortlöpande resurs  
-* Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-I mallen för Tryckt seriell resurs ligger Tidskrift. Vid behov, ändra till Monografiserie eller Dagstidning.
+* Genre/form - saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
+  Länka till entitet.
+  <br/>```Exempel:```
+  * ```Referensdatabaser```
+  * ```Artikeldatabaser```
+  
+* Genre/form - Typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
+  Välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. I mallen för Databas/Webbplats ligger både Databas och Webbplats förifyllt. Ta bort den som inte är aktuell.
 <br/>```Exempel:```
-  * ```p (Tidskrift = marc/Periodical)```
-  * ```m (Monografiserie = marc/MonographicSeries```
-  * ```n (Dagstidning = marc/Newspaper```
+  * ```Databas (= d)```
+  * ```Uppdaterande webbplats (= w)```
          
 ### Klassifikation  
 * DDK-klassifikation  
@@ -323,12 +323,6 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8``` 
 
-#### Konferenspublikation  
-* Genre/form – konferenspublikation (genreForm = 008/29)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-  ```Exempel: Ja, resursen härrör från konferens```      
-   
 ### Amne  
 [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
   
@@ -337,8 +331,3 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   Länka till entitet.  
   ```Exempel: text (txt)```
   
-### Verkets titel
-* Uttryck av/Verk/Verkstyp/Har titel/Titel/Huvudtitel (hasExpression/Work/type/hasTitle/Title/mainTitle = 130 0/- #a)  
-  Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av). Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Man behöver inte välja verkstyp här. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel.    
-Skriv in uppgiften under Huvudtitel.  
-```Exempel:  Architecture (Paris. 1888)```
