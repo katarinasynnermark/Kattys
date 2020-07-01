@@ -51,7 +51,7 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 De bibliotek som önskar kan använda databasposterna för att skapa och underhålla egna listor över de (avtalsbundna och fritt tillgängliga) databaser som är tillgängliga för användarna. För att underlätta detta bör databasposten kompletteras med koden DBAS i Bibliografikod och beståndspost upprättas även i de fall posten avser en fritt tillgänglig databas.
 
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
-</br>Skriv in koden.
+</br>Skriv in koden.</br>
 ```DBAS```
 
 
