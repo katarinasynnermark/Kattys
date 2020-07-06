@@ -149,12 +149,13 @@ Välj typ från lista. För databaser och webbplatser, använd Primär utgivning
 #### Utgivningsland
 * Land (country = 008/15-17)  
   Länka till entitet.  I mallen är "Sverige" förifyllt. Ändra vid behov.
-  ```Exempel: Sverige (sw)```
+  ```Exempel: Sverige (sw)```<br/>
 
 Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktuell version.
   
 #### Utgivningsplats
-* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
+* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)<br/> 
+  ```Exempel: Örebro```<br/> 
 
 Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivningsort om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
   
