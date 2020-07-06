@@ -99,7 +99,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
 [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
-Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [se RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3656.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan.
+Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [se RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3651.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan.
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
