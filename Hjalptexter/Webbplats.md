@@ -186,7 +186,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, [s
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
   Skriv in uppgiften.
   <br/>```Exempel:```
-  * ```[2012]-[2013]```
+  * ```[2012-2013]```
   * ```[1988-]```
   
 ### Tillhörande media
