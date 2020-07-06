@@ -162,7 +162,7 @@ Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktue
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
 
-Om utgivarnamnet ändras, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
+Om utgivarnamnet ändras i resursen, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
     
 #### År och datum 
 För instruktioner om hur man anger utgivningstid för integrerande resurser, [se RDA 2.8.6.5] (http://access.rdatoolkit.org/rdachp2_rda2-6792.html).
