@@ -157,7 +157,7 @@ Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktue
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)<br/> 
   ```Exempel: Örebro```<br/> 
 
-Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivningsort om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3] (http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
+Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivningsort om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
   
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
