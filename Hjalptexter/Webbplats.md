@@ -119,7 +119,7 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
 
 Om en parallelltitel läggs till, tas bort eller ändras i resursen, uppdatera Parallelltitel så att den speglar aktuell version, [se RDA 2.3.3.5.3](http://access.rdatoolkit.org/rdachp2_rda2-3773.html). En tidigare parallelltitel som bedöms vara viktig för identifikation eller åtkomst kan ligga kvar och den nya parallelltiteln läggas till. Tidsintervall för den tidigare parallelltiteln kan preciseras under Täckning eller tillkomst.
-* Har titel/Parallelltitel/Täckning eller tillkomst (hasTitle/ParallellTitle/coverage = 246 1/1 #f)
+* Har titel/Parallelltitel/Täckning eller tillkomst (hasTitle/ParallellTitle/coverage = 246 1/1 #f)<br/>
 ```Exempel: 2003-2008```
 
 #### Varianttitel   
