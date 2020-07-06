@@ -165,7 +165,7 @@ Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktue
 Om utgivarnamnet ändras i resursen, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
     
 #### År och datum 
-För instruktioner om hur man anger utgivningstid för integrerande resurser, [se RDA 2.8.6.5] (http://access.rdatoolkit.org/rdachp2_rda2-6792.html).
+För instruktioner om hur man anger utgivningstid för integrerande resurser, [se RDA 2.8.6.5](http://access.rdatoolkit.org/rdachp2_rda2-6792.html).
 * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
   För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. 
