@@ -148,7 +148,7 @@ Välj typ från lista. För databaser och webbplatser, använd Primär utgivning
 
 #### Utgivningsland
 * Land (country = 008/15-17)  
-  Länka till entitet.  I mallen är "Sverige" förifyllt. Ändra vid behov.
+  Länka till entitet.  I mallen är "Sverige" förifyllt. Ändra vid behov.Länka till entitet.<br/>
   ```Exempel: Sverige (sw)```<br/>
 
 Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktuell version.
