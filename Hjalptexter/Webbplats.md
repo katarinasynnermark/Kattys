@@ -236,7 +236,7 @@ Här kan också anmärkningar om t.ex. tidigare upphovsuppgift eller utgivare an
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket här. Normalt är dock den föredragna titeln för en integrerande resurs densamma som huvudtiteln och ska därför inte anges i verksbeskrivningen [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/. 
+Ange vid behov den föredragna titeln för verket här. Observera dock att normalt är den föredragna titeln för en integrerande resurs densamma som huvudtiteln och behöver därför inte anges i verksbeskrivningen [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA.](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
 
 Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudtiteln i den integrerande resursen ändras, uppdatera den föredragna titeln så att den speglar aktuell version, [se RDA 6.1.3.3.2](http://access.rdatoolkit.org/rdachp6_rda6-1930.html).
 
