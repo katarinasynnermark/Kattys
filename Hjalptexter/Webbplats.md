@@ -19,7 +19,7 @@ Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat m
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Databaser] (#databaser) | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) | 
+| [Databaser](#databaser) | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) | 
 | | [Utgivningssätt](#utgivningssatt) | [Medverkan-och-funktion](#medverkan-och-funktion) |
 | | [Medietyp](#medietyp) | [Språk](#sprak) |
 | | [Bärartyp](#barartyp) | [Genre form](#genre-form) |
