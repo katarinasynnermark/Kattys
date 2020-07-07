@@ -282,11 +282,7 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
   * ```Uppdaterande webbplats (= w)```
          
 ### Klassifikation  
-* DDK-klassifikation  
-  För att lägga till DDK-klassifikation:  
-  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
-   Skriv in uppgiften under Kod.  
+#### DDK-klassifikation  
 
 * Klassifikation/DDK-klassifikation/Kod  
 (classification/ClassificationDdc/code = 082 0/4 #a)  
@@ -298,6 +294,11 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
 (classification/ClassificationDdc/editionEnumeration = 082 #2)  
   ```Exempel: 23/swe```  
+  
+ För att lägga till DDK-klassifikation:  
+  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
+   Skriv in uppgiften under Kod.  
   
 #### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
