@@ -272,6 +272,8 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
 * Genre/form - saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
   Länka till entitet.
   <br/>```Exempel:```
+  * ```Webbplatser```
+  * ```Databaser```
   * ```Referensdatabaser```
   * ```Artikeldatabaser```
   
