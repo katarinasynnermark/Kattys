@@ -12,7 +12,7 @@ tags:
 # Databas/webbplats
 Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för onlinedatabaser och webbplatser (integrerande resurser). För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
-Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat material) infogas som en integrerad del i helheten. I motsats till seriella resurser saknas därför alfanumeriska och/eller kronologiska beteckningar. Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen ny beskrivning. Istället ersätts huvudtiteln med den nya så att den aktuella versionen återspegles. Även andra egenskaper hos en integrerande resurs kan förändras och behöva uppdateras, t.ex. upphov och utgivare. För instruktioner om hur olika egenskaper ska uppdateras, se repektive egenskap.
+Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat material) infogas som en integrerad del i helheten. I motsats till seriella resurser saknas därför alfanumeriska och/eller kronologiska beteckningar. Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen ny beskrivning. Istället ersätts huvudtiteln med den nya så att den aktuella versionen återspegles. Även andra egenskaper hos en integrerande resurs kan förändras och behöva uppdateras, t.ex. upphov och utgivare. För instruktioner om hur olika egenskaper uppdateras, se repektive egenskap.
 
 [Inledning](#inledning) 
 
