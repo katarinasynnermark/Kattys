@@ -265,7 +265,7 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
   
 ### Sprak
 * Språk (language = 008/35-37)  
-  Länka till entitet. I mallen är "svenska" förifyllt. Ändra vid behov. 
+  Länka till entitet. I mallen är "svenska" förifyllt. Ändra vid behov.<br/> 
   ```Exempel: svenska (swe)```  
    
 ### Genre form 
