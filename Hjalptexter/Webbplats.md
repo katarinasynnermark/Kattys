@@ -220,7 +220,7 @@ För **avtalsbundna resurser** ange URI för den leverantörsplattform genom vil
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
 För integrerande resurser med fjärråtkomst anges alltid datum för när resursen beskrevs.<br/>
 ```Exempel: Katalogiserad 2020-02-16```<br/>
-Här kan också anmärkningar om t.ex. tidigare upphovsuppgift eller utgivare anges om det bedöms vara viktigt för identifikation eller åtkomst. 
+Här kan också anmärkningar om t.ex. tidigare upphovsuppgift eller utgivare anges om det bedöms vara viktigt för identifikation eller åtkomst.<br/> 
 ```Exempel: Utgiven av Södertörns högskolebibliotek, 2009-2017```
   
 ### Behandling vid titelandring 
