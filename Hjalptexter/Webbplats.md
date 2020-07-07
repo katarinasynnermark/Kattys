@@ -242,7 +242,7 @@ Ange vid behov den föredragna titeln för verket här. Observera dock att norma
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
 Föredragen titel för ett verk utan Primär medverkan anges här.  
 
-#### Verk med primär medverkan
+#### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
 Föredragen titel för ett verk med primär med anges här.  
 
