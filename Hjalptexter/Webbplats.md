@@ -342,4 +342,6 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
      
- 
+* Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)
+Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.
+```Exempel: Ej preciserad```
