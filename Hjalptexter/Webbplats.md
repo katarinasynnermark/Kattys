@@ -29,10 +29,11 @@ Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat m
 | | [Bärartyp](#barartyp) | [Genre form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillhörande media](#tillhorande-media) | [Innehållstyp](#innehallstyp) |
-| | [Frekvens](#frekvens) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Innehållstyp](#innehallstyp) |
+| | [Tillhörande media](#tillhorande-media) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| |[Frekvens](#frekvens) |  |
 | | [Alfabet](#alfabet) |  |
-| | [Anmärkning](#anmarkning) |  |
+| |Anmärkning](#anmarkning)| | 
 | | [Behandling vid titeländring](#behandling-vid-titelandring)| | 
 
 
@@ -142,7 +143,7 @@ Om resursen byter titel ange den tidigare titeln här. Tidsintervall kan precise
 * Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)    
   ```Exempel: 2005-2009``` 
   
-#### Upphovsuppgift
+### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)
 
 Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften, om det är viktigt för identifikation eller åtkomst, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html).
