@@ -106,7 +106,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [se RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3651.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan. **Observera dock att för integrerande resurser som har ISSN gäller andra regler.** Om huvudtiteln genomgår en större förändring tilldelas resursen ett nytt ISSN och en ny beskrivning görs. Om en integrerande resurs med svenskt ISSN byter huvudtitel, meddela [ISSN Sverige](https://www.kb.se/isbn-och-utgivning/issn-.html).
 
 #### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
+* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)  
 Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
 
 Om övrig titelinformation läggs till, tas bort eller ändras i resursen, uppdatera Övrig titelinformation så att den speglar aktuell version om det bedöms vara viktigt för identifikation eller åtkomst, [se RDA 2.3.4.7.3](http://access.rdatoolkit.org/rdachp2_rda2-3909.html).
