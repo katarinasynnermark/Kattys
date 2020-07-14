@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Databas/webbplats
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för onlinedatabaser och webbplatser (så kallade integrerande resurser). För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av onlinedatabaser och webbplatser (så kallade integrerande resurser). För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat material) infogas som en integrerad del i helheten. I motsats till seriella resurser saknas därför alfanumeriska och/eller kronologiska beteckningar. Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen ny beskrivning. Istället ersätts huvudtiteln med den nya så att den aktuella versionen återspegles. 
 
