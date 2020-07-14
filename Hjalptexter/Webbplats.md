@@ -335,7 +335,7 @@ Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid In
 ### Innehallstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
-  ```Exempel: text (txt)```
+  ```Exempel: text (= txt)```
 
 ### Sammanfattning av innehall    
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
