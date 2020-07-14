@@ -103,7 +103,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
 [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
-Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [se RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3651.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan. Observera dock att för integrerande resurser som har ISSN gäller andra regler. Om huvudtiteln genomgår en större förändring tilldelas ett nytt ISSN och en ny beskrivning görs. Om en integrerande resurs med svenskt ISSN byter huvudtitel, meddela [ISSN Sverige](https://www.kb.se/isbn-och-utgivning/issn-.html).
+Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [se RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3651.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan. **Observera dock att för integrerande resurser som har ISSN gäller andra regler.** Om huvudtiteln genomgår en större förändring tilldelas resursen ett nytt ISSN och en ny beskrivning görs. Om en integrerande resurs med svenskt ISSN byter huvudtitel, meddela [ISSN Sverige](https://www.kb.se/isbn-och-utgivning/issn-.html).
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
