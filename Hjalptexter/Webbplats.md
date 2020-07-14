@@ -129,7 +129,7 @@ Om en parallelltitel läggs till, tas bort eller ändras i resursen, uppdatera P
 ```Exempel: 2003-2008```
 
 #### Varianttitel   
-Används för stavningvarianter eller varianter av titeln som förekommer i resursen som man vill göra sökbara. Vid förändringar i huvudtiteln, se Tidigare titel.
+Används för stavningvarianter eller varianter av titeln som förekommer i resursen och som man vill göra sökbara. Vid förändringar i huvudtiteln, se Tidigare titel.
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
   Skriv in uppgiften under Huvudtitel.    
@@ -138,7 +138,6 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 #### Tidigare titel
 Om resursen byter titel ange den tidigare titeln här. Tidsintervall kan preciseras under Täckning eller tillkomst (se nedan).   
 * Har titel/Tidigare titel/Huvudtitel (hasTitle/FormerTitle/mainTitle = 247 1/0 #a)    
-  Skriv in uppgiften under Huvudtitel.  
 
 * Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)    
   ```Exempel: 2005-2009``` 
