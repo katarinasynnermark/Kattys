@@ -292,15 +292,12 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
 ### Klassifikation  
 #### DDK-klassifikation  
 
-* Klassifikation/DDK-klassifikation/Kod  
-(classification/ClassificationDdc/code = 082 0/4 #a)  
+* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 #a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-(classification/ClassificationDdc/edition = 082 #2)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 #2)  
   ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-(classification/ClassificationDdc/editionEnumeration = 082 #2)  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 #2)  
   ```Exempel: 23/swe```  
   
  För att lägga till DDK-klassifikation:  
@@ -311,7 +308,7 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
 #### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
-* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)  
+* Klassifikation/DDK-klassifikation/Kod<br/>(additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)  
   Skriv in uppgiften.  
   ```Exempel: 791.430233092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
