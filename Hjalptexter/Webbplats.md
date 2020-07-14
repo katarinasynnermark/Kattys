@@ -80,18 +80,18 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
-  ```c (= dator)``` 
+  ```dator (= c)``` 
   
 ### Barartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:</BR>
-  ```cr (= online resurs)```
+  ```onlineresurs (= c)```
    
   Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
-  ```Onlineresurs, r```</BR>
+  ```Onlineresurs (= r)```</BR>
   
   Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
-  ```Onlineutgåva, o```</BR>
+  ```Onlineutgåva (= o)```</BR>
   
 ### Titel 
 
