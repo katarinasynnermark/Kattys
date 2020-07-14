@@ -28,8 +28,8 @@ Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat m
 | | [Medietyp](#medietyp) | [Språk](#sprak) |
 | | [Bärartyp](#barartyp) | [Genre form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Innehållstyp](#innehallstyp) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| | [Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
 | | [Tillhörande media](#tillhorande-media) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Frekvens](#frekvens) |  |
 | | [Alfabet](#alfabet) |  |
