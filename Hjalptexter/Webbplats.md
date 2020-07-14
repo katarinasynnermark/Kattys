@@ -198,7 +198,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, [s
 ### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI<br/> (associatedMedia/Mediaobject/uri = 856 4/0 #u)<br/>
   Använd Tillhörande media för **fritt tillgängliga resurser** för att lägga in en elektronisk adress till resursen. 
-* Tillhörande media/Mediaobjekt/Offentlig anmärkning<br/>(associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)<br/>
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning<br/> (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)<br/>
   Lägg till offentlig anmärkning.
   <br/>```Exempel:```
   * ```Fritt tillgänglig via databasens webbplats``` 
