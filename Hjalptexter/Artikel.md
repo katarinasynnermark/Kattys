@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Bidrag
 order: 35
-date: 2020-06-17
+date: 2020-07-17
 tags:
 - under arbete
 - Bidrag
