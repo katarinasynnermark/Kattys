@@ -1,8 +1,8 @@
 ---
 section: Materialtyper
 title: Bidrag
-order:
-date: 2020-03-
+order: 35
+date: 2020-06-17
 tags:
 - under arbete
 - Bidrag
@@ -23,10 +23,11 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Titel](#titel) | [Språk](#sprak) |
 | | [Upphovsuppgift](#upphovsuppgift) |[Genre/form](#genre-form)|
-| | [Utgivning](#utgivning) | [Klassifikation](#klassifikation)  |
-| | [Anmärkning](#anmarkning)| [Ämne](#amne)|
-| | [Är del av](#ar-del-av) | [Innehållstyp](#innehallstyp) |
-| | [Placering i värdpublikation](#placering-i-vardpublikation) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
+| | [Anmärkning](#anmarkning)| [Ämne](#amne) |
+| | [Tillhörande media](#tillhorande-media) | [Innehållstyp](#innehallstyp) |
+| | [Är del av](#ar-del-av)| [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Placering i värdpublikation](#placering-i-vardpublikation) | |
 
 
 ## Inledning
@@ -70,8 +71,6 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årbok e
   * ```omedierad, n``` (bidrag i tryckt publikation)
   * ```dator, c ``` (bidrag i elektronisk publikation)<br/>
   
-Observera att i mallen för elektroniskt bidrag ligger felaktigt medietypen "omedierad, n". Det bör ändras till "dator, c" vid katalogisering. Felet kommer att åtgärdas vid nästa release.
-  
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet:
@@ -110,7 +109,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
-  ```Exempel: Sverige (sw)``` 
+  ```Exempel: Sverige (sw)```
     
 #### År
   * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)<br/>
@@ -118,6 +117,16 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
+
+### Tillhorande media 
+* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)  
+**Om instansbeskrivningen gäller en elektronisk artikel, använd Tillhörande media** för att lägga in en elektronisk adress till artikeln. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning  
+(associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)   
+  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.   
+* Del av materialet som avses/Resurs/Benämning  
+(appliesTo/Resource/label = 856 4/0 #3)  
+  Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.  
 
 ### Ar del av
 Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. Mallarna är förberedda för att beskriva värdpublikationen som lokal entitet men i första hand bör man länka till värdpublikationen. Värdpublikationen bör endast beskrivas som lokal entitet i de fall den inte har en post i Libris. 
@@ -136,28 +145,29 @@ Lägg till Instans som lokal entitet. Lägg sedan till egenskaper för värdpubl
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent<br/>
 Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.<br/> 
 Skriv in uppgiften under Benämning. Använd korrekt namnform, [se hjälptexten Relationer till Agent, Skapa lokal entitet](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance#skapa-lokal-entitet)<br/>
-  ```Exempel:```
-  * ```Carlsson, Magnus```
-  * ```Sverige. Socialtjänskommittén```
-  * ```International Congress on Military History (26 : Stockholm : 2000)```
+    </br>```Exempel:```
+    * ```Carlsson, Magnus```
+    * ```Sverige. Socialtjänskommittén```
+    * ```International Congress on Military History (26 : Stockholm : 2000)```
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Funktion<br/>
 Länka till entitet:<br/>
 ```Exempel: Författare, aut```
 
 ##### Övriga egenskaper för värdpublikationen
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
-Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/>
-  ```Exempel:``` 
-  * ```9789186949372```
-  * ```0008-011X```
+Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/> 
+    </br>```Exempel:```
+    * ```9789186949372```
+    * ```0008-011X```
+
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)<br/>
 Lägg till egenskapen Har titel. Välj typ Titel.<br/> 
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
-```Exempel:``` 
-* ```Karolinska förbundets årsbok```
-* ```Barnboken (Online)```
+    </br>```Exempel:```
+    * ```Karolinska förbundets årsbok```
+    * ```Barnboken (Online)```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
 Om värdpublikationen är en monografi, lägg till egenskapen Uppgift om produktion, utgivning, distribution och/eller tillverkning.<br/>
 Ange utgivningstiden för monografin.<br/>
@@ -171,10 +181,10 @@ Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är
 #### Bidrag i årsbok, tidskrift eller dagstidning
 * Del (part = 773 #g)<br/>
 Ange årgång och/eller nummer samt paginering.<br/>
-  ```Exempel:```
-  * ```2018, sidorna 215-217```
-  * ```2019(87):2, sidorna 145-172```
-  * ```2020-02-23```
+    </br>```Exempel:```
+    * ```2018, sidorna 215-217```
+    * ```2019(87):2, sidorna 145-172```
+    * ```2020-02-23```
 
 När en årgång består av flera nummer anges också numret enligt exemplet: "2002(87):2" även om årgången har genomgående paginering.
 
@@ -250,4 +260,3 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  <br/>```Exempel: Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
- ```Exempel: Ej preciserad```
