@@ -195,7 +195,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, [s
   * ```[2012-2013]```
   * ```[1988-]```
   
-### Tillhörande media
+### Tillhorande media
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)<br/>
   Använd Tillhörande media för **fritt tillgängliga resurser** för att lägga in en elektronisk adress till resursen. 
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)<br/>
