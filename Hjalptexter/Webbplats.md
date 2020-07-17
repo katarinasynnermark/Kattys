@@ -200,7 +200,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, [s
   Använd Tillhörande media för **fritt tillgängliga resurser** för att lägga in en elektronisk adress till resursen. 
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)<br/>
   Lägg till offentlig anmärkning.
-  ```Exempel: Fritt tillgänglig```
+  <br/>```Exempel: Fritt tillgänglig```
 
 För **avtalsbundna resurser** ange URI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till databasens generella inloggningssida. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".
 
