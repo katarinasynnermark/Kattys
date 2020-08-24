@@ -11,7 +11,7 @@ tags:
 --- 
 
 # Elektronisk seriell resurs
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en elektronisk seriell resurs, t.ex. en e-tidskrift. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en elektronisk seriell resurs, t ex en e-tidskrift. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 [Inledning](#inledning) 
 
@@ -50,6 +50,9 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 ## Instans
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.
+
+Läs mer om egenskaperna under Instans.
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
@@ -65,55 +68,56 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
   ```onlineresurs (= cr)```
+
+Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
+  ```Onlineresurs, r```</BR>
   
-### Titel 
+Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
+  ```Onlineutgåva, o```</BR>
+  
+### Titel
+Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
 #### Nyckeltitel
 * Har titel/Nyckeltitel/Huvudtitel    
 (hasTitle/KeyTitle/mainTitle = 222 -/0 #a)  
 För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
 Skriv in uppgiften.  
- ```Exempel:  Kammarmusik-nytt ```
+ ```Exempel:  Advokaten```
  
 * Har titel/Nyckeltitel/Särskiljande tillägg  
 (hasTitle/KeyTitle/qualifier = 222 #b)  
 Skriv in uppgiften, inom parentes.  
-```Exempel: (Brämhult)```
+```Exempel: (Stockholm. Online)```
   
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. [Se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-seriella-resurser/#huvudtitel_seriell  "Anvisningar för katalogisering - RDA").  
-  Skriv in uppgiften under Huvudtitel.      
-  ```Exempel: Kammarmusik-nytt```  
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
- ```Exempel: Huvudtitel: Le bulletin France-Suède, fileringsvärde: 3```  
+  Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2.](http://access.rdatoolkit.org/rdachp2_rda2-9147.html)
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
+  ```Exempel: Advokaten```  
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
  [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
   
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
-  ```Exempel: Kammarmusikförbundets tidskrift```
+  Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
+  ```Exempel: tidskrift för Sveriges Advokatsamfund```
   
 #### Varianttitel   
 Används till exempel för felaktigheter och tillfälliga variationer/mindre förändringar i huvudtiteln. Felaktigheter kan specificeras med Typanmärkning och tillfälliga variationer/mindre förändringar i huvudtiteln kan preciseras med Täckning och tillkomst. 
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
- Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
-  Skriv in uppgiften.   
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).   
   ```Exempel: Titel felstavad i nummer 1 (2006):```  
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
-  Skriv in uppgiften under Huvudtitel.    
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)     
   ```Exempel: Housing sarts```    
 
 #### Tidsbestämd titelvariant   
 Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)    
-  Skriv in uppgiften under Huvudtitel.  
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)      
   ```Exempel: Hushållningssällskapets magasin```  
   
-* Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
-  Skriv in uppgiften.  
+* Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)   
   ```Exempel: 2011, nr 4-2012, nr 4``` 
   
 #### Delbeteckning
@@ -125,7 +129,6 @@ Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preci
 #### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
-  Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ACMO```  
     
 ### Utgivning
@@ -136,8 +139,7 @@ Används för akronymer som är en del av huvudtiteln.
   
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
-  För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
-  Skriv in uppgiften under Benämning.    
+  För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.       
   ```Exempel: [Göteborg]```
   
 #### Utgivningsland
@@ -147,9 +149,8 @@ Används för akronymer som är en del av huvudtiteln.
   
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
-  För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
-  Skriv in uppgiften under Benämning.  
-  ```Exempel: NoNa```  
+  För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.         
+  ```Exempel: Sveriges advokatsamfund```  
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
@@ -159,8 +160,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
   För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. 
-  För att lägga till Startår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår.  
-  Skriv in uppgiften.  
+  För att lägga till Startår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår.    
    ```Exempel: 2011```  
 * Slutår (endYear = 008/11-14)  
   Slutår får endast innehålla siffror (0-9) och bokstaven u. Slutår ska endast förekomma inom Primär utgivning.  
@@ -168,14 +168,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Om slutår inte anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
   Om slutår anges, sätts utgivningsstatus (008/06) automatiskt till "d = Utgivning avslutad".  
    För att lägga till Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår.  
-  Skriv in uppgiften.  
   ```Exempel: 2013```     
   För att ange slutår för senaste utgivningsperiod (264 -/3 #c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår (se nedan under Datum).    
 * Datum (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken.  
   För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 #c.  
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
-  Skriv in uppgiften.
   <br/>```Exempel:```
   * ```2012-2013```
   * ```[1988-]```
@@ -225,7 +223,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
 sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn (Lägg till egenskaper). Sök sedan fram och lägg till den seriella resursen som länken ska gå till.  
 
-![Exempel på relationen Annat bärarformat, för seriell resurs](otherPhysicalFormat.png)  
+![Exempel på relationen Annat bärarformat, för elektronisk seriell resurs](otherPhysicalFormat.png)  
 
 Använd Anmärkning (500) för att vid behov förtydliga typen av relation.  
 
