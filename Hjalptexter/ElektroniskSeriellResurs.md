@@ -1,16 +1,17 @@
 ---
 section: Materialtyper
 title: Tryckt seriell resurs
-order: 55
-date: 2020-08-20
+order: 
+date: 2020-08-24
 tags:
 - seriell resurs
-- tidskrift
-- monografiserie
+- e-tidskrift
+- elektronisk tidskrift
+- elektronisk monografiserie
 --- 
 
-# Tryckt seriell resurs
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en tryckt seriell resurs. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+# Elektronisk seriell resurs
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en elektronisk seriell resurs, t.ex. en e-tidskrift. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
 [Inledning](#inledning) 
 
@@ -34,7 +35,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 **NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
 
 ## Inledning
-Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
+Beskrivningen av en elektronisk seriell resurs innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
