@@ -223,12 +223,6 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
 sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn (Lägg till egenskaper). Sök sedan fram och lägg till den seriella resursen som länken ska gå till.  
 
-![Exempel på relationen Annat bärarformat, för elektronisk seriell resurs](otherPhysicalFormat.png)  
-
-Använd Anmärkning (500) för att vid behov förtydliga typen av relation.  
-
-![Exempel på Anmärkning, för seriell resurs](anmarkning.png)  
-
 Här följer ett urval av de relationer som kan läggas till:  
   
 Fortsätter (continues = 780 0/0)  
@@ -247,8 +241,7 @@ Ersättes delvis av (succeededInPartBy = 785 0/3)
 Har uppgått i (absorbedBy = 785 0/4)  
 Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
 Uppdelat på (splitInto = 785 0/6)  
-Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
-  
+Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))   
 
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
@@ -260,7 +253,7 @@ Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogiseri
   
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
-  ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
+  ```Exempel: Sveriges advokatsamfund```  
 * Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 #4)   
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
@@ -291,8 +284,7 @@ I mallen för Tryckt seriell resurs ligger Tidskrift. Vid behov, ändra till Mon
    Skriv in uppgiften under Kod.  
 
 * Klassifikation/DDK-klassifikation/Kod  
-(classification/ClassificationDdc/code = 082 0/4 #a)  
-  Skriv in uppgiften.  
+(classification/ClassificationDdc/code = 082 0/4 #a)  omm 
   ```Exempel: 327.12092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
 (classification/ClassificationDdc/edition = 082 #2)  
@@ -305,7 +297,6 @@ I mallen för Tryckt seriell resurs ligger Tidskrift. Vid behov, ändra till Mon
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
 * Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)  
-  Skriv in uppgiften.  
   ```Exempel: 791.430233092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
   (classification/ClassificationDdc/edition = 083 #2)  
@@ -319,10 +310,8 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. Skriv in uppgiften under Kod.  
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
-   Skriv in uppgiften under Kod.   
 * Klassifikation/Klassifikation/Kod  
-(classification/Classification/code = 084 0/4 #a)  
-     Skriv in uppgiften.  
+(classification/Classification/code = 084 0/4 #a)   
   ```Exempel: Sei-e```   
 * Klassifikation/Ingår i system/Konceptsystem/Kod  
 (classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
@@ -330,12 +319,6 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8``` 
-
-#### Konferenspublikation  
-* Genre/form – konferenspublikation (genreForm = 008/29)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-  ```Exempel: Ja, resursen härrör från konferens```      
    
 ### Amne  
 [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
