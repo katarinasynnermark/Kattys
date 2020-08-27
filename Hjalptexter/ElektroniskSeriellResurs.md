@@ -209,7 +209,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   
 ### Behandling vid titelandring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
-  Länka till entiteten: 
+  Länka till entiteten:<br/> 
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
 
 ### Anmarkning
