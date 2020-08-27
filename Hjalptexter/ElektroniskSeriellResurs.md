@@ -54,12 +54,10 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.
 
-Läs mer om egenskaperna under Instans.
-
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
-  Välj från lista.  
-  ```Exempel: Seriell resurs```
+  Välj från lista:  
+  ```Seriell resurs```
   
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
