@@ -199,8 +199,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     
 ### Numrering av seriell resurs  
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
-  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)  
-  Skriv in uppgiften under Benämning.    
+  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)   
   ```Exempel: 2011: 4-2013: 2```
   
 ### Alfabet    
@@ -210,7 +209,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   
 ### Behandling vid titelandring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
-  Länka till entitet.  
+  Länka till entiteten: 
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
 
 ### Anmarkning
