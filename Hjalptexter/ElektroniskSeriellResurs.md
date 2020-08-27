@@ -18,17 +18,18 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) |
 | | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
 | | [Medietyp](#medietyp) | [Språk](#sprak) |
 | | [Bärartyp](#barartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
-| | [Frekvens](#frekvens) | [Verkets titel](#verkets-titel) |
-| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | |
+| | [Tillhörande media](#tillhorande-media) | [Innehållstyp](#innehallstyp) |
+| | [Anmärkning](#anmarkning)| |
+| | [Frekvens](#frekvens) | |
 | | [Alfabet](#alfabet) | |
 | | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
-| | [Anmärkning](#anmarkning)| |
+| | [Numrering av seriell resurs](#numrering-av-seriell-resurs)| |
 | | [Relationer](#relationer) | | 
 
 
