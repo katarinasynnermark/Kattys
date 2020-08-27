@@ -145,17 +145,17 @@ Används för akronymer som är en del av huvudtiteln.
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
   
-  För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
-  
+  För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder. 
+
+#### Utgivningsland
+* Land (country = 008/15-17)  
+  Länka till entitet.<br/>
+  ```Exempel: Sverige (sw)```<br/>
+
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.       
   ```Exempel: [Göteborg]```
-  
-#### Utgivningsland
-* Land (country = 008/15-17)  
-  Länka till entitet.  
-  ```Exempel: Sverige (sw)```
   
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
