@@ -285,56 +285,13 @@ För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funk
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-I mallen för Tryckt seriell resurs ligger Tidskrift. Vid behov, ändra till Monografiserie eller Dagstidning.
 <br/>```Exempel:```
   * ```p (Tidskrift = marc/Periodical)```
   * ```m (Monografiserie = marc/MonographicSeries```
-  * ```n (Dagstidning = marc/Newspaper```
-         
-### Klassifikation  
-* DDK-klassifikation  
-  För att lägga till DDK-klassifikation:  
-  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
-   Skriv in uppgiften under Kod.  
 
-* Klassifikation/DDK-klassifikation/Kod  
-(classification/ClassificationDdc/code = 082 0/4 #a)  omm 
-  ```Exempel: 327.12092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-(classification/ClassificationDdc/edition = 082 #2)  
-  ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-(classification/ClassificationDdc/editionEnumeration = 082 #2)  
-  ```Exempel: 23/swe```  
+### Klassifikation  
+För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
   
-#### Sekundär DDK-klassifikation  
-Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
-Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
-* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)  
-  ```Exempel: 791.430233092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-  (classification/ClassificationDdc/edition = 083 #2)  
-  ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
- (classification/ClassificationDdc/editionEnumeration = 083 #2)  
-  ```Exempel: 23/swe``` 
-   
-#### SAB-klassifikation  
-* SAB-klassifikation  
-  För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
-* Klassifikation/Klassifikation/Kod  
-(classification/Classification/code = 084 0/4 #a)   
-  ```Exempel: Sei-e```   
-* Klassifikation/Ingår i system/Konceptsystem/Kod  
-(classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
- ```Exempel: kssb```  
-* Klassifikation/Ingår i system/Konceptsystem/Version  
-(classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
- ```Exempel: 8``` 
-   
 ### Amne  
 [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
   
