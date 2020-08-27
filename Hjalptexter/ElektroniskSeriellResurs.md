@@ -198,6 +198,11 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, an
 
 **För avtalsbundna eller endast lokalt tillgängliga elektroniska resurser** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för resursen. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
 
+### Anmarkning
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
+  Skriv in allmänna anmärkningar här.  
+  Skriv in uppgiften under Benämning.  
+
 ### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
@@ -206,11 +211,6 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, an
 **Från och med version 1.7 behöver man inte längre ange "u" för okänd frekvens. Det skapas automatiskt vid marcexport om frekvens inte har angetts.**
   * Regelbundenhet (008/19)  
     **Från och med version 1.7 behöver man inte längre ange Regelbundenhet. "Inget försök att koda" skapas automatiskt vid marcexport.**
-    
-### Numrering av seriell resurs  
-* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
-  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)   
-  ```Exempel: 2011: 4-2013: 2```
   
 ### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
@@ -221,11 +221,11 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, an
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entiteten:<br/> 
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
-
-### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
-  Skriv in allmänna anmärkningar här.  
-  Skriv in uppgiften under Benämning.  
+  
+### Numrering av seriell resurs  
+* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
+  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)   
+  ```Exempel: 2011: 4-2013: 2```
 
 ### Relationer
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
