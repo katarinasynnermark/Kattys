@@ -243,6 +243,8 @@ Har delvis uppgått i (absorbedInPartBy = 785 0/5)
 Uppdelat på (splitInto = 785 0/6)  
 Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))   
 
+Använd Anmärkning (500) för att vid behov förtydliga typen av relation.
+
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
