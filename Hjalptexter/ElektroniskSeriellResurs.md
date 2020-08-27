@@ -54,6 +54,17 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.
 
+### Identifikator  
+* Identifikator/Typ (identifiedBy)  
+  Välj från lista.  
+  ```Exempel: ISSN```   
+* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 #a)  
+  Skriv in uppgiften.  
+  ```Exempel: 2001-2721```  
+* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
+  Skriv in uppgiften.   
+  ```Exempel: 1653-2945```   
+
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista:  
@@ -177,17 +188,6 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   <br/>```Exempel:```
   * ```2012-2013```
   * ```[1988-]```
-  
-### Identifikator  
-* Identifikator/Typ (identifiedBy)  
-  Välj från lista.  
-  ```Exempel: ISSN```   
-* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 #a)  
-  Skriv in uppgiften.  
-  ```Exempel: 2001-2721```  
-* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
-  Skriv in uppgiften.   
-  ```Exempel: 1653-2945```   
   
 ### Frekvens   
 * Frekvens (frequency)  
