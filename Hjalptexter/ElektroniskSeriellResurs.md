@@ -190,19 +190,14 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
 ### Tillhorande media 
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)  
-Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk artikel**, använd Tillhörande media för att lägga in en elektronisk adress till artikeln. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, använd Tillhörande media för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning  
 (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)   
   Lägg till Offentlig anmärkning. 
-   <br/>```Exempel:```
-  * ```Fritt tillgänglig via tidskriftens webbplats``` 
-  * ```Fritt tillgänglig``` 
-  
-Välj det mest beständiga länkmålet för fritt tillgängliga artiklar, i första hand en URI (t.ex. URN eller DOI), i andra hand en övesiktssida från vilken artikeln är enkelt åtkomlig och i sista hand, länka direkt till den fritt tillgänliga resursen.
+   <br/>```Exempel: Fritt tillgänglig via tidskriftens webbplats``` 
 
-**För avtalsbundna eller endast lokalt tillgängliga elektroniska artiklar** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för en resurs där artikeln ingår. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
+**För avtalsbundna eller endast lokalt tillgängliga elektroniska resurser** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för resursen. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
 
-  
 ### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
