@@ -246,9 +246,22 @@ Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogiseri
 Använd Anmärkning (500) för att vid behov förtydliga typen av relation.
 
 ## Verk
+* Instans av Verk/Text (instanceOf/Work/Text)
+
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
+[Läs mer om Verk och egenskaperna för Verk under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
+### Verkets titel
+Ange vid behov den föredragna titeln för verket. [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
+
+#### Verk utan Primär medverkan
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
+Föredragen titel för ett verk utan Primär medverkan anges här.  
+
+#### Verk med Primär medverkan
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
+Föredragen titel för ett verk med Primär medverkan med anges här.  
 
 ### Medverkan och funktion     
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
@@ -330,8 +343,4 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   Länka till entitet.  
   ```Exempel: text (txt)```
   
-### Verkets titel
-* Uttryck av/Verk/Verkstyp/Har titel/Titel/Huvudtitel (hasExpression/Work/type/hasTitle/Title/mainTitle = 130 0/- #a)  
-  Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av). Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Man behöver inte välja verkstyp här. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel.    
-Skriv in uppgiften under Huvudtitel.  
-```Exempel:  Architecture (Paris. 1888)```
+
