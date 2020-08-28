@@ -186,7 +186,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 #c.  
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
   ```Exempel:```
-  * ```2012-2013```
+  * ```[2012-2013]```
   * ```[1988-]```
 
 ### Tillhorande media 
