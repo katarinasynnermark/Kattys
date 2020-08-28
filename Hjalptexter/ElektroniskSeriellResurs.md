@@ -226,7 +226,7 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, an
 ### Numrering av seriell resurs  
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
   (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)   
-  ```Exempel: 2011: 4-2013: 2```
+  ```Exempel: 2011, 4-2013, 2```
 
 ### Relationer
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
