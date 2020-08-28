@@ -128,7 +128,7 @@ Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preci
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)      
   ```Exempel: Hushållningssällskapets magasin```  
   
-* Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)   
+* Har titel/Varianttitel/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)   
   ```Exempel: 2011, nr 4-2012, nr 4``` 
   
 #### Delbeteckning
