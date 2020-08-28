@@ -74,12 +74,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
-  ```dator (= c)``` 
+  ```dator, computer (kod = c)``` 
   
 ### Barartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
-  ```onlineresurs (= cr)```
+  ```onlineresurs, online resource (kod = cr)```
 
 Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
   ```Onlineresurs, r```</BR>
@@ -309,6 +309,6 @@ För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https:/
 ### Innehallstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
-  ```Exempel: text (txt)```
+  ```Exempel: text, text (kod = txt)```
   
 
