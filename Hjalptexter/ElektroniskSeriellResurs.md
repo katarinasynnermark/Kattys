@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 
-date: 2020-08-24
+date: 2020-09-21
 tags:
 - seriell resurs
 - e-tidskrift
