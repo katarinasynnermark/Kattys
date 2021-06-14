@@ -161,7 +161,7 @@ Använd Startår och Slutår (inte År).
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
 
 ### Identifikator 
-* Identifikator/Välj typ/Värde 
+* Identifikator/Välj typ/Värde</BR>
 Skriv in uppgiften under Värde.</BR>
   ```Exempel: urn:nbn:se:su:diva-83163``` 
 * Identifikator/Särskiljande tillägg  
