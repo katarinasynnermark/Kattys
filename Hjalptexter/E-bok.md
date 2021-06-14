@@ -161,15 +161,11 @@ Använd Startår och Slutår (inte År).
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
 
 ### Identifikator 
-#### ISBN
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
-* Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 #q)  
-Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad av](#indirekt-identifierad-av). Använd inte Ogiltigt värde. 
-
-#### URN, DOI, handle
-* Identifikator/URN, DOI eller handle/Värde (identifiedBy/Identifier/value = 024 7/- #a</BR>
-  Skriv in uppgiften under Värde.</BR>
+* Identifikator/Välj typ/Värde 
+Skriv in uppgiften under Värde.</BR>
   ```Exempel: urn:nbn:se:su:diva-83163``` 
+* Identifikator/Särskiljande tillägg  
+Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad av](#indirekt-identifierad-av). Använd inte Ogiltigt värde. 
     
 ### Indirekt identifierad av  
 Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
