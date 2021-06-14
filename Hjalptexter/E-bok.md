@@ -163,8 +163,9 @@ Använd Startår och Slutår (inte År).
 ### Identifikator 
 * Identifikator/Välj typ/Värde</BR>
 Skriv in uppgiften under Värde.</BR>
-  ```Exempel: urn:nbn:se:su:diva-83163``` 
-</BR>* Identifikator/Särskiljande tillägg  
+  ```Exempel: urn:nbn:se:su:diva-83163```
+  
+* Identifikator/Särskiljande tillägg  
 </BR>Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad av](#indirekt-identifierad-av). Använd inte Ogiltigt värde. 
     
 ### Indirekt identifierad av  
