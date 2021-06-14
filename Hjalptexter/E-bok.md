@@ -167,17 +167,9 @@ Använd Startår och Slutår (inte År).
 Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad av](#indirekt-identifierad-av). Använd inte Ogiltigt värde. 
 
 #### URN, DOI, handle
-URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnummer eller standardkod specificerad i en Typanmärkning. 
-* Identifikator/Identifikator/Värde (identifiedBy/Identifier/value = 024 7/- #a</BR>
+* Identifikator/URN, DOI eller handle/Värde (identifiedBy/Identifier/value = 024 7/- #a</BR>
   Skriv in uppgiften under Värde.</BR>
   ```Exempel: urn:nbn:se:su:diva-83163``` 
-* Identifikator/Identifikator/Typanmärkning (identifiedBy/Identifier/typeNote = 024 7/- #2)</BR>
-  För att specificera typ av standardnummer eller standardkod, lägg till Typanmärkning.</BR>
-  Skriv in uppgiften.
-  <br/>```Exempel:```
-    * ```urn```
-    * ```doi```
-    * ```hdl```
     
 ### Indirekt identifierad av  
 Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
